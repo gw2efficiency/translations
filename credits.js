@@ -4,7 +4,8 @@
 const current = [
   {name: 'Ainillia.5794', language: 'French'},
   {name: 'jonesarte.2980', language: 'Spanish'},
-  {name: 'MrSmiley.9273', language: 'German'}
+  {name: 'MrSmiley.9273', language: 'German'},
+  {name: 'YeFox.6803', language: 'Dutch'},
 ]
 
 module.exports = [
@@ -27,4 +28,5 @@ module.exports = [
   'Wiella.8567',
   'Xerneas.4267',
   'xPhantomNL.7230',
+  'YeFox.6803',
 ].sort((a, b) => a.localeCompare(b))
