@@ -5,6 +5,7 @@ const current = [
   {name: 'Ainillia.5794', language: 'French'},
   {name: 'jonesarte.2980', language: 'Spanish'},
   {name: 'MrSmiley.9273', language: 'German'}
+  {name: 'Regitus.7189', language: 'German'}
 ]
 
 module.exports = [
@@ -20,6 +21,7 @@ module.exports = [
   'octopussy.3854',
   'Offering of Pie.3057',
   'razzy.8650',
+  'Regitus.7189',
   'Saha.7218',
   'Talas Shounika.7185',
   'TheMrMilchmann.3491',
