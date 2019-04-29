@@ -3,6 +3,7 @@
 
 const current = [
   {name: 'Ainillia.5794', language: 'French'},
+  {name: 'EDCDragon.8356', language: 'French'},
   {name: 'jonesarte.2980', language: 'Spanish'},
   {name: 'MrSmiley.9273', language: 'German'},
   {name: 'Regitus.7189', language: 'German'}
@@ -11,6 +12,7 @@ const current = [
 module.exports = [
   'Ainillia.5794',
   'Creativewild.6319',
+  'EDCDragon.8356',
   'hers.7185',
   'Index.7169',
   'jjunior.8935',
