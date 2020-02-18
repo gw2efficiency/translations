@@ -15,6 +15,7 @@ module.exports = [
   'Creativewild.6319',
   'EDCDragon.8356',
   'hers.7185',
+  'Holox.3528',
   'Index.7169',
   'jjunior.8935',
   'jonesarte.2980',
