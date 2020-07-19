@@ -2083,7 +2083,7 @@ msgid "Max-level Characters"
 msgstr "Maximal-Level Charaktere"
 
 msgid "Maximum"
-msgstr "Maxmium"
+msgstr "Maximum"
 
 msgid "Mean"
 msgstr "Durchschnitt"
