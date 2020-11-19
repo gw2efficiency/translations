@@ -1191,7 +1191,7 @@
   "{0, plural, one {1 daily completed} other {# dailies completed}}": "{0, plural, one {1 logro diario completado} other {# logros diarios completados}}",
   "{0, plural, one {Show 1 hidden gathering node} other {Show # hidden gathering nodes}}": "{0, plural, one {Mostrar 1 nodo oculto} other {Mostrar # nodos ocultos}}",
   "{0} / {1} slots": "{0} / {1} casillas",
-  "{hiddenDailies, plural, one {Show 1 hidden daily} other {Show # hidden dailies}}": "{hiddenDailies, plural, one {Mostrar 1 logro diario oculto} other {Mostrar # logros diarios ocultos}",
+  "{hiddenDailies, plural, one {Show 1 hidden daily} other {Show # hidden dailies}}": "{hiddenDailies, plural, one {Mostrar 1 logro diario oculto} other {Mostrar # logros diarios ocultos}}",
   "{time} ago": "Hace {time}",
   "{v, plural, one {day} other {days}}": "{v, plural, one {día} other {días}}",
   "{v, plural, one {hour} other {hours}}": "{v, plural, one {hora} other {horas}}",
