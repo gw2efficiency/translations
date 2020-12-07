@@ -95,7 +95,7 @@ msgid "1000-2000h"
 msgstr "1000-2000 Std."
 
 msgid "1000-2000h playtime"
-msgstr "100-2000 Std. Spielzeit"
+msgstr "1000-2000 Std. Spielzeit"
 
 msgid "20% of players"
 msgstr "20% der Spieler"
