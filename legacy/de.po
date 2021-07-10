@@ -105,8 +105,8 @@ msgstr[1] "{{$count}} Treffer"
 #: src/views/Tradingpost/index.html:497
 msgid "1 listing"
 msgid_plural "{{$count}} listings"
-msgstr[0] "1 Kaufangebot"
-msgstr[1] "{{$count}} Kaufangebote"
+msgstr[0] "1 Angebot"
+msgstr[1] "{{$count}} Angebote"
 
 #: src/views/Account/achievements.html:332
 msgid "1 objective completed"
@@ -182,7 +182,7 @@ msgstr "<abbr title=\"Wenn alle Materialien zum Kaufpreis eingekauft werden\">He
 #: src/views/Tradingpost/index.html:411
 #: src/views/Tradingpost/index.html:960
 msgid "<abbr title=\"Assuming all materials are bought at their buy price, and the item is sold at its sell price\">Crafting profit</abbr>"
-msgstr "<abbr title=\"Wenn alle Materialien zum Kaufpreis eingekauft werden und der Gegenstand zum Verkaufspreis verkauft wird\">Herstellungs-Preis</abbr>"
+msgstr "<abbr title=\"Wenn alle Materialien zum Kaufpreis eingekauft werden und der Gegenstand zum Verkaufspreis verkauft wird\">Herstellungs-Gewinn</abbr>"
 
 #: src/views/Tradingpost/index.html:524
 #: src/views/Tradingpost/index.html:528
@@ -437,7 +437,7 @@ msgstr "Alle Klassen"
 
 #: src/views/Account/statistics.html:170
 msgid "All the data collected is only publicly available anonymized and <strong>without connection to any individual accounts</strong>.<br>If you still don't want your account data to be included in the wealth distribution, please click <a ng-click=\"blacklist('add')\">here</a>.<br>If you blacklisted yourself and you changed your mind, please click <a ng-click=\"blacklist('remove')\">here</a>."
-msgstr "Alle gesammelten Daten sind nur <strong>anonymisiert, das heißt ohne Verbindung zu einzelnen Accounts</strong> verfügbar.<br>Falls du deinen Account nicht in den Statistiken beinhalten möchtest, klicke bitte <a ng-click=\"blacklist('add')\">hier</a>.<br>Falls du deine Meinung geändert hast, kannst du dich <a ng-click=\"blacklist('remove')\">hier</a> wieder eintragen."
+msgstr "Alle gesammelten Daten sind nur <strong>anonymisiert, das heißt ohne Verbindung zu einzelnen Accounts</strong> verfügbar.<br>Falls du nicht möchtest, dass dein Account in den Statistiken erfasst wird, klicke bitte <a ng-click=\"blacklist('add')\">hier</a>.<br>Falls du deine Meinung geändert hast, kannst du dich <a ng-click=\"blacklist('remove')\">hier</a> wieder eintragen."
 
 #: src/views/Account/guild.html:342
 #: src/views/Account/guild.html:56
@@ -4832,7 +4832,7 @@ msgstr "Freigeschaltete Farben"
 
 #: src/views/Account/overview.html:369
 msgid "Unlocked Finishers"
-msgstr "Freigeschaltene Finisher"
+msgstr "Freigeschaltete Todesstöße"
 
 #: src/views/Account/overview.html:429
 msgid "Unlocked Gliders"
@@ -4852,15 +4852,15 @@ msgstr "Freigeschaltete Miniaturen"
 
 #: src/views/Account/overview.html:333
 msgid "Unlocked Mounts"
-msgstr "Freigeschaltene Reittiere"
+msgstr "Freigeschaltete Reittiere"
 
 #: src/views/Account/overview.html:345
 msgid "Unlocked Novelties"
-msgstr "Freigeschaltene Extras"
+msgstr "Freigeschaltete Extras"
 
 #: src/views/Account/overview.html:357
 msgid "Unlocked Outfits"
-msgstr "Freigeschaltene Kleidungssets"
+msgstr "Freigeschaltete Kleidungssets"
 
 #: src/views/Account/overview.html:393
 msgid "Unlocked PvP Heroes"
@@ -4868,7 +4868,7 @@ msgstr "Freigeschaltete Nebel-Champions"
 
 #: src/views/Account/overview.html:381
 msgid "Unlocked Recipes"
-msgstr "Freigeschaltene Rezepte"
+msgstr "Freigeschaltete Rezepte"
 
 #: src/views/Account/overview.html:296
 msgid "Unlocked Skins"
