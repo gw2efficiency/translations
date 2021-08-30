@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2021-08-21 14:39+0200\n"
+"PO-Revision-Date: 2021-08-29 16:03+0200\n"
 "Last-Translator: David <queicherius@gmail.com>\n"
 "Language-Team: \n"
 "Language: de\n"
@@ -14,10 +14,16 @@ msgstr ""
 "X-Generator: Poedit 3.0\n"
 "X-POOTLE-MTIME: 1487021042.000000\n"
 
+#: src/views/Crafting/calculator.html:115
+#: src/views/Crafting/calculator.html:128
+#: src/views/Crafting/calculator.html:141
+msgid "(Excl. cost of own materials)"
+msgstr "(Exkl. Kosten eigener Materialien)"
+
 #: src/views/Account/bank.html:16
 #: src/views/Account/bank.html:25
-#: src/views/Account/guild.html:559
-#: src/views/Account/guild.html:568
+#: src/views/Account/guild.html:575
+#: src/views/Account/guild.html:584
 #: src/views/Account/shared-inventory.html:16
 #: src/views/Account/shared-inventory.html:25
 #: src/views/Tradingpost/delivery.html:49
@@ -30,11 +36,12 @@ msgstr "(ohne Gebühren)"
 
 #: src/views/Crafting/calculator.html:104
 #: src/views/Crafting/calculator.html:113
-#: src/views/Crafting/calculator.html:122
+#: src/views/Crafting/calculator.html:126
 #: src/views/Crafting/calculator.html:139
-#: src/views/Crafting/calculator.html:148
-#: src/views/Crafting/calculator.html:157
-#: src/views/Crafting/calculator.html:166
+#: src/views/Crafting/calculator.html:160
+#: src/views/Crafting/calculator.html:169
+#: src/views/Crafting/calculator.html:178
+#: src/views/Crafting/calculator.html:187
 #: src/views/Crafting/calculator.html:95
 msgid "(per item)"
 msgstr "(pro Gegenst.)"
@@ -72,7 +79,7 @@ msgid_plural "{{ $count | number:0}} contestants"
 msgstr[0] "1 Teilnehmer"
 msgstr[1] "{{ $count | number:0}} Teilnehmer"
 
-#: src/views/Crafting/calculator.html:336
+#: src/views/Crafting/calculator.html:383
 msgid "1 craft"
 msgid_plural "{{$count | number:0 }} crafts"
 msgstr[0] "1 Herstellvorgang"
@@ -96,10 +103,10 @@ msgid_plural "{{$count}} hits"
 msgstr[0] "1 Treffer"
 msgstr[1] "{{$count}} Treffer"
 
-#: src/views/Tradingpost/index.html:1030
 #: src/views/Tradingpost/index.html:1044
-#: src/views/Tradingpost/index.html:482
-#: src/views/Tradingpost/index.html:497
+#: src/views/Tradingpost/index.html:1058
+#: src/views/Tradingpost/index.html:489
+#: src/views/Tradingpost/index.html:504
 msgid "1 listing"
 msgid_plural "{{$count}} listings"
 msgstr[0] "1 Angebot"
@@ -172,29 +179,29 @@ msgid "99% of players"
 msgstr "99% der Spieler"
 
 #: src/views/Tradingpost/index.html:404
-#: src/views/Tradingpost/index.html:953
+#: src/views/Tradingpost/index.html:960
 msgid "<abbr title=\"Assuming all materials are bought at their buy price\">Crafting price</abbr>"
 msgstr "<abbr title=\"Wenn alle Materialien zum Kaufpreis eingekauft werden\">Herstellungs-Preis</abbr>"
 
 #: src/views/Tradingpost/index.html:411
-#: src/views/Tradingpost/index.html:960
+#: src/views/Tradingpost/index.html:967
 msgid "<abbr title=\"Assuming all materials are bought at their buy price, and the item is sold at its sell price\">Crafting profit</abbr>"
 msgstr "<abbr title=\"Wenn alle Materialien zum Kaufpreis eingekauft werden und der Gegenstand zum Verkaufspreis verkauft wird\">Herstellungs-Gewinn</abbr>"
 
-#: src/views/Tradingpost/index.html:524
-#: src/views/Tradingpost/index.html:528
+#: src/views/Tradingpost/index.html:531
+#: src/views/Tradingpost/index.html:535
 msgid "<abbr title=\"Average monthly rate of return (this value is only accurate if the investment time is correct and dates back more than one month)\">AMROR</abbr>"
 msgstr "<abbr title=\"Durchschnittliche monatliche Investitionserstattung (dieser Wert ist nur akkurat, wenn das Investitions-Datum richtig gesetzt ist und mehr als einen Monat zurückliegt)\">AMROR</abbr>"
 
 #: src/views/Tradingpost/index.html:291
-#: src/views/Tradingpost/index.html:523
-#: src/views/Tradingpost/index.html:527
-#: src/views/Tradingpost/index.html:889
+#: src/views/Tradingpost/index.html:530
+#: src/views/Tradingpost/index.html:534
+#: src/views/Tradingpost/index.html:896
 msgid "<abbr title=\"Return on investment\">ROI</abbr>"
 msgstr "<abbr title=\"Investmenterstattung\">ROI</abbr>"
 
-#: src/views/Tradingpost/index.html:519
-#: src/views/Tradingpost/index.html:520
+#: src/views/Tradingpost/index.html:526
+#: src/views/Tradingpost/index.html:527
 msgid "<abbr title=\"Sell price with tradingpost fees deducted\">Net value</abbr>"
 msgstr "<abbr title=\"Verkaufspreis mit abgezogenen Steuern\">Nettowert</abbr>"
 
@@ -228,12 +235,13 @@ msgstr "API-Schlüssel ungültig"
 msgid "API key is missing permission"
 msgstr "API-Schlüssel fehlt Berechtigung"
 
-#: src/views/Account/guild.html:105
-#: src/views/Account/guild.html:115
-#: src/views/Account/guild.html:125
-#: src/views/Account/guild.html:135
-#: src/views/Account/guild.html:148
-#: src/views/Account/guild.html:95
+#: src/views/Account/guild.html:101
+#: src/views/Account/guild.html:111
+#: src/views/Account/guild.html:121
+#: src/views/Account/guild.html:131
+#: src/views/Account/guild.html:141
+#: src/views/Account/guild.html:151
+#: src/views/Account/guild.html:164
 msgid "API key needs \"guilds\" permission"
 msgstr "API-Schlüssel benötigt \"Gilden\"-Berechtigung"
 
@@ -292,7 +300,7 @@ msgstr "Account - Gilde"
 msgid "Account - Guilds"
 msgstr "Account - Gilden"
 
-#: src/scripts/controllers/Account/OverviewController.js:14
+#: src/scripts/controllers/Account/OverviewController.js:18
 msgid "Account - Overview"
 msgstr "Account - Überblick"
 
@@ -317,6 +325,10 @@ msgstr "Account-Überblick"
 msgid "Account Statistics"
 msgstr "Account-Statistiken"
 
+#: src/views/Account/overview.html:471
+msgid "Account Upgrades"
+msgstr "Account-Aufwertungen"
+
 #: src/views/Account/overview.html:113
 msgid "Account Value"
 msgstr "Account-Wert"
@@ -329,10 +341,6 @@ msgstr "Account-Wert"
 msgid "Accountbound"
 msgstr "Accountgebunden"
 
-#: src/views/Account/miniatures.html:20
-msgid "Accountbound miniatures:"
-msgstr "Accountgebundene Miniaturen:"
-
 #: src/views/_backend.html:271
 msgid "Accountbound on use"
 msgstr "Accountgebunden bei Benutzung"
@@ -341,7 +349,7 @@ msgstr "Accountgebunden bei Benutzung"
 msgid "Achievements"
 msgstr "Erfolge"
 
-#: src/scripts/controllers/Worldbosses/IndexController.js:256
+#: src/scripts/controllers/Worldbosses/IndexController.js:257
 #: src/views/Worldbosses/index.html:84
 msgid "Active"
 msgstr "Aktiv"
@@ -354,7 +362,7 @@ msgstr "Füge einen API-Schlüssel hinzu"
 msgid "Add another item"
 msgstr "Einen weiteren Gegenstand hinzufügen"
 
-#: src/views/Tradingpost/index.html:900
+#: src/views/Tradingpost/index.html:907
 msgid "Add this item to your tracked items"
 msgstr "Diesen Gegenstand verfolgen"
 
@@ -371,11 +379,11 @@ msgstr "Adventskalender 2020"
 msgid "Aetherblade"
 msgstr "Ätherklingen"
 
-#: src/views/Account/guild.html:372
+#: src/views/Account/guild.html:388
 msgid "Aetherium"
 msgstr "Ätherium"
 
-#: src/views/Account/guild.html:375
+#: src/views/Account/guild.html:391
 msgid "Aetherium / Exp"
 msgstr "Ätherium / Erf."
 
@@ -404,9 +412,8 @@ msgstr "Wegmarke Akk-Wildnis"
 
 #: src/views/Account/achievements.html:18
 #: src/views/Account/achievements.html:32
-#: src/views/Account/guild.html:356
+#: src/views/Account/guild.html:372
 #: src/views/Account/mailcarriers.html:14
-#: src/views/Account/miniatures.html:14
 #: src/views/Tradingpost/transactions.html:22
 msgid "All"
 msgstr "Alle"
@@ -423,7 +430,7 @@ msgstr "Alle Klassen"
 msgid "All the data collected is only publicly available anonymized and <strong>without connection to any individual accounts</strong>.<br>If you still don't want your account data to be included in the wealth distribution, please click <a ng-click=\"blacklist('add')\">here</a>.<br>If you blacklisted yourself and you changed your mind, please click <a ng-click=\"blacklist('remove')\">here</a>."
 msgstr "Alle gesammelten Daten sind nur <strong>anonymisiert, das heißt ohne Verbindung zu einzelnen Accounts</strong> verfügbar.<br>Falls du nicht möchtest, dass dein Account in den Statistiken erfasst wird, klicke bitte <a ng-click=\"blacklist('add')\">hier</a>.<br>Falls du deine Meinung geändert hast, kannst du dich <a ng-click=\"blacklist('remove')\">hier</a> wieder eintragen."
 
-#: src/views/Account/guild.html:342
+#: src/views/Account/guild.html:358
 #: src/views/Account/guild.html:56
 msgid "All upgrades"
 msgstr "Alle Aufwertungen"
@@ -525,8 +532,8 @@ msgid "Ascended Materials"
 msgstr "Aufgestiegene Handwerksmaterialien"
 
 #: src/files/index.html:377
-msgid "Ascended Weapons & Armor"
-msgstr "Aufgestiegene Waffen & Rüstung"
+msgid "Ascended Weapons &amp; Armor"
+msgstr "Aufgestiegene Waffen &amp; Rüstung"
 
 #: src/views/_backend.html:361
 msgid "Ashford Waypoint"
@@ -552,10 +559,10 @@ msgstr "Verfügbar"
 msgid "Average"
 msgstr "Durchschnitt"
 
-#: src/views/Tradingpost/index.html:731
-#: src/views/Tradingpost/index.html:735
-#: src/views/Tradingpost/index.html:751
-#: src/views/Tradingpost/index.html:755
+#: src/views/Tradingpost/index.html:738
+#: src/views/Tradingpost/index.html:742
+#: src/views/Tradingpost/index.html:758
+#: src/views/Tradingpost/index.html:762
 msgid "Average per item"
 msgstr "Durchschnitt pro Gegenstand"
 
@@ -601,8 +608,8 @@ msgid "Bags"
 msgstr "Taschen"
 
 #: src/files/index.html:233
-#: src/views/Account/overview.html:200
-#: src/views/Account/overview.html:507
+#: src/views/Account/overview.html:211
+#: src/views/Account/overview.html:560
 msgid "Bank"
 msgstr "Bank"
 
@@ -620,7 +627,7 @@ msgstr "Die Schlacht um Löwenstein: Nachspiel"
 msgid "Beaded weapons"
 msgstr "Verzierte Waffen"
 
-#: src/views/Account/overview.html:162
+#: src/views/Account/overview.html:173
 #: src/views/Account/statistics.html:103
 #: src/views/Community/lottery.html:73
 msgid "Become one here!"
@@ -642,7 +649,7 @@ msgstr "Berserker"
 msgid "Best bidder only"
 msgstr "Nur bester Bieter"
 
-#: src/views/Crafting/calculator.html:181
+#: src/views/Crafting/calculator.html:202
 msgid "Best path"
 msgstr "Bester Pfad"
 
@@ -722,12 +729,12 @@ msgstr "Braun"
 msgid "Build"
 msgstr "Build"
 
-#: src/views/Account/guild.html:358
+#: src/views/Account/guild.html:374
 msgid "Buildable"
 msgstr "Baubar"
 
-#: src/views/Account/guild.html:369
-#: src/views/Account/guild.html:395
+#: src/views/Account/guild.html:385
+#: src/views/Account/guild.html:411
 msgid "Building"
 msgstr "Gebäude"
 
@@ -751,12 +758,12 @@ msgstr "Butternusskürbis"
 msgid "Buy 75x \"Sun Bead\" from the vendor and then craft the (sellable) item ouf of them.<br>You have to discover the recipe via the \"discovery\" tab of your crafing profession."
 msgstr "Kaufe 75x \"Sonnenperle\" von dem Händler und stelle die (verkaufbaren) Gegenstände daraus her.<br>Du musst die Rezepte über den \"Entdecken\"-Tab deines Handwerksberufs entdecken."
 
-#: src/views/Tradingpost/index.html:1025
-#: src/views/Tradingpost/index.html:476
+#: src/views/Tradingpost/index.html:1039
+#: src/views/Tradingpost/index.html:483
 msgid "Buy Listings"
 msgstr "Kauf-Angebote"
 
-#: src/views/Crafting/calculator.html:183
+#: src/views/Crafting/calculator.html:204
 msgid "Buy all"
 msgstr "Alle kaufen"
 
@@ -781,7 +788,7 @@ msgstr "Kaufe Obsidianscherben, stelle Mystische Kleeblätter her und hoffe auf 
 #: src/scripts/services/Chart.js:185
 #: src/views/Account/bank.html:20
 #: src/views/Account/character.html:224
-#: src/views/Account/guild.html:563
+#: src/views/Account/guild.html:579
 #: src/views/Account/shared-inventory.html:20
 #: src/views/Currencies/badges-of-honor.html:10
 #: src/views/Currencies/claim-tickets.html:10
@@ -794,7 +801,7 @@ msgstr "Kaufe Obsidianscherben, stelle Mystische Kleeblätter her und hoffe auf 
 #: src/views/Currencies/spirit-shards.html:19
 #: src/views/Tradingpost/delivery.html:53
 #: src/views/Tradingpost/index.html:30
-#: src/views/Tradingpost/index.html:535
+#: src/views/Tradingpost/index.html:542
 #: src/views/Tradingpost/index.html:88
 #: src/views/Tradingpost/investment-history.html:63
 msgid "Buy price"
@@ -805,7 +812,7 @@ msgid "Buy price (per unit)"
 msgstr "Kaufpreis (pro Einheit)"
 
 #: src/views/Tradingpost/index.html:432
-#: src/views/Tradingpost/index.html:981
+#: src/views/Tradingpost/index.html:988
 msgid "Buy price / demand"
 msgstr "Kaufpreis / Nachfrage"
 
@@ -1002,7 +1009,7 @@ msgstr "Jacke"
 msgid "Collapse"
 msgstr "Zuklappen"
 
-#: src/views/Crafting/calculator.html:177
+#: src/views/Crafting/calculator.html:198
 msgid "Collapse all"
 msgstr "Alle einklappen"
 
@@ -1034,7 +1041,6 @@ msgstr "Sammlung:"
 msgid "Combine"
 msgstr "Kombinieren"
 
-#: src/views/Account/miniatures.html:49
 #: src/views/_backend.html:127
 msgid "Common"
 msgstr "Gewöhnlich"
@@ -1059,8 +1065,8 @@ msgstr "Community - Lotterie"
 msgid "Community Lottery"
 msgstr "Community-Lotterie"
 
-#: src/views/Account/guild.html:359
-#: src/views/Account/guild.html:400
+#: src/views/Account/guild.html:375
+#: src/views/Account/guild.html:416
 msgid "Completed"
 msgstr "Abgeschlossen"
 
@@ -1068,7 +1074,7 @@ msgstr "Abgeschlossen"
 msgid "Completed {{ achievement.completion.repeated || 0 | number:0  }} times ({{ achievement.breakdown.points_per_repeat }} <i class=\"sprite-achievement-icon\"></i> each)"
 msgstr "{{ achievement.completion.repeated || 0 | number:0 }} mal abgeschlossen (jeweils {{ achievement.breakdown.points_per_repeat }} <i class=\"sprite-achievement-icon\"></i>)"
 
-#: src/scripts/controllers/Crafting/CalculatorController.js:292
+#: src/scripts/controllers/Crafting/CalculatorController.js:301
 msgid "Completed,Count,Name,Price each,Price total"
 msgstr "Erledigt,Anzahl,Name,Einzelpreis,Gesamtpreis"
 
@@ -1125,14 +1131,14 @@ msgstr "Umtausch"
 msgid "Cooking Materials"
 msgstr "Koch-Zutaten"
 
-#: src/views/Account/guild.html:398
-#: src/views/Crafting/calculator.html:134
+#: src/views/Account/guild.html:414
+#: src/views/Crafting/calculator.html:155
 #: src/views/Crafting/calculator.html:90
 #: src/views/Currencies/spirit-shards.html:179
 msgid "Cost"
 msgstr "Kosten"
 
-#: src/views/Account/guild.html:399
+#: src/views/Account/guild.html:415
 msgid "Cost / Exp"
 msgstr "Kosten / Erf."
 
@@ -1140,11 +1146,15 @@ msgstr "Kosten / Erf."
 msgid "Cost Breakdown"
 msgstr "Kosten-Übersicht"
 
-#: src/views/Account/guild.html:298
+#: src/views/Crafting/calculator.html:99
+msgid "Cost of own materials"
+msgstr "Kosten eigener Materialien"
+
+#: src/views/Account/guild.html:314
 msgid "Cost:"
 msgstr "Kosten:"
 
-#: src/scripts/controllers/Crafting/CalculatorController.js:311
+#: src/scripts/controllers/Crafting/CalculatorController.js:320
 msgid "Count,Name,Price each,Price total"
 msgstr "Anzahl,Name,Einzelpreis,Gesamtpreis"
 
@@ -1152,11 +1162,11 @@ msgstr "Anzahl,Name,Einzelpreis,Gesamtpreis"
 msgid "Countdown"
 msgstr "Countdown"
 
-#: src/views/Crafting/calculator.html:327
+#: src/views/Crafting/calculator.html:374
 msgid "Craft"
 msgstr "Stelle"
 
-#: src/views/Crafting/calculator.html:182
+#: src/views/Crafting/calculator.html:203
 msgid "Craft all"
 msgstr "Alle herstellen"
 
@@ -1185,7 +1195,7 @@ msgstr "Handwerk"
 msgid "Crafting - Ascended Weapons & Armor"
 msgstr "Herstellung - Aufgestiegene Waffen & Rüstung"
 
-#: src/scripts/controllers/Crafting/CalculatorController.js:38
+#: src/scripts/controllers/Crafting/CalculatorController.js:40
 msgid "Crafting - Calculator"
 msgstr "Handwerk - Rechner"
 
@@ -1238,7 +1248,7 @@ msgstr "Herstellungs-Preis / Verkauf (Abst.)"
 msgid "Crafting Profit"
 msgstr "Herstellungs-Gewinn"
 
-#: src/views/Crafting/calculator.html:323
+#: src/views/Crafting/calculator.html:370
 msgid "Crafting Steps"
 msgstr "Herstellungsschritte"
 
@@ -1330,7 +1340,7 @@ msgstr "Aktuelle Transaktionen"
 #: src/views/Tradingpost/history.html:47
 #: src/views/Tradingpost/history.html:94
 #: src/views/Tradingpost/index.html:273
-#: src/views/Tradingpost/index.html:871
+#: src/views/Tradingpost/index.html:878
 #: src/views/Tradingpost/transactions.html:171
 #: src/views/Tradingpost/transactions.html:69
 msgid "Current buy price"
@@ -1345,13 +1355,13 @@ msgstr "Aktueller Profit"
 #: src/views/Tradingpost/history.html:48
 #: src/views/Tradingpost/history.html:95
 #: src/views/Tradingpost/index.html:279
-#: src/views/Tradingpost/index.html:877
+#: src/views/Tradingpost/index.html:884
 #: src/views/Tradingpost/transactions.html:172
 #: src/views/Tradingpost/transactions.html:70
 msgid "Current sell price"
 msgstr "Derzeitiger Verkaufspreis"
 
-#: src/views/Tradingpost/index.html:819
+#: src/views/Tradingpost/index.html:826
 msgid "Currently not tracked items"
 msgstr "Nicht verfolgte Gegenstände"
 
@@ -1405,11 +1415,11 @@ msgstr "Verteidigung:"
 msgid "Delete"
 msgstr "Löschen"
 
-#: src/scripts/controllers/Tradingpost/IndexController.js:1009
+#: src/scripts/controllers/Tradingpost/IndexController.js:1011
 msgid "Delete this investment?"
 msgstr "Diese Investition löschen?"
 
-#: src/scripts/controllers/Tradingpost/IndexController.js:876
+#: src/scripts/controllers/Tradingpost/IndexController.js:878
 msgid "Delete this item?"
 msgstr "Diesen Gegenstand löschen?"
 
@@ -1421,7 +1431,7 @@ msgstr "Warenlager"
 #: src/views/Tradingpost/index.html:107
 #: src/views/Tradingpost/index.html:35
 #: src/views/Tradingpost/index.html:386
-#: src/views/Tradingpost/index.html:935
+#: src/views/Tradingpost/index.html:942
 msgid "Demand"
 msgstr "Nachfrage"
 
@@ -1441,7 +1451,7 @@ msgstr "Wegmarke Dämonenschlund"
 msgid "Detha (Path 2)"
 msgstr "Detha (Weg 2)"
 
-#: src/views/Account/overview.html:161
+#: src/views/Account/overview.html:172
 #: src/views/Account/statistics.html:102
 msgid "Did you know that supporters get crawled more frequently and can look further back in their history?"
 msgstr "Wusstest du, dass Unterstützer häufigere Schnappschüsse bekommen und in ihrer Geschichte weiter zurückblicken können?"
@@ -1525,7 +1535,7 @@ msgstr "Verliese, Schlachtzüge & Fraktale"
 msgid "Duration"
 msgstr "Dauer"
 
-#: src/views/Account/overview.html:491
+#: src/views/Account/overview.html:509
 msgid "During that time you died a total of {{ total_deaths | number:0 }} times. That's {{ total_deaths / (total_age/60/60) | number:2 }} deaths per hour"
 msgstr "Während dieser Zeit bist du insgesamt {{ total_deaths | number:0 }} mal gestorben. Das sind {{ total_deaths / (total_age/60/60) | number:2 }} Tode pro Stunde"
 
@@ -1545,7 +1555,7 @@ msgstr "Farben"
 msgid "Earnable"
 msgstr "Verdienbar"
 
-#: src/views/Tradingpost/index.html:673
+#: src/views/Tradingpost/index.html:680
 msgid "Edit investment"
 msgstr "Investition bearbeiten"
 
@@ -1646,7 +1656,6 @@ msgstr "Wechselkurse"
 msgid "Exclude"
 msgstr "Ausschließen"
 
-#: src/views/Account/miniatures.html:53
 #: src/views/Account/overview.html:16
 #: src/views/Tradingpost/index.html:77
 #: src/views/_backend.html:216
@@ -1661,16 +1670,16 @@ msgstr "Exp"
 msgid "Expand"
 msgstr "Aufklappen"
 
-#: src/views/Crafting/calculator.html:176
+#: src/views/Crafting/calculator.html:197
 msgid "Expand all"
 msgstr "Alle aufklappen"
 
-#: src/views/Account/guild.html:371
+#: src/views/Account/guild.html:387
 msgid "Experience"
 msgstr "Erfahrung"
 
-#: src/views/Account/guild.html:281
-#: src/views/Account/guild.html:420
+#: src/views/Account/guild.html:297
+#: src/views/Account/guild.html:436
 msgid "Experience:"
 msgstr "Erfahrung:"
 
@@ -1678,8 +1687,8 @@ msgstr "Erfahrung:"
 msgid "Explorer Erikk"
 msgstr "Explorator Erikk"
 
-#: src/views/Crafting/calculator.html:204
-#: src/views/Crafting/calculator.html:245
+#: src/views/Crafting/calculator.html:225
+#: src/views/Crafting/calculator.html:270
 #: src/views/Tradingpost/investment-history.html:26
 msgid "Export to Excel"
 msgstr "Excel-Export"
@@ -1696,11 +1705,11 @@ msgstr "Wegmarke Fangzornwacht"
 msgid "Farming"
 msgstr "Farming"
 
-#: src/views/Account/guild.html:373
+#: src/views/Account/guild.html:389
 msgid "Favor"
 msgstr "Gunst"
 
-#: src/views/Account/guild.html:376
+#: src/views/Account/guild.html:392
 msgid "Favor / Exp"
 msgstr "Gunst / Erf."
 
@@ -1728,7 +1737,6 @@ msgstr "Felder der Verwüstung"
 msgid "Find out which use of your spirit shards, dungeon tokens, etc. gives you the most profit so you don't waste valuable currencies."
 msgstr "Finde heraus wie du aus Geister-Scherben, Verlies-Marken, usw. das meiste Gold bekommst, so dass du nichts verschwendest."
 
-#: src/views/Account/miniatures.html:50
 #: src/views/Account/overview.html:13
 #: src/views/Tradingpost/index.html:74
 #: src/views/_backend.html:214
@@ -1783,7 +1791,7 @@ msgstr "Leinsamen"
 #: src/views/Tradingpost/index.html:140
 #: src/views/Tradingpost/index.html:285
 #: src/views/Tradingpost/index.html:32
-#: src/views/Tradingpost/index.html:883
+#: src/views/Tradingpost/index.html:890
 msgid "Flip profit"
 msgstr "Flip-Gewinn"
 
@@ -1867,10 +1875,6 @@ msgstr "Edelsteine"
 msgid "Gemstones and Jewels"
 msgstr "Edelsteine und Juwelen"
 
-#: src/views/Account/overview.html:453
-msgid "Gemstore Account Upgrades"
-msgstr "Edelsteinshop Account-Aufwertungen"
-
 #: src/views/_directives/tooltip.html:182
 msgid "Gemstore price:"
 msgstr "Gem-Preis:"
@@ -1914,14 +1918,14 @@ msgid "Godslost Waypoint"
 msgstr "Wegmarke Gottloser Sumpf"
 
 #: src/scripts/services/Chart.js:528
-#: src/views/Account/guild.html:374
+#: src/views/Account/guild.html:390
 #: src/views/Currencies/gems.html:102
 #: src/views/Currencies/gems.html:68
 #: src/views/Currencies/gems.html:85
 msgid "Gold"
 msgstr "Gold"
 
-#: src/views/Account/guild.html:377
+#: src/views/Account/guild.html:393
 msgid "Gold / Exp"
 msgstr "Gold / Erf."
 
@@ -1983,7 +1987,7 @@ msgstr "Gilden-Belobigungen"
 msgid "Guild Trader"
 msgstr "Gilden-Händler"
 
-#: src/views/Account/guild.html:160
+#: src/views/Account/guild.html:176
 msgid "Guildhall value:"
 msgstr "Gilden-Halle-Wert:"
 
@@ -2096,9 +2100,8 @@ msgstr "Anerkennungs-Notar"
 msgid "Hidden only:"
 msgstr "Nur Versteckte:"
 
-#: src/views/Account/miniatures.html:25
 #: src/views/Dungeons/index.html:117
-#: src/views/Dungeons/index.html:158
+#: src/views/Dungeons/index.html:174
 #: src/views/Dungeons/index.html:78
 #: src/views/Worldbosses/index.html:173
 msgid "Hide"
@@ -2112,7 +2115,7 @@ msgstr "Verberge erledigte Bosse:"
 msgid "Hide done:"
 msgstr "Verberge erledigte:"
 
-#: src/views/Account/guild.html:383
+#: src/views/Account/guild.html:399
 msgid "Hide if over:"
 msgstr "Verberge wenn über:"
 
@@ -2192,7 +2195,7 @@ msgstr ""
 "                            Falls der Account-Name nicht korrekt ist oder du uns nicht innerhalb von 72 Stunden geantwortet hast,\n"
 "                            ob per Nachricht im Spiel oder privater Nachricht, werden wir neue Gewinner ziehen oder deinen Preis in die nächste Lotterie übernehmen."
 
-#: src/views/Account/guild.html:146
+#: src/views/Account/guild.html:162
 msgid "Import from API"
 msgstr "Von der API importieren"
 
@@ -2231,7 +2234,7 @@ msgstr "Inventar"
 msgid "Inventory Bags"
 msgstr "Inventartaschen"
 
-#: src/views/Tradingpost/index.html:516
+#: src/views/Tradingpost/index.html:523
 #: src/views/Tradingpost/investment-history.html:66
 msgid "Investment Date"
 msgstr "Investitionsdatum"
@@ -2240,7 +2243,7 @@ msgstr "Investitionsdatum"
 msgid "Investment History"
 msgstr "Investitions-Geschichte"
 
-#: src/views/Tradingpost/index.html:518
+#: src/views/Tradingpost/index.html:525
 msgid "Investment price"
 msgstr "Investitionspreis"
 
@@ -2288,8 +2291,8 @@ msgstr "Juwelier"
 msgid "Jewlerly Boxes"
 msgstr "Juwelenboxen"
 
-#: src/views/Account/guild.html:483
-#: src/views/Account/guild.html:492
+#: src/views/Account/guild.html:499
+#: src/views/Account/guild.html:508
 msgid "Joined"
 msgstr "Beigetreten"
 
@@ -2329,18 +2332,18 @@ msgstr "Koptev (Weg 3)"
 msgid "Kraitbane Haven Waypoint"
 msgstr "Wegmarke Kraitbann-Freistatt"
 
-#: src/views/Tradingpost/index.html:1003
-#: src/views/Tradingpost/index.html:454
+#: src/views/Tradingpost/index.html:1014
+#: src/views/Tradingpost/index.html:458
 msgid "Last buy price change"
 msgstr "Letzte Kaufpreis-Änderung"
 
-#: src/views/Tradingpost/index.html:1010
-#: src/views/Tradingpost/index.html:461
+#: src/views/Tradingpost/index.html:1021
+#: src/views/Tradingpost/index.html:465
 msgid "Last sell price change"
 msgstr "Letzte Verkaufspreis-Änderung"
 
 #: src/views/Tradingpost/index.html:418
-#: src/views/Tradingpost/index.html:967
+#: src/views/Tradingpost/index.html:974
 msgid "Last update"
 msgstr "Letzte Aktualisierung"
 
@@ -2357,7 +2360,7 @@ msgstr "Lorbeer-Kaufmann"
 msgid "Laurels"
 msgstr "Lorbeeren"
 
-#: src/views/Account/overview.html:119
+#: src/views/Account/overview.html:130
 #: src/views/Account/statistics.html:111
 msgid "Leaderboard"
 msgstr "Bestenliste"
@@ -2390,7 +2393,7 @@ msgid "Legendary"
 msgstr "Legendär"
 
 #: src/files/index.html:242
-#: src/views/Account/overview.html:296
+#: src/views/Account/overview.html:307
 msgid "Legendary Armory"
 msgstr "Legendäre Rüstkammer"
 
@@ -2511,18 +2514,20 @@ msgstr "Andenken an Löwenstein"
 msgid "Lion's Arch Rebuild"
 msgstr "Wiederaufbau Löwensteins"
 
-#: src/views/Account/overview.html:137
-#: src/views/Account/overview.html:180
+#: src/views/Account/overview.html:148
+#: src/views/Account/overview.html:191
+#: src/views/Account/overview.html:549
 msgid "Liquid Gold (buy)"
 msgstr "Flüssiges Gold (Kauf)"
 
-#: src/views/Account/overview.html:132
-#: src/views/Account/overview.html:179
+#: src/views/Account/overview.html:143
+#: src/views/Account/overview.html:190
+#: src/views/Account/overview.html:539
 msgid "Liquid Gold (sell)"
 msgstr "Flüssiges Gold (Verkauf)"
 
 #: src/views/Tradingpost/index.html:392
-#: src/views/Tradingpost/index.html:941
+#: src/views/Tradingpost/index.html:948
 msgid "Listing fee"
 msgstr "Einstellgebühr"
 
@@ -2540,14 +2545,13 @@ msgstr "Angebote:"
 #: src/views/Account/gemstore-upgrades.html:7
 #: src/views/Account/guild.html:2
 #: src/views/Account/mailcarriers.html:41
-#: src/views/Account/miniatures.html:78
-#: src/views/Account/overview.html:500
+#: src/views/Account/overview.html:518
 #: src/views/Account/sab.html:44
 #: src/views/Community/lottery.html:11
 #: src/views/Tradingpost/delivery.html:71
 #: src/views/Tradingpost/history.html:79
 #: src/views/Tradingpost/index.html:228
-#: src/views/Tradingpost/index.html:826
+#: src/views/Tradingpost/index.html:833
 #: src/views/Tradingpost/transactions.html:40
 msgid "Loading..."
 msgstr "Lade..."
@@ -2557,7 +2561,6 @@ msgid "Lobby type"
 msgstr "Lobby-Typ"
 
 #: src/views/Account/mailcarriers.html:15
-#: src/views/Account/miniatures.html:15
 msgid "Locked"
 msgstr "Gesperrt"
 
@@ -2611,7 +2614,7 @@ msgid "Lvl"
 msgstr "Lvl"
 
 #: src/views/Tradingpost/index.html:265
-#: src/views/Tradingpost/index.html:863
+#: src/views/Tradingpost/index.html:870
 msgid "Lvl {{ item.level }}"
 msgstr "Lvl {{ item.level }}"
 
@@ -2657,7 +2660,6 @@ msgstr "Karte"
 msgid "Masteries only:"
 msgstr "Nur Beherrschungen:"
 
-#: src/views/Account/miniatures.html:51
 #: src/views/Account/overview.html:14
 #: src/views/Tradingpost/index.html:75
 #: src/views/_backend.html:215
@@ -2674,8 +2676,8 @@ msgid "Matches played"
 msgstr "Gespielte Spiele"
 
 #: src/files/index.html:236
-#: src/views/Account/overview.html:232
-#: src/views/Account/overview.html:531
+#: src/views/Account/overview.html:243
+#: src/views/Account/overview.html:584
 msgid "Material Storage"
 msgstr "Materialienlager"
 
@@ -2737,9 +2739,9 @@ msgstr "Mittlere Schultern"
 msgid "Megadestroyer"
 msgstr "Megazerstörer"
 
-#: src/views/Account/guild.html:123
-#: src/views/Account/guild.html:450
-#: src/views/Account/guild.html:80
+#: src/views/Account/guild.html:139
+#: src/views/Account/guild.html:466
+#: src/views/Account/guild.html:86
 msgid "Members"
 msgstr "Mitglieder"
 
@@ -2850,10 +2852,9 @@ msgstr "Mystische Waffen"
 msgid "Mystic clovers"
 msgstr "Mystische Kleeblätter"
 
-#: src/views/Account/guild.html:482
-#: src/views/Account/guild.html:490
+#: src/views/Account/guild.html:498
+#: src/views/Account/guild.html:506
 #: src/views/Account/mailcarriers.html:25
-#: src/views/Account/miniatures.html:34
 #: src/views/Account/overview.html:80
 #: src/views/Crafting/ascended.html:104
 #: src/views/Crafting/legendaries.html:46
@@ -2868,7 +2869,7 @@ msgstr "Mystische Kleeblätter"
 #: src/views/Tradingpost/index.html:18
 #: src/views/Tradingpost/index.html:254
 #: src/views/Tradingpost/index.html:29
-#: src/views/Tradingpost/index.html:851
+#: src/views/Tradingpost/index.html:858
 msgid "Name"
 msgstr "Name"
 
@@ -2881,16 +2882,16 @@ msgstr "Benannte exotische Waffen"
 msgid "Necromancer"
 msgstr "Nekromant"
 
-#: src/scripts/controllers/Account/GuildController.js:198
+#: src/scripts/controllers/Account/GuildController.js:199
 msgid "Needed for:"
 msgstr "Gebraucht für:"
 
-#: src/scripts/controllers/Worldbosses/IndexController.js:250
+#: src/scripts/controllers/Worldbosses/IndexController.js:251
 msgid "Next event"
 msgstr "Nächstes Event"
 
 #: src/views/Tradingpost/history.html:431
-#: src/views/Tradingpost/index.html:1073
+#: src/views/Tradingpost/index.html:1087
 #: src/views/Tradingpost/investment-history.html:108
 #: src/views/Tradingpost/investment-history.html:43
 #: src/views/Tradingpost/transactions.html:233
@@ -2936,10 +2937,10 @@ msgstr "Keine geschichtlichen Angebote für diese Filter gefunden."
 msgid "No information"
 msgstr "Keine Informationen"
 
-#: src/views/Tradingpost/index.html:1032
 #: src/views/Tradingpost/index.html:1046
-#: src/views/Tradingpost/index.html:484
-#: src/views/Tradingpost/index.html:499
+#: src/views/Tradingpost/index.html:1060
+#: src/views/Tradingpost/index.html:491
+#: src/views/Tradingpost/index.html:506
 msgid "No listings available"
 msgstr "Keine Angebote verfügbar"
 
@@ -2955,20 +2956,16 @@ msgstr "Es gibt keine Briefboten, die auf deinen Filter passen."
 msgid "No matches found"
 msgstr "Keine Spiele gefunden"
 
-#: src/views/Account/miniatures.html:74
-msgid "No miniatures matching these filters."
-msgstr "Es gibt keine Miniaturen, die auf deinen Filter passen."
-
-#: src/views/Account/guild.html:583
+#: src/views/Account/guild.html:599
 msgid "No note"
 msgstr "Keine Notiz"
 
-#: src/views/Crafting/calculator.html:225
+#: src/views/Crafting/calculator.html:250
 msgid "No own materials used"
 msgstr "Keine eigenen Materialien benutzt"
 
 #: src/views/Tradingpost/index.html:232
-#: src/views/Tradingpost/index.html:830
+#: src/views/Tradingpost/index.html:837
 msgid "No results"
 msgstr "Keine Ergebnisse"
 
@@ -2981,7 +2978,7 @@ msgid "Nolan Waypoint"
 msgstr "Wegmarke Nolan"
 
 #: src/views/Account/achievements.html:34
-#: src/views/Account/guild.html:289
+#: src/views/Account/guild.html:305
 #: src/views/Account/overview.html:25
 #: src/views/Account/overview.html:91
 msgid "None"
@@ -2991,11 +2988,11 @@ msgstr "Keine"
 msgid "Norn"
 msgstr "Norn"
 
-#: src/views/Account/guild.html:357
+#: src/views/Account/guild.html:373
 msgid "Not completed"
 msgstr "Nicht abgeschlossen"
 
-#: src/views/Account/overview.html:127
+#: src/views/Account/overview.html:138
 msgid "Not crawled yet"
 msgstr "Noch nicht eingelesen"
 
@@ -3039,12 +3036,13 @@ msgstr "Wegmarke Ruinen von Alttor"
 msgid "On search"
 msgstr "Beim Suchen"
 
-#: src/views/Account/guild.html:104
-#: src/views/Account/guild.html:114
-#: src/views/Account/guild.html:124
-#: src/views/Account/guild.html:134
-#: src/views/Account/guild.html:147
-#: src/views/Account/guild.html:94
+#: src/views/Account/guild.html:100
+#: src/views/Account/guild.html:110
+#: src/views/Account/guild.html:120
+#: src/views/Account/guild.html:130
+#: src/views/Account/guild.html:140
+#: src/views/Account/guild.html:150
+#: src/views/Account/guild.html:163
 msgid "Only available for leaders"
 msgstr "Nur für Anführer"
 
@@ -3056,15 +3054,13 @@ msgstr "Handwerk nur falls nötig:"
 msgid "Orange"
 msgstr "Orange"
 
-#: src/views/Account/miniatures.html:35
 #: src/views/Tradingpost/index.html:22
 msgid "Order"
 msgstr "Sort."
 
 #: src/views/Account/characters.html:7
-#: src/views/Account/guild.html:476
+#: src/views/Account/guild.html:492
 #: src/views/Account/mailcarriers.html:20
-#: src/views/Account/miniatures.html:29
 #: src/views/Crafting/ascended.html:83
 #: src/views/Currencies/spirit-shards.html:42
 #: src/views/Tradingpost/history.html:24
@@ -3081,7 +3077,7 @@ msgid "Order price"
 msgstr "Bestellungs-Preis"
 
 #: src/views/Account/character.html:219
-#: src/views/Account/guild.html:364
+#: src/views/Account/guild.html:380
 #: src/views/Account/overview.html:77
 msgid "Order:"
 msgstr "Sortierung:"
@@ -3261,11 +3257,11 @@ msgid "Precursors"
 msgstr "Precursor"
 
 #: src/files/index.html:374
-msgid "Precursors & Legendaries"
-msgstr "Präkursor & Legendäre"
+msgid "Precursors &amp; Legendaries"
+msgstr "Präkursor &amp; Legendäre"
 
-#: src/views/Account/guild.html:286
-#: src/views/Account/guild.html:416
+#: src/views/Account/guild.html:302
+#: src/views/Account/guild.html:432
 msgid "Prerequisites:"
 msgstr "Voraussetzungen:"
 
@@ -3274,7 +3270,7 @@ msgid "Previous lotteries"
 msgstr "Vorheriger Lotterie-Gewinn"
 
 #: src/views/Tradingpost/history.html:421
-#: src/views/Tradingpost/index.html:1063
+#: src/views/Tradingpost/index.html:1077
 #: src/views/Tradingpost/investment-history.html:33
 #: src/views/Tradingpost/investment-history.html:98
 #: src/views/Tradingpost/transactions.html:223
@@ -3287,19 +3283,17 @@ msgstr "Vorherige Seite"
 #: src/views/Currencies/guild-commendations.html:34
 #: src/views/Currencies/karma.html:41
 #: src/views/Tradingpost/index.html:338
-#: src/views/Tradingpost/index.html:636
-#: src/views/Tradingpost/index.html:682
-#: src/views/Tradingpost/index.html:773
+#: src/views/Tradingpost/index.html:643
+#: src/views/Tradingpost/index.html:689
+#: src/views/Tradingpost/index.html:780
 msgid "Price"
 msgstr "Preis"
 
 #: src/views/Account/mailcarriers.html:26
-#: src/views/Account/miniatures.html:36
 msgid "Price (ASC)"
 msgstr "Preis (Aufst.)"
 
 #: src/views/Account/mailcarriers.html:27
-#: src/views/Account/miniatures.html:37
 msgid "Price (DESC)"
 msgstr "Preis (Abst.)"
 
@@ -3339,21 +3333,21 @@ msgstr "Klassen-spezifisch"
 #: src/views/Currencies/karma.html:42
 #: src/views/Currencies/laurels.html:29
 #: src/views/Currencies/spirit-shards.html:180
-#: src/views/Tradingpost/index.html:521
-#: src/views/Tradingpost/index.html:525
+#: src/views/Tradingpost/index.html:528
+#: src/views/Tradingpost/index.html:532
 #: src/views/Tradingpost/investment-history.html:65
 msgid "Profit"
 msgstr "Gewinn"
 
-#: src/views/Crafting/calculator.html:108
-#: src/views/Crafting/calculator.html:152
+#: src/views/Crafting/calculator.html:121
+#: src/views/Crafting/calculator.html:173
 #: src/views/Tradingpost/history.html:166
 #: src/views/Tradingpost/history.html:33
 msgid "Profit (buy price)"
 msgstr "Profit (Kaufpreis)"
 
-#: src/views/Crafting/calculator.html:117
-#: src/views/Crafting/calculator.html:161
+#: src/views/Crafting/calculator.html:134
+#: src/views/Crafting/calculator.html:182
 #: src/views/Tradingpost/history.html:167
 #: src/views/Tradingpost/history.html:34
 msgid "Profit (sell price)"
@@ -3423,9 +3417,9 @@ msgstr "Mg."
 #: src/views/Tradingpost/history.html:161
 #: src/views/Tradingpost/history.html:326
 #: src/views/Tradingpost/index.html:333
-#: src/views/Tradingpost/index.html:517
-#: src/views/Tradingpost/index.html:631
-#: src/views/Tradingpost/index.html:677
+#: src/views/Tradingpost/index.html:524
+#: src/views/Tradingpost/index.html:638
+#: src/views/Tradingpost/index.html:684
 msgid "Quantity"
 msgstr "Menge"
 
@@ -3454,12 +3448,12 @@ msgstr "Bereich"
 msgid "Ranger"
 msgstr "Waldläufer"
 
-#: src/views/Account/guild.html:481
-#: src/views/Account/guild.html:491
+#: src/views/Account/guild.html:497
+#: src/views/Account/guild.html:507
 msgid "Rank"
 msgstr "Rang"
 
-#: src/views/Account/overview.html:122
+#: src/views/Account/overview.html:133
 msgid "Rank {{ wealth.rank | number }}"
 msgstr "Rang {{ wealth.rank | number }}"
 
@@ -3467,12 +3461,11 @@ msgstr "Rang {{ wealth.rank | number }}"
 msgid "Ranked Queue"
 msgstr "Bewertete Arena"
 
-#: src/views/Account/guild.html:133
-#: src/views/Account/guild.html:86
+#: src/views/Account/guild.html:149
+#: src/views/Account/guild.html:92
 msgid "Ranks"
 msgstr "Ränge"
 
-#: src/views/Account/miniatures.html:52
 #: src/views/Account/overview.html:15
 #: src/views/Tradingpost/index.html:76
 #: src/views/_backend.html:125
@@ -3483,13 +3476,11 @@ msgstr "Selten"
 msgid "Rare Crafting Materials"
 msgstr "Seltene Handwerksmaterialien"
 
-#: src/views/Account/miniatures.html:38
 #: src/views/Account/overview.html:83
 #: src/views/Tradingpost/index.html:70
 msgid "Rarity"
 msgstr "Seltenheit"
 
-#: src/views/Account/miniatures.html:43
 #: src/views/Account/overview.html:9
 msgid "Rarity:"
 msgstr "Seltenheit:"
@@ -3514,7 +3505,7 @@ msgstr "Wegmarke Reißertal"
 msgid "Recipe Search"
 msgstr "Rezept Suche"
 
-#: src/views/Crafting/calculator.html:174
+#: src/views/Crafting/calculator.html:195
 msgid "Recipe tree"
 msgstr "Rezept-Baum"
 
@@ -3538,7 +3529,7 @@ msgstr "Automatisch aktualisieren:"
 msgid "Refresh Now"
 msgstr "Jetzt aktualisieren"
 
-#: src/views/Tradingpost/index.html:911
+#: src/views/Tradingpost/index.html:918
 msgid "Refresh the data of this item"
 msgstr "Gegenstandsinformationen neuladen"
 
@@ -3550,12 +3541,12 @@ msgstr "Registrieren"
 msgid "Registering is optional, completely free and takes less than 20 seconds."
 msgstr "Registrieren ist optional, komplett kostenlos und dauert weniger als 20 Sekunden."
 
-#: src/views/Account/guild.html:166
-#: src/views/Account/guild.html:246
+#: src/views/Account/guild.html:182
+#: src/views/Account/guild.html:262
 msgid "Remaining cost:"
 msgstr "Übrige Kosten:"
 
-#: src/views/Account/guild.html:197
+#: src/views/Account/guild.html:213
 msgid "Remaining:"
 msgstr "Übrig:"
 
@@ -3571,12 +3562,16 @@ msgstr "Entfernen"
 msgid "Required Level:"
 msgstr "Benötigtes Level:"
 
-#: src/views/Account/guild.html:370
+#: src/views/Crafting/calculator.html:349
+msgid "Required disciplines"
+msgstr "Benötigte Handwerksberufe"
+
+#: src/views/Account/guild.html:386
 msgid "Required level"
 msgstr "Benötigtes Level"
 
-#: src/views/Account/guild.html:275
-#: src/views/Account/guild.html:419
+#: src/views/Account/guild.html:291
+#: src/views/Account/guild.html:435
 msgid "Required level:"
 msgstr "Benötigtes Level:"
 
@@ -3701,8 +3696,8 @@ msgstr "Sangdo Flinkschwinge"
 msgid "Save new password"
 msgstr "Neues Passwort speichern"
 
-#: src/views/Crafting/calculator.html:143
-#: src/views/Crafting/calculator.html:99
+#: src/views/Crafting/calculator.html:108
+#: src/views/Crafting/calculator.html:164
 msgid "Savings compared to buying"
 msgstr "Ersparnis zum Kaufpreis"
 
@@ -3732,7 +3727,7 @@ msgstr "Schreiber"
 msgid "Search"
 msgstr "Suche"
 
-#: src/views/Tradingpost/index.html:823
+#: src/views/Tradingpost/index.html:830
 msgid "Search Results"
 msgstr "Suchergebnisse"
 
@@ -3749,9 +3744,8 @@ msgid "Search for an item..."
 msgstr "Suche nach einem Gegenstand..."
 
 #: src/views/Account/achievements.html:9
-#: src/views/Account/guild.html:347
+#: src/views/Account/guild.html:363
 #: src/views/Account/mailcarriers.html:6
-#: src/views/Account/miniatures.html:6
 #: src/views/Crafting/ascended.html:5
 #: src/views/Tradingpost/transactions.html:5
 msgid "Search..."
@@ -3769,16 +3763,16 @@ msgstr "Zufälligen Erfolg für meine derzeitigen Filter auswählen!"
 msgid "Sell Date"
 msgstr "Verkaufsdatum"
 
-#: src/views/Tradingpost/index.html:1039
-#: src/views/Tradingpost/index.html:491
+#: src/views/Tradingpost/index.html:1053
+#: src/views/Tradingpost/index.html:498
 msgid "Sell Listings"
 msgstr "Verkauf-Angebote"
 
-#: src/views/Tradingpost/index.html:769
+#: src/views/Tradingpost/index.html:776
 msgid "Sell all investments"
 msgstr "Alle Investitionen verkaufen"
 
-#: src/scripts/controllers/Tradingpost/IndexController.js:986
+#: src/scripts/controllers/Tradingpost/IndexController.js:988
 msgid "Sell all investments?"
 msgstr "Alle Investitionen verkaufen?"
 
@@ -3787,7 +3781,7 @@ msgstr "Alle Investitionen verkaufen?"
 msgid "Sell history"
 msgstr "Verkaufs-Geschichte"
 
-#: src/views/Tradingpost/index.html:627
+#: src/views/Tradingpost/index.html:634
 msgid "Sell investment"
 msgstr "Investition verkaufen"
 
@@ -3799,7 +3793,7 @@ msgstr "Verkaufsangebote"
 #: src/scripts/services/Chart.js:165
 #: src/views/Account/bank.html:11
 #: src/views/Account/character.html:225
-#: src/views/Account/guild.html:554
+#: src/views/Account/guild.html:570
 #: src/views/Account/shared-inventory.html:11
 #: src/views/Currencies/badges-of-honor.html:11
 #: src/views/Currencies/claim-tickets.html:11
@@ -3813,7 +3807,7 @@ msgstr "Verkaufsangebote"
 #: src/views/Tradingpost/delivery.html:44
 #: src/views/Tradingpost/index.html:116
 #: src/views/Tradingpost/index.html:31
-#: src/views/Tradingpost/index.html:532
+#: src/views/Tradingpost/index.html:539
 #: src/views/Tradingpost/investment-history.html:64
 msgid "Sell price"
 msgstr "Verkaufspreis"
@@ -3823,7 +3817,7 @@ msgid "Sell price (per unit)"
 msgstr "Verkaufspreis (pro Einheit)"
 
 #: src/views/Tradingpost/index.html:429
-#: src/views/Tradingpost/index.html:978
+#: src/views/Tradingpost/index.html:985
 msgid "Sell price / supply"
 msgstr "Verkaufspreis / Angebot"
 
@@ -3859,10 +3853,6 @@ msgstr "Zweite Serie"
 msgid "Set 3"
 msgstr "Dritte Serie"
 
-#: src/views/Account/miniatures.html:58
-msgid "Set:"
-msgstr "Set:"
-
 #: src/views/_backend.html:138
 msgid "Shadow"
 msgstr "Schatten"
@@ -3878,8 +3868,8 @@ msgid "Share:"
 msgstr "Teilen:"
 
 #: src/files/index.html:239
-#: src/views/Account/overview.html:216
-#: src/views/Account/overview.html:519
+#: src/views/Account/overview.html:227
+#: src/views/Account/overview.html:572
 msgid "Shared Inventory"
 msgstr "Geteiltes Inventar"
 
@@ -3901,7 +3891,7 @@ msgstr "Schilde"
 msgid "Shipwreck Rock Waypoint"
 msgstr "Wegmarke Schiffswrackfelsen"
 
-#: src/views/Crafting/calculator.html:232
+#: src/views/Crafting/calculator.html:257
 msgid "Shopping List"
 msgstr "Einkaufsliste"
 
@@ -3920,9 +3910,8 @@ msgstr "Kurzbögen"
 msgid "Shoulders"
 msgstr "Schultern"
 
-#: src/views/Account/miniatures.html:24
 #: src/views/Dungeons/index.html:120
-#: src/views/Dungeons/index.html:161
+#: src/views/Dungeons/index.html:177
 #: src/views/Dungeons/index.html:81
 #: src/views/Worldbosses/index.html:176
 msgid "Show"
@@ -3937,7 +3926,7 @@ msgid "Show currently active and upcoming worldbosses, get voice notifications a
 msgstr "Zeige derzeit aktive und anstehende Weltbosse, werde benachrichtigt und verfolge deine täglichen Belohnungen."
 
 #: src/views/Tradingpost/index.html:302
-#: src/views/Tradingpost/index.html:906
+#: src/views/Tradingpost/index.html:913
 msgid "Show detailed information"
 msgstr "Detail-Informationen anzeigen"
 
@@ -3950,9 +3939,8 @@ msgid "Show subcomponents:"
 msgstr "Unter-Komponenten anzeigen:"
 
 #: src/views/Account/achievements.html:13
-#: src/views/Account/guild.html:351
+#: src/views/Account/guild.html:367
 #: src/views/Account/mailcarriers.html:10
-#: src/views/Account/miniatures.html:10
 msgid "Show:"
 msgstr "Zeige:"
 
@@ -4081,12 +4069,7 @@ msgstr "Gestartet"
 msgid "Starter"
 msgstr "Startfarben"
 
-#: src/views/Account/guild.html:103
-#: src/views/Account/guild.html:68
-msgid "Stash"
-msgstr "Lager"
-
-#: src/views/Account/guild.html:456
+#: src/views/Account/guild.html:472
 msgid "Statistics"
 msgstr "Statistiken"
 
@@ -4109,6 +4092,11 @@ msgstr "Status"
 #: src/views/_backend.html:396
 msgid "Steelbrachen"
 msgstr "Stahlbrache"
+
+#: src/views/Account/guild.html:119
+#: src/views/Account/guild.html:74
+msgid "Storage"
+msgstr "Lager"
 
 #: src/views/_backend.html:18
 msgid "Story"
@@ -4175,7 +4163,7 @@ msgstr "Super Adventure Box"
 #: src/views/Tradingpost/index.html:135
 #: src/views/Tradingpost/index.html:34
 #: src/views/Tradingpost/index.html:380
-#: src/views/Tradingpost/index.html:929
+#: src/views/Tradingpost/index.html:936
 msgid "Supply"
 msgstr "Angebot"
 
@@ -4222,12 +4210,12 @@ msgid "Tangled Depths"
 msgstr "Verschlungene Tiefen"
 
 #: src/views/Tradingpost/index.html:398
-#: src/views/Tradingpost/index.html:947
+#: src/views/Tradingpost/index.html:954
 msgid "Tax"
 msgstr "Gebühr"
 
-#: src/views/Account/guild.html:113
-#: src/views/Account/guild.html:74
+#: src/views/Account/guild.html:129
+#: src/views/Account/guild.html:80
 msgid "Teams"
 msgstr "Teams"
 
@@ -4350,7 +4338,7 @@ msgstr ""
 msgid "These credentials were not correct."
 msgstr "Diese Daten waren nicht korrekt."
 
-#: src/views/Tradingpost/index.html:834
+#: src/views/Tradingpost/index.html:841
 msgid "These prices are only updated every 24 hours, to refresh them click <i class=\"fa fa-refresh\"></i> on the right"
 msgstr "Diese Preise werden nur alle 24 Stunden aktualisiert, um sie auf den aktuellsten Stand zu bringen klicke rechts auf <i class=\"fa fa-refresh\"></i"
 
@@ -4367,7 +4355,7 @@ msgstr "Dies ist eine Community-Lotterie organisiert von \"queicherius.2563\" (Q
 msgid "This is not a valid e-mail."
 msgstr "Dies ist keine gültige E-Mail-Adresse."
 
-#: src/views/Account/overview.html:492
+#: src/views/Account/overview.html:510
 msgid "This is using your account data from {{ lastUpdate | date:'mediumTime' }}. <a class=\"statlink\" ng-click=\"loadAccountData()\">Refresh now!</a>"
 msgstr "Dies nutzt deine Account-Daten von {{ lastUpdate | date:'mediumTime' }}. <a class=\"statlink\" ng-click=\"loadAccountData()\">Neu laden!</a>"
 
@@ -4402,7 +4390,7 @@ msgstr ""
 "        Wir werden die Ziehung wiederholen, wenn du innerhalb von 72 Stunden nicht antwortest oder unhöflich bist."
 
 #: src/views/Account/bank.html:2
-#: src/views/Account/overview.html:497
+#: src/views/Account/overview.html:515
 #: src/views/Account/pvp.html:2
 #: src/views/Account/shared-inventory.html:2
 #: src/views/Community/lottery.html:2
@@ -4423,7 +4411,7 @@ msgstr "Dieser Wiederherstellungs-Link ist nicht gültig, bitte fordere einen ne
 msgid "This recipe can yield multiple random drops, including common, fine and rare materials"
 msgstr "Dieses Rezept kann mehrere zufällige Ergebnisse, inklusive Handwerksmaterialien, erhalten"
 
-#: src/views/Crafting/calculator.html:315
+#: src/views/Crafting/calculator.html:341
 msgid "This recipe expects you to craft {{ daily_cooldowns.amount }} items that you can only craft once a day:"
 msgstr "Dieses Rezept erwartet, dass du {{ daily_cooldowns.amount }} Gegenstände herstellst, die du nur einmal pro Tag herstellen kannst:"
 
@@ -4431,7 +4419,7 @@ msgstr "Dieses Rezept erwartet, dass du {{ daily_cooldowns.amount }} Gegenständ
 msgid "This shouldn't be your Guildwars 2 credentials, you can choose whatever you want."
 msgstr "Dies sollten nicht deine GW2 Daten sein, du kannst frei wählen."
 
-#: src/views/Account/overview.html:169
+#: src/views/Account/overview.html:180
 #: src/views/Currencies/badges-of-honor.html:25
 #: src/views/Currencies/claim-tickets.html:30
 #: src/views/Currencies/dungeon-tokens.html:110
@@ -4479,9 +4467,9 @@ msgid "Timberline Falls"
 msgstr "Baumgrenzen-Fälle"
 
 #: src/views/Tradingpost/index.html:345
-#: src/views/Tradingpost/index.html:643
-#: src/views/Tradingpost/index.html:689
-#: src/views/Tradingpost/index.html:780
+#: src/views/Tradingpost/index.html:650
+#: src/views/Tradingpost/index.html:696
+#: src/views/Tradingpost/index.html:787
 #: src/views/Worldbosses/index.html:38
 msgid "Time"
 msgstr "Datum"
@@ -4534,8 +4522,8 @@ msgstr "Gesamter Gewinn"
 msgid "Total buy price"
 msgstr "Gesamter Kauf-Preis"
 
-#: src/views/Account/guild.html:154
-#: src/views/Account/guild.html:240
+#: src/views/Account/guild.html:170
+#: src/views/Account/guild.html:256
 msgid "Total cost:"
 msgstr "Gesamte Kosten:"
 
@@ -4561,8 +4549,8 @@ msgid "Total order price"
 msgstr "Gesamter Bestellungs-Preis"
 
 #: src/views/Tradingpost/index.html:199
-#: src/views/Tradingpost/index.html:522
-#: src/views/Tradingpost/index.html:526
+#: src/views/Tradingpost/index.html:529
+#: src/views/Tradingpost/index.html:533
 #: src/views/Tradingpost/investment-history.html:12
 msgid "Total profit"
 msgstr "Gesamter Gewinn"
@@ -4575,7 +4563,7 @@ msgstr "Gesamter Gewinn"
 msgid "Total sell price"
 msgstr "Gesamter Verkaufs-Preis"
 
-#: src/views/Account/guild.html:191
+#: src/views/Account/guild.html:207
 msgid "Total:"
 msgstr "Gesamt:"
 
@@ -4632,17 +4620,17 @@ msgstr "Handelsposten-Preis (Kauf)"
 msgid "Tradingpost Price (sell)"
 msgstr "Handelsposten-Preis (Verkauf)"
 
-#: src/views/Account/overview.html:248
+#: src/views/Account/overview.html:259
 msgid "Tradingpost: Buy Orders"
 msgstr "Handelsposten: Kaufaufträge"
 
-#: src/views/Account/overview.html:280
-#: src/views/Account/overview.html:555
+#: src/views/Account/overview.html:291
+#: src/views/Account/overview.html:608
 msgid "Tradingpost: Delivery Box"
 msgstr "Handelsposten: Warenlager"
 
-#: src/views/Account/overview.html:264
-#: src/views/Account/overview.html:543
+#: src/views/Account/overview.html:275
+#: src/views/Account/overview.html:596
 msgid "Tradingpost: Sell Orders"
 msgstr "Handelsposten: Verkaufsaufträge"
 
@@ -4654,14 +4642,14 @@ msgstr "Transaktions-Geschichte"
 msgid "Transmuted"
 msgstr "Transmutiert"
 
-#: src/views/Account/guild.html:527
+#: src/views/Account/guild.html:543
 #: src/views/Account/guild.html:62
-#: src/views/Account/guild.html:93
+#: src/views/Account/guild.html:99
 msgid "Treasury"
 msgstr "Schatzkammer"
 
 #: src/views/Tradingpost/index.html:435
-#: src/views/Tradingpost/index.html:984
+#: src/views/Tradingpost/index.html:991
 msgid "Trendline"
 msgstr "Trendlinie"
 
@@ -4746,55 +4734,54 @@ msgid "Unlock Statistics"
 msgstr "Freischaltungs-Statistiken"
 
 #: src/views/Account/mailcarriers.html:16
-#: src/views/Account/miniatures.html:16
 msgid "Unlocked"
 msgstr "Freigeschaltet"
 
-#: src/views/Account/overview.html:321
+#: src/views/Account/overview.html:339
 msgid "Unlocked Dyes"
 msgstr "Freigeschaltete Farben"
 
-#: src/views/Account/overview.html:381
+#: src/views/Account/overview.html:399
 msgid "Unlocked Finishers"
 msgstr "Freigeschaltete Todesstöße"
 
-#: src/views/Account/overview.html:441
+#: src/views/Account/overview.html:459
 msgid "Unlocked Gliders"
 msgstr "Freigeschaltete Gleitschirme"
 
-#: src/views/Account/overview.html:429
+#: src/views/Account/overview.html:447
 msgid "Unlocked Home Instance Nodes"
 msgstr "Freigeschaltete Heimatinstanz-Sammelknoten"
 
-#: src/views/Account/overview.html:417
+#: src/views/Account/overview.html:435
 msgid "Unlocked Mailcarriers"
 msgstr "Freigeschaltete Briefboten"
 
-#: src/views/Account/overview.html:333
+#: src/views/Account/overview.html:351
 msgid "Unlocked Miniatures"
 msgstr "Freigeschaltete Miniaturen"
 
-#: src/views/Account/overview.html:345
+#: src/views/Account/overview.html:363
 msgid "Unlocked Mounts"
 msgstr "Freigeschaltete Reittiere"
 
-#: src/views/Account/overview.html:357
+#: src/views/Account/overview.html:375
 msgid "Unlocked Novelties"
 msgstr "Freigeschaltete Extras"
 
-#: src/views/Account/overview.html:369
+#: src/views/Account/overview.html:387
 msgid "Unlocked Outfits"
 msgstr "Freigeschaltete Kleidungssets"
 
-#: src/views/Account/overview.html:405
+#: src/views/Account/overview.html:423
 msgid "Unlocked PvP Heroes"
 msgstr "Freigeschaltete Nebel-Champions"
 
-#: src/views/Account/overview.html:393
+#: src/views/Account/overview.html:411
 msgid "Unlocked Recipes"
 msgstr "Freigeschaltete Rezepte"
 
-#: src/views/Account/overview.html:308
+#: src/views/Account/overview.html:319
 msgid "Unlocked Skins"
 msgstr "Freigeschaltete Skins"
 
@@ -4802,11 +4789,11 @@ msgstr "Freigeschaltete Skins"
 msgid "Unranked Queue"
 msgstr "Nicht bewertete Arena"
 
-#: src/views/Crafting/calculator.html:198
+#: src/views/Crafting/calculator.html:219
 msgid "Update own materials & best path every minute (last update: {{ tree.lastUpdate | date:'shortTime' }})"
 msgstr "Aktualisiere eigene Materialien und besten Herstellungsweg jede Minute (Letzte Aktualisierung: {{ tree.lastUpdate | date:'shortTime' }})"
 
-#: src/views/Account/guild.html:396
+#: src/views/Account/guild.html:412
 msgid "Upgrade"
 msgstr "Aufwertung"
 
@@ -4834,7 +4821,7 @@ msgstr "Benutze eigene Materialien"
 msgid "Used / Total slots"
 msgstr "Plätze verwendet / gesamt"
 
-#: src/views/Crafting/calculator.html:192
+#: src/views/Crafting/calculator.html:213
 msgid "Used owned materials"
 msgstr "Benutze eigene Materialien"
 
@@ -4860,8 +4847,9 @@ msgstr "Wegmarke Vals-See"
 
 #: src/views/Account/bank.html:29
 #: src/views/Account/character.html:226
-#: src/views/Account/guild.html:572
-#: src/views/Account/overview.html:178
+#: src/views/Account/guild.html:588
+#: src/views/Account/overview.html:189
+#: src/views/Account/overview.html:529
 #: src/views/Account/overview.html:82
 #: src/views/Account/shared-inventory.html:29
 #: src/views/Tradingpost/delivery.html:62
@@ -4871,6 +4859,11 @@ msgstr "Wert"
 #: src/views/_directives/tooltip.html:185
 msgid "Value:"
 msgstr "Wert:"
+
+#: src/views/Account/guild.html:109
+#: src/views/Account/guild.html:68
+msgid "Vault"
+msgstr "Tresor"
 
 #: src/views/_directives/componentTree.html:43
 #: src/views/_directives/componentTree.html:49
@@ -4922,7 +4915,7 @@ msgid "Waiting for the server to respond..."
 msgstr "Warte auf Antwort des Servers..."
 
 #: src/files/index.html:230
-#: src/views/Account/overview.html:184
+#: src/views/Account/overview.html:195
 #: src/views/Account/wallet.html:3
 msgid "Wallet"
 msgstr "Geldbörse"
@@ -4965,7 +4958,7 @@ msgstr "Wegmarke Wachsame Quelle"
 msgid "Wayfarer Foothills"
 msgstr "Wanderer-Hügel"
 
-#: src/scripts/controllers/Worldbosses/IndexController.js:251
+#: src/scripts/controllers/Worldbosses/IndexController.js:252
 msgid "Waypoint"
 msgstr "Wegpunkt"
 
@@ -5034,7 +5027,7 @@ msgstr "Gewinnrate"
 msgid "Winter Chimes"
 msgstr "Winter-Glockenspiel"
 
-#: src/views/Crafting/calculator.html:130
+#: src/views/Crafting/calculator.html:151
 msgid "Without using own materials"
 msgstr "Eigene Materialien nicht genutzt"
 
@@ -5092,6 +5085,10 @@ msgstr "Du bist für die nächste Ziehung eingetragen. Viel Glück!"
 msgid "You are entered, good luck!"
 msgstr "Du nimmst teil, viel Glück!"
 
+#: src/views/Account/overview.html:134
+msgid "You are higher than {{ topPercent(wealth.rank / wealth.participants) | number }}% of {{ wealth.participants | number }} accounts."
+msgstr "Höher als {{ topPercent(wealth.rank / wealth.participants) | number }}% von {{ wealth.participants | number }} Accounts."
+
 #: src/views/_backend.html:300
 msgid "You can buy one of these each day from the Karmic Converter (needs \"Exotic Hunter\" achievement)"
 msgstr "Du kannst einen dieser Gegenstände täglich vom Karmischer Konverter kaufen (benötigt Erfolg \"Exotischer Jäger\")"
@@ -5103,6 +5100,10 @@ msgstr "Diese Gegenstände können nur ein Mal pro Account erworben werden."
 #: src/views/Tradingpost/index.html:237
 msgid "You don't have any tracked items."
 msgstr "Du hast keine verfolgten Gegenstände."
+
+#: src/views/Crafting/calculator.html:360
+msgid "You have no character with this discipline"
+msgstr "Du besitzt keinen Charakter mit diesem Handwerksberuf"
 
 #: src/views/Dashboard/index.html:113
 #: src/views/Dashboard/index.html:121
@@ -5117,11 +5118,7 @@ msgstr "Du musst beide Felder ausfüllen"
 msgid "You have {{ (completion_unlocked = (mailcarriers | filter:mailcarrierFilter | filter:{unlocked: true}).length) | number:0 }} of {{ (completion_total = (mailcarriers | filter:mailcarrierFilter).length) }} ({{ (completion_unlocked / completion_total) * 100 | number:1 }}%) mailcarriers matching the filter."
 msgstr "Du hast {{ (completion_unlocked = (mailcarriers | filter:mailcarrierFilter | filter:{unlocked: true}).length) | number:0 }} von {{ (completion_total = (mailcarriers | filter:mailcarrierFilter).length) }} ({{ (completion_unlocked / completion_total) * 100 | number:1 }}%) Briefboten, die auf den Filter passen."
 
-#: src/views/Account/miniatures.html:70
-msgid "You have {{ (completion_unlocked = (miniatures | filter:miniatureFilter | filter:{unlocked: true}).length) | number:0 }} of {{ (completion_total = (miniatures | filter:miniatureFilter).length) }} ({{ (completion_unlocked / completion_total) * 100 | number:1 }}%) miniatures matching the filter."
-msgstr "Du hast {{ (completion_unlocked = (miniatures | filter:miniatureFilter | filter:{unlocked: true}).length) | number:0 }} von {{ (completion_total = (miniatures | filter:miniatureFilter).length) }} ({{ (completion_unlocked / completion_total) * 100 | number:1 }}%) Miniaturen, die auf den Filter passen."
-
-#: src/views/Account/overview.html:490
+#: src/views/Account/overview.html:508
 msgid "You played a total of {{ total_age | timeString:1:true:false:['hour', 'minute', 'second'] }} across all characters"
 msgstr "Du hast insgesamt {{ total_age | timeString:1:true:false:['hour', 'minute', 'second'] }} auf allen Charakteren gespielt"
 
@@ -5140,10 +5137,6 @@ msgstr "Dein Kauf-Preis"
 #: src/views/Account/mailcarriers.html:34
 msgid "Your collection is worth <span gold amount=\"priceSum((mailcarriers | filter:mailcarrierFilter | filter:{unlocked: true}))\" display-copper=\"false\"></span>, and you would need <span gold amount=\"priceSum((mailcarriers | filter:mailcarrierFilter | filter:{unlocked: false}))\" display-copper=\"false\"></span> to complete it."
 msgstr "Deine Sammlung ist <span gold amount=\"priceSum((mailcarriers | filter:mailcarrierFilter | filter:{unlocked: true}))\" display-copper=\"false\"></span> wert und du würdest <span gold amount=\"priceSum((mailcarriers | filter:mailcarrierFilter | filter:{unlocked: false}))\" display-copper=\"false\"></span> brauchen, um sie zu vervollständigen."
-
-#: src/views/Account/miniatures.html:71
-msgid "Your collection is worth <span gold amount=\"priceSum((miniatures | filter:miniatureFilter | filter:{unlocked: true}))\" display-copper=\"false\"></span>, and you would need <span gold amount=\"priceSum((miniatures | filter:miniatureFilter | filter:{unlocked: false}))\" display-copper=\"false\"></span> to complete it."
-msgstr "Deine Sammlung ist <span gold amount=\"priceSum((miniatures | filter:miniatureFilter | filter:{unlocked: true}))\" display-copper=\"false\"></span> wert und du würdest <span gold amount=\"priceSum((miniatures | filter:miniatureFilter | filter:{unlocked: false}))\" display-copper=\"false\"></span> brauchen, um sie zu vervollständigen."
 
 #: src/views/_directives/errorSplash.html:20
 msgid "Your current API key is invalid."
@@ -5196,18 +5189,17 @@ msgstr "Anzahl"
 
 #: src/scripts/directives/stackedQuantity.js:9
 #: src/scripts/filters/timeString.js:174
-#: src/views/Crafting/calculator.html:349
+#: src/views/Crafting/calculator.html:400
 msgid "and"
 msgstr "und"
 
-#: src/views/Tradingpost/index.html:1043
-#: src/views/Tradingpost/index.html:496
+#: src/views/Tradingpost/index.html:1057
+#: src/views/Tradingpost/index.html:503
 msgid "available"
 msgstr "verfügbar"
 
 #: src/views/Account/gemstore-upgrades.html:23
 #: src/views/Account/mailcarriers.html:57
-#: src/views/Account/miniatures.html:95
 #: src/views/Tradingpost/delivery.html:120
 #: src/views/Tradingpost/delivery.html:90
 msgid "bound"
@@ -5223,8 +5215,8 @@ msgstr "k"
 
 #: src/views/Account/achievements.html:153
 #: src/views/Account/achievements.html:91
-#: src/views/Account/guild.html:270
-#: src/views/Account/guild.html:434
+#: src/views/Account/guild.html:286
+#: src/views/Account/guild.html:450
 msgid "completed"
 msgstr "abgeschlossen"
 
@@ -5241,9 +5233,9 @@ msgstr "Tode pro Stunde"
 msgid "done editing"
 msgstr "bearbeiten abschließen"
 
-#: src/views/Crafting/calculator.html:266
-#: src/views/Crafting/calculator.html:277
-#: src/views/Crafting/calculator.html:296
+#: src/views/Crafting/calculator.html:292
+#: src/views/Crafting/calculator.html:303
+#: src/views/Crafting/calculator.html:322
 msgid "each"
 msgid_plural "per {{$count}}"
 msgstr[0] "pro"
@@ -5254,11 +5246,15 @@ msgstr[1] "pro  {{$count}}"
 msgid "edit"
 msgstr "bearbeiten"
 
-#: src/views/Tradingpost/index.html:554
+#: src/views/Tradingpost/index.html:561
 msgid "even on"
 msgstr "Gewinn ab"
 
-#: src/views/Account/guild.html:301
+#: src/views/Account/overview.html:118
+msgid "excl. gemstore items"
+msgstr "exkl. Edelstein-Gegenstände"
+
+#: src/views/Account/guild.html:317
 msgid "exclude owned resources"
 msgstr "ohne vorhandene Ressourcen"
 
@@ -5282,7 +5278,12 @@ msgstr "verberge"
 msgid "in {{$time}}"
 msgstr "in {{$time}}"
 
-#: src/views/Account/overview.html:314
+#: src/views/Account/overview.html:124
+msgid "incl. gemstore items"
+msgstr "inkl. Edelstein-Gegenstände"
+
+#: src/views/Account/overview.html:327
+#: src/views/Account/overview.html:331
 msgid "including items in inventories"
 msgstr "mit Gegenständen in Inventaren"
 
@@ -5327,12 +5328,12 @@ msgstr[1] "Ziele"
 msgid "old"
 msgstr "alt"
 
-#: src/views/Tradingpost/index.html:1029
-#: src/views/Tradingpost/index.html:481
+#: src/views/Tradingpost/index.html:1043
+#: src/views/Tradingpost/index.html:488
 msgid "ordered"
 msgstr "bestellt"
 
-#: src/views/Crafting/calculator.html:339
+#: src/views/Crafting/calculator.html:386
 msgid "out of"
 msgstr "aus folgendem her"
 
@@ -5391,9 +5392,9 @@ msgstr "bis"
 msgid "your account.1234"
 msgstr "Dein Account.1234"
 
-#: src/views/Crafting/calculator.html:218
-msgid "{{ owned_item.ownedQuantity | number: 0 }} owned - hover for details"
-msgstr "{{ owned_item.ownedQuantity | number: 0 }} im Besitz - Details beim Maus-Over"
+#: src/views/Crafting/calculator.html:239
+msgid "{{ owned_item.ownedQuantity | number: 0 }} total owned"
+msgstr "{{ owned_item.ownedQuantity | number: 0 }} im Besitz"
 
 #: src/scripts/filters/timeString.js:119
 msgid "{{$count}} day"
@@ -5441,6 +5442,24 @@ msgstr[1] "{{$count}} Jahre"
 #: src/scripts/filters/timeAgoString.js:56
 msgid "{{$time}} ago"
 msgstr "vor {{$time}}"
+
+#~ msgid "Accountbound miniatures:"
+#~ msgstr "Accountgebundene Miniaturen:"
+
+#~ msgid "No miniatures matching these filters."
+#~ msgstr "Es gibt keine Miniaturen, die auf deinen Filter passen."
+
+#~ msgid "Set:"
+#~ msgstr "Set:"
+
+#~ msgid "Stash"
+#~ msgstr "Lager"
+
+#~ msgid "You have {{ (completion_unlocked = (miniatures | filter:miniatureFilter | filter:{unlocked: true}).length) | number:0 }} of {{ (completion_total = (miniatures | filter:miniatureFilter).length) }} ({{ (completion_unlocked / completion_total) * 100 | number:1 }}%) miniatures matching the filter."
+#~ msgstr "Du hast {{ (completion_unlocked = (miniatures | filter:miniatureFilter | filter:{unlocked: true}).length) | number:0 }} von {{ (completion_total = (miniatures | filter:miniatureFilter).length) }} ({{ (completion_unlocked / completion_total) * 100 | number:1 }}%) Miniaturen, die auf den Filter passen."
+
+#~ msgid "Your collection is worth <span gold amount=\"priceSum((miniatures | filter:miniatureFilter | filter:{unlocked: true}))\" display-copper=\"false\"></span>, and you would need <span gold amount=\"priceSum((miniatures | filter:miniatureFilter | filter:{unlocked: false}))\" display-copper=\"false\"></span> to complete it."
+#~ msgstr "Deine Sammlung ist <span gold amount=\"priceSum((miniatures | filter:miniatureFilter | filter:{unlocked: true}))\" display-copper=\"false\"></span> wert und du würdest <span gold amount=\"priceSum((miniatures | filter:miniatureFilter | filter:{unlocked: false}))\" display-copper=\"false\"></span> brauchen, um sie zu vervollständigen."
 
 #~ msgid "Account - Wardrobe"
 #~ msgstr "Account - Garderobe"
