@@ -4,4338 +4,2922 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Project-Id-Version: \n"
 
-#: src/views/Crafting/calculator.html:115
-#: src/views/Crafting/calculator.html:128
-#: src/views/Crafting/calculator.html:141
 msgid "(Excl. cost of own materials)"
 msgstr ""
 
-#: src/views/Account/bank.html:16
-#: src/views/Account/bank.html:25
-#: src/views/Account/guild.html:575
-#: src/views/Account/guild.html:584
-#: src/views/Account/shared-inventory.html:16
-#: src/views/Account/shared-inventory.html:25
-#: src/views/Tradingpost/delivery.html:49
-#: src/views/Tradingpost/delivery.html:58
-#: src/views/Tradingpost/transactions.html:137
-#: src/views/Tradingpost/transactions.html:146
-#: src/views/Tradingpost/transactions.html:155
 msgid "(excluding taxes)"
 msgstr ""
 
-#: src/views/Crafting/calculator.html:104
-#: src/views/Crafting/calculator.html:113
-#: src/views/Crafting/calculator.html:126
-#: src/views/Crafting/calculator.html:139
-#: src/views/Crafting/calculator.html:160
-#: src/views/Crafting/calculator.html:169
-#: src/views/Crafting/calculator.html:178
-#: src/views/Crafting/calculator.html:187
-#: src/views/Crafting/calculator.html:95
 msgid "(per item)"
 msgstr ""
 
-#: src/views/_directives/tooltip.html:111
 msgid "+5 Agony Resistance"
 msgstr ""
 
-#: src/views/Crafting/ascended.html:26
-#: src/views/Crafting/ascended.html:64
 msgid "- All -"
 msgstr ""
 
-#: src/views/Account/statistics.html:139
 msgid "0-500h"
 msgstr ""
 
-#: src/scripts/services/Chart.js:291
 msgid "0-500h playtime"
 msgstr ""
 
-#: src/scripts/controllers/Account/StatisticsController.js:136
 msgid "0.5% of players"
 msgstr ""
 
-#: src/views/Worldbosses/index.html:44
 msgid "1 boss hidden"
 msgid_plural "{{$count}} bosses hidden"
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/views/Community/lottery.html:24
 msgid "1 contestant"
 msgid_plural "{{ $count | number:0}} contestants"
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/views/Crafting/calculator.html:383
 msgid "1 craft"
 msgid_plural "{{$count | number:0 }} crafts"
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/views/Account/character.html:27
 msgid "1 death"
 msgid_plural "{{$count | number}} deaths"
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/views/Dungeons/index.html:16
 msgid "1 dungeon hidden"
 msgid_plural "{{$count}} dungeons hidden"
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/views/_directives/trait-tooltip.html:49
 msgid "1 hit"
 msgid_plural "{{$count}} hits"
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/views/Tradingpost/index.html:1044
-#: src/views/Tradingpost/index.html:1058
-#: src/views/Tradingpost/index.html:489
-#: src/views/Tradingpost/index.html:504
 msgid "1 listing"
 msgid_plural "{{$count}} listings"
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/views/Account/achievements.html:332
 msgid "1 objective completed"
 msgid_plural "{{ $count | number:0 }} objectives completed"
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/scripts/controllers/Account/StatisticsController.js:137
 msgid "1% of players"
 msgstr ""
 
-#: src/scripts/controllers/Account/StatisticsController.js:138
 msgid "10% of players"
 msgstr ""
 
-#: src/views/Account/statistics.html:141
 msgid "1000-2000h"
 msgstr ""
 
-#: src/scripts/services/Chart.js:309
 msgid "1000-2000h playtime"
 msgstr ""
 
-#: src/scripts/controllers/Account/StatisticsController.js:139
 msgid "20% of players"
 msgstr ""
 
-#: src/views/Account/statistics.html:142
 msgid "2000-4000h"
 msgstr ""
 
-#: src/scripts/services/Chart.js:318
 msgid "2000-4000h playtime"
 msgstr ""
 
-#: src/views/Account/statistics.html:143
 msgid "4000h+"
 msgstr ""
 
-#: src/scripts/services/Chart.js:327
 msgid "4000h+ playtime"
 msgstr ""
 
-#: src/scripts/controllers/Account/StatisticsController.js:140
 msgid "50% of players"
 msgstr ""
 
-#: src/views/Account/statistics.html:140
 msgid "500-1000h"
 msgstr ""
 
-#: src/scripts/services/Chart.js:300
 msgid "500-1000h playtime"
 msgstr ""
 
-#: src/scripts/controllers/Account/StatisticsController.js:141
 msgid "75% of players"
 msgstr ""
 
-#: src/scripts/controllers/Account/StatisticsController.js:142
 msgid "90% of players"
 msgstr ""
 
-#: src/scripts/controllers/Account/StatisticsController.js:143
 msgid "99% of players"
 msgstr ""
 
-#: src/views/Tradingpost/index.html:404
-#: src/views/Tradingpost/index.html:960
 msgid "<abbr title=\"Assuming all materials are bought at their buy price\">Crafting price</abbr>"
 msgstr ""
 
-#: src/views/Tradingpost/index.html:411
-#: src/views/Tradingpost/index.html:967
 msgid "<abbr title=\"Assuming all materials are bought at their buy price, and the item is sold at its sell price\">Crafting profit</abbr>"
 msgstr ""
 
-#: src/views/Tradingpost/index.html:531
-#: src/views/Tradingpost/index.html:535
 msgid "<abbr title=\"Average monthly rate of return (this value is only accurate if the investment time is correct and dates back more than one month)\">AMROR</abbr>"
 msgstr ""
 
-#: src/views/Tradingpost/index.html:291
-#: src/views/Tradingpost/index.html:530
-#: src/views/Tradingpost/index.html:534
-#: src/views/Tradingpost/index.html:896
 msgid "<abbr title=\"Return on investment\">ROI</abbr>"
 msgstr ""
 
-#: src/views/Tradingpost/index.html:526
-#: src/views/Tradingpost/index.html:527
 msgid "<abbr title=\"Sell price with tradingpost fees deducted\">Net value</abbr>"
 msgstr ""
 
-#: src/views/Tradingpost/transactions.html:28
 msgid ""
 "<input type=\"checkbox\" ng-model=\"auto_refresh\">\n"
 "            Auto-refresh\n"
 "            <span class=\"eff-color-grey-40\" ng-show=\"last_update\">({{ last_update | date:'shortTime' }})</span>"
 msgstr ""
 
-#: src/views/Community/grouped-lottery.html:14
 msgid "<strong>Check back every day</strong> to enter for prizes and<br>sign up for the <strong>big prizes drawn on the 20th - 25th of December at the bottom!</strong>"
 msgstr ""
 
-#: src/views/Community/grouped-lottery.html:4
 msgid "<strong>Check back on the 1st of December!</strong>"
 msgstr ""
 
-#: src/views/_backend.html:132
 msgid "A Very Merry Wintersday"
 msgstr ""
 
-#: src/views/_directives/errorSplash.html:19
 msgid "API key invalid"
 msgstr ""
 
-#: src/views/_directives/errorSplash.html:26
 msgid "API key is missing permission"
 msgstr ""
 
-#: src/views/Account/guild.html:101
-#: src/views/Account/guild.html:111
-#: src/views/Account/guild.html:121
-#: src/views/Account/guild.html:131
-#: src/views/Account/guild.html:141
-#: src/views/Account/guild.html:151
-#: src/views/Account/guild.html:164
 msgid "API key needs \"guilds\" permission"
 msgstr ""
 
-#: src/views/_directives/errorSplash.html:8
 msgid "API key required"
 msgstr ""
 
-#: src/files/index.html:123
-#: src/files/index.html:166
 msgid "API keys"
 msgstr ""
 
-#: src/views/Tradingpost/index.html:25
 msgid "ASC"
 msgstr ""
 
-#: src/scripts/services/Tradingpost.js:153
 msgid "Accessories"
 msgstr ""
 
-#: src/views/_backend.html:246
 msgid "Accessory"
 msgstr ""
 
-#: src/files/index.html:125
-#: src/files/index.html:132
-#: src/files/index.html:173
-#: src/files/index.html:202
-#: src/scripts/controllers/User/IndexController.js:3
-#: src/views/Account/overview.html:26
-#: src/views/Dashboard/index.html:97
 msgid "Account"
 msgstr ""
 
-#: src/scripts/controllers/Account/AchievementsController.js:6
 msgid "Account - Achievements"
 msgstr ""
 
-#: src/scripts/controllers/Account/CharacterController.js:11
 msgid "Account - Character -"
 msgstr ""
 
-#: src/scripts/controllers/Account/CharactersController.js:6
 msgid "Account - Characters"
 msgstr ""
 
-#: src/scripts/controllers/Account/GemstoreUpgradesController.js:6
 msgid "Account - Gemstore Account Upgrades"
 msgstr ""
 
-#: src/scripts/controllers/Account/GuildController.js:8
 msgid "Account - Guild"
 msgstr ""
 
-#: src/scripts/controllers/Account/GuildsController.js:3
 msgid "Account - Guilds"
 msgstr ""
 
-#: src/scripts/controllers/Account/OverviewController.js:18
 msgid "Account - Overview"
 msgstr ""
 
-#: src/scripts/controllers/Account/PvpController.js:6
 msgid "Account - PvP"
 msgstr ""
 
-#: src/scripts/controllers/Account/SabController.js:3
 msgid "Account - SAB"
 msgstr ""
 
-#: src/scripts/controllers/Account/WalletController.js:6
 msgid "Account - Wallet"
 msgstr ""
 
-#: src/views/Account/overview.html:2
 msgid "Account Overview"
 msgstr ""
 
-#: src/files/index.html:291
-#: src/views/Account/statistics.html:3
 msgid "Account Statistics"
 msgstr ""
 
-#: src/views/Account/overview.html:471
 msgid "Account Upgrades"
 msgstr ""
 
-#: src/views/Account/overview.html:113
 msgid "Account Value"
 msgstr ""
 
-#: src/scripts/services/Chart.js:647
 msgid "Account value"
 msgstr ""
 
-#: src/views/_backend.html:270
 msgid "Accountbound"
 msgstr ""
 
-#: src/views/_backend.html:271
 msgid "Accountbound on use"
 msgstr ""
 
-#: src/files/index.html:218
 msgid "Achievements"
 msgstr ""
 
-#: src/scripts/controllers/Worldbosses/IndexController.js:257
-#: src/views/Worldbosses/index.html:84
 msgid "Active"
 msgstr ""
 
-#: src/views/_directives/errorSplash.html:10
 msgid "Add an API key"
 msgstr ""
 
-#: src/views/Crafting/calculator.html:48
 msgid "Add another item"
 msgstr ""
 
-#: src/views/Tradingpost/index.html:907
 msgid "Add this item to your tracked items"
 msgstr ""
 
-#: src/views/_backend.html:67
 msgid "Admiral Taidha Covington"
 msgstr ""
 
-#: src/views/Community/grouped-lottery.html:13
-#: src/views/Community/grouped-lottery.html:3
 msgid "Advent Calendar 2020"
 msgstr ""
 
-#: src/views/_backend.html:322
 msgid "Aetherblade"
 msgstr ""
 
-#: src/views/Account/guild.html:388
 msgid "Aetherium"
 msgstr ""
 
-#: src/views/Account/guild.html:391
 msgid "Aetherium / Exp"
 msgstr ""
 
-#: src/views/_backend.html:27
 msgid "Aetherpath (Path 4)"
 msgstr ""
 
-#: src/views/Tradingpost/history.html:274
-#: src/views/Tradingpost/history.html:98
-#: src/views/Tradingpost/transactions.html:174
-#: src/views/Tradingpost/transactions.html:72
 msgid "Age"
 msgstr ""
 
-#: src/views/_backend.html:302
 msgid "Agent Crandle"
 msgstr ""
 
-#: src/views/_backend.html:203
 msgid "Agony Resistance"
 msgstr ""
 
-#: src/views/_backend.html:369
 msgid "Akk Wilds Waypoint"
 msgstr ""
 
-#: src/views/Account/achievements.html:18
-#: src/views/Account/achievements.html:32
-#: src/views/Account/guild.html:372
-#: src/views/Account/mailcarriers.html:14
-#: src/views/Tradingpost/transactions.html:22
 msgid "All"
 msgstr ""
 
-#: src/views/Currencies/dungeon-tokens.html:14
 msgid "All dungeons"
 msgstr ""
 
-#: src/views/Account/pvp.html:172
 msgid "All professions"
 msgstr ""
 
-#: src/views/Account/statistics.html:170
 msgid "All the data collected is only publicly available anonymized and <strong>without connection to any individual accounts</strong>.<br>If you still don't want your account data to be included in the wealth distribution, please click <a ng-click=\"blacklist('add')\">here</a>.<br>If you blacklisted yourself and you changed your mind, please click <a ng-click=\"blacklist('remove')\">here</a>."
 msgstr ""
 
-#: src/views/Account/guild.html:358
-#: src/views/Account/guild.html:56
 msgid "All upgrades"
 msgstr ""
 
-#: src/views/Account/overview.html:102
 msgid "Always"
 msgstr ""
 
-#: src/views/Crafting/calculator.html:36
 msgid "Amount"
 msgstr ""
 
-#: src/views/_backend.html:247
 msgid "Amulet"
 msgstr ""
 
-#: src/scripts/services/Tradingpost.js:154
 msgid "Amulets"
 msgstr ""
 
-#: src/views/User/password-remind.html:30
 msgid "An email has been sent to the email address provided."
 msgstr ""
 
-#: src/views/Account/achievements.html:45
-#: src/views/Account/overview.html:11
-#: src/views/Account/overview.html:24
-#: src/views/Account/overview.html:33
-#: src/views/Account/overview.html:40
-#: src/views/Account/overview.html:47
-#: src/views/Account/overview.html:54
-#: src/views/Crafting/legendaries.html:10
 msgid "Any"
 msgstr ""
 
-#: src/views/_backend.html:405
 msgid "Apostate Waypoint"
 msgstr ""
 
-#: src/scripts/services/Tradingpost.js:140
-#: src/views/Crafting/ascended.html:54
 msgid "Aquatic Headgear"
 msgstr ""
 
-#: src/views/_backend.html:314
 msgid "Aquatic Ruins (Dark Path)"
 msgstr ""
 
-#: src/views/_backend.html:325
 msgid "Aquatic Ruins (Dolphin Path)"
 msgstr ""
 
-#: src/scripts/controllers/Tradingpost/InvestmentHistoryController.js:70
 msgid "Are you sure that you want to delete this investment?"
 msgstr ""
 
-#: src/scripts/services/Tradingpost.js:134
-#: src/views/Crafting/ascended.html:15
-#: src/views/Crafting/legendaries.html:13
-#: src/views/_backend.html:192
 msgid "Armor"
 msgstr ""
 
-#: src/scripts/services/Tradingpost.js:188
 msgid "Armor Runes"
 msgstr ""
 
-#: src/views/Account/characters.html:29
-#: src/views/_backend.html:188
 msgid "Armorsmith"
 msgstr ""
 
-#: src/views/_backend.html:352
 msgid "Artichoke"
 msgstr ""
 
-#: src/views/Account/characters.html:30
-#: src/views/_backend.html:180
 msgid "Artificer"
 msgstr ""
 
-#: src/views/_backend.html:414
 msgid "Arundon Waypoint"
 msgstr ""
 
-#: src/views/Currencies/dungeon-tokens.html:19
-#: src/views/_backend.html:9
 msgid "Ascalonian Catacombs"
 msgstr ""
 
-#: src/views/Account/overview.html:17
-#: src/views/Tradingpost/index.html:78
-#: src/views/_backend.html:217
 msgid "Ascended"
 msgstr ""
 
-#: src/views/_backend.html:5
 msgid "Ascended Materials"
 msgstr ""
 
-#: src/files/index.html:377
 msgid "Ascended Weapons &amp; Armor"
 msgstr ""
 
-#: src/views/_backend.html:361
 msgid "Ashford Waypoint"
 msgstr ""
 
-#: src/views/_backend.html:158
 msgid "Asura"
 msgstr ""
 
-#: src/views/_backend.html:22
 msgid "Asura (Path 1)"
 msgstr ""
 
-#: src/scripts/controllers/Currencies/SpiritShardController.js:58
 msgid "Augur's Stone"
 msgstr ""
 
-#: src/views/Account/achievements.html:103
 msgid "Available"
 msgstr ""
 
-#: src/views/Currencies/spirit-shards.html:113
 msgid "Average"
 msgstr ""
 
-#: src/views/Tradingpost/index.html:738
-#: src/views/Tradingpost/index.html:742
-#: src/views/Tradingpost/index.html:758
-#: src/views/Tradingpost/index.html:762
 msgid "Average per item"
 msgstr ""
 
-#: src/views/Tradingpost/history.html:164
-#: src/views/Tradingpost/history.html:31
 msgid "Avg. buy price / each"
 msgstr ""
 
-#: src/views/Tradingpost/history.html:329
-#: src/views/Tradingpost/history.html:46
 msgid "Avg. sell price / each"
 msgstr ""
 
-#: src/views/Crafting/ascended.html:32
-#: src/views/_backend.html:225
 msgid "Axe"
 msgstr ""
 
-#: src/scripts/services/Tradingpost.js:162
 msgid "Axes"
 msgstr ""
 
-#: src/scripts/services/Tradingpost.js:147
-#: src/views/Crafting/ascended.html:16
 msgid "Back"
 msgstr ""
 
-#: src/views/User/password-remind.html:41
-#: src/views/User/password-reset.html:33
 msgid "Back to login"
 msgstr ""
 
-#: src/views/Crafting/legendaries.html:12
 msgid "Backpieces"
 msgstr ""
 
-#: src/files/index.html:316
 msgid "Badges of Honor"
 msgstr ""
 
-#: src/views/Account/character.html:223
 msgid "Bags"
 msgstr ""
 
-#: src/files/index.html:233
-#: src/views/Account/overview.html:211
-#: src/views/Account/overview.html:560
 msgid "Bank"
 msgstr ""
 
-#: src/views/Account/overview.html:12
-#: src/views/Tradingpost/index.html:73
-#: src/views/_backend.html:213
 msgid "Basic"
 msgstr ""
 
-#: src/views/_backend.html:133
 msgid "Battle for Lion's Arch: Aftermath"
 msgstr ""
 
-#: src/views/_backend.html:282
 msgid "Beaded weapons"
 msgstr ""
 
-#: src/views/Account/overview.html:173
-#: src/views/Account/statistics.html:103
-#: src/views/Community/lottery.html:73
 msgid "Become one here!"
 msgstr ""
 
-#: src/views/_backend.html:363
 msgid "Beetletun Waypoint"
 msgstr ""
 
-#: src/views/_backend.html:392
 msgid "Behem Waypoint"
 msgstr ""
 
-#: src/views/_backend.html:173
 msgid "Berserker"
 msgstr ""
 
-#: src/views/Tradingpost/transactions.html:24
 msgid "Best bidder only"
 msgstr ""
 
-#: src/views/Crafting/calculator.html:202
 msgid "Best path"
 msgstr ""
 
-#: src/views/Account/overview.html:22
 msgid "Binding:"
 msgstr ""
 
-#: src/views/Currencies/dungeon-tokens.html:103
-#: src/views/Currencies/dungeon-tokens.html:86
 msgid "Black Lion Salvage Kit"
 msgstr ""
 
-#: src/views/Currencies/claim-tickets.html:16
 msgid "Black Lion Weapons Specialist"
 msgstr ""
 
-#: src/views/_backend.html:372
 msgid "Blasted Moors Waypoint"
 msgstr ""
 
-#: src/views/_backend.html:86
 msgid "Blazeridge Steppes"
 msgstr ""
 
-#: src/scripts/controllers/Currencies/SpiritShardController.js:66
 msgid "Bloodstone Shard"
 msgstr ""
 
-#: src/views/_backend.html:92
 msgid "Bloodtide Coast"
 msgstr ""
 
-#: src/views/_backend.html:142
 msgid "Blue"
 msgstr ""
 
-#: src/views/Account/pvp.html:238
 msgid "Blue team"
 msgstr ""
 
-#: src/views/_backend.html:202
 msgid "Boon Duration"
 msgstr ""
 
-#: src/scripts/services/Tradingpost.js:141
-#: src/views/Crafting/ascended.html:53
-#: src/views/_backend.html:219
 msgid "Boots"
 msgstr ""
 
-#: src/scripts/services/Tradingpost.js:198
 msgid "Booze"
 msgstr ""
 
-#: src/views/_backend.html:292
 msgid "Bram Dawnrazer"
 msgstr ""
 
-#: src/views/_backend.html:72
 msgid "Branded Devourer Queen"
 msgstr ""
 
-#: src/views/_backend.html:407
 msgid "Breaktooth’s Waypoint"
 msgstr ""
 
-#: src/views/_backend.html:105
 msgid "Brisban Wildlands"
 msgstr ""
 
-#: src/views/_backend.html:144
 msgid "Brown"
 msgstr ""
 
-#: src/views/Account/character.html:44
-#: src/views/Account/character.html:89
 msgid "Build"
 msgstr ""
 
-#: src/views/Account/guild.html:374
 msgid "Buildable"
 msgstr ""
 
-#: src/views/Account/guild.html:385
-#: src/views/Account/guild.html:411
 msgid "Building"
 msgstr ""
 
-#: src/views/_backend.html:399
 msgid "Bulwark Waypoint"
 msgstr ""
 
-#: src/views/_backend.html:34
 msgid "Butcher (Path 1)"
 msgstr ""
 
-#: src/views/_backend.html:24
 msgid "Butler (Path 3)"
 msgstr ""
 
-#: src/views/_backend.html:350
 msgid "Butternut Squash"
 msgstr ""
 
-#: src/views/_backend.html:297
 msgid "Buy 75x \"Sun Bead\" from the vendor and then craft the (sellable) item ouf of them.<br>You have to discover the recipe via the \"discovery\" tab of your crafing profession."
 msgstr ""
 
-#: src/views/Tradingpost/index.html:1039
-#: src/views/Tradingpost/index.html:483
 msgid "Buy Listings"
 msgstr ""
 
-#: src/views/Crafting/calculator.html:204
 msgid "Buy all"
 msgstr ""
 
-#: src/views/_backend.html:287
 msgid "Buy four of these karma items and forge them together using the mystic forge.<br>This converts them into items you can salvage for materials."
 msgstr ""
 
-#: src/views/Tradingpost/history.html:10
-#: src/views/Tradingpost/history.html:82
 msgid "Buy history"
 msgstr ""
 
-#: src/views/Tradingpost/transactions.html:13
-#: src/views/Tradingpost/transactions.html:43
 msgid "Buy listings"
 msgstr ""
 
-#: src/views/_backend.html:303
 msgid "Buy obsidian shards, craft mystic clovers and hope for random materials"
 msgstr ""
 
-#: src/scripts/services/Chart.js:185
-#: src/views/Account/bank.html:20
-#: src/views/Account/character.html:224
-#: src/views/Account/guild.html:579
-#: src/views/Account/shared-inventory.html:20
-#: src/views/Currencies/badges-of-honor.html:10
-#: src/views/Currencies/claim-tickets.html:10
-#: src/views/Currencies/dungeon-tokens.html:9
-#: src/views/Currencies/guild-commendations.html:10
-#: src/views/Currencies/karma.html:10
-#: src/views/Currencies/karma.html:19
-#: src/views/Currencies/laurels.html:10
-#: src/views/Currencies/spirit-shards.html:10
-#: src/views/Currencies/spirit-shards.html:19
-#: src/views/Tradingpost/delivery.html:53
-#: src/views/Tradingpost/index.html:30
-#: src/views/Tradingpost/index.html:542
-#: src/views/Tradingpost/index.html:88
-#: src/views/Tradingpost/investment-history.html:63
 msgid "Buy price"
 msgstr ""
 
-#: src/views/Account/character.html:227
 msgid "Buy price (per unit)"
 msgstr ""
 
-#: src/views/Tradingpost/index.html:432
-#: src/views/Tradingpost/index.html:988
 msgid "Buy price / demand"
 msgstr ""
 
-#: src/views/_directives/tooltip.html:173
 msgid "Buy price:"
 msgstr ""
 
-#: src/views/Tradingpost/index.html:298
 msgid "Buy stock of this item"
 msgstr ""
 
-#: src/views/_backend.html:301
 msgid "Buy the jewlery boxes from any karma vendor in Orr and open them.<br>Use all the karma consumables you get out of them and sell the rest."
 msgstr ""
 
-#: src/scripts/services/Chart.js:537
 msgid "Buying 100 Gems"
 msgstr ""
 
-#: src/views/_backend.html:346
 msgid "Cabbage"
 msgstr ""
 
-#: src/views/Dashboard/index.html:135
 msgid "Calculate the best way to craft recipes, get shopping lists and display exact crafting steps."
 msgstr ""
 
-#: src/files/index.html:371
 msgid "Calculator"
 msgstr ""
 
-#: src/views/_backend.html:85
 msgid "Caledon Forest"
 msgstr ""
 
-#: src/views/_backend.html:368
 msgid "Caledon Haven Waypoint"
 msgstr ""
 
-#: src/views/User/password-remind.html:25
 msgid ""
 "Can't find a user with that e-mail address, please contact support under <a href=\"mailto:support@gw2efficiency.com\">support@gw2efficiency.com</a>\n"
 "                    for instructions on how to get your account back."
 msgstr ""
 
-#: src/views/_backend.html:328
 msgid "Captain Mai Trin Boss"
 msgstr ""
 
-#: src/views/_backend.html:353
 msgid "Carrot, Lettuce, Cabbage & Cactus"
 msgstr ""
 
-#: src/views/Tradingpost/index.html:53
 msgid "Category"
 msgstr ""
 
-#: src/views/Currencies/dungeon-tokens.html:25
-#: src/views/_backend.html:10
 msgid "Caudecus's Manor"
 msgstr ""
 
-#: src/views/_backend.html:349
 msgid "Cauliflower"
 msgstr ""
 
-#: src/views/Account/achievements.html:46
 msgid "Central Tyria"
 msgstr ""
 
-#: src/views/_backend.html:373
 msgid "Cereboth Waypoint"
 msgstr ""
 
-#: src/views/Account/overview.html:27
 msgid "Character"
 msgstr ""
 
-#: src/views/Account/overview.html:31
 msgid "Character:"
 msgstr ""
 
-#: src/files/index.html:209
-#: src/views/Account/characters.html:2
 msgid "Characters"
 msgstr ""
 
-#: src/views/_backend.html:161
 msgid "Charr"
 msgstr ""
 
-#: src/views/Worldbosses/index.html:64
 msgid "Chat tools"
 msgstr ""
 
-#: src/views/Account/characters.html:31
-#: src/views/_backend.html:184
 msgid "Chef"
 msgstr ""
 
-#: src/scripts/services/Tradingpost.js:136
-#: src/views/Crafting/ascended.html:50
 msgid "Chest"
 msgstr ""
 
-#: src/views/_backend.html:280
 msgid "Choking"
 msgstr ""
 
-#: src/views/_backend.html:176
 msgid "Chronomancer"
 msgstr ""
 
-#: src/views/Currencies/dungeon-tokens.html:44
-#: src/views/_backend.html:13
 msgid "Citadel of Flame"
 msgstr ""
 
-#: src/files/index.html:328
 msgid "Claim Tickets"
 msgstr ""
 
-#: src/views/Account/pvp.html:188
-#: src/views/Account/pvp.html:62
 msgid "Class"
 msgstr ""
 
-#: src/views/_backend.html:62
 msgid "Claw of Jormag"
 msgstr ""
 
-#: src/views/Tradingpost/delivery.html:105
 msgid "Clear Notification"
 msgstr ""
 
-#: src/views/_backend.html:291
 msgid "Clerk Ulva"
 msgstr ""
 
-#: src/views/Crafting/ascended.html:96
-#: src/views/Crafting/legendaries.html:38
 msgid "Click any of the items below to open the crafting tree & shopping list"
 msgstr ""
 
-#: src/scripts/directives/inlineVideo.js:3
-#: src/views/_backend.html:156
 msgid "Click for a video guide!"
 msgstr ""
 
-#: src/views/Account/wallet.html:6
 msgid "Click on the specific currencies to see their conversion into gold."
 msgstr ""
 
-#: src/views/_backend.html:154
 msgid "Click to copy"
 msgstr ""
 
-#: src/views/_backend.html:151
 msgid "Click to select"
 msgstr ""
 
-#: src/views/_backend.html:153
 msgid "Click to show acquisition and preview of this skin"
 msgstr ""
 
-#: src/views/Worldbosses/index.html:96
 msgid "Click to show the times this event runs"
 msgstr ""
 
-#: src/views/_backend.html:318
 msgid "Cliffside"
 msgstr ""
 
-#: src/views/Worldbosses/index.html:110
-#: src/views/_backend.html:152
 msgid "Close"
 msgstr ""
 
-#: src/views/_backend.html:211
 msgid "Clothing"
 msgstr ""
 
-#: src/views/_backend.html:390
 msgid "Cloven Hoof Waypoint"
 msgstr ""
 
-#: src/views/_backend.html:220
 msgid "Coat"
 msgstr ""
 
-#: src/views/Currencies/spirit-shards.html:295
 msgid "Collapse"
 msgstr ""
 
-#: src/views/Crafting/calculator.html:198
 msgid "Collapse all"
 msgstr ""
 
-#: src/views/Account/achievements.html:27
 msgid "Collapse:"
 msgstr ""
 
-#: src/views/Tradingpost/history.html:151
 msgid "Collapsed buy history"
 msgstr ""
 
-#: src/views/Tradingpost/history.html:316
 msgid "Collapsed sell history"
 msgstr ""
 
-#: src/views/Tradingpost/history.html:15
 msgid "Collapsed view:"
 msgstr ""
 
-#: src/views/Account/achievements.html:256
 msgid "Collapsed: click to show objectives, collections and tiers"
 msgstr ""
 
-#: src/views/Account/achievements.html:282
 msgid "Collection:"
 msgstr ""
 
-#: src/views/Currencies/spirit-shards.html:96
 msgid "Combine"
 msgstr ""
 
-#: src/views/_backend.html:127
 msgid "Common"
 msgstr ""
 
-#: src/views/_backend.html:2
 msgid "Common Crafting Materials"
 msgstr ""
 
-#: src/views/_backend.html:97
 msgid "Common Crafting Materials (Refined)"
 msgstr ""
 
-#: src/scripts/controllers/Community/GroupedLotteryController.js:7
 msgid "Community - Advent Calendar 2020"
 msgstr ""
 
-#: src/scripts/controllers/Community/LotteryController.js:6
 msgid "Community - Lottery"
 msgstr ""
 
-#: src/views/Community/lottery.html:8
 msgid "Community Lottery"
 msgstr ""
 
-#: src/views/Account/guild.html:375
-#: src/views/Account/guild.html:416
 msgid "Completed"
 msgstr ""
 
-#: src/views/Account/achievements.html:229
 msgid "Completed {{ achievement.completion.repeated || 0 | number:0  }} times ({{ achievement.breakdown.points_per_repeat }} <i class=\"sprite-achievement-icon\"></i> each)"
 msgstr ""
 
-#: src/scripts/controllers/Crafting/CalculatorController.js:301
 msgid "Completed,Count,Name,Price each,Price total"
 msgstr ""
 
-#: src/views/Currencies/spirit-shards.html:95
 msgid "Components"
 msgstr ""
 
-#: src/views/Currencies/karma.html:15
-#: src/views/Currencies/spirit-shards.html:15
 msgid "Components price:"
 msgstr ""
 
-#: src/views/_backend.html:199
 msgid "Condition Damage"
 msgstr ""
 
-#: src/views/_backend.html:200
 msgid "Condition Duration"
 msgstr ""
 
-#: src/views/_backend.html:123
 msgid "Condition damage / Power / Vitality"
 msgstr ""
 
-#: src/views/_backend.html:118
 msgid "Condition damage / Precision / Toughness"
 msgstr ""
 
-#: src/views/_backend.html:121
 msgid "Condition damage / Toughness / Vitality"
 msgstr ""
 
-#: src/views/Community/grouped-lottery.html:49
 msgid "Congratulations to"
 msgstr ""
 
-#: src/views/_directives/tooltip.html:149
 msgid "Consumable"
 msgstr ""
 
-#: src/scripts/services/Tradingpost.js:194
 msgid "Consumables"
 msgstr ""
 
-#: src/views/Community/lottery.html:121
 msgid "Contestants"
 msgstr ""
 
-#: src/views/Currencies/gems.html:64
 msgid "Conversion"
 msgstr ""
 
-#: src/views/_backend.html:7
 msgid "Cooking Materials"
 msgstr ""
 
-#: src/views/Account/guild.html:414
-#: src/views/Crafting/calculator.html:155
-#: src/views/Crafting/calculator.html:90
-#: src/views/Currencies/spirit-shards.html:179
 msgid "Cost"
 msgstr ""
 
-#: src/views/Account/guild.html:415
 msgid "Cost / Exp"
 msgstr ""
 
-#: src/views/Crafting/calculator.html:82
 msgid "Cost Breakdown"
 msgstr ""
 
-#: src/views/Crafting/calculator.html:99
 msgid "Cost of own materials"
 msgstr ""
 
-#: src/views/Account/guild.html:314
 msgid "Cost:"
 msgstr ""
 
-#: src/scripts/controllers/Crafting/CalculatorController.js:320
 msgid "Count,Name,Price each,Price total"
 msgstr ""
 
-#: src/views/Worldbosses/index.html:37
 msgid "Countdown"
 msgstr ""
 
-#: src/views/Crafting/calculator.html:374
 msgid "Craft"
 msgstr ""
 
-#: src/views/Crafting/calculator.html:203
 msgid "Craft all"
 msgstr ""
 
-#: src/views/Crafting/ascended.html:72
-#: src/views/Crafting/legendaries.html:27
 msgid "Craft daily cooldowns:"
 msgstr ""
 
-#: src/views/Crafting/legendaries.html:19
 msgid "Craft precursors:"
 msgstr ""
 
-#: src/views/Currencies/spirit-shards.html:150
-#: src/views/Currencies/spirit-shards.html:247
 msgid "Craft:"
 msgstr ""
 
-#: src/files/index.html:364
-#: src/views/Account/character.html:96
-#: src/views/Dashboard/index.html:134
-#: src/views/_directives/componentTree.html:36
 msgid "Crafting"
 msgstr ""
 
-#: src/scripts/controllers/Crafting/AscendedController.js:6
 msgid "Crafting - Ascended Weapons & Armor"
 msgstr ""
 
-#: src/scripts/controllers/Crafting/CalculatorController.js:40
 msgid "Crafting - Calculator"
 msgstr ""
 
-#: src/scripts/controllers/Crafting/LegendariesController.js:6
 msgid "Crafting - Legendaries"
 msgstr ""
 
-#: src/views/Crafting/calculator.html:7
 msgid "Crafting Calculator"
 msgstr ""
 
-#: src/scripts/services/Tradingpost.js:210
-#: src/views/_directives/tooltip.html:145
 msgid "Crafting Material"
 msgstr ""
 
-#: src/views/Crafting/legendaries.html:47
 msgid "Crafting Price (buy)"
 msgstr ""
 
-#: src/views/Crafting/legendaries.html:48
 msgid "Crafting Price (sell)"
 msgstr ""
 
-#: src/views/Crafting/ascended.html:105
 msgid "Crafting Price / Buy"
 msgstr ""
 
-#: src/views/Crafting/ascended.html:88
 msgid "Crafting Price / Buy (ASC)"
 msgstr ""
 
-#: src/views/Crafting/ascended.html:89
 msgid "Crafting Price / Buy (DESC)"
 msgstr ""
 
-#: src/views/Crafting/ascended.html:106
 msgid "Crafting Price / Sell"
 msgstr ""
 
-#: src/views/Crafting/ascended.html:90
 msgid "Crafting Price / Sell (ASC)"
 msgstr ""
 
-#: src/views/Crafting/ascended.html:91
 msgid "Crafting Price / Sell (DESC)"
 msgstr ""
 
-#: src/views/_directives/componentTree.html:66
 msgid "Crafting Profit"
 msgstr ""
 
-#: src/views/Crafting/calculator.html:370
 msgid "Crafting Steps"
 msgstr ""
 
-#: src/views/_directives/tooltip.html:179
 msgid "Crafting price:"
 msgstr ""
 
-#: src/views/Account/character.html:21
-#: src/views/Account/characters.html:130
 msgid "Created"
 msgstr ""
 
-#: src/views/_backend.html:137
 msgid "Crimson Lion"
 msgstr ""
 
-#: src/views/_backend.html:411
 msgid "Criterion Waypoint"
 msgstr ""
 
-#: src/views/_backend.html:196
 msgid "Critical Chance"
 msgstr ""
 
-#: src/views/_backend.html:198
 msgid "Critical Damage"
 msgstr ""
 
-#: src/views/Currencies/dungeon-tokens.html:56
-#: src/views/_backend.html:15
 msgid "Crucible of Eternity"
 msgstr ""
 
-#: src/scripts/controllers/Currencies/SpiritShardController.js:50
 msgid "Crystal"
 msgstr ""
 
-#: src/views/_backend.html:298
 msgid "Cuadinti"
 msgstr ""
 
-#: src/views/Dashboard/index.html:104
 msgid "Currencies"
 msgstr ""
 
-#: src/scripts/controllers/Currencies/BadgesOfHonorController.js:7
 msgid "Currencies - Badges of Honor"
 msgstr ""
 
-#: src/scripts/controllers/Currencies/ClaimTicketsController.js:6
 msgid "Currencies - Claim Tickets"
 msgstr ""
 
-#: src/scripts/controllers/Currencies/DungeonTokensController.js:7
 msgid "Currencies - Dungeon Tokens"
 msgstr ""
 
-#: src/scripts/controllers/Currencies/GemsController.js:6
 msgid "Currencies - Gems"
 msgstr ""
 
-#: src/scripts/controllers/Currencies/GuildCommendationsController.js:7
 msgid "Currencies - Guild Commendations"
 msgstr ""
 
-#: src/scripts/controllers/Currencies/KarmaController.js:7
 msgid "Currencies - Karma"
 msgstr ""
 
-#: src/scripts/controllers/Currencies/LaurelsController.js:7
 msgid "Currencies - Laurels"
 msgstr ""
 
-#: src/scripts/controllers/Currencies/SpiritShardController.js:8
 msgid "Currencies - Spirit Shards"
 msgstr ""
 
-#: src/files/index.html:303
-#: src/views/Account/wallet.html:15
 msgid "Currency"
 msgstr ""
 
-#: src/files/index.html:344
 msgid "Current Transactions"
 msgstr ""
 
-#: src/views/Tradingpost/history.html:271
-#: src/views/Tradingpost/history.html:330
-#: src/views/Tradingpost/history.html:47
-#: src/views/Tradingpost/history.html:94
-#: src/views/Tradingpost/index.html:273
-#: src/views/Tradingpost/index.html:878
-#: src/views/Tradingpost/transactions.html:171
-#: src/views/Tradingpost/transactions.html:69
 msgid "Current buy price"
 msgstr ""
 
-#: src/views/Tradingpost/history.html:96
 msgid "Current profit"
 msgstr ""
 
-#: src/views/Tradingpost/history.html:272
-#: src/views/Tradingpost/history.html:331
-#: src/views/Tradingpost/history.html:48
-#: src/views/Tradingpost/history.html:95
-#: src/views/Tradingpost/index.html:279
-#: src/views/Tradingpost/index.html:884
-#: src/views/Tradingpost/transactions.html:172
-#: src/views/Tradingpost/transactions.html:70
 msgid "Current sell price"
 msgstr ""
 
-#: src/views/Tradingpost/index.html:826
 msgid "Currently not tracked items"
 msgstr ""
 
-#: src/views/_backend.html:95
 msgid "Cursed Shore"
 msgstr ""
 
-#: src/views/_backend.html:205
 msgid "Custom Arena"
 msgstr ""
 
-#: src/views/Tradingpost/index.html:24
 msgid "DESC"
 msgstr ""
 
-#: src/views/Crafting/ascended.html:33
-#: src/views/_backend.html:226
 msgid "Dagger"
 msgstr ""
 
-#: src/scripts/services/Tradingpost.js:163
 msgid "Daggers"
 msgstr ""
 
-#: src/files/index.html:198
-#: src/views/Worldbosses/index.html:61
 msgid "Daily"
 msgstr ""
 
-#: src/views/Account/achievements.html:99
 msgid "Daily & Monthly"
 msgstr ""
 
-#: src/views/Crafting/calculator.html:27
 msgid "Daily cooldowns"
 msgstr ""
 
-#: src/views/_backend.html:172
 msgid "Daredevil"
 msgstr ""
 
-#: src/views/_backend.html:306
 msgid "Davis the Survivor"
 msgstr ""
 
-#: src/views/_directives/tooltip.html:24
 msgid "Defense:"
 msgstr ""
 
-#: src/views/Tradingpost/investment-history.html:89
 msgid "Delete"
 msgstr ""
 
-#: src/scripts/controllers/Tradingpost/IndexController.js:1011
 msgid "Delete this investment?"
 msgstr ""
 
-#: src/scripts/controllers/Tradingpost/IndexController.js:878
 msgid "Delete this item?"
 msgstr ""
 
-#: src/files/index.html:341
 msgid "Delivery Box"
 msgstr ""
 
-#: src/scripts/services/Chart.js:208
-#: src/views/Tradingpost/index.html:107
-#: src/views/Tradingpost/index.html:35
-#: src/views/Tradingpost/index.html:386
-#: src/views/Tradingpost/index.html:942
 msgid "Demand"
 msgstr ""
 
-#: src/views/Tradingpost/index.html:165
 msgid "Demand > Supply"
 msgstr ""
 
-#: src/views/_backend.html:389
 msgid "Demetra Waypoint"
 msgstr ""
 
-#: src/views/_backend.html:382
 msgid "Demon’s Maw Waypoint"
 msgstr ""
 
-#: src/views/_backend.html:20
 msgid "Detha (Path 2)"
 msgstr ""
 
-#: src/views/Account/overview.html:172
-#: src/views/Account/statistics.html:102
 msgid "Did you know that supporters get crawled more frequently and can look further back in their history?"
 msgstr ""
 
-#: src/views/Community/lottery.html:72
 msgid "Did you know that you get automatically entered into the lottery as a supporter?"
 msgstr ""
 
-#: src/views/_backend.html:94
 msgid "Diessa Plateau"
 msgstr ""
 
-#: src/views/_backend.html:413
 msgid "Dire Shoal Waypoint"
 msgstr ""
 
-#: src/views/Account/characters.html:23
 msgid "Discipline:"
 msgstr ""
 
-#: src/views/Account/character.html:48
 msgid "Discovered Recipes"
 msgstr ""
 
-#: src/views/Currencies/gems.html:6
 msgid "Dollar ($)"
 msgstr ""
 
-#: src/views/_backend.html:174
 msgid "Dragonhunter"
 msgstr ""
 
-#: src/views/Community/lottery.html:25
 msgid "Drawing next winners"
 msgstr ""
 
-#: src/views/Community/lottery.html:117
 msgid "Drawn At"
 msgstr ""
 
-#: src/views/_backend.html:63
 msgid "Dredge Commissar"
 msgstr ""
 
-#: src/views/_backend.html:88
 msgid "Dredgehaunt Cliffs"
 msgstr ""
 
-#: src/views/_backend.html:171
 msgid "Druid"
 msgstr ""
 
-#: src/views/_backend.html:357
 msgid "Dry Top"
 msgstr ""
 
-#: src/files/index.html:307
 msgid "Dungeon Tokens"
 msgstr ""
 
-#: src/views/_backend.html:115
 msgid "Dungeon potions"
 msgstr ""
 
-#: src/views/_backend.html:114
 msgid "Dungeon recipes"
 msgstr ""
 
-#: src/files/index.html:360
-#: src/views/Dashboard/index.html:119
-#: src/views/Dungeons/index.html:26
-#: src/views/Dungeons/index.html:44
 msgid "Dungeons"
 msgstr ""
 
-#: src/scripts/controllers/Dungeons/IndexController.js:13
 msgid "Dungeons, Raids and Fractals"
 msgstr ""
 
-#: src/views/Account/pvp.html:203
 msgid "Duration"
 msgstr ""
 
-#: src/views/Account/overview.html:509
 msgid "During that time you died a total of {{ total_deaths | number:0 }} times. That's {{ total_deaths / (total_age/60/60) | number:2 }} deaths per hour"
 msgstr ""
 
-#: src/views/_backend.html:384
 msgid "Durmand Priory Waypoint"
 msgstr ""
 
-#: src/views/_backend.html:283
 msgid "Dye Cooking"
 msgstr ""
 
-#: src/files/index.html:254
 msgid "Dyes"
 msgstr ""
 
-#: src/views/Account/achievements.html:19
 msgid "Earnable"
 msgstr ""
 
-#: src/views/Tradingpost/index.html:680
 msgid "Edit investment"
 msgstr ""
 
-#: src/views/_backend.html:354
 msgid "Elder Wood"
 msgstr ""
 
-#: src/scripts/controllers/Currencies/SpiritShardController.js:62
 msgid "Eldritch Scroll"
 msgstr ""
 
-#: src/views/Account/pvp.html:174
-#: src/views/_backend.html:165
 msgid "Elementalist"
 msgstr ""
 
-#: src/views/_backend.html:333
 msgid "Enemies apply random conditions. When you dodge roll, you lose all your boons."
 msgstr ""
 
-#: src/views/_backend.html:331
 msgid "Enemies explode when killed."
 msgstr ""
 
-#: src/views/_backend.html:330
 msgid "Enemies recieve random boons when you hit them for critical damage."
 msgstr ""
 
-#: src/views/_backend.html:335
 msgid "Enemies steal boons when they hit you. Nearby allies receive agony."
 msgstr ""
 
-#: src/views/Account/pvp.html:175
-#: src/views/_backend.html:162
 msgid "Engineer"
 msgstr ""
 
-#: src/views/Community/lottery.html:54
 msgid "Enter me into the lottery!"
 msgstr ""
 
-#: src/views/Community/grouped-lottery.html:82
 msgid "Enter the lottery"
 msgstr ""
 
-#: src/views/Tradingpost/index.html:238
 msgid "Enter the name of an item in the search box above, and click on <i class=\"fa fa-plus-circle\"></i> to add it to your list."
 msgstr ""
 
-#: src/views/User/password-remind.html:17
 msgid "Enter your e-mail"
 msgstr ""
 
-#: src/views/User/password-reset.html:16
 msgid "Enter your new password"
 msgstr ""
 
-#: src/views/Account/character.html:33
-#: src/views/Account/character.html:68
 msgid "Equipment"
 msgstr ""
 
-#: src/views/Account/overview.html:65
 msgid "Equipment Only"
 msgstr ""
 
-#: src/views/Account/overview.html:61
 msgid "Equipment:"
 msgstr ""
 
-#: src/views/Currencies/gems.html:7
 msgid "Euro (€)"
 msgstr ""
 
-#: src/views/Worldbosses/index.html:59
 msgid "Event"
 msgstr ""
 
-#: src/scripts/services/Chart.js:282
-#: src/views/Account/statistics.html:138
 msgid "Everybody"
 msgstr ""
 
-#: src/views/Account/character.html:110
 msgid "Everything"
 msgstr ""
 
-#: src/views/_backend.html:78
 msgid "Evolved Jungle Wurm"
 msgstr ""
 
-#: src/views/Currencies/gems.html:3
 msgid "Exchange rates"
 msgstr ""
 
-#: src/views/Account/overview.html:64
-#: src/views/Account/overview.html:71
 msgid "Exclude"
 msgstr ""
 
-#: src/views/Account/overview.html:16
-#: src/views/Tradingpost/index.html:77
-#: src/views/_backend.html:216
 msgid "Exotic"
 msgstr ""
 
-#: src/views/Account/guild.html:31
 msgid "Exp"
 msgstr ""
 
-#: src/views/Currencies/spirit-shards.html:284
 msgid "Expand"
 msgstr ""
 
-#: src/views/Crafting/calculator.html:197
 msgid "Expand all"
 msgstr ""
 
-#: src/views/Account/guild.html:387
 msgid "Experience"
 msgstr ""
 
-#: src/views/Account/guild.html:297
-#: src/views/Account/guild.html:436
 msgid "Experience:"
 msgstr ""
 
-#: src/views/_backend.html:293
 msgid "Explorer Erikk"
 msgstr ""
 
-#: src/views/Crafting/calculator.html:225
-#: src/views/Crafting/calculator.html:270
-#: src/views/Tradingpost/investment-history.html:26
 msgid "Export to Excel"
 msgstr ""
 
-#: src/views/_backend.html:64
 msgid "Eye of Zhaitan"
 msgstr ""
 
-#: src/views/_backend.html:388
 msgid "Fangfury Watch Waypoint"
 msgstr ""
 
-#: src/files/index.html:224
 msgid "Farming"
 msgstr ""
 
-#: src/views/Account/guild.html:389
 msgid "Favor"
 msgstr ""
 
-#: src/views/Account/guild.html:392
 msgid "Favor / Exp"
 msgstr ""
 
-#: src/views/_backend.html:28
 msgid "Fergg (Path 1)"
 msgstr ""
 
-#: src/views/_backend.html:197
 msgid "Ferocity"
 msgstr ""
 
-#: src/views/_backend.html:31
 msgid "Ferrah (Path 1)"
 msgstr ""
 
-#: src/views/_backend.html:8
 msgid "Festive Materials"
 msgstr ""
 
-#: src/views/_backend.html:90
 msgid "Fields of Ruin"
 msgstr ""
 
-#: src/views/Dashboard/index.html:105
 msgid "Find out which use of your spirit shards, dungeon tokens, etc. gives you the most profit so you don't waste valuable currencies."
 msgstr ""
 
-#: src/views/Account/overview.html:13
-#: src/views/Tradingpost/index.html:74
-#: src/views/_backend.html:214
 msgid "Fine"
 msgstr ""
 
-#: src/views/_backend.html:3
 msgid "Fine Crafting Materials"
 msgstr ""
 
-#: src/views/Account/achievements.html:22
-#: src/views/Account/achievements.html:33
 msgid "Finished"
 msgstr ""
 
-#: src/files/index.html:269
 msgid "Finishers"
 msgstr ""
 
-#: src/views/_backend.html:276
 msgid "Fire"
 msgstr ""
 
-#: src/views/_backend.html:58
 msgid "Fire Elemental"
 msgstr ""
 
-#: src/views/_backend.html:56
 msgid "Fire Shaman"
 msgstr ""
 
-#: src/views/_backend.html:106
 msgid "Fireheart Rise"
 msgstr ""
 
-#: src/views/_backend.html:129
 msgid "Flame and Frost"
 msgstr ""
 
-#: src/views/_backend.html:404
 msgid "Flamefrog Waypoint"
 msgstr ""
 
-#: src/views/Currencies/spirit-shards.html:46
 msgid "Flat Profit"
 msgstr ""
 
-#: src/views/_backend.html:355
 msgid "Flax"
 msgstr ""
 
-#: src/views/Tradingpost/index.html:140
-#: src/views/Tradingpost/index.html:285
-#: src/views/Tradingpost/index.html:32
-#: src/views/Tradingpost/index.html:890
 msgid "Flip profit"
 msgstr ""
 
-#: src/scripts/services/Tradingpost.js:164
 msgid "Foci"
 msgstr ""
 
-#: src/views/Crafting/ascended.html:40
-#: src/views/_backend.html:231
 msgid "Focus"
 msgstr ""
 
-#: src/scripts/services/Tradingpost.js:196
 msgid "Food Effects"
 msgstr ""
 
-#: src/scripts/services/Tradingpost.js:234
 msgid "Foraging"
 msgstr ""
 
-#: src/views/Dashboard/index.html:87
 msgid "Forgot your password?"
 msgstr ""
 
-#: src/views/_backend.html:42
 msgid "Forgotten (Path 3)"
 msgstr ""
 
-#: src/views/_backend.html:65
 msgid "Foulbear Chieftain"
 msgstr ""
 
-#: src/views/Dungeons/index.html:130
-#: src/views/Dungeons/index.html:38
 msgid "Fractals"
 msgstr ""
 
-#: src/views/_backend.html:17
 msgid "Fractals of the Mists"
 msgstr ""
 
-#: src/scripts/services/Chart.js:31
-#: src/views/Tradingpost/history.html:54
 msgid "From"
 msgstr ""
 
-#: src/views/_backend.html:39
 msgid "Front Door (Path 3)"
 msgstr ""
 
-#: src/views/_backend.html:87
 msgid "Frostgorge Sound"
 msgstr ""
 
-#: src/views/Tradingpost/delivery.html:36
 msgid "Funds Waiting"
 msgstr ""
 
-#: src/views/_backend.html:376
 msgid "Gallowfields Waypoint"
 msgstr ""
 
-#: src/views/_backend.html:70
 msgid "Gates of Arah"
 msgstr ""
 
-#: src/files/index.html:386
-#: src/scripts/services/Tradingpost.js:230
-#: src/views/Dashboard/index.html:141
 msgid "Gathering"
 msgstr ""
 
-#: src/files/index.html:319
-#: src/views/Currencies/gems.html:73
-#: src/views/Currencies/gems.html:80
-#: src/views/Currencies/gems.html:97
 msgid "Gems"
 msgstr ""
 
-#: src/views/_backend.html:6
 msgid "Gemstones and Jewels"
 msgstr ""
 
-#: src/views/_directives/tooltip.html:182
 msgid "Gemstore price:"
 msgstr ""
 
-#: src/views/_backend.html:107
 msgid "Gendarran Fields"
 msgstr ""
 
-#: src/scripts/services/Tradingpost.js:199
 msgid "Generic"
 msgstr ""
 
-#: src/views/Dashboard/index.html:142
 msgid "Get a list of permanent gathering nodes you can gather with a daily checklist."
 msgstr ""
 
-#: src/views/_backend.html:401
 msgid "Gladefall Waypoint"
 msgstr ""
 
-#: src/files/index.html:278
 msgid "Gliders"
 msgstr ""
 
-#: src/views/_backend.html:136
 msgid "Glint's Winter"
 msgstr ""
 
-#: src/views/_backend.html:116
 msgid "Globs of Ectoplasm"
 msgstr ""
 
-#: src/scripts/services/Tradingpost.js:138
-#: src/views/Crafting/ascended.html:51
-#: src/views/_backend.html:221
 msgid "Gloves"
 msgstr ""
 
-#: src/views/_backend.html:365
 msgid "Godslost Waypoint"
 msgstr ""
 
-#: src/scripts/services/Chart.js:528
-#: src/views/Account/guild.html:390
-#: src/views/Currencies/gems.html:102
-#: src/views/Currencies/gems.html:68
-#: src/views/Currencies/gems.html:85
 msgid "Gold"
 msgstr ""
 
-#: src/views/Account/guild.html:393
 msgid "Gold / Exp"
 msgstr ""
 
-#: src/views/_backend.html:344
 msgid "Grapes"
 msgstr ""
 
-#: src/views/_backend.html:141
 msgid "Gray"
 msgstr ""
 
-#: src/views/Crafting/ascended.html:34
-#: src/views/_backend.html:235
 msgid "Greatsword"
 msgstr ""
 
-#: src/scripts/services/Tradingpost.js:165
 msgid "Greatswords"
 msgstr ""
 
-#: src/views/_backend.html:147
 msgid "Green"
 msgstr ""
 
-#: src/views/_backend.html:400
 msgid "Grostogg’s Kraal Waypoint"
 msgstr ""
 
-#: src/views/Account/overview.html:87
 msgid "Grouping:"
 msgstr ""
 
-#: src/views/_backend.html:416
 msgid "Groznev Waypoint"
 msgstr ""
 
-#: src/views/_backend.html:290
 msgid "Guard Barnaby"
 msgstr ""
 
-#: src/views/Account/pvp.html:180
-#: src/views/_backend.html:169
 msgid "Guardian"
 msgstr ""
 
-#: src/views/_backend.html:362
 msgid "Guardpoint Decimus Waypoint"
 msgstr ""
 
-#: src/views/_backend.html:432
 msgid "Guild Commendation Trader"
 msgstr ""
 
-#: src/files/index.html:325
 msgid "Guild Commendations"
 msgstr ""
 
-#: src/views/_backend.html:433
 msgid "Guild Trader"
 msgstr ""
 
-#: src/views/Account/guild.html:176
 msgid "Guildhall value:"
 msgstr ""
 
-#: src/files/index.html:212
 msgid "Guilds"
 msgstr ""
 
-#: src/views/Crafting/ascended.html:29
-#: src/views/_backend.html:236
 msgid "Hammer"
 msgstr ""
 
-#: src/scripts/services/Tradingpost.js:166
 msgid "Hammers"
 msgstr ""
 
-#: src/views/_backend.html:91
 msgid "Harathi Hinterlands"
 msgstr ""
 
-#: src/views/_backend.html:241
 msgid "Harpoon"
 msgstr ""
 
-#: src/views/Crafting/ascended.html:45
-#: src/views/_backend.html:243
 msgid "Harpoon Gun"
 msgstr ""
 
-#: src/scripts/services/Tradingpost.js:179
 msgid "Harpoon Guns"
 msgstr ""
 
-#: src/scripts/services/Tradingpost.js:139
-#: src/views/Crafting/ascended.html:48
 msgid "Headgear"
 msgstr ""
 
-#: src/views/_backend.html:275
 msgid "Healing"
 msgstr ""
 
-#: src/views/_backend.html:201
 msgid "Healing Power"
 msgstr ""
 
-#: src/views/_backend.html:119
 msgid "Healing power / Precision / Vitality"
 msgstr ""
 
-#: src/views/_backend.html:194
 msgid "Health"
 msgstr ""
 
-#: src/views/Account/achievements.html:47
 msgid "Heart of Thorns"
 msgstr ""
 
-#: src/views/Account/overview.html:57
-#: src/views/Crafting/ascended.html:67
-#: src/views/_backend.html:210
 msgid "Heavy"
 msgstr ""
 
-#: src/views/_backend.html:268
 msgid "Heavy Aquatic Headgear"
 msgstr ""
 
-#: src/views/_backend.html:260
 msgid "Heavy Boots"
 msgstr ""
 
-#: src/views/_backend.html:251
 msgid "Heavy Chest"
 msgstr ""
 
-#: src/views/_backend.html:256
 msgid "Heavy Gloves"
 msgstr ""
 
-#: src/views/_backend.html:264
 msgid "Heavy Headgear"
 msgstr ""
 
-#: src/views/_backend.html:253
 msgid "Heavy Leggings"
 msgstr ""
 
-#: src/views/_backend.html:263
 msgid "Heavy Shoulders"
 msgstr ""
 
-#: src/views/_backend.html:386
 msgid "Helliot Mine Waypoint"
 msgstr ""
 
-#: src/views/_backend.html:222
 msgid "Helm"
 msgstr ""
 
-#: src/views/_backend.html:179
 msgid "Herald"
 msgstr ""
 
-#: src/views/_backend.html:307
 msgid "Heroics Notary"
 msgstr ""
 
-#: src/views/Account/achievements.html:63
 msgid "Hidden only:"
 msgstr ""
 
-#: src/views/Dungeons/index.html:117
-#: src/views/Dungeons/index.html:174
-#: src/views/Dungeons/index.html:78
-#: src/views/Worldbosses/index.html:173
 msgid "Hide"
 msgstr ""
 
-#: src/views/Worldbosses/index.html:15
 msgid "Hide done bosses:"
 msgstr ""
 
-#: src/views/Dungeons/index.html:5
 msgid "Hide done:"
 msgstr ""
 
-#: src/views/Account/guild.html:399
 msgid "Hide if over:"
 msgstr ""
 
-#: src/views/Worldbosses/index.html:7
 msgid "Hide inactive bosses:"
 msgstr ""
 
-#: src/views/Currencies/spirit-shards.html:24
 msgid "Hide unprofitable recipes:"
 msgstr ""
 
-#: src/views/Account/statistics.html:47
 msgid "Higher than {{ topPercent(account_stats.live.rank / account_stats.live.participants) | number }}% of {{ account_stats.live.participants | number }} accounts"
 msgstr ""
 
-#: src/views/_backend.html:19
 msgid "Hodgins (Path 1)"
 msgstr ""
 
-#: src/files/index.html:275
 msgid "Home Cats"
 msgstr ""
 
-#: src/files/index.html:272
 msgid "Home Nodes"
 msgstr ""
 
-#: src/views/Currencies/dungeon-tokens.html:50
-#: src/views/_backend.html:14
 msgid "Honor of the Waves"
 msgstr ""
 
-#: src/views/_backend.html:157
 msgid "Human"
 msgstr ""
 
-#: src/views/Account/characters.html:32
-#: src/views/_backend.html:185
 msgid "Huntsman"
 msgstr ""
 
-#: src/views/_backend.html:277
 msgid "Ice"
 msgstr ""
 
-#: src/views/_backend.html:383
 msgid "Icedevil’s Waypoint"
 msgstr ""
 
-#: src/views/_backend.html:381
 msgid "Icegate Waypoint"
 msgstr ""
 
-#: src/views/Account/achievements.html:240
 msgid "If Heart of Thorns is not unlocked"
 msgstr ""
 
-#: src/views/Account/achievements.html:236
 msgid "If Heart of Thorns is unlocked"
 msgstr ""
 
-#: src/views/Account/achievements.html:248
 msgid "If Path of Fire is not unlocked"
 msgstr ""
 
-#: src/views/Account/achievements.html:244
 msgid "If Path of Fire is unlocked"
 msgstr ""
 
-#: src/views/Community/lottery.html:86
 msgid ""
 "If you are lucky enough to be one of our winners, we will contact you in game!\n"
 "                            If the account name is incorrect or you haven't replied to us within 72 hours,\n"
 "                            either by in game mail or private message, we will redraw or move your prize into the next lotteries."
 msgstr ""
 
-#: src/views/Account/guild.html:162
 msgid "Import from API"
 msgstr ""
 
-#: src/views/Account/overview.html:63
-#: src/views/Account/overview.html:72
 msgid "Include"
 msgstr ""
 
-#: src/views/Currencies/dungeon-tokens.html:92
 msgid "Include Ectoplasm:"
 msgstr ""
 
-#: src/views/Account/overview.html:79
-#: src/views/Account/overview.html:89
 msgid "Ingame"
 msgstr ""
 
-#: src/views/_backend.html:55
 msgid "Inquest Golem Mark II"
 msgstr ""
 
-#: src/views/_backend.html:113
 msgid "Inscriptions & Insignias"
 msgstr ""
 
-#: src/views/_directives/tooltip.html:18
 msgid "Inside of item:"
 msgstr ""
 
-#: src/views/Account/character.html:36
-#: src/views/Account/character.html:82
 msgid "Inventory"
 msgstr ""
 
-#: src/scripts/services/Tradingpost.js:226
 msgid "Inventory Bags"
 msgstr ""
 
-#: src/views/Tradingpost/index.html:523
-#: src/views/Tradingpost/investment-history.html:66
 msgid "Investment Date"
 msgstr ""
 
-#: src/files/index.html:350
 msgid "Investment History"
 msgstr ""
 
-#: src/views/Tradingpost/index.html:525
 msgid "Investment price"
 msgstr ""
 
-#: src/views/Tradingpost/index.html:28
 msgid "Investment profit"
 msgstr ""
 
-#: src/views/_backend.html:81
 msgid "Iron Marches"
 msgstr ""
 
-#: src/views/Crafting/calculator.html:40
-#: src/views/Tradingpost/history.html:162
-#: src/views/Tradingpost/history.html:269
-#: src/views/Tradingpost/history.html:327
-#: src/views/Tradingpost/history.html:92
-#: src/views/Tradingpost/investment-history.html:62
-#: src/views/Tradingpost/transactions.html:168
-#: src/views/Tradingpost/transactions.html:66
 msgid "Item"
 msgstr ""
 
-#: src/scripts/controllers/Tradingpost/InvestmentHistoryController.js:88
 msgid "Item Id;Quantity;Item;Buy price;Sell price;Profit;Investment Date;Sell Date"
 msgstr ""
 
-#: src/views/Account/overview.html:69
 msgid "Item Upgrades:"
 msgstr ""
 
-#: src/views/Account/overview.html:90
 msgid "Item stack"
 msgstr ""
 
-#: src/views/_backend.html:424
 msgid "Jaka Itzel Waypoint"
 msgstr ""
 
-#: src/views/Account/characters.html:33
-#: src/views/_backend.html:186
 msgid "Jeweler"
 msgstr ""
 
-#: src/views/_backend.html:285
 msgid "Jewlerly Boxes"
 msgstr ""
 
-#: src/views/Account/guild.html:499
-#: src/views/Account/guild.html:508
 msgid "Joined"
 msgstr ""
 
-#: src/views/_backend.html:40
 msgid "Jotun (Path 1)"
 msgstr ""
 
-#: src/views/_backend.html:60
 msgid "Jungle Wurm"
 msgstr ""
 
-#: src/views/_backend.html:212
 msgid "Junk"
 msgstr ""
 
-#: src/views/_backend.html:68
 msgid "Karka Queen"
 msgstr ""
 
-#: src/files/index.html:313
 msgid "Karma"
 msgstr ""
 
-#: src/views/_backend.html:284
 msgid "Karmic Converter"
 msgstr ""
 
-#: src/views/_backend.html:108
 msgid "Kessex Hills"
 msgstr ""
 
-#: src/views/_backend.html:30
 msgid "Koptev (Path 3)"
 msgstr ""
 
-#: src/views/_backend.html:366
 msgid "Kraitbane Haven Waypoint"
 msgstr ""
 
-#: src/views/Tradingpost/index.html:1014
-#: src/views/Tradingpost/index.html:458
 msgid "Last buy price change"
 msgstr ""
 
-#: src/views/Tradingpost/index.html:1021
-#: src/views/Tradingpost/index.html:465
 msgid "Last sell price change"
 msgstr ""
 
-#: src/views/Tradingpost/index.html:418
-#: src/views/Tradingpost/index.html:974
 msgid "Last update"
 msgstr ""
 
-#: src/views/Account/pvp.html:169
 msgid "Latest matches"
 msgstr ""
 
-#: src/views/_backend.html:309
 msgid "Laurel Merchant"
 msgstr ""
 
-#: src/files/index.html:322
-#: src/views/Currencies/laurels.html:28
 msgid "Laurels"
 msgstr ""
 
-#: src/views/Account/overview.html:130
-#: src/views/Account/statistics.html:111
 msgid "Leaderboard"
 msgstr ""
 
-#: src/views/Account/pvp.html:16
 msgid "League Division"
 msgstr ""
 
-#: src/views/Account/pvp.html:8
 msgid "League Rating"
 msgstr ""
 
-#: src/views/Account/characters.html:34
-#: src/views/_backend.html:182
 msgid "Leatherworker"
 msgstr ""
 
-#: src/scripts/controllers/LegalNoticeController.js:3
 msgid "Legal notice"
 msgstr ""
 
-#: src/scripts/controllers/Crafting/LegendariesController.js:20
 msgid "Legendaries"
 msgstr ""
 
-#: src/views/Account/overview.html:18
-#: src/views/Tradingpost/index.html:79
-#: src/views/_backend.html:218
 msgid "Legendary"
 msgstr ""
 
-#: src/files/index.html:242
-#: src/views/Account/overview.html:307
 msgid "Legendary Armory"
 msgstr ""
 
-#: src/scripts/services/Tradingpost.js:137
-#: src/views/Crafting/ascended.html:52
-#: src/views/_backend.html:223
 msgid "Leggings"
 msgstr ""
 
-#: src/views/_backend.html:338
 msgid "Lettuce"
 msgstr ""
 
-#: src/views/_backend.html:26
 msgid "Leurent / Up (Path 3)"
 msgstr ""
 
-#: src/views/Account/guild.html:27
-#: src/views/Tradingpost/index.html:83
 msgid "Level"
 msgstr ""
 
-#: src/views/_backend.html:44
 msgid "Level 1 - 10"
 msgstr ""
 
-#: src/views/_backend.html:45
 msgid "Level 11 - 20"
 msgstr ""
 
-#: src/views/_backend.html:46
 msgid "Level 21 - 30"
 msgstr ""
 
-#: src/views/_backend.html:47
 msgid "Level 31 - 40"
 msgstr ""
 
-#: src/views/_backend.html:48
 msgid "Level 41 - 50"
 msgstr ""
 
-#: src/views/_backend.html:49
 msgid "Level 51 - 60"
 msgstr ""
 
-#: src/views/_backend.html:50
 msgid "Level 61 - 70"
 msgstr ""
 
-#: src/views/_backend.html:51
 msgid "Level 71 - 80"
 msgstr ""
 
-#: src/views/_backend.html:52
 msgid "Level 81 - 90"
 msgstr ""
 
-#: src/views/_backend.html:53
 msgid "Level 91 - 100"
 msgstr ""
 
-#: src/views/Account/achievements.html:232
 msgid "Level: {{ achievement.level.min }} - {{ achievement.level.max }}"
 msgstr ""
 
-#: src/views/Account/pvp.html:99
 msgid "Lifetime stats"
 msgstr ""
 
-#: src/views/Account/overview.html:55
-#: src/views/Crafting/ascended.html:65
-#: src/views/_backend.html:208
 msgid "Light"
 msgstr ""
 
-#: src/views/_backend.html:269
 msgid "Light Aquatic Headgear"
 msgstr ""
 
-#: src/views/_backend.html:254
 msgid "Light Boots"
 msgstr ""
 
-#: src/views/_backend.html:250
 msgid "Light Chest"
 msgstr ""
 
-#: src/views/_backend.html:258
 msgid "Light Gloves"
 msgstr ""
 
-#: src/views/_backend.html:266
 msgid "Light Headgear"
 msgstr ""
 
-#: src/views/_backend.html:252
 msgid "Light Leggings"
 msgstr ""
 
-#: src/views/_backend.html:262
 msgid "Light Shoulders"
 msgstr ""
 
-#: src/views/_backend.html:278
 msgid "Lightning"
 msgstr ""
 
-#: src/views/_backend.html:418
 msgid "Lights Waypoint"
 msgstr ""
 
-#: src/views/_backend.html:134
 msgid "Lion's Arch Commemorative"
 msgstr ""
 
-#: src/views/_backend.html:139
 msgid "Lion's Arch Rebuild"
 msgstr ""
 
-#: src/views/Account/overview.html:148
-#: src/views/Account/overview.html:191
-#: src/views/Account/overview.html:549
 msgid "Liquid Gold (buy)"
 msgstr ""
 
-#: src/views/Account/overview.html:143
-#: src/views/Account/overview.html:190
-#: src/views/Account/overview.html:539
 msgid "Liquid Gold (sell)"
 msgstr ""
 
-#: src/views/Tradingpost/index.html:392
-#: src/views/Tradingpost/index.html:948
 msgid "Listing fee"
 msgstr ""
 
-#: src/views/Tradingpost/transactions.html:169
 msgid "Listing price"
 msgstr ""
 
-#: src/views/Tradingpost/history.html:6
-#: src/views/Tradingpost/transactions.html:9
 msgid "Listings:"
 msgstr ""
 
-#: src/scripts/services/Chart.js:27
-#: src/views/Account/achievements.html:2
-#: src/views/Account/gemstore-upgrades.html:7
-#: src/views/Account/guild.html:2
-#: src/views/Account/mailcarriers.html:41
-#: src/views/Account/overview.html:518
-#: src/views/Account/sab.html:44
-#: src/views/Community/lottery.html:11
-#: src/views/Tradingpost/delivery.html:71
-#: src/views/Tradingpost/history.html:79
-#: src/views/Tradingpost/index.html:228
-#: src/views/Tradingpost/index.html:833
-#: src/views/Tradingpost/transactions.html:40
 msgid "Loading..."
 msgstr ""
 
-#: src/views/Account/pvp.html:133
 msgid "Lobby type"
 msgstr ""
 
-#: src/views/Account/mailcarriers.html:15
 msgid "Locked"
 msgstr ""
 
-#: src/scripts/services/Tradingpost.js:233
 msgid "Logging"
 msgstr ""
 
-#: src/files/index.html:159
-#: src/files/index.html:168
-#: src/views/Dashboard/index.html:79
 msgid "Login"
 msgstr ""
 
-#: src/files/index.html:127
 msgid "Logout"
 msgstr ""
 
-#: src/views/Crafting/ascended.html:30
-#: src/views/_backend.html:237
 msgid "Longbow"
 msgstr ""
 
-#: src/scripts/services/Tradingpost.js:167
 msgid "Longbows"
 msgstr ""
 
-#: src/views/_backend.html:360
 msgid "Loreclaw Waypoint"
 msgstr ""
 
-#: src/views/_backend.html:109
 msgid "Lornar's Pass"
 msgstr ""
 
-#: src/views/Account/pvp.html:223
 msgid "Lost Match"
 msgstr ""
 
-#: src/files/index.html:390
-#: src/views/Dashboard/index.html:148
 msgid "Lottery"
 msgstr ""
 
-#: src/views/_backend.html:391
 msgid "Lunk Kraal Waypoint"
 msgstr ""
 
-#: src/views/Account/characters.html:66
-#: src/views/_backend.html:155
 msgid "Lvl"
 msgstr ""
 
-#: src/views/Tradingpost/index.html:265
-#: src/views/Tradingpost/index.html:870
 msgid "Lvl {{ item.level }}"
 msgstr ""
 
-#: src/views/Crafting/ascended.html:35
-#: src/views/_backend.html:227
 msgid "Mace"
 msgstr ""
 
-#: src/scripts/services/Tradingpost.js:170
 msgid "Maces"
 msgstr ""
 
-#: src/views/_backend.html:32
 msgid "Magg (Path 2)"
 msgstr ""
 
-#: src/views/_backend.html:204
 msgid "Magic Find"
 msgstr ""
 
-#: src/files/index.html:263
 msgid "Mailcarriers"
 msgstr ""
 
-#: src/views/_backend.html:96
 msgid "Malchor's Leap"
 msgstr ""
 
-#: src/views/_directives/errorSplash.html:21
-#: src/views/_directives/errorSplash.html:28
 msgid "Manage your API keys"
 msgstr ""
 
-#: src/views/Dashboard/index.html:98
 msgid "Manage your characters, achievements, miniatures and dyes and calculate how much money you would have if you sold your bank."
 msgstr ""
 
-#: src/views/Account/pvp.html:200
 msgid "Map"
 msgstr ""
 
-#: src/views/Account/achievements.html:39
 msgid "Masteries only:"
 msgstr ""
 
-#: src/views/Account/overview.html:14
-#: src/views/Tradingpost/index.html:75
-#: src/views/_backend.html:215
 msgid "Masterwork"
 msgstr ""
 
-#: src/views/Account/pvp.html:106
-#: src/views/Account/pvp.html:136
 msgid "Matches"
 msgstr ""
 
-#: src/views/Account/pvp.html:65
 msgid "Matches played"
 msgstr ""
 
-#: src/files/index.html:236
-#: src/views/Account/overview.html:243
-#: src/views/Account/overview.html:584
 msgid "Material Storage"
 msgstr ""
 
-#: src/views/Crafting/calculator.html:13
 msgid "Material price"
 msgstr ""
 
-#: src/scripts/controllers/Account/StatisticsController.js:133
 msgid "Maximum"
 msgstr ""
 
-#: src/scripts/controllers/Account/StatisticsController.js:134
 msgid "Mean"
 msgstr ""
 
-#: src/views/_backend.html:419
 msgid "Meddler’s Waypoint"
 msgstr ""
 
-#: src/scripts/controllers/Account/StatisticsController.js:135
 msgid "Median"
 msgstr ""
 
-#: src/views/Account/overview.html:56
-#: src/views/Crafting/ascended.html:66
-#: src/views/_backend.html:209
 msgid "Medium"
 msgstr ""
 
-#: src/views/_backend.html:267
 msgid "Medium Aquatic Headgear"
 msgstr ""
 
-#: src/views/_backend.html:257
 msgid "Medium Boots"
 msgstr ""
 
-#: src/views/_backend.html:249
 msgid "Medium Chest"
 msgstr ""
 
-#: src/views/_backend.html:259
 msgid "Medium Gloves"
 msgstr ""
 
-#: src/views/_backend.html:265
 msgid "Medium Headgear"
 msgstr ""
 
-#: src/views/_backend.html:255
 msgid "Medium Leggings"
 msgstr ""
 
-#: src/views/_backend.html:261
 msgid "Medium Shoulders"
 msgstr ""
 
-#: src/views/_backend.html:71
 msgid "Megadestroyer"
 msgstr ""
 
-#: src/views/Account/guild.html:139
-#: src/views/Account/guild.html:466
-#: src/views/Account/guild.html:86
 msgid "Members"
 msgstr ""
 
-#: src/views/Account/pvp.html:177
-#: src/views/_backend.html:168
 msgid "Mesmer"
 msgstr ""
 
-#: src/views/_backend.html:83
 msgid "Metrica Province"
 msgstr ""
 
-#: src/views/Account/overview.html:95
 msgid "Min. value:"
 msgstr ""
 
-#: src/views/_directives/tooltip.html:141
 msgid "Miniature"
 msgstr ""
 
-#: src/files/index.html:248
 msgid "Miniatures"
 msgstr ""
 
-#: src/scripts/controllers/Account/StatisticsController.js:132
 msgid "Minimum"
 msgstr ""
 
-#: src/scripts/services/Tradingpost.js:232
 msgid "Mining"
 msgstr ""
 
-#: src/scripts/services/Tradingpost.js:218
 msgid "Minis"
 msgstr ""
 
-#: src/scripts/services/Tradingpost.js:214
 msgid "Miscellaneous"
 msgstr ""
 
-#: src/views/_backend.html:321
 msgid "Molten Boss"
 msgstr ""
 
-#: src/views/_backend.html:320
 msgid "Molten Furnace"
 msgstr ""
 
-#: src/views/Currencies/gems.html:92
 msgid "Money"
 msgstr ""
 
-#: src/views/Tradingpost/transactions.html:141
 msgid "Money (current buy price)"
 msgstr ""
 
-#: src/views/Tradingpost/transactions.html:150
 msgid "Money (current sell price)"
 msgstr ""
 
-#: src/views/Tradingpost/transactions.html:132
-#: src/views/Tradingpost/transactions.html:49
 msgid "Money (listing price)"
 msgstr ""
 
-#: src/views/Account/pvp.html:58
 msgid "Most played classes"
 msgstr ""
 
-#: src/views/_backend.html:104
 msgid "Most profitable"
 msgstr ""
 
-#: src/views/_backend.html:80
 msgid "Mount Maelstrom"
 msgstr ""
 
-#: src/files/index.html:251
 msgid "Mounts"
 msgstr ""
 
-#: src/views/_backend.html:398
 msgid "Mournful Waypoint"
 msgstr ""
 
-#: src/views/_backend.html:41
 msgid "Mursaat (Path 2)"
 msgstr ""
 
-#: src/views/Currencies/dungeon-tokens.html:106
-#: src/views/Currencies/dungeon-tokens.html:89
 msgid "Mystic / Master's Salvage Kit"
 msgstr ""
 
-#: src/views/_backend.html:100
 msgid "Mystic Clovers"
 msgstr ""
 
-#: src/views/_backend.html:281
 msgid "Mystic Forge Conversion"
 msgstr ""
 
-#: src/views/_backend.html:102
 msgid "Mystic Weapons"
 msgstr ""
 
-#: src/views/_backend.html:286
 msgid "Mystic clovers"
 msgstr ""
 
-#: src/views/Account/guild.html:498
-#: src/views/Account/guild.html:506
-#: src/views/Account/mailcarriers.html:25
-#: src/views/Account/overview.html:80
-#: src/views/Crafting/ascended.html:104
-#: src/views/Crafting/legendaries.html:46
-#: src/views/Currencies/badges-of-honor.html:31
-#: src/views/Currencies/claim-tickets.html:36
-#: src/views/Currencies/dungeon-tokens.html:118
-#: src/views/Currencies/guild-commendations.html:33
-#: src/views/Currencies/karma.html:40
-#: src/views/Currencies/laurels.html:27
-#: src/views/Tradingpost/history.html:29
-#: src/views/Tradingpost/history.html:44
-#: src/views/Tradingpost/index.html:18
-#: src/views/Tradingpost/index.html:254
-#: src/views/Tradingpost/index.html:29
-#: src/views/Tradingpost/index.html:858
 msgid "Name"
 msgstr ""
 
-#: src/views/_backend.html:101
 msgid "Named Weapons"
 msgstr ""
 
-#: src/views/Account/pvp.html:179
-#: src/views/_backend.html:163
 msgid "Necromancer"
 msgstr ""
 
-#: src/scripts/controllers/Account/GuildController.js:199
 msgid "Needed for:"
 msgstr ""
 
-#: src/scripts/controllers/Worldbosses/IndexController.js:251
 msgid "Next event"
 msgstr ""
 
-#: src/views/Tradingpost/history.html:431
-#: src/views/Tradingpost/index.html:1087
-#: src/views/Tradingpost/investment-history.html:108
-#: src/views/Tradingpost/investment-history.html:43
-#: src/views/Tradingpost/transactions.html:233
-#: src/views/Tradingpost/transactions.html:237
 msgid "Next page"
 msgstr ""
 
-#: src/views/Account/characters.html:131
 msgid "Next present"
 msgstr ""
 
-#: src/views/Account/achievements.html:44
-#: src/views/Account/achievements.html:59
-#: src/views/Account/achievements.html:68
-#: src/views/Account/achievements.html:77
-#: src/views/Crafting/ascended.html:78
-#: src/views/Crafting/calculator.html:23
-#: src/views/Crafting/legendaries.html:24
-#: src/views/Crafting/legendaries.html:32
-#: src/views/Currencies/dungeon-tokens.html:97
-#: src/views/Currencies/spirit-shards.html:29
-#: src/views/Currencies/spirit-shards.html:38
-#: src/views/Currencies/spirit-shards.html:57
-#: src/views/Dungeons/index.html:10
-#: src/views/Tradingpost/delivery.html:16
-#: src/views/Tradingpost/delivery.html:25
-#: src/views/Tradingpost/history.html:20
-#: src/views/Worldbosses/index.html:12
-#: src/views/Worldbosses/index.html:20
-#: src/views/Worldbosses/index.html:29
 msgid "No"
 msgstr ""
 
-#: src/views/Tradingpost/delivery.html:73
 msgid "No delivered items"
 msgstr ""
 
-#: src/views/Tradingpost/history.html:75
 msgid "No historic listings matching these filters."
 msgstr ""
 
-#: src/views/Worldbosses/index.html:88
 msgid "No information"
 msgstr ""
 
-#: src/views/Tradingpost/index.html:1046
-#: src/views/Tradingpost/index.html:1060
-#: src/views/Tradingpost/index.html:491
-#: src/views/Tradingpost/index.html:506
 msgid "No listings available"
 msgstr ""
 
-#: src/views/Tradingpost/transactions.html:36
 msgid "No listings matching these filters."
 msgstr ""
 
-#: src/views/Account/mailcarriers.html:37
 msgid "No mailcarriers matching these filters."
 msgstr ""
 
-#: src/views/Account/pvp.html:184
 msgid "No matches found"
 msgstr ""
 
-#: src/views/Account/guild.html:599
 msgid "No note"
 msgstr ""
 
-#: src/views/Crafting/calculator.html:250
 msgid "No own materials used"
 msgstr ""
 
-#: src/views/Tradingpost/index.html:232
-#: src/views/Tradingpost/index.html:837
 msgid "No results"
 msgstr ""
 
-#: src/views/Account/achievements.html:82
 msgid "No results found"
 msgstr ""
 
-#: src/views/_backend.html:370
 msgid "Nolan Waypoint"
 msgstr ""
 
-#: src/views/Account/achievements.html:34
-#: src/views/Account/guild.html:305
-#: src/views/Account/overview.html:25
-#: src/views/Account/overview.html:91
 msgid "None"
 msgstr ""
 
-#: src/views/_backend.html:160
 msgid "Norn"
 msgstr ""
 
-#: src/views/Account/guild.html:373
 msgid "Not completed"
 msgstr ""
 
-#: src/views/Account/overview.html:138
 msgid "Not crawled yet"
 msgstr ""
 
-#: src/views/_directives/componentTree.html:56
 msgid "Not sold or crafted"
 msgstr ""
 
-#: src/views/Currencies/spirit-shards.html:45
 msgid "Nothing"
 msgstr ""
 
-#: src/views/_directives/tooltip.html:65
 msgid "Nourishment"
 msgstr ""
 
-#: src/files/index.html:281
 msgid "Novelties"
 msgstr ""
 
-#: src/views/Account/achievements.html:266
 msgid "Objectives:"
 msgstr ""
 
-#: src/views/_backend.html:403
 msgid "Ocean’s Gulley Waypoint"
 msgstr ""
 
-#: src/views/_backend.html:385
 msgid "Ogre Road Waypoint"
 msgstr ""
 
-#: src/views/_backend.html:410
 msgid "Old Sledge Site Waypoint"
 msgstr ""
 
-#: src/views/_backend.html:371
 msgid "Oldgate Waypoint"
 msgstr ""
 
-#: src/views/Account/overview.html:101
 msgid "On search"
 msgstr ""
 
-#: src/views/Account/guild.html:100
-#: src/views/Account/guild.html:110
-#: src/views/Account/guild.html:120
-#: src/views/Account/guild.html:130
-#: src/views/Account/guild.html:140
-#: src/views/Account/guild.html:150
-#: src/views/Account/guild.html:163
 msgid "Only available for leaders"
 msgstr ""
 
-#: src/views/Currencies/spirit-shards.html:52
 msgid "Only craft if necessary:"
 msgstr ""
 
-#: src/views/_backend.html:143
 msgid "Orange"
 msgstr ""
 
-#: src/views/Tradingpost/index.html:22
 msgid "Order"
 msgstr ""
 
-#: src/views/Account/characters.html:7
-#: src/views/Account/guild.html:492
-#: src/views/Account/mailcarriers.html:20
-#: src/views/Crafting/ascended.html:83
-#: src/views/Currencies/spirit-shards.html:42
-#: src/views/Tradingpost/history.html:24
-#: src/views/Tradingpost/history.html:39
 msgid "Order by:"
 msgstr ""
 
-#: src/views/_backend.html:425
 msgid "Order of Whispers Camp Waypoint"
 msgstr ""
 
-#: src/views/Tradingpost/transactions.html:67
 msgid "Order price"
 msgstr ""
 
-#: src/views/Account/character.html:219
-#: src/views/Account/guild.html:380
-#: src/views/Account/overview.html:77
 msgid "Order:"
 msgstr ""
 
-#: src/views/_backend.html:356
 msgid "Orichalcum"
 msgstr ""
 
-#: src/scripts/services/Tradingpost.js:189
 msgid "Other"
 msgstr ""
 
-#: src/files/index.html:266
 msgid "Outfits"
 msgstr ""
 
-#: src/views/Tradingpost/transactions.html:23
 msgid "Overbid only"
 msgstr ""
 
-#: src/views/_backend.html:374
 msgid "Overlord’s Waypoint"
 msgstr ""
 
-#: src/files/index.html:206
-#: src/files/index.html:338
-#: src/views/Account/pvp.html:103
-#: src/views/Tradingpost/index.html:184
 msgid "Overview"
 msgstr ""
 
-#: src/views/_backend.html:426
 msgid "Owain's Refuge Waypoint"
 msgstr ""
 
-#: src/views/_backend.html:409
 msgid "Oxbow Isle Waypoint"
 msgstr ""
 
-#: src/scripts/services/Tradingpost.js:206
 msgid "Packaged Goods"
 msgstr ""
 
-#: src/views/_backend.html:422
 msgid "Pagga's Waypoint"
 msgstr ""
 
-#: src/views/Dashboard/index.html:149
 msgid "Participate for free in our monthly lottery to win ever-changing prizes!"
 msgstr ""
 
-#: src/views/Dashboard/index.html:50
 msgid "Password"
 msgstr ""
 
-#: src/views/Account/achievements.html:48
 msgid "Path of Fire"
 msgstr ""
 
-#: src/views/_backend.html:99
 msgid "Pendants"
 msgstr ""
 
-#: src/views/Account/statistics.html:160
 msgid "Percentile Graph"
 msgstr ""
 
-#: src/views/Account/achievements.html:95
 msgid "Permanent"
 msgstr ""
 
-#: src/scripts/controllers/Currencies/SpiritShardController.js:46
 msgid "Philosopher's Stone"
 msgstr ""
 
-#: src/views/_backend.html:364
 msgid "Phinney Waypoint"
 msgstr ""
 
-#: src/views/_backend.html:279
 msgid "Physical"
 msgstr ""
 
-#: src/views/Crafting/ascended.html:36
-#: src/views/_backend.html:228
 msgid "Pistol"
 msgstr ""
 
-#: src/scripts/services/Tradingpost.js:171
 msgid "Pistols"
 msgstr ""
 
-#: src/views/_backend.html:110
 msgid "Plains of Ashford"
 msgstr ""
 
-#: src/views/Account/character.html:24
-#: src/views/Account/statistics.html:123
 msgid "Played for"
 msgstr ""
 
-#: src/files/index.html:297
 msgid "Player Statistics"
 msgstr ""
 
-#: src/views/Account/character.html:75
 msgid "Playtime &amp; Deaths"
 msgstr ""
 
-#: src/views/_directives/errorSplash.html:38
 msgid "Please check if you have any privacy extensions enabled and try disabling them. If the problem persists, please send me the text on the right."
 msgstr ""
 
-#: src/views/Dashboard/index.html:73
-#: src/views/User/password-reset.html:18
 msgid "Please choose a password with at least 8 characters."
 msgstr ""
 
-#: src/views/Dashboard/index.html:69
 msgid "Please choose a username with alpha-numeric characters only (A-Z, a-z, 0-9, -, _ and space)"
 msgstr ""
 
-#: src/views/Crafting/calculator.html:57
 msgid "Please enter a craftable item to calculate recipe"
 msgstr ""
 
-#: src/views/User/password-remind.html:8
 msgid "Please enter the e-mail associated with your account"
 msgstr ""
 
-#: src/views/Community/lottery.html:51
 msgid "Please enter your account name"
 msgstr ""
 
-#: src/views/User/password-reset.html:11
 msgid "Please enter your new password. Choose wisely. (And remember.)"
 msgstr ""
 
-#: src/views/_backend.html:310
 msgid "Please keep in mind that you can buy ascended items with Laurels as well."
 msgstr ""
 
-#: src/views/_backend.html:412
 msgid "Plinth Timberland Waypoint"
 msgstr ""
 
-#: src/views/_backend.html:35
 msgid "Plunderer (Path 2)"
 msgstr ""
 
-#: src/views/Worldbosses/index.html:63
 msgid "Position"
 msgstr ""
 
-#: src/views/_backend.html:336
 msgid "Potatoes"
 msgstr ""
 
-#: src/views/Currencies/gems.html:8
 msgid "Pound (£)"
 msgstr ""
 
-#: src/views/_backend.html:189
 msgid "Power"
 msgstr ""
 
-#: src/views/_backend.html:120
 msgid "Power / Toughness / Vitality"
 msgstr ""
 
-#: src/views/_backend.html:195
 msgid "Precision"
 msgstr ""
 
-#: src/scripts/controllers/Crafting/LegendariesController.js:16
 msgid "Precursors"
 msgstr ""
 
-#: src/files/index.html:374
 msgid "Precursors &amp; Legendaries"
 msgstr ""
 
-#: src/views/Account/guild.html:302
-#: src/views/Account/guild.html:432
 msgid "Prerequisites:"
 msgstr ""
 
-#: src/views/Community/lottery.html:111
 msgid "Previous lotteries"
 msgstr ""
 
-#: src/views/Tradingpost/history.html:421
-#: src/views/Tradingpost/index.html:1077
-#: src/views/Tradingpost/investment-history.html:33
-#: src/views/Tradingpost/investment-history.html:98
-#: src/views/Tradingpost/transactions.html:223
 msgid "Previous page"
 msgstr ""
 
-#: src/scripts/services/Chart.js:133
-#: src/views/Account/overview.html:81
-#: src/views/Currencies/badges-of-honor.html:32
-#: src/views/Currencies/guild-commendations.html:34
-#: src/views/Currencies/karma.html:41
-#: src/views/Tradingpost/index.html:338
-#: src/views/Tradingpost/index.html:643
-#: src/views/Tradingpost/index.html:689
-#: src/views/Tradingpost/index.html:780
 msgid "Price"
 msgstr ""
 
-#: src/views/Account/mailcarriers.html:26
 msgid "Price (ASC)"
 msgstr ""
 
-#: src/views/Account/mailcarriers.html:27
 msgid "Price (DESC)"
 msgstr ""
 
-#: src/views/Currencies/gems.html:203
 msgid "Price history"
 msgstr ""
 
-#: src/views/Currencies/badges-of-honor.html:6
-#: src/views/Currencies/claim-tickets.html:6
-#: src/views/Currencies/dungeon-tokens.html:5
-#: src/views/Currencies/guild-commendations.html:6
-#: src/views/Currencies/karma.html:6
-#: src/views/Currencies/laurels.html:6
 msgid "Price:"
 msgstr ""
 
-#: src/views/Account/statistics.html:168
 msgid "Privacy"
 msgstr ""
 
-#: src/views/Community/lottery.html:125
 msgid "Prizepool"
 msgstr ""
 
-#: src/views/Community/lottery.html:129
 msgid "Prizes"
 msgstr ""
 
-#: src/views/_backend.html:190
 msgid "Profession specific"
 msgstr ""
 
-#: src/views/Currencies/badges-of-honor.html:33
-#: src/views/Currencies/claim-tickets.html:38
-#: src/views/Currencies/dungeon-tokens.html:120
-#: src/views/Currencies/guild-commendations.html:35
-#: src/views/Currencies/karma.html:42
-#: src/views/Currencies/laurels.html:29
-#: src/views/Currencies/spirit-shards.html:180
-#: src/views/Tradingpost/index.html:528
-#: src/views/Tradingpost/index.html:532
-#: src/views/Tradingpost/investment-history.html:65
 msgid "Profit"
 msgstr ""
 
-#: src/views/Crafting/calculator.html:121
-#: src/views/Crafting/calculator.html:173
-#: src/views/Tradingpost/history.html:166
-#: src/views/Tradingpost/history.html:33
 msgid "Profit (buy price)"
 msgstr ""
 
-#: src/views/Crafting/calculator.html:134
-#: src/views/Crafting/calculator.html:182
-#: src/views/Tradingpost/history.html:167
-#: src/views/Tradingpost/history.html:34
 msgid "Profit (sell price)"
 msgstr ""
 
-#: src/views/Currencies/spirit-shards.html:97
 msgid "Profit / Spirit Shard"
 msgstr ""
 
-#: src/views/Currencies/spirit-shards.html:47
 msgid "Profit Percentage"
 msgstr ""
 
-#: src/views/Currencies/badges-of-honor.html:34
 msgid "Profit per badge"
 msgstr ""
 
-#: src/views/Currencies/guild-commendations.html:36
 msgid "Profit per commendation"
 msgstr ""
 
-#: src/views/Currencies/badges-of-honor.html:35
 msgid "Profit per heroic"
 msgstr ""
 
-#: src/views/Currencies/laurels.html:30
 msgid "Profit per laurel"
 msgstr ""
 
-#: src/views/Currencies/dungeon-tokens.html:122
 msgid "Profit per run"
 msgstr ""
 
-#: src/views/Currencies/claim-tickets.html:39
 msgid "Profit per ticket"
 msgstr ""
 
-#: src/views/Currencies/dungeon-tokens.html:121
 msgid "Profit per token"
 msgstr ""
 
-#: src/views/Currencies/karma.html:43
 msgid "Profit per {{ 1000 | number:0 }} karma"
 msgstr ""
 
-#: src/views/_backend.html:380
 msgid "Provern Shore Waypoint"
 msgstr ""
 
-#: src/views/_backend.html:146
 msgid "Purple"
 msgstr ""
 
-#: src/files/index.html:215
 msgid "PvP"
 msgstr ""
 
-#: src/files/index.html:260
 msgid "PvP Heroes"
 msgstr ""
 
-#: src/views/Tradingpost/investment-history.html:61
 msgid "Qty."
 msgstr ""
 
-#: src/views/Account/wallet.html:16
-#: src/views/Tradingpost/history.html:161
-#: src/views/Tradingpost/history.html:326
-#: src/views/Tradingpost/index.html:333
-#: src/views/Tradingpost/index.html:524
-#: src/views/Tradingpost/index.html:638
-#: src/views/Tradingpost/index.html:684
 msgid "Quantity"
 msgstr ""
 
-#: src/views/_backend.html:82
 msgid "Queensdale"
 msgstr ""
 
-#: src/views/Tradingpost/index.html:159
-#: src/views/Tradingpost/index.html:204
-#: src/views/Tradingpost/index.html:33
-#: src/views/Tradingpost/investment-history.html:16
 msgid "ROI"
 msgstr ""
 
-#: src/views/Dungeons/index.html:32
-#: src/views/Dungeons/index.html:91
 msgid "Raids"
 msgstr ""
 
-#: src/views/Currencies/spirit-shards.html:113
 msgid "Range"
 msgstr ""
 
-#: src/views/Account/pvp.html:176
-#: src/views/_backend.html:167
 msgid "Ranger"
 msgstr ""
 
-#: src/views/Account/guild.html:497
-#: src/views/Account/guild.html:507
 msgid "Rank"
 msgstr ""
 
-#: src/views/Account/overview.html:133
 msgid "Rank {{ wealth.rank | number }}"
 msgstr ""
 
-#: src/views/_backend.html:206
 msgid "Ranked Queue"
 msgstr ""
 
-#: src/views/Account/guild.html:149
-#: src/views/Account/guild.html:92
 msgid "Ranks"
 msgstr ""
 
-#: src/views/Account/overview.html:15
-#: src/views/Tradingpost/index.html:76
-#: src/views/_backend.html:125
 msgid "Rare"
 msgstr ""
 
-#: src/views/_backend.html:4
 msgid "Rare Crafting Materials"
 msgstr ""
 
-#: src/views/Account/overview.html:83
-#: src/views/Tradingpost/index.html:70
 msgid "Rarity"
 msgstr ""
 
-#: src/views/Account/overview.html:9
 msgid "Rarity:"
 msgstr ""
 
-#: src/views/_backend.html:29
 msgid "Rasolov (Path 2)"
 msgstr ""
 
-#: src/views/Account/pvp.html:197
 msgid "Rating"
 msgstr ""
 
-#: src/views/_backend.html:175
 msgid "Reaper"
 msgstr ""
 
-#: src/views/_backend.html:377
 msgid "Reaver’s Waypoint"
 msgstr ""
 
-#: src/files/index.html:368
 msgid "Recipe Search"
 msgstr ""
 
-#: src/views/Crafting/calculator.html:195
 msgid "Recipe tree"
 msgstr ""
 
-#: src/files/index.html:257
 msgid "Recipes"
 msgstr ""
 
-#: src/views/_backend.html:145
 msgid "Red"
 msgstr ""
 
-#: src/views/Account/pvp.html:237
 msgid "Red team"
 msgstr ""
 
-#: src/views/Tradingpost/delivery.html:11
 msgid "Refresh Automatically:"
 msgstr ""
 
-#: src/views/Tradingpost/delivery.html:5
 msgid "Refresh Now"
 msgstr ""
 
-#: src/views/Tradingpost/index.html:918
 msgid "Refresh the data of this item"
 msgstr ""
 
-#: src/views/Dashboard/index.html:82
 msgid "Register"
 msgstr ""
 
-#: src/views/Dashboard/index.html:27
 msgid "Registering is optional, completely free and takes less than 20 seconds."
 msgstr ""
 
-#: src/views/Account/guild.html:182
-#: src/views/Account/guild.html:262
 msgid "Remaining cost:"
 msgstr ""
 
-#: src/views/Account/guild.html:213
 msgid "Remaining:"
 msgstr ""
 
-#: src/views/_backend.html:397
 msgid "Remanda Waypoint"
 msgstr ""
 
-#: src/views/Crafting/calculator.html:44
 msgid "Remove"
 msgstr ""
 
-#: src/views/_directives/tooltip.html:158
 msgid "Required Level:"
 msgstr ""
 
-#: src/views/Crafting/calculator.html:349
 msgid "Required disciplines"
 msgstr ""
 
-#: src/views/Account/guild.html:386
 msgid "Required level"
 msgstr ""
 
-#: src/views/Account/guild.html:291
-#: src/views/Account/guild.html:435
 msgid "Required level:"
 msgstr ""
 
-#: src/views/_backend.html:434
 msgid "Requires a guild hall with unlocked 'Guild Trader'"
 msgstr ""
 
-#: src/views/_backend.html:308
 msgid "Requires a guild hall with unlocked 'War Room Restoration 1'"
 msgstr ""
 
-#: src/views/_backend.html:299
 msgid "Requires the 'Cook' crafting profession on the appropriate levels"
 msgstr ""
 
-#: src/views/Tradingpost/index.html:46
 msgid "Reset all filters"
 msgstr ""
 
-#: src/scripts/controllers/User/PasswordController.js:3
-#: src/views/User/password-remind.html:2
-#: src/views/User/password-reset.html:2
 msgid "Reset your password"
 msgstr ""
 
-#: src/views/Account/pvp.html:194
-#: src/views/Currencies/spirit-shards.html:94
 msgid "Result"
 msgstr ""
 
-#: src/views/Currencies/spirit-shards.html:6
 msgid "Result price:"
 msgstr ""
 
-#: src/views/Account/pvp.html:181
-#: src/views/_backend.html:170
 msgid "Revenant"
 msgstr ""
 
-#: src/views/Worldbosses/index.html:62
 msgid "Reward"
 msgstr ""
 
-#: src/views/Account/achievements.html:72
 msgid "Rewards only:"
 msgstr ""
 
-#: src/views/_backend.html:69
 msgid "Rhendak the Crazed"
 msgstr ""
 
-#: src/views/_backend.html:33
 msgid "Rhiannon (Path 3)"
 msgstr ""
 
-#: src/views/_backend.html:337
 msgid "Rich Copper"
 msgstr ""
 
-#: src/views/_backend.html:345
 msgid "Rich Gold"
 msgstr ""
 
-#: src/views/_backend.html:340
 msgid "Rich Iron"
 msgstr ""
 
-#: src/views/_backend.html:342
 msgid "Rich Iron or Silver"
 msgstr ""
 
-#: src/views/_backend.html:351
 msgid "Rich Mithril"
 msgstr ""
 
-#: src/views/_backend.html:348
 msgid "Rich Platinum"
 msgstr ""
 
-#: src/views/_backend.html:341
 msgid "Rich Silver"
 msgstr ""
 
-#: src/views/Crafting/ascended.html:37
-#: src/views/_backend.html:238
 msgid "Rifle"
 msgstr ""
 
-#: src/scripts/services/Tradingpost.js:172
 msgid "Rifles"
 msgstr ""
 
-#: src/views/_backend.html:248
 msgid "Ring"
 msgstr ""
 
-#: src/scripts/services/Tradingpost.js:155
 msgid "Rings"
 msgstr ""
 
-#: src/views/_backend.html:387
 msgid "Rosko’s Campsite Waypoint"
 msgstr ""
 
-#: src/views/_backend.html:406
 msgid "Rustbowl Waypoint"
 msgstr ""
 
-#: src/files/index.html:221
 msgid "SAB"
 msgstr ""
 
-#: src/scripts/controllers/Currencies/KarmaController.js:80
 msgid "Salvages into"
 msgstr ""
 
-#: src/views/_backend.html:296
 msgid "Sangdo Swiftwing"
 msgstr ""
 
-#: src/views/User/password-reset.html:31
 msgid "Save new password"
 msgstr ""
 
-#: src/views/Crafting/calculator.html:108
-#: src/views/Crafting/calculator.html:164
 msgid "Savings compared to buying"
 msgstr ""
 
-#: src/views/Crafting/ascended.html:38
-#: src/views/_backend.html:229
 msgid "Scepter"
 msgstr ""
 
-#: src/scripts/services/Tradingpost.js:173
 msgid "Scepters"
 msgstr ""
 
-#: src/views/Account/pvp.html:206
 msgid "Score"
 msgstr ""
 
-#: src/views/_backend.html:177
 msgid "Scrapper"
 msgstr ""
 
-#: src/views/Account/characters.html:35
-#: src/views/_backend.html:187
 msgid "Scribe"
 msgstr ""
 
-#: src/views/Tradingpost/index.html:14
 msgid "Search"
 msgstr ""
 
-#: src/views/Tradingpost/index.html:830
 msgid "Search Results"
 msgstr ""
 
-#: src/views/_backend.html:149
 msgid "Search for an item"
 msgstr ""
 
-#: src/views/Account/overview.html:5
 msgid "Search for an item name on your account"
 msgstr ""
 
-#: src/views/Tradingpost/history.html:70
 msgid "Search for an item..."
 msgstr ""
 
-#: src/views/Account/achievements.html:9
-#: src/views/Account/guild.html:363
-#: src/views/Account/mailcarriers.html:6
-#: src/views/Crafting/ascended.html:5
-#: src/views/Tradingpost/transactions.html:5
 msgid "Search..."
 msgstr ""
 
-#: src/views/_backend.html:43
 msgid "Seer (Path 4)"
 msgstr ""
 
-#: src/views/Account/achievements.html:139
 msgid "Select a random achievement for my current filters!"
 msgstr ""
 
-#: src/views/Tradingpost/investment-history.html:67
 msgid "Sell Date"
 msgstr ""
 
-#: src/views/Tradingpost/index.html:1053
-#: src/views/Tradingpost/index.html:498
 msgid "Sell Listings"
 msgstr ""
 
-#: src/views/Tradingpost/index.html:776
 msgid "Sell all investments"
 msgstr ""
 
-#: src/scripts/controllers/Tradingpost/IndexController.js:988
 msgid "Sell all investments?"
 msgstr ""
 
-#: src/views/Tradingpost/history.html:11
-#: src/views/Tradingpost/history.html:259
 msgid "Sell history"
 msgstr ""
 
-#: src/views/Tradingpost/index.html:634
 msgid "Sell investment"
 msgstr ""
 
-#: src/views/Tradingpost/transactions.html:126
-#: src/views/Tradingpost/transactions.html:14
 msgid "Sell listings"
 msgstr ""
 
-#: src/scripts/services/Chart.js:165
-#: src/views/Account/bank.html:11
-#: src/views/Account/character.html:225
-#: src/views/Account/guild.html:570
-#: src/views/Account/shared-inventory.html:11
-#: src/views/Currencies/badges-of-honor.html:11
-#: src/views/Currencies/claim-tickets.html:11
-#: src/views/Currencies/dungeon-tokens.html:10
-#: src/views/Currencies/guild-commendations.html:11
-#: src/views/Currencies/karma.html:11
-#: src/views/Currencies/karma.html:20
-#: src/views/Currencies/laurels.html:11
-#: src/views/Currencies/spirit-shards.html:11
-#: src/views/Currencies/spirit-shards.html:20
-#: src/views/Tradingpost/delivery.html:44
-#: src/views/Tradingpost/index.html:116
-#: src/views/Tradingpost/index.html:31
-#: src/views/Tradingpost/index.html:539
-#: src/views/Tradingpost/investment-history.html:64
 msgid "Sell price"
 msgstr ""
 
-#: src/views/Account/character.html:228
 msgid "Sell price (per unit)"
 msgstr ""
 
-#: src/views/Tradingpost/index.html:429
-#: src/views/Tradingpost/index.html:985
 msgid "Sell price / supply"
 msgstr ""
 
-#: src/views/_directives/tooltip.html:176
 msgid "Sell price:"
 msgstr ""
 
-#: src/scripts/services/Chart.js:549
 msgid "Selling 100 Gems"
 msgstr ""
 
-#: src/views/User/password-remind.html:39
 msgid "Send password reset mail"
 msgstr ""
 
-#: src/views/_backend.html:23
 msgid "Seraph (Path 2)"
 msgstr ""
 
-#: src/views/_backend.html:289
 msgid "Seraph Soldier Diedra"
 msgstr ""
 
-#: src/views/_backend.html:431
 msgid "Set 1"
 msgstr ""
 
-#: src/views/_backend.html:430
 msgid "Set 2"
 msgstr ""
 
-#: src/views/_backend.html:428
 msgid "Set 3"
 msgstr ""
 
-#: src/views/_backend.html:138
 msgid "Shadow"
 msgstr ""
 
-#: src/views/_backend.html:57
 msgid "Shadow Behemoth"
 msgstr ""
 
-#: src/views/Account/character.html:125
-#: src/views/Account/character.html:58
-#: src/views/Crafting/calculator.html:53
 msgid "Share:"
 msgstr ""
 
-#: src/files/index.html:239
-#: src/views/Account/overview.html:227
-#: src/views/Account/overview.html:572
 msgid "Shared Inventory"
 msgstr ""
 
-#: src/views/Account/character.html:129
 msgid "Sharing is activated for this character. If you don't want this, please <a ng-href=\"/account/character/{{ character.name }}\">click here</a>, enter your API key, and uncheck the share permissions."
 msgstr ""
 
-#: src/views/Account/character.html:120
 msgid "Sharing is activated for this character. If you don't want this, please uncheck the permissions to share above."
 msgstr ""
 
-#: src/scripts/services/Tradingpost.js:177
-#: src/views/Crafting/ascended.html:43
-#: src/views/_backend.html:232
 msgid "Shield"
 msgstr ""
 
-#: src/views/_backend.html:420
 msgid "Shipwreck Rock Waypoint"
 msgstr ""
 
-#: src/views/Crafting/calculator.html:257
 msgid "Shopping List"
 msgstr ""
 
-#: src/views/Crafting/ascended.html:31
-#: src/views/_backend.html:239
 msgid "Shortbow"
 msgstr ""
 
-#: src/scripts/services/Tradingpost.js:169
 msgid "Shortbows"
 msgstr ""
 
-#: src/scripts/services/Tradingpost.js:142
-#: src/views/Crafting/ascended.html:49
-#: src/views/_backend.html:224
 msgid "Shoulders"
 msgstr ""
 
-#: src/views/Dungeons/index.html:120
-#: src/views/Dungeons/index.html:177
-#: src/views/Dungeons/index.html:81
-#: src/views/Worldbosses/index.html:176
 msgid "Show"
 msgstr ""
 
-#: src/views/Account/overview.html:99
 msgid "Show account:"
 msgstr ""
 
-#: src/views/Dashboard/index.html:128
 msgid "Show currently active and upcoming worldbosses, get voice notifications and track your daily rewards."
 msgstr ""
 
-#: src/views/Tradingpost/index.html:302
-#: src/views/Tradingpost/index.html:913
 msgid "Show detailed information"
 msgstr ""
 
-#: src/views/Tradingpost/transactions.html:18
 msgid "Show listings:"
 msgstr ""
 
-#: src/views/Currencies/spirit-shards.html:33
 msgid "Show subcomponents:"
 msgstr ""
 
-#: src/views/Account/achievements.html:13
-#: src/views/Account/guild.html:367
-#: src/views/Account/mailcarriers.html:10
 msgid "Show:"
 msgstr ""
 
-#: src/views/_backend.html:98
 msgid "Siege Blueprints"
 msgstr ""
 
-#: src/views/_backend.html:305
 msgid "Siege Master"
 msgstr ""
 
-#: src/scripts/controllers/Currencies/SpiritShardController.js:54
 msgid "Siege Masters Guide"
 msgstr ""
 
-#: src/views/_directives/tooltip.html:108
 msgid "Simple Infusion"
 msgstr ""
 
-#: src/scripts/services/Tradingpost.js:200
 msgid "Skins"
 msgstr ""
 
-#: src/views/_backend.html:415
 msgid "Slough of Despond"
 msgstr ""
 
-#: src/views/_backend.html:316
 msgid "Snowblind"
 msgstr ""
 
-#: src/views/_backend.html:111
 msgid "Snowden Drifts"
 msgstr ""
 
-#: src/views/_backend.html:378
 msgid "Snowhawk Landing Waypoint"
 msgstr ""
 
-#: src/views/_backend.html:326
 msgid "Solid Ocean"
 msgstr ""
 
-#: src/views/Currencies/spirit-shards.html:63
 msgid "Some recipes result in a random quantity, in which case the average is used for calculations."
 msgstr ""
 
-#: src/views/Crafting/calculator.html:67
 msgid ""
 "Some sub-components of this recipe are included in a greater amount than required,\n"
 "                    because their recipes do not allow for the exact amount needed:"
 msgstr ""
 
-#: src/views/Currencies/dungeon-tokens.html:37
-#: src/views/_backend.html:12
 msgid "Sorrow's Embrace"
 msgstr ""
 
-#: src/views/_backend.html:272
 msgid "Soulbound"
 msgstr ""
 
-#: src/views/_backend.html:273
 msgid "Soulbound on use"
 msgstr ""
 
-#: src/views/Tradingpost/delivery.html:20
 msgid "Sound Notifications:"
 msgstr ""
 
-#: src/views/_backend.html:93
 msgid "Southsun Cove"
 msgstr ""
 
-#: src/views/_backend.html:79
 msgid "Sparkfly Fen"
 msgstr ""
 
-#: src/views/Worldbosses/index.html:106
 msgid "Spawns"
 msgstr ""
 
-#: src/views/Crafting/ascended.html:44
-#: src/views/_backend.html:244
 msgid "Spear"
 msgstr ""
 
-#: src/views/_backend.html:242
 msgid "Speargun"
 msgstr ""
 
-#: src/scripts/services/Tradingpost.js:178
 msgid "Spears"
 msgstr ""
 
-#: src/views/_backend.html:429
 msgid "Special miniatures"
 msgstr ""
 
-#: src/views/_backend.html:343
 msgid "Spinach"
 msgstr ""
 
-#: src/files/index.html:310
-#: src/views/Currencies/spirit-shards.html:169
-#: src/views/Currencies/spirit-shards.html:266
 msgid "Spirit Shards"
 msgstr ""
 
-#: src/views/Crafting/ascended.html:39
-#: src/views/_backend.html:240
 msgid "Staff"
 msgstr ""
 
-#: src/scripts/services/Tradingpost.js:174
 msgid "Staffs"
 msgstr ""
 
-#: src/views/Account/achievements.html:21
 msgid "Started"
 msgstr ""
 
-#: src/views/_backend.html:128
 msgid "Starter"
 msgstr ""
 
-#: src/views/Account/guild.html:472
 msgid "Statistics"
 msgstr ""
 
-#: src/views/Account/statistics.html:132
 msgid "Statistics by playtime"
 msgstr ""
 
-#: src/files/index.html:287
 msgid "Stats"
 msgstr ""
 
-#: src/scripts/controllers/Account/StatisticsController.js:6
 msgid "Stats - Account Statistics"
 msgstr ""
 
-#: src/views/Worldbosses/index.html:60
 msgid "Status"
 msgstr ""
 
-#: src/views/_backend.html:396
 msgid "Steelbrachen"
 msgstr ""
 
-#: src/views/Account/guild.html:119
-#: src/views/Account/guild.html:74
 msgid "Storage"
 msgstr ""
 
-#: src/views/_backend.html:18
 msgid "Story"
 msgstr ""
 
-#: src/views/Account/character.html:103
-#: src/views/Account/character.html:52
 msgid "Story Journal"
 msgstr ""
 
-#: src/views/_backend.html:89
 msgid "Straits of Devastation"
 msgstr ""
 
-#: src/views/_backend.html:339
 msgid "Strawberries"
 msgstr ""
 
-#: src/views/Account/overview.html:45
 msgid "Sub-Type:"
 msgstr ""
 
-#: src/views/Tradingpost/index.html:60
 msgid "Subcategory"
 msgstr ""
 
-#: src/views/_backend.html:37
 msgid "Submarine (Path 1)"
 msgstr ""
 
-#: src/views/Crafting/ascended.html:21
 msgid "Subtype:"
 msgstr ""
 
-#: src/views/_backend.html:150
 msgid "Successfully copied"
 msgstr ""
 
-#: src/views/Dashboard/index.html:11
 msgid "Successfully logged in!"
 msgstr ""
 
-#: src/views/Dashboard/index.html:7
 msgid "Successfully logged out, see you soon!"
 msgstr ""
 
-#: src/views/Dashboard/index.html:15
 msgid "Successfully registered, nice to have you!"
 msgstr ""
 
-#: src/views/Dashboard/index.html:3
 msgid "Successfully reset your password, welcome back!"
 msgstr ""
 
-#: src/views/_backend.html:347
 msgid "Sugar Pumpkins"
 msgstr ""
 
-#: src/views/Account/sab.html:41
 msgid "Super Adventure Box"
 msgstr ""
 
-#: src/scripts/services/Chart.js:196
-#: src/views/Tradingpost/index.html:135
-#: src/views/Tradingpost/index.html:34
-#: src/views/Tradingpost/index.html:380
-#: src/views/Tradingpost/index.html:936
 msgid "Supply"
 msgstr ""
 
-#: src/views/_backend.html:313
 msgid "Swampland (Bloomhunger)"
 msgstr ""
 
-#: src/views/_backend.html:327
 msgid "Swampland (Mossman)"
 msgstr ""
 
-#: src/views/Crafting/ascended.html:28
-#: src/views/_backend.html:230
 msgid "Sword"
 msgstr ""
 
-#: src/scripts/services/Tradingpost.js:168
 msgid "Swords"
 msgstr ""
 
-#: src/views/_backend.html:159
 msgid "Sylvari"
 msgstr ""
 
-#: src/views/_directives/componentTree.html:28
 msgid "TP"
 msgstr ""
 
-#: src/views/_backend.html:304
 msgid "Tactician Deathstrider"
 msgstr ""
 
-#: src/views/Account/characters.html:36
-#: src/views/_backend.html:181
 msgid "Tailor"
 msgstr ""
 
-#: src/views/_backend.html:135
 msgid "Taimi's"
 msgstr ""
 
-#: src/views/_backend.html:359
 msgid "Tangled Depths"
 msgstr ""
 
-#: src/views/Tradingpost/index.html:398
-#: src/views/Tradingpost/index.html:954
 msgid "Tax"
 msgstr ""
 
-#: src/views/Account/guild.html:129
-#: src/views/Account/guild.html:80
 msgid "Teams"
 msgstr ""
 
-#: src/views/_backend.html:38
 msgid "Teleporter (Path 2)"
 msgstr ""
 
-#: src/views/_backend.html:178
 msgid "Tempest"
 msgstr ""
 
-#: src/views/_backend.html:77
 msgid "Temple of Balthazar"
 msgstr ""
 
-#: src/views/_backend.html:75
 msgid "Temple of Dwayna"
 msgstr ""
 
-#: src/views/_backend.html:73
 msgid "Temple of Grenth"
 msgstr ""
 
-#: src/views/_backend.html:76
 msgid "Temple of Lyssa"
 msgstr ""
 
-#: src/views/_backend.html:74
 msgid "Temple of Melandru"
 msgstr ""
 
-#: src/views/_backend.html:427
 msgid "Temporarily available miniatures"
 msgstr ""
 
-#: src/views/_backend.html:130
 msgid "Tequatl Rising"
 msgstr ""
 
-#: src/views/_backend.html:54
 msgid "Tequatl the Sunless"
 msgstr ""
 
-#: src/views/_backend.html:393
 msgid "Terra Carorunda Waypoint"
 msgstr ""
 
-#: src/views/Currencies/spirit-shards.html:308
 msgid "Thanks to Silveress.5197 for their suggestions and their research on average droprates."
 msgstr ""
 
-#: src/views/_backend.html:323
 msgid "Thaumanova Reactor"
 msgstr ""
 
-#: src/views/_backend.html:408
 msgid "The Citadel of Flame Waypoint"
 msgstr ""
 
-#: src/views/_backend.html:59
 msgid "The Frozen Maw"
 msgstr ""
 
-#: src/views/Account/achievements.html:49
 msgid "The Icebrood Saga"
 msgstr ""
 
-#: src/views/Currencies/dungeon-tokens.html:62
-#: src/views/_backend.html:16
 msgid "The Ruined City of Arah"
 msgstr ""
 
-#: src/views/_backend.html:61
 msgid "The Shatterer"
 msgstr ""
 
-#: src/views/Account/character.html:135
-#: src/views/Account/character.html:213
-#: src/views/Account/character.html:268
 msgid "The following part of the page has not yet been optimized for mobile use. You can scroll horizontally to use the whole part."
 msgstr ""
 
-#: src/views/_directives/errorSplash.html:9
 msgid "The page you requested requires an API key to access your GW2 account."
 msgstr ""
 
-#: src/views/_backend.html:332
 msgid "The recharge time of skills you use is increased if you have a condition on you. Enemies apply random conditions."
 msgstr ""
 
-#: src/views/_backend.html:122
 msgid "The required recipes have a chance to drop off the last boss of each path"
 msgstr ""
 
-#: src/views/Community/lottery.html:17
 msgid "There is currently no lottery set up. Come and check back in a few hours!"
 msgstr ""
 
-#: src/views/_directives/errorSplash.html:37
 msgid "There was an error accessing the API"
 msgstr ""
 
-#: src/views/Currencies/claim-tickets.html:17
 msgid ""
 "These are the currently available options to spend Black Lion Claim Tickets.<br>\n"
 "        Not up to date? Please <a href=\"https://wiki.guildwars2.com/wiki/Black_Lion_Weapons_Specialist_(The_Vaults)\" target=\"_blank\">update the wiki page</a>, and this page will reflect the changes."
 msgstr ""
 
-#: src/views/Crafting/calculator.html:60
 msgid ""
 "These are the materials to craft {{ tree.totalQuantity }} items instead of {{ recipes[0].amount }},\n"
 "                    because the recipe doesn't allow for the amount you specified."
 msgstr ""
 
-#: src/views/Dashboard/index.html:57
 msgid "These credentials were not correct."
 msgstr ""
 
-#: src/views/Tradingpost/index.html:841
 msgid "These prices are only updated every 24 hours, to refresh them click <i class=\"fa fa-refresh\"></i> on the right"
 msgstr ""
 
-#: src/views/Account/pvp.html:173
-#: src/views/_backend.html:164
 msgid "Thief"
 msgstr ""
 
-#: src/views/Community/lottery.html:39
 msgid "This is a Community Lottery organized by \"queicherius.2563\" (Queicherius) and \"Morganna Bloodrush.6309\" (Saskia Van Leeuwen). To have a chance of winning a prize, simply enter your account name below and press \"Enter me into the lottery!\". The draws are on the 1st every month and prizes will change each time. If you wish to donate towards the prize fund, please contact either of us in game."
 msgstr ""
 
-#: src/views/User/password-remind.html:20
 msgid "This is not a valid e-mail."
 msgstr ""
 
-#: src/views/Account/overview.html:510
 msgid "This is using your account data from {{ lastUpdate | date:'mediumTime' }}. <a class=\"statlink\" ng-click=\"loadAccountData()\">Refresh now!</a>"
 msgstr ""
 
-#: src/views/Community/grouped-lottery.html:15
 msgid ""
 "This lottery is sponsored by Guild Mm Trading Company [TP].\n"
 "        <br class=\"mobile-hidden\">\n"
@@ -4352,1054 +2936,701 @@ msgid ""
 "        We will reroll if you don't answer within 72 hours of winning, or are impolite."
 msgstr ""
 
-#: src/views/Account/bank.html:2
-#: src/views/Account/overview.html:515
-#: src/views/Account/pvp.html:2
-#: src/views/Account/shared-inventory.html:2
-#: src/views/Community/lottery.html:2
-#: src/views/Crafting/calculator.html:2
-#: src/views/Tradingpost/index.html:2
 msgid "This page has not yet been optimized for mobile use. You can scroll horizontally to use the whole page."
 msgstr ""
 
-#: src/views/Dashboard/index.html:19
 msgid "This page is only accessible to logged in users"
 msgstr ""
 
-#: src/views/User/password-reset.html:22
 msgid "This password-reset link is invalid, please request another one."
 msgstr ""
 
-#: src/views/_backend.html:103
 msgid "This recipe can yield multiple random drops, including common, fine and rare materials"
 msgstr ""
 
-#: src/views/Crafting/calculator.html:341
 msgid "This recipe expects you to craft {{ daily_cooldowns.amount }} items that you can only craft once a day:"
 msgstr ""
 
-#: src/views/Dashboard/index.html:28
 msgid "This shouldn't be your Guildwars 2 credentials, you can choose whatever you want."
 msgstr ""
 
-#: src/views/Account/overview.html:180
-#: src/views/Currencies/badges-of-honor.html:25
-#: src/views/Currencies/claim-tickets.html:30
-#: src/views/Currencies/dungeon-tokens.html:110
-#: src/views/Currencies/guild-commendations.html:26
-#: src/views/Currencies/karma.html:34
-#: src/views/Currencies/laurels.html:21
-#: src/views/Currencies/spirit-shards.html:86
-#: src/views/Tradingpost/history.html:153
-#: src/views/Tradingpost/history.html:261
-#: src/views/Tradingpost/history.html:318
-#: src/views/Tradingpost/history.html:84
-#: src/views/Tradingpost/investment-history.html:49
-#: src/views/Tradingpost/transactions.html:160
-#: src/views/Tradingpost/transactions.html:58
-#: src/views/Worldbosses/index.html:51
 msgid "This table has not yet been optimized for mobile use. You can scroll horizontally to see the whole table."
 msgstr ""
 
-#: src/views/Dashboard/index.html:65
 msgid "This username already exists"
 msgstr ""
 
-#: src/views/_backend.html:402
 msgid "Thistlereed Waypoint"
 msgstr ""
 
-#: src/views/Currencies/claim-tickets.html:37
 msgid "Tickets"
 msgstr ""
 
-#: src/views/Account/achievements.html:329
 msgid "Tier"
 msgstr ""
 
-#: src/views/Account/achievements.html:323
 msgid "Tiers:"
 msgstr ""
 
-#: src/views/_backend.html:288
 msgid "Tiga Fierceblade"
 msgstr ""
 
-#: src/views/_backend.html:112
 msgid "Timberline Falls"
 msgstr ""
 
-#: src/views/Tradingpost/index.html:345
-#: src/views/Tradingpost/index.html:650
-#: src/views/Tradingpost/index.html:696
-#: src/views/Tradingpost/index.html:787
-#: src/views/Worldbosses/index.html:38
 msgid "Time"
 msgstr ""
 
-#: src/files/index.html:227
 msgid "Time Machine"
 msgstr ""
 
-#: src/views/Worldbosses/index.html:33
 msgid "Time display:"
 msgstr ""
 
-#: src/files/index.html:356
 msgid "Timers"
 msgstr ""
 
-#: src/views/Account/achievements.html:54
 msgid "Titles only:"
 msgstr ""
 
-#: src/scripts/services/Chart.js:32
 msgid "To"
 msgstr ""
 
-#: src/views/Currencies/dungeon-tokens.html:119
 msgid "Tokens"
 msgstr ""
 
-#: src/views/Crafting/ascended.html:41
-#: src/views/_backend.html:233
 msgid "Torch"
 msgstr ""
 
-#: src/scripts/services/Tradingpost.js:175
 msgid "Torches"
 msgstr ""
 
-#: src/views/Account/pvp.html:115
-#: src/views/Community/lottery.html:162
 msgid "Total"
 msgstr ""
 
-#: src/views/Currencies/spirit-shards.html:48
 msgid "Total Profit"
 msgstr ""
 
-#: src/views/Tradingpost/history.html:163
-#: src/views/Tradingpost/history.html:30
-#: src/views/Tradingpost/investment-history.html:4
 msgid "Total buy price"
 msgstr ""
 
-#: src/views/Account/guild.html:170
-#: src/views/Account/guild.html:256
 msgid "Total cost:"
 msgstr ""
 
-#: src/views/Tradingpost/history.html:332
-#: src/views/Tradingpost/history.html:49
 msgid "Total current price"
 msgstr ""
 
-#: src/views/Tradingpost/index.html:190
 msgid "Total invested money"
 msgstr ""
 
-#: src/views/Tradingpost/transactions.html:170
 msgid "Total listing price"
 msgstr ""
 
-#: src/views/Tradingpost/index.html:194
 msgid "Total net value"
 msgstr ""
 
-#: src/views/Tradingpost/transactions.html:68
 msgid "Total order price"
 msgstr ""
 
-#: src/views/Tradingpost/index.html:199
-#: src/views/Tradingpost/index.html:529
-#: src/views/Tradingpost/index.html:533
-#: src/views/Tradingpost/investment-history.html:12
 msgid "Total profit"
 msgstr ""
 
-#: src/views/Tradingpost/history.html:165
-#: src/views/Tradingpost/history.html:32
-#: src/views/Tradingpost/history.html:328
-#: src/views/Tradingpost/history.html:45
-#: src/views/Tradingpost/investment-history.html:8
 msgid "Total sell price"
 msgstr ""
 
-#: src/views/Account/guild.html:207
 msgid "Total:"
 msgstr ""
 
-#: src/views/_backend.html:191
 msgid "Toughness"
 msgstr ""
 
-#: src/views/_backend.html:131
 msgid "Tower of Nightmares"
 msgstr ""
 
-#: src/views/Dashboard/index.html:120
 msgid "Track your dailies and dungeon times, calculate the most efficient dungeons for you and compare with other players."
 msgstr ""
 
-#: src/views/Dashboard/index.html:112
 msgid "Track your investments, watch item prices easily, show flip profits and get detailed insight with comprehensive graphs."
 msgstr ""
 
-#: src/views/Tradingpost/index.html:225
 msgid "Tracked items"
 msgstr ""
 
-#: src/files/index.html:334
-#: src/views/Dashboard/index.html:111
 msgid "Tradingpost"
 msgstr ""
 
-#: src/scripts/controllers/Tradingpost/TransactionsController.js:6
 msgid "Tradingpost - Current transactions"
 msgstr ""
 
-#: src/scripts/controllers/Tradingpost/DeliveryController.js:7
 msgid "Tradingpost - Delivery"
 msgstr ""
 
-#: src/scripts/controllers/Tradingpost/InvestmentHistoryController.js:4
 msgid "Tradingpost - Investment history"
 msgstr ""
 
-#: src/scripts/controllers/Tradingpost/IndexController.js:8
 msgid "Tradingpost - Overview"
 msgstr ""
 
-#: src/scripts/controllers/Tradingpost/HistoryController.js:7
 msgid "Tradingpost - Transaction history"
 msgstr ""
 
-#: src/views/Crafting/legendaries.html:49
 msgid "Tradingpost Price (buy)"
 msgstr ""
 
-#: src/views/Crafting/legendaries.html:50
 msgid "Tradingpost Price (sell)"
 msgstr ""
 
-#: src/views/Account/overview.html:259
 msgid "Tradingpost: Buy Orders"
 msgstr ""
 
-#: src/views/Account/overview.html:291
-#: src/views/Account/overview.html:608
 msgid "Tradingpost: Delivery Box"
 msgstr ""
 
-#: src/views/Account/overview.html:275
-#: src/views/Account/overview.html:596
 msgid "Tradingpost: Sell Orders"
 msgstr ""
 
-#: src/files/index.html:347
 msgid "Transaction History"
 msgstr ""
 
-#: src/views/_directives/tooltip.html:123
 msgid "Transmuted"
 msgstr ""
 
-#: src/views/Account/guild.html:543
-#: src/views/Account/guild.html:62
-#: src/views/Account/guild.html:99
 msgid "Treasury"
 msgstr ""
 
-#: src/views/Tradingpost/index.html:435
-#: src/views/Tradingpost/index.html:991
 msgid "Trendline"
 msgstr ""
 
-#: src/views/Crafting/ascended.html:46
-#: src/views/_backend.html:245
 msgid "Trident"
 msgstr ""
 
-#: src/scripts/services/Tradingpost.js:180
 msgid "Tridents"
 msgstr ""
 
-#: src/views/Crafting/legendaries.html:14
 msgid "Trinket"
 msgstr ""
 
-#: src/scripts/services/Tradingpost.js:151
 msgid "Trinkets"
 msgstr ""
 
-#: src/scripts/services/Tradingpost.js:222
 msgid "Trophies"
 msgstr ""
 
-#: src/views/_directives/tooltip.html:137
 msgid "Trophy"
 msgstr ""
 
-#: src/views/Currencies/dungeon-tokens.html:31
-#: src/views/_backend.html:11
 msgid "Twilight Arbor"
 msgstr ""
 
-#: src/views/Account/pvp.html:191
 msgid "Type"
 msgstr ""
 
-#: src/views/Account/overview.html:38
-#: src/views/Crafting/ascended.html:9
-#: src/views/Crafting/legendaries.html:5
 msgid "Type:"
 msgstr ""
 
-#: src/views/_backend.html:21
 msgid "Tzark (Path 3)"
 msgstr ""
 
-#: src/views/_backend.html:66
 msgid "Ulgoth the Modniir"
 msgstr ""
 
-#: src/views/_backend.html:315
 msgid "Uncategorized"
 msgstr ""
 
-#: src/views/_backend.html:126
 msgid "Uncommon"
 msgstr ""
 
-#: src/views/_backend.html:324
 msgid "Underground Facility (Bombs)"
 msgstr ""
 
-#: src/views/_backend.html:319
 msgid "Underground Facility (Guns)"
 msgstr ""
 
-#: src/views/Account/achievements.html:20
 msgid "Unfinished"
 msgstr ""
 
-#: src/views/_backend.html:274
 msgid "Unique"
 msgstr ""
 
-#: src/scripts/services/Tradingpost.js:201
 msgid "Unlock"
 msgstr ""
 
-#: src/files/index.html:294
 msgid "Unlock Statistics"
 msgstr ""
 
-#: src/views/Account/mailcarriers.html:16
 msgid "Unlocked"
 msgstr ""
 
-#: src/views/Account/overview.html:339
 msgid "Unlocked Dyes"
 msgstr ""
 
-#: src/views/Account/overview.html:399
 msgid "Unlocked Finishers"
 msgstr ""
 
-#: src/views/Account/overview.html:459
 msgid "Unlocked Gliders"
 msgstr ""
 
-#: src/views/Account/overview.html:447
 msgid "Unlocked Home Instance Nodes"
 msgstr ""
 
-#: src/views/Account/overview.html:435
 msgid "Unlocked Mailcarriers"
 msgstr ""
 
-#: src/views/Account/overview.html:351
 msgid "Unlocked Miniatures"
 msgstr ""
 
-#: src/views/Account/overview.html:363
 msgid "Unlocked Mounts"
 msgstr ""
 
-#: src/views/Account/overview.html:375
 msgid "Unlocked Novelties"
 msgstr ""
 
-#: src/views/Account/overview.html:387
 msgid "Unlocked Outfits"
 msgstr ""
 
-#: src/views/Account/overview.html:423
 msgid "Unlocked PvP Heroes"
 msgstr ""
 
-#: src/views/Account/overview.html:411
 msgid "Unlocked Recipes"
 msgstr ""
 
-#: src/views/Account/overview.html:319
 msgid "Unlocked Skins"
 msgstr ""
 
-#: src/views/_backend.html:207
 msgid "Unranked Queue"
 msgstr ""
 
-#: src/views/Crafting/calculator.html:219
 msgid "Update own materials & best path every minute (last update: {{ tree.lastUpdate | date:'shortTime' }})"
 msgstr ""
 
-#: src/views/Account/guild.html:412
 msgid "Upgrade"
 msgstr ""
 
-#: src/scripts/services/Tradingpost.js:185
 msgid "Upgrade Components"
 msgstr ""
 
-#: src/views/Account/guild.html:44
 msgid "Upgrades"
 msgstr ""
 
-#: src/views/Account/overview.html:73
 msgid "Upgrades Only"
 msgstr ""
 
-#: src/views/_backend.html:312
 msgid "Urban Battleground"
 msgstr ""
 
-#: src/views/Crafting/calculator.html:20
 msgid "Use own materials"
 msgstr ""
 
-#: src/views/Account/characters.html:142
 msgid "Used / Total slots"
 msgstr ""
 
-#: src/views/Crafting/calculator.html:213
 msgid "Used owned materials"
 msgstr ""
 
-#: src/views/Dashboard/index.html:40
 msgid "Username"
 msgstr ""
 
-#: src/views/Crafting/calculator.html:86
 msgid "Using own materials"
 msgstr ""
 
-#: src/views/_directives/componentTree.html:61
 msgid "Using {{ component.totalQuantity - component.usedQuantity }} owned materials"
 msgstr ""
 
-#: src/scripts/services/Tradingpost.js:197
 msgid "Utility Effects"
 msgstr ""
 
-#: src/views/_backend.html:379
 msgid "Valslake Waypoint"
 msgstr ""
 
-#: src/views/Account/bank.html:29
-#: src/views/Account/character.html:226
-#: src/views/Account/guild.html:588
-#: src/views/Account/overview.html:189
-#: src/views/Account/overview.html:529
-#: src/views/Account/overview.html:82
-#: src/views/Account/shared-inventory.html:29
-#: src/views/Tradingpost/delivery.html:62
 msgid "Value"
 msgstr ""
 
-#: src/views/_directives/tooltip.html:185
 msgid "Value:"
 msgstr ""
 
-#: src/views/Account/guild.html:109
-#: src/views/Account/guild.html:68
 msgid "Vault"
 msgstr ""
 
-#: src/views/_directives/componentTree.html:43
-#: src/views/_directives/componentTree.html:49
 msgid "Vendor"
 msgstr ""
 
-#: src/views/_directives/tooltip.html:170
 msgid "Vendor price:"
 msgstr ""
 
-#: src/views/_backend.html:358
 msgid "Verdant Brink"
 msgstr ""
 
-#: src/views/_backend.html:25
 msgid "Vevina / Forward (Path 1)"
 msgstr ""
 
-#: src/views/Currencies/dungeon-tokens.html:162
 msgid "View item history on gw2spidy"
 msgstr ""
 
-#: src/views/_backend.html:421
 msgid "Vine Bridge Waypoint"
 msgstr ""
 
-#: src/views/_backend.html:193
 msgid "Vitality"
 msgstr ""
 
-#: src/views/_backend.html:117
 msgid "Vitality / Condition damage / Healing power"
 msgstr ""
 
-#: src/views/Worldbosses/index.html:24
 msgid "Voice notifications:"
 msgstr ""
 
-#: src/views/_backend.html:317
 msgid "Volcanic"
 msgstr ""
 
-#: src/scripts/services/Chart.js:154
 msgid "Volume"
 msgstr ""
 
-#: src/views/Dashboard/index.html:53
 msgid "Waiting for the server to respond..."
 msgstr ""
 
-#: src/files/index.html:230
-#: src/views/Account/overview.html:195
-#: src/views/Account/wallet.html:3
 msgid "Wallet"
 msgstr ""
 
-#: src/views/_backend.html:295
 msgid "Warden Caedmon"
 msgstr ""
 
-#: src/files/index.html:245
 msgid "Wardrobe"
 msgstr ""
 
-#: src/views/Crafting/ascended.html:42
-#: src/views/_backend.html:234
 msgid "Warhorn"
 msgstr ""
 
-#: src/scripts/services/Tradingpost.js:176
 msgid "Warhorns"
 msgstr ""
 
-#: src/views/Currencies/claim-tickets.html:25
 msgid "Warning: there are new items available that are missing from this table - check back later!"
 msgstr ""
 
-#: src/views/Account/pvp.html:178
-#: src/views/_backend.html:166
 msgid "Warrior"
 msgstr ""
 
-#: src/views/_backend.html:417
 msgid "Waste Hollows"
 msgstr ""
 
-#: src/views/_backend.html:375
 msgid "Watchful Source Waypoint"
 msgstr ""
 
-#: src/views/_backend.html:84
 msgid "Wayfarer Foothills"
 msgstr ""
 
-#: src/scripts/controllers/Worldbosses/IndexController.js:252
 msgid "Waypoint"
 msgstr ""
 
-#: src/views/_backend.html:423
 msgid "Waywarde Waypoint"
 msgstr ""
 
-#: src/views/Community/grouped-lottery.html:5
 msgid "We promise that you don't want to miss this."
 msgstr ""
 
-#: src/scripts/services/Tradingpost.js:187
 msgid "Weapon Sigils"
 msgstr ""
 
-#: src/views/_directives/tooltip.html:29
 msgid "Weapon Strength:"
 msgstr ""
 
-#: src/scripts/services/Tradingpost.js:160
-#: src/views/Crafting/ascended.html:14
-#: src/views/Crafting/legendaries.html:11
 msgid "Weapons"
 msgstr ""
 
-#: src/views/_backend.html:124
 msgid "Weapons to craft in the mystic forge, requiring additional 50 spirit shards each"
 msgstr ""
 
-#: src/views/Account/characters.html:37
-#: src/views/_backend.html:183
 msgid "Weaponsmith"
 msgstr ""
 
-#: src/views/Crafting/ascended.html:59
 msgid "Weight Class:"
 msgstr ""
 
-#: src/views/Account/overview.html:52
 msgid "Weight:"
 msgstr ""
 
-#: src/views/_backend.html:329
 msgid "When you dodge roll, you lose all your boons."
 msgstr ""
 
-#: src/views/_backend.html:334
 msgid "When you dodge roll, you lose all your boons. Enemies steal boons when they hit you."
 msgstr ""
 
-#: src/views/_backend.html:394
 msgid "Wide Expanse"
 msgstr ""
 
-#: src/views/Community/lottery.html:83
 msgid "Winners of the last drawing"
 msgstr ""
 
-#: src/views/Account/pvp.html:109
-#: src/views/Account/pvp.html:139
-#: src/views/Account/pvp.html:68
 msgid "Winrate"
 msgstr ""
 
-#: src/views/_backend.html:140
 msgid "Winter Chimes"
 msgstr ""
 
-#: src/views/Crafting/calculator.html:151
 msgid "Without using own materials"
 msgstr ""
 
-#: src/views/Account/pvp.html:222
 msgid "Won Match"
 msgstr ""
 
-#: src/scripts/controllers/Worldbosses/IndexController.js:11
-#: src/views/Dashboard/index.html:127
 msgid "Worldbosses"
 msgstr ""
 
-#: src/views/_backend.html:294
 msgid "Wounded Private Felix"
 msgstr ""
 
-#: src/views/_backend.html:367
 msgid "Wychmire Waypoint"
 msgstr ""
 
-#: src/views/_backend.html:395
 msgid "Wyrmblood Waypoint"
 msgstr ""
 
-#: src/views/_backend.html:148
 msgid "Yellow"
 msgstr ""
 
-#: src/views/Account/achievements.html:58
-#: src/views/Account/achievements.html:67
-#: src/views/Account/achievements.html:76
-#: src/views/Crafting/ascended.html:76
-#: src/views/Crafting/calculator.html:22
-#: src/views/Crafting/legendaries.html:23
-#: src/views/Crafting/legendaries.html:31
-#: src/views/Currencies/dungeon-tokens.html:96
-#: src/views/Currencies/spirit-shards.html:28
-#: src/views/Currencies/spirit-shards.html:37
-#: src/views/Currencies/spirit-shards.html:56
-#: src/views/Dungeons/index.html:9
-#: src/views/Tradingpost/delivery.html:15
-#: src/views/Tradingpost/delivery.html:24
-#: src/views/Tradingpost/history.html:19
-#: src/views/Worldbosses/index.html:11
-#: src/views/Worldbosses/index.html:19
-#: src/views/Worldbosses/index.html:28
 msgid "Yes"
 msgstr ""
 
-#: src/views/Community/lottery.html:61
 msgid "You are entered for the next drawing. Good luck!"
 msgstr ""
 
-#: src/views/Community/grouped-lottery.html:87
 msgid "You are entered, good luck!"
 msgstr ""
 
-#: src/views/Account/overview.html:134
 msgid "You are higher than {{ topPercent(wealth.rank / wealth.participants) | number }}% of {{ wealth.participants | number }} accounts."
 msgstr ""
 
-#: src/views/_backend.html:300
 msgid "You can buy one of these each day from the Karmic Converter (needs \"Exotic Hunter\" achievement)"
 msgstr ""
 
-#: src/views/_backend.html:311
 msgid "You can only buy these items are once per account."
 msgstr ""
 
-#: src/views/Tradingpost/index.html:237
 msgid "You don't have any tracked items."
 msgstr ""
 
-#: src/views/Crafting/calculator.html:360
 msgid "You have no character with this discipline"
 msgstr ""
 
-#: src/views/Dashboard/index.html:113
-#: src/views/Dashboard/index.html:121
 msgid "You have to be logged in to access this page"
 msgstr ""
 
-#: src/views/Dashboard/index.html:61
 msgid "You have to fill out both fields"
 msgstr ""
 
-#: src/views/Account/mailcarriers.html:33
 msgid "You have {{ (completion_unlocked = (mailcarriers | filter:mailcarrierFilter | filter:{unlocked: true}).length) | number:0 }} of {{ (completion_total = (mailcarriers | filter:mailcarrierFilter).length) }} ({{ (completion_unlocked / completion_total) * 100 | number:1 }}%) mailcarriers matching the filter."
 msgstr ""
 
-#: src/views/Account/overview.html:508
 msgid "You played a total of {{ total_age | timeString:1:true:false:['hour', 'minute', 'second'] }} across all characters"
 msgstr ""
 
-#: src/views/Account/statistics.html:27
 msgid "Your account"
 msgstr ""
 
-#: src/views/Account/guilds.html:3
 msgid "Your account's guilds"
 msgstr ""
 
-#: src/views/Tradingpost/history.html:93
 msgid "Your buy price"
 msgstr ""
 
-#: src/views/Account/mailcarriers.html:34
 msgid "Your collection is worth <span gold amount=\"priceSum((mailcarriers | filter:mailcarrierFilter | filter:{unlocked: true}))\" display-copper=\"false\"></span>, and you would need <span gold amount=\"priceSum((mailcarriers | filter:mailcarrierFilter | filter:{unlocked: false}))\" display-copper=\"false\"></span> to complete it."
 msgstr ""
 
-#: src/views/_directives/errorSplash.html:20
 msgid "Your current API key is invalid."
 msgstr ""
 
-#: src/views/_directives/errorSplash.html:27
 msgid "Your current API key is missing the \"{{ errorSplash.permission }}\" permission."
 msgstr ""
 
-#: src/views/Dungeons/index.html:45
 msgid ""
 "Your current dungeon completion is read directly from your API key.<br>\n"
 "            You need to complete {{ 8 - dungeonFrequenterDone }} more dungeons for your Dungeon Frequenter Reward."
 msgstr ""
 
-#: src/views/Dungeons/index.html:92
 msgid "Your current raid completion is read directly from your API key."
 msgstr ""
 
-#: src/views/Tradingpost/history.html:270
 msgid "Your sell price"
 msgstr ""
 
-#: src/views/Account/gemstore-upgrades.html:4
 msgid "Your upgrades are worth <span gold amount=\"priceSum()\" display-copper=\"false\"></span>."
 msgstr ""
 
-#: src/views/_backend.html:36
 msgid "Zealot (Path 3)"
 msgstr ""
 
-#: src/files/index.html:380
 msgid "Zephyrite Supply Boxes"
 msgstr ""
 
-#: src/scripts/services/Chart.js:33
 msgid "Zoom"
 msgstr ""
 
-#: src/scripts/services/Chart.js:473
-#: src/scripts/services/Chart.js:68
 msgid "all"
 msgstr ""
 
-#: src/views/Crafting/calculator.html:37
 msgid "amount"
 msgstr ""
 
-#: src/scripts/directives/stackedQuantity.js:9
-#: src/scripts/filters/timeString.js:174
-#: src/views/Crafting/calculator.html:400
 msgid "and"
 msgstr ""
 
-#: src/views/Tradingpost/index.html:1057
-#: src/views/Tradingpost/index.html:503
 msgid "available"
 msgstr ""
 
-#: src/views/Account/gemstore-upgrades.html:23
-#: src/views/Account/mailcarriers.html:57
-#: src/views/Tradingpost/delivery.html:120
-#: src/views/Tradingpost/delivery.html:90
 msgid "bound"
 msgstr ""
 
-#: src/views/Crafting/calculator.html:15
 msgid "buy price (\"order\")"
 msgstr ""
 
-#: src/scripts/services/Gold.js:95
 msgid "c"
 msgstr ""
 
-#: src/views/Account/achievements.html:153
-#: src/views/Account/achievements.html:91
-#: src/views/Account/guild.html:286
-#: src/views/Account/guild.html:450
 msgid "completed"
 msgstr ""
 
-#: src/views/Account/characters.html:136
 msgid "deaths"
 msgstr ""
 
-#: src/views/Account/characters.html:137
 msgid "deaths per hour"
 msgstr ""
 
-#: src/views/Dungeons/index.html:18
-#: src/views/Worldbosses/index.html:46
 msgid "done editing"
 msgstr ""
 
-#: src/views/Crafting/calculator.html:292
-#: src/views/Crafting/calculator.html:303
-#: src/views/Crafting/calculator.html:322
 msgid "each"
 msgid_plural "per {{$count}}"
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/views/Dungeons/index.html:17
-#: src/views/Worldbosses/index.html:45
 msgid "edit"
 msgstr ""
 
-#: src/views/Tradingpost/index.html:561
 msgid "even on"
 msgstr ""
 
-#: src/views/Account/overview.html:118
 msgid "excl. gemstore items"
 msgstr ""
 
-#: src/views/Account/guild.html:317
 msgid "exclude owned resources"
 msgstr ""
 
-#: src/views/_directives/tooltip.html:173
-#: src/views/_directives/tooltip.html:176
-#: src/views/_directives/tooltip.html:179
-#: src/views/_directives/tooltip.html:182
-#: src/views/_directives/tooltip.html:185
 msgid "for"
 msgstr ""
 
-#: src/scripts/services/Gold.js:63
 msgid "g"
 msgstr ""
 
-#: src/views/Account/character.html:60
 msgid "hide"
 msgstr ""
 
-#: src/scripts/filters/timeAgoString.js:54
 msgid "in {{$time}}"
 msgstr ""
 
-#: src/views/Account/overview.html:124
 msgid "incl. gemstore items"
 msgstr ""
 
-#: src/views/Account/overview.html:327
-#: src/views/Account/overview.html:331
 msgid "including items in inventories"
 msgstr ""
 
-#: src/scripts/filters/timeAgoString.js:38
 msgid "just now"
 msgstr ""
 
-#: src/views/Tradingpost/index.html:100
-#: src/views/Tradingpost/index.html:109
-#: src/views/Tradingpost/index.html:128
-#: src/views/Tradingpost/index.html:137
-#: src/views/Tradingpost/index.html:152
-#: src/views/Tradingpost/index.html:161
-#: src/views/Tradingpost/index.html:168
-#: src/views/Tradingpost/index.html:85
 msgid "max"
 msgstr ""
 
-#: src/views/Tradingpost/index.html:108
-#: src/views/Tradingpost/index.html:118
-#: src/views/Tradingpost/index.html:136
-#: src/views/Tradingpost/index.html:142
-#: src/views/Tradingpost/index.html:160
-#: src/views/Tradingpost/index.html:167
-#: src/views/Tradingpost/index.html:84
-#: src/views/Tradingpost/index.html:90
 msgid "min"
 msgstr ""
 
-#: src/views/Worldbosses/index.html:85
 msgid "next up in {{ event.closestTime | timeString:2 }}"
 msgstr ""
 
-#: src/views/Account/achievements.html:165
-#: src/views/Account/achievements.html:226
 msgid "objective"
 msgid_plural "objectives"
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/views/Account/characters.html:129
 msgid "old"
 msgstr ""
 
-#: src/views/Tradingpost/index.html:1043
-#: src/views/Tradingpost/index.html:488
 msgid "ordered"
 msgstr ""
 
-#: src/views/Crafting/calculator.html:386
 msgid "out of"
 msgstr ""
 
-#: src/views/_directives/componentTree.html:70
 msgid "per item"
 msgstr ""
 
-#: src/views/Account/characters.html:133
 msgid "playtime"
 msgstr ""
 
-#: src/views/Account/characters.html:134
 msgid "playtime per day"
 msgstr ""
 
-#: src/scripts/services/Gold.js:79
 msgid "s"
 msgstr ""
 
-#: src/views/Crafting/calculator.html:16
 msgid "sell price (\"instant buy\")"
 msgstr ""
 
-#: src/views/Account/character.html:59
 msgid "show"
 msgstr ""
 
-#: src/views/Account/character.html:38
 msgid "slots"
 msgstr ""
 
-#: src/scripts/directives/stackedQuantity.js:7
-#: src/views/_backend.html:435
 msgid "stack"
 msgid_plural " stacks"
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/views/Account/achievements.html:161
-#: src/views/Account/achievements.html:222
 msgid "tier"
 msgid_plural "tiers"
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/views/Tradingpost/history.html:60
-#: src/views/Tradingpost/index.html:108
-#: src/views/Tradingpost/index.html:136
-#: src/views/Tradingpost/index.html:160
-#: src/views/Tradingpost/index.html:167
-#: src/views/Tradingpost/index.html:84
 msgid "to"
 msgstr ""
 
-#: src/views/Community/grouped-lottery.html:81
 msgid "your account.1234"
 msgstr ""
 
-#: src/views/Crafting/calculator.html:239
 msgid "{{ owned_item.ownedQuantity | number: 0 }} total owned"
 msgstr ""
 
-#: src/scripts/filters/timeString.js:119
 msgid "{{$count}} day"
 msgid_plural "{{$count}} days"
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/scripts/filters/timeString.js:123
 msgid "{{$count}} hour"
 msgid_plural "{{$count}} hours"
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/scripts/filters/timeString.js:127
 msgid "{{$count}} minute"
 msgid_plural "{{$count}} minutes"
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/scripts/filters/timeString.js:111
 msgid "{{$count}} month"
 msgid_plural "{{$count}} months"
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/scripts/filters/timeString.js:131
-#: src/scripts/filters/timeString.js:36
 msgid "{{$count}} second"
 msgid_plural "{{$count}} seconds"
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/scripts/filters/timeString.js:115
 msgid "{{$count}} week"
 msgid_plural "{{$count}} weeks"
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/scripts/filters/timeString.js:107
 msgid "{{$count}} year"
 msgid_plural "{{$count}} years"
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/scripts/filters/timeAgoString.js:56
 msgid "{{$time}} ago"
 msgstr ""
