@@ -7,6 +7,9 @@ msgstr ""
 msgid "(Excl. cost of own materials)"
 msgstr ""
 
+msgid "(Please note that for materials grown in the home instance, you can gather up to four per day per plot.)"
+msgstr ""
+
 msgid "(excluding taxes)"
 msgstr ""
 
@@ -134,7 +137,7 @@ msgid ""
 "            <span class=\"eff-color-grey-40\" ng-show=\"last_update\">({{ last_update | date:'shortTime' }})</span>"
 msgstr ""
 
-msgid "<strong>Check back every day</strong> to enter for prizes and<br>sign up for the <strong>big prizes drawn on the 20th - 25th of December at the bottom!</strong>"
+msgid "<strong>Check back every day</strong> to enter for prizes and<br>enter for the <strong>big prizes drawn on the 20th - 25th of December at the bottom!</strong>"
 msgstr ""
 
 msgid "<strong>Check back on the 1st of December!</strong>"
@@ -239,9 +242,6 @@ msgstr ""
 msgid "Admiral Taidha Covington"
 msgstr ""
 
-msgid "Advent Calendar 2020"
-msgstr ""
-
 msgid "Aetherblade"
 msgstr ""
 
@@ -267,9 +267,6 @@ msgid "Akk Wilds Waypoint"
 msgstr ""
 
 msgid "All"
-msgstr ""
-
-msgid "All dungeons"
 msgstr ""
 
 msgid "All professions"
@@ -390,6 +387,9 @@ msgid "Badges of Honor"
 msgstr ""
 
 msgid "Bags"
+msgstr ""
+
+msgid "Bait"
 msgstr ""
 
 msgid "Bank"
@@ -692,9 +692,6 @@ msgid "Common Crafting Materials"
 msgstr ""
 
 msgid "Common Crafting Materials (Refined)"
-msgstr ""
-
-msgid "Community - Advent Calendar 2020"
 msgstr ""
 
 msgid "Community - Lottery"
@@ -1009,7 +1006,7 @@ msgstr ""
 msgid "Dry Top"
 msgstr ""
 
-msgid "Dungeon Tokens"
+msgid "Dungeon Delving"
 msgstr ""
 
 msgid "Dungeon potions"
@@ -1052,6 +1049,9 @@ msgid "Eldritch Scroll"
 msgstr ""
 
 msgid "Elementalist"
+msgstr ""
+
+msgid "End of Dragons"
 msgstr ""
 
 msgid "Enemies apply random conditions. When you dodge roll, you lose all your boons."
@@ -1267,7 +1267,19 @@ msgstr ""
 msgid "Gemstore price:"
 msgstr ""
 
+msgid "Gen 1"
+msgstr ""
+
+msgid "Gen 2"
+msgstr ""
+
+msgid "Gen 3"
+msgstr ""
+
 msgid "Gendarran Fields"
+msgstr ""
+
+msgid "Generation:"
 msgstr ""
 
 msgid "Generic"
@@ -1447,6 +1459,12 @@ msgstr ""
 msgid "Hodgins (Path 1)"
 msgstr ""
 
+msgid "Holiday Calendar"
+msgstr ""
+
+msgid "Holiday Calendar 2022"
+msgstr ""
+
 msgid "Home Cats"
 msgstr ""
 
@@ -1469,6 +1487,12 @@ msgid "Icedevil’s Waypoint"
 msgstr ""
 
 msgid "Icegate Waypoint"
+msgstr ""
+
+msgid "If End of Dragons is not unlocked"
+msgstr ""
+
+msgid "If End of Dragons is unlocked"
 msgstr ""
 
 msgid "If Heart of Thorns is not unlocked"
@@ -1541,6 +1565,9 @@ msgid "Item Upgrades:"
 msgstr ""
 
 msgid "Item stack"
+msgstr ""
+
+msgid "Jade Tech Module"
 msgstr ""
 
 msgid "Jaka Itzel Waypoint"
@@ -1760,6 +1787,9 @@ msgid "Lottery"
 msgstr ""
 
 msgid "Lunk Kraal Waypoint"
+msgstr ""
+
+msgid "Lure"
 msgstr ""
 
 msgid "Lvl"
@@ -2177,6 +2207,9 @@ msgid "Power"
 msgstr ""
 
 msgid "Power / Toughness / Vitality"
+msgstr ""
+
+msgid "Power Core"
 msgstr ""
 
 msgid "Precision"
@@ -2911,6 +2944,25 @@ msgstr ""
 msgid "Thief"
 msgstr ""
 
+msgid ""
+"This giveaway is sponsored by Overflow Trading Company.\n"
+"        <br class=\"mobile-hidden\">\n"
+"\n"
+"        Check out the\n"
+"        <a href=\"https://discord.gg/gw2overflow\" target=\"_blank\" style=\"font-weight: bold; color: #5865F2;\">Discord</a>,\n"
+"        <a href=\"https://www.twitch.tv/guildmm\" target=\"_blank\" style=\"font-weight: bold; color: #a970ff;\">Twitch</a>,\n"
+"        <a href=\"https://www.youtube.com/channel/UC28b_5qGcmJGHhZLfbbTnKg\" target=\"_blank\" style=\"font-weight: bold; color: #c00;\">YouTube</a>\n"
+"        and <a href=\"https://twitter.com/GuildMM1\" target=\"_blank\" style=\"font-weight: bold; color: #1DA1F2;\">Twitter</a>!\n"
+"\n"
+"        <br><br>\n"
+"\n"
+"        Did you know that you get automatically entered as a supporter?\n"
+"        <a href=\"/supporter-benefits\" style=\"font-weight: bold; color: #bc8176;\" onclick=\"gaTrackEvent('UserActions', 'ButtonClick', 'SupporterBenefitsLottery')\">Become one here!</a>\n"
+"\n"
+"        <br class=\"mobile-hidden\">\n"
+"        You forfeit your prize if you don't answer in-game within 72 hours of winning, or are impolite."
+msgstr ""
+
 msgid "This is a Community Lottery organized by \"queicherius.2563\" (Queicherius) and \"Morganna Bloodrush.6309\" (Saskia Van Leeuwen). To have a chance of winning a prize, simply enter your account name below and press \"Enter me into the lottery!\". The draws are on the 1st every month and prizes will change each time. If you wish to donate towards the prize fund, please contact either of us in game."
 msgstr ""
 
@@ -2918,22 +2970,6 @@ msgid "This is not a valid e-mail."
 msgstr ""
 
 msgid "This is using your account data from {{ lastUpdate | date:'mediumTime' }}. <a class=\"statlink\" ng-click=\"loadAccountData()\">Refresh now!</a>"
-msgstr ""
-
-msgid ""
-"This lottery is sponsored by Guild Mm Trading Company [TP].\n"
-"        <br class=\"mobile-hidden\">\n"
-"\n"
-"        Check out his <a href=\"https://www.twitch.tv/guildmm\" target=\"_blank\" style=\"font-weight: bold; color: #a970ff;\">Twitch Stream</a>\n"
-"        and his <a href=\"https://www.youtube.com/channel/UC28b_5qGcmJGHhZLfbbTnKg\" target=\"_blank\" style=\"font-weight: bold; color: #c00;\">YouTube Channel</a>!\n"
-"        <br class=\"mobile-hidden\">\n"
-"\n"
-"        Did you know that you get automatically entered as a supporter?\n"
-"        <a href=\"/supporter-benefits\" style=\"font-weight: bold; color: #bc8176;\" onclick=\"gaTrackEvent('UserActions', 'ButtonClick', 'SupporterBenefitsLottery')\">\n"
-"            Become one here!\n"
-"        </a>\n"
-"        <br class=\"mobile-hidden\">\n"
-"        We will reroll if you don't answer within 72 hours of winning, or are impolite."
 msgstr ""
 
 msgid "This page has not yet been optimized for mobile use. You can scroll horizontally to use the whole page."
