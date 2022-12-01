@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2021-08-29 16:03+0200\n"
+"PO-Revision-Date: 2022-12-01 21:51+0100\n"
 "Last-Translator: David <queicherius@gmail.com>\n"
 "Language-Team: \n"
 "Language: de\n"
@@ -16,6 +16,9 @@ msgstr ""
 
 msgid "(Excl. cost of own materials)"
 msgstr "(Exkl. Kosten eigener Materialien)"
+
+msgid "(Please note that for materials grown in the home instance, you can gather up to four per day per plot.)"
+msgstr "(Bitte beachte, dass du Materialien, die in der Heimatinstanz wachsen, pro Fläche bis zu viermal am Tag sammeln kannst.)"
 
 msgid "(excluding taxes)"
 msgstr "(ohne Gebühren)"
@@ -147,8 +150,8 @@ msgstr ""
 "            Autom. aktualisieren\n"
 "            <span class=\"eff-color-grey-40\" ng-show=\"last_update\">({{ last_update | date:'shortTime' }})</span>"
 
-msgid "<strong>Check back every day</strong> to enter for prizes and<br>sign up for the <strong>big prizes drawn on the 20th - 25th of December at the bottom!</strong>"
-msgstr "<strong>Schau jeden Tag wieder vorbei</strong>, um für die jeweiligen Preise teilzunehmen und <br>melde dich an für die <strong>großen Preis ganz unten, die vom 20. bis 25. Dezember gezogen werden!</strong>"
+msgid "<strong>Check back every day</strong> to enter for prizes and<br>enter for the <strong>big prizes drawn on the 20th - 25th of December at the bottom!</strong>"
+msgstr "<strong>Schau jeden Tag vorbei,</strong> um dich für die Preise einzutragen und<br>trage dich für die <strong>großen Preise ganz unten ein, die vom 20. bis 25. Dezember gezogen werden!</strong>"
 
 msgid "<strong>Check back on the 1st of December!</strong>"
 msgstr "<strong>Schau am 1. Dezember wieder vorbei!</strong>"
@@ -252,9 +255,6 @@ msgstr "Diesen Gegenstand verfolgen"
 msgid "Admiral Taidha Covington"
 msgstr "Admiral Taidha Covington"
 
-msgid "Advent Calendar 2020"
-msgstr "Adventskalender 2020"
-
 msgid "Aetherblade"
 msgstr "Ätherklingen"
 
@@ -281,9 +281,6 @@ msgstr "Wegmarke Akk-Wildnis"
 
 msgid "All"
 msgstr "Alle"
-
-msgid "All dungeons"
-msgstr "Alle Verliese"
 
 msgid "All professions"
 msgstr "Alle Klassen"
@@ -404,6 +401,9 @@ msgstr "Ehrenabzeichen"
 
 msgid "Bags"
 msgstr "Taschen"
+
+msgid "Bait"
+msgstr "Naturköder"
 
 msgid "Bank"
 msgstr "Bank"
@@ -708,9 +708,6 @@ msgstr "Gewöhnliche Handwerksmaterialien"
 
 msgid "Common Crafting Materials (Refined)"
 msgstr "Gewöhnliche Handwerksmaterialien (Verarbeitet)"
-
-msgid "Community - Advent Calendar 2020"
-msgstr "Community - Adventskalender 2020"
 
 msgid "Community - Lottery"
 msgstr "Community - Lotterie"
@@ -1024,8 +1021,8 @@ msgstr "Druide"
 msgid "Dry Top"
 msgstr "Trockenkuppe"
 
-msgid "Dungeon Tokens"
-msgstr "Verliesmarken"
+msgid "Dungeon Delving"
+msgstr "Verlieserkundung"
 
 msgid "Dungeon potions"
 msgstr "Verlies-Tränke"
@@ -1068,6 +1065,9 @@ msgstr "Eldritch-Schriftrolle"
 
 msgid "Elementalist"
 msgstr "Elementarmagier"
+
+msgid "End of Dragons"
+msgstr "End of Dragons"
 
 msgid "Enemies apply random conditions. When you dodge roll, you lose all your boons."
 msgstr "Bei einer Ausweichrolle verliert ihr all Eure Segen. Feinde verursachen zufällige Zustände."
@@ -1282,8 +1282,20 @@ msgstr "Edelsteine und Juwelen"
 msgid "Gemstore price:"
 msgstr "Gem-Preis:"
 
+msgid "Gen 1"
+msgstr "Gen. 1"
+
+msgid "Gen 2"
+msgstr "Gen. 2"
+
+msgid "Gen 3"
+msgstr "Gen. 3"
+
 msgid "Gendarran Fields"
 msgstr "Gendarran-Felder"
+
+msgid "Generation:"
+msgstr "Generation:"
 
 msgid "Generic"
 msgstr "Generisch"
@@ -1462,6 +1474,12 @@ msgstr "Höher als {{ topPercent(account_stats.live.rank / account_stats.live.pa
 msgid "Hodgins (Path 1)"
 msgstr "Hodgins (Weg 1)"
 
+msgid "Holiday Calendar"
+msgstr "Adventskalender"
+
+msgid "Holiday Calendar 2022"
+msgstr "Adventskalender 2022"
+
 msgid "Home Cats"
 msgstr "Heimatinstanz-Katzen"
 
@@ -1485,6 +1503,12 @@ msgstr "Wegmarke Eisteufel"
 
 msgid "Icegate Waypoint"
 msgstr "Wegmarke Eistor-Schlucht"
+
+msgid "If End of Dragons is not unlocked"
+msgstr "Wenn End of Dragons nicht freigeschaltet ist"
+
+msgid "If End of Dragons is unlocked"
+msgstr "Wenn End of Dragons freigeschaltet ist"
 
 msgid "If Heart of Thorns is not unlocked"
 msgstr "Wenn Heart of Thorns nicht freigeschaltet ist"
@@ -1560,6 +1584,9 @@ msgstr "Gegenstands-Aufwertungen:"
 
 msgid "Item stack"
 msgstr "Gegenst. Stapel"
+
+msgid "Jade Tech Module"
+msgstr "Jade-Tech Modul"
 
 msgid "Jaka Itzel Waypoint"
 msgstr "Wegmarke Jaka Itzel"
@@ -1779,6 +1806,9 @@ msgstr "Lotterie"
 
 msgid "Lunk Kraal Waypoint"
 msgstr "Wegmarke Lunk-Kral"
+
+msgid "Lure"
+msgstr "Kunstköder"
 
 msgid "Lvl"
 msgstr "Lvl"
@@ -2196,6 +2226,9 @@ msgstr "Kraft"
 
 msgid "Power / Toughness / Vitality"
 msgstr "Kraft / Zähigkeit / Vitalität"
+
+msgid "Power Core"
+msgstr "Energiekern"
 
 msgid "Precision"
 msgstr "Präzision"
@@ -2935,6 +2968,41 @@ msgstr "Diese Preise werden nur alle 24 Stunden aktualisiert, um sie auf den akt
 msgid "Thief"
 msgstr "Dieb"
 
+msgid ""
+"This giveaway is sponsored by Overflow Trading Company.\n"
+"        <br class=\"mobile-hidden\">\n"
+"\n"
+"        Check out the\n"
+"        <a href=\"https://discord.gg/gw2overflow\" target=\"_blank\" style=\"font-weight: bold; color: #5865F2;\">Discord</a>,\n"
+"        <a href=\"https://www.twitch.tv/guildmm\" target=\"_blank\" style=\"font-weight: bold; color: #a970ff;\">Twitch</a>,\n"
+"        <a href=\"https://www.youtube.com/channel/UC28b_5qGcmJGHhZLfbbTnKg\" target=\"_blank\" style=\"font-weight: bold; color: #c00;\">YouTube</a>\n"
+"        and <a href=\"https://twitter.com/GuildMM1\" target=\"_blank\" style=\"font-weight: bold; color: #1DA1F2;\">Twitter</a>!\n"
+"\n"
+"        <br><br>\n"
+"\n"
+"        Did you know that you get automatically entered as a supporter?\n"
+"        <a href=\"/supporter-benefits\" style=\"font-weight: bold; color: #bc8176;\" onclick=\"gaTrackEvent('UserActions', 'ButtonClick', 'SupporterBenefitsLottery')\">Become one here!</a>\n"
+"\n"
+"        <br class=\"mobile-hidden\">\n"
+"        You forfeit your prize if you don't answer in-game within 72 hours of winning, or are impolite."
+msgstr ""
+"Diese Verlosung ist gesponsert von Overflow Trading Company.\n"
+"        <br class=\"mobile-hidden\">\n"
+"\n"
+"        Schau doch mal auf \n"
+"        <a href=\"https://discord.gg/gw2overflow\" target=\"_blank\" style=\"font-weight: bold; color: #5865F2;\">Discord</a>,\n"
+"        <a href=\"https://www.twitch.tv/guildmm\" target=\"_blank\" style=\"font-weight: bold; color: #a970ff;\">Twitch</a>,\n"
+"        <a href=\"https://www.youtube.com/channel/UC28b_5qGcmJGHhZLfbbTnKg\" target=\"_blank\" style=\"font-weight: bold; color: #c00;\">YouTube</a>\n"
+"        und <a href=\"https://twitter.com/GuildMM1\" target=\"_blank\" style=\"font-weight: bold; color: #1DA1F2;\">Twitter</a> vorbei!\n"
+"\n"
+"        <br><br>\n"
+"\n"
+"        Wusstest du, dass du als Unterstützer automatisch an der Verlosung teilnimmst?\n"
+"        <a href=\"/supporter-benefits\" style=\"font-weight: bold; color: #bc8176;\" onclick=\"gaTrackEvent('UserActions', 'ButtonClick', 'SupporterBenefitsLottery')\">Hier beitreten!</a>\n"
+"\n"
+"        <br class=\"mobile-hidden\">\n"
+"        Du verwirkst deinen Preis, wenn du nicht innerhalb von 72 Stunden nach Gewinn im Spiel antwortest oder unhöflich bist."
+
 msgid "This is a Community Lottery organized by \"queicherius.2563\" (Queicherius) and \"Morganna Bloodrush.6309\" (Saskia Van Leeuwen). To have a chance of winning a prize, simply enter your account name below and press \"Enter me into the lottery!\". The draws are on the 1st every month and prizes will change each time. If you wish to donate towards the prize fund, please contact either of us in game."
 msgstr "Dies ist eine Community-Lotterie organisiert von \"queicherius.2563\" (Queicherius) und \"Morganna Bloodrush.6309\" (Saskia Van Leeuwen). Um eine Chance zu erhalten, einen Preis zu gewinnen, trage einfach deinen Account-Namen unten ein und drück auf \"Trag mich in der Lotterie ein!\". Die Ziehungen sind am 1. jeden Monats und die Preise ändern sich von Monat zu Monat. Falls du etwas für die Preise spenden möchtest, melde dich bitte im Spiel bei uns."
 
@@ -2943,35 +3011,6 @@ msgstr "Dies ist keine gültige E-Mail-Adresse."
 
 msgid "This is using your account data from {{ lastUpdate | date:'mediumTime' }}. <a class=\"statlink\" ng-click=\"loadAccountData()\">Refresh now!</a>"
 msgstr "Dies nutzt deine Account-Daten von {{ lastUpdate | date:'mediumTime' }}. <a class=\"statlink\" ng-click=\"loadAccountData()\">Neu laden!</a>"
-
-msgid ""
-"This lottery is sponsored by Guild Mm Trading Company [TP].\n"
-"        <br class=\"mobile-hidden\">\n"
-"\n"
-"        Check out his <a href=\"https://www.twitch.tv/guildmm\" target=\"_blank\" style=\"font-weight: bold; color: #a970ff;\">Twitch Stream</a>\n"
-"        and his <a href=\"https://www.youtube.com/channel/UC28b_5qGcmJGHhZLfbbTnKg\" target=\"_blank\" style=\"font-weight: bold; color: #c00;\">YouTube Channel</a>!\n"
-"        <br class=\"mobile-hidden\">\n"
-"\n"
-"        Did you know that you get automatically entered as a supporter?\n"
-"        <a href=\"/supporter-benefits\" style=\"font-weight: bold; color: #bc8176;\" onclick=\"gaTrackEvent('UserActions', 'ButtonClick', 'SupporterBenefitsLottery')\">\n"
-"            Become one here!\n"
-"        </a>\n"
-"        <br class=\"mobile-hidden\">\n"
-"        We will reroll if you don't answer within 72 hours of winning, or are impolite."
-msgstr ""
-"Diese Lotterie ist gesponsert von Guild Mm Trading Company [TP].\n"
-"        <br class=\"mobile-hidden\">\n"
-"\n"
-"        Schau doch mal im <a href=\"https://www.twitch.tv/guildmm\" target=\"_blank\" style=\"font-weight: bold; color: #a970ff;\">Twitch Stream</a>\n"
-"        und auf dem <a href=\"https://www.youtube.com/channel/UC28b_5qGcmJGHhZLfbbTnKg\" target=\"_blank\" style=\"font-weight: bold; color: #c00;\">YouTube Kanal</a> vorbei!\n"
-"        <br class=\"mobile-hidden\">\n"
-"\n"
-"        Wusstest du, dass Unterstützer automatisch an der Lotterie teilnehmen?\n"
-"        <a href=\"/supporter-benefits\" style=\"font-weight: bold; color: #bc8176;\" onclick=\"gaTrackEvent('UserActions', 'ButtonClick', 'SupporterBenefitsLottery')\">\n"
-"            Hier beitreten!\n"
-"        </a>\n"
-"        <br class=\"mobile-hidden\">\n"
-"        Wir werden die Ziehung wiederholen, wenn du innerhalb von 72 Stunden nicht antwortest oder unhöflich bist."
 
 msgid "This page has not yet been optimized for mobile use. You can scroll horizontally to use the whole page."
 msgstr "Diese Seite wurde noch nicht für mobile Endgeräte optimiert. Du kannst horizontal scrollen um die ganze Seite zu nutzen."
