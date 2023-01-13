@@ -137,6 +137,9 @@ msgid ""
 "            <span class=\"eff-color-grey-40\" ng-show=\"last_update\">({{ last_update | date:'shortTime' }})</span>"
 msgstr ""
 
+msgid "<span gold amount=\"owned_item.ownedQuantity\"></span> total owned"
+msgstr ""
+
 msgid "<strong>Check back every day</strong> to enter for prizes and<br>enter for the <strong>big prizes drawn on the 20th - 25th of December at the bottom!</strong>"
 msgstr ""
 
@@ -492,6 +495,9 @@ msgid "Butler (Path 3)"
 msgstr ""
 
 msgid "Butternut Squash"
+msgstr ""
+
+msgid "Buy"
 msgstr ""
 
 msgid "Buy 75x \"Sun Bead\" from the vendor and then craft the (sellable) item ouf of them.<br>You have to discover the recipe via the \"discovery\" tab of your crafing profession."
@@ -1072,7 +1078,7 @@ msgstr ""
 msgid "Enter me into the lottery!"
 msgstr ""
 
-msgid "Enter the lottery"
+msgid "Enter the giveaway"
 msgstr ""
 
 msgid "Enter the name of an item in the search box above, and click on <i class=\"fa fa-plus-circle\"></i> to add it to your list."
@@ -1457,9 +1463,6 @@ msgid "Higher than {{ topPercent(account_stats.live.rank / account_stats.live.pa
 msgstr ""
 
 msgid "Hodgins (Path 1)"
-msgstr ""
-
-msgid "Holiday Calendar"
 msgstr ""
 
 msgid "Holiday Calendar 2022"
@@ -1883,6 +1886,9 @@ msgid "Megadestroyer"
 msgstr ""
 
 msgid "Members"
+msgstr ""
+
+msgid "Merchant"
 msgstr ""
 
 msgid "Mesmer"
@@ -2919,7 +2925,7 @@ msgstr ""
 msgid "The required recipes have a chance to drop off the last boss of each path"
 msgstr ""
 
-msgid "There is currently no lottery set up. Come and check back in a few hours!"
+msgid "There is currently no lottery set up. Check back in a bit!"
 msgstr ""
 
 msgid "There was an error accessing the API"
@@ -3287,9 +3293,6 @@ msgstr ""
 msgid "Vault"
 msgstr ""
 
-msgid "Vendor"
-msgstr ""
-
 msgid "Vendor price:"
 msgstr ""
 
@@ -3533,9 +3536,7 @@ msgid "done editing"
 msgstr ""
 
 msgid "each"
-msgid_plural "per {{$count}}"
-msgstr[0] ""
-msgstr[1] ""
+msgstr ""
 
 msgid "edit"
 msgstr ""
