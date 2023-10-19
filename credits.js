@@ -35,4 +35,5 @@ module.exports = [
   'Wiella.8567',
   'Xerneas.4267',
   'xPhantomNL.7230',
+  'Gwenju.9316'
 ].sort((a, b) => a.localeCompare(b))
