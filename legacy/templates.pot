@@ -149,6 +149,9 @@ msgstr ""
 msgid "A Very Merry Wintersday"
 msgstr ""
 
+msgid "API Keys"
+msgstr ""
+
 msgid "API key invalid"
 msgstr ""
 
@@ -159,9 +162,6 @@ msgid "API key needs \"guilds\" permission"
 msgstr ""
 
 msgid "API key required"
-msgstr ""
-
-msgid "API keys"
 msgstr ""
 
 msgid "ASC"
@@ -407,7 +407,7 @@ msgstr ""
 msgid "Beaded weapons"
 msgstr ""
 
-msgid "Become one here!"
+msgid "Become a Supporter"
 msgstr ""
 
 msgid "Beetletun Waypoint"
@@ -536,7 +536,7 @@ msgstr ""
 msgid "Buy stock of this item"
 msgstr ""
 
-msgid "Buy the jewlery boxes from any karma vendor in Orr and open them.<br>Use all the karma consumables you get out of them and sell the rest."
+msgid "Buy the jewelry boxes from any karma vendor in Orr and open them.<br>Use all the karma consumables you get out of them and sell the rest."
 msgstr ""
 
 msgid "Buying 100 Gems"
@@ -596,6 +596,9 @@ msgid "Charr"
 msgstr ""
 
 msgid "Chat tools"
+msgstr ""
+
+msgid "Check out the"
 msgstr ""
 
 msgid "Chef"
@@ -973,7 +976,7 @@ msgstr ""
 msgid "Did you know that supporters get crawled more frequently and can look further back in their history?"
 msgstr ""
 
-msgid "Did you know that you get automatically entered into the lottery as a supporter?"
+msgid "Did you know that you get automatically entered into all draws as a supporter?"
 msgstr ""
 
 msgid "Diessa Plateau"
@@ -1024,7 +1027,7 @@ msgstr ""
 msgid "Dungeons"
 msgstr ""
 
-msgid "Dungeons, Raids and Fractals"
+msgid "Dungeons, Raids, Fractals and Strikes"
 msgstr ""
 
 msgid "Duration"
@@ -1042,7 +1045,7 @@ msgstr ""
 msgid "Dyes"
 msgstr ""
 
-msgid "Earnable"
+msgid "Earnable AP"
 msgstr ""
 
 msgid "Edit investment"
@@ -2787,6 +2790,9 @@ msgstr ""
 msgid "Strawberries"
 msgstr ""
 
+msgid "Strikes"
+msgstr ""
+
 msgid "Sub-Type:"
 msgstr ""
 
@@ -2821,6 +2827,9 @@ msgid "Super Adventure Box"
 msgstr ""
 
 msgid "Supply"
+msgstr ""
+
+msgid "Support us"
 msgstr ""
 
 msgid "Swampland (Bloomhunger)"
@@ -2916,6 +2925,9 @@ msgstr ""
 msgid "The following part of the page has not yet been optimized for mobile use. You can scroll horizontally to use the whole part."
 msgstr ""
 
+msgid "The output of some crafted items is not guaranteed, but a random chance."
+msgstr ""
+
 msgid "The page you requested requires an API key to access your GW2 account."
 msgstr ""
 
@@ -2950,23 +2962,7 @@ msgstr ""
 msgid "Thief"
 msgstr ""
 
-msgid ""
-"This giveaway is sponsored by Overflow Trading Company.\n"
-"        <br class=\"mobile-hidden\">\n"
-"\n"
-"        Check out the\n"
-"        <a href=\"https://discord.gg/gw2overflow\" target=\"_blank\" style=\"font-weight: bold; color: #5865F2;\">Discord</a>,\n"
-"        <a href=\"https://www.twitch.tv/guildmm\" target=\"_blank\" style=\"font-weight: bold; color: #a970ff;\">Twitch</a>,\n"
-"        <a href=\"https://www.youtube.com/channel/UC28b_5qGcmJGHhZLfbbTnKg\" target=\"_blank\" style=\"font-weight: bold; color: #c00;\">YouTube</a>\n"
-"        and <a href=\"https://twitter.com/GuildMM1\" target=\"_blank\" style=\"font-weight: bold; color: #1DA1F2;\">Twitter</a>!\n"
-"\n"
-"        <br><br>\n"
-"\n"
-"        Did you know that you get automatically entered as a supporter?\n"
-"        <a href=\"/supporter-benefits\" style=\"font-weight: bold; color: #bc8176;\" onclick=\"gaTrackEvent('UserActions', 'ButtonClick', 'SupporterBenefitsLottery')\">Become one here!</a>\n"
-"\n"
-"        <br class=\"mobile-hidden\">\n"
-"        You forfeit your prize if you don't answer in-game within 72 hours of winning, or are impolite."
+msgid "This giveaway is sponsored by Overflow Trading Company."
 msgstr ""
 
 msgid "This is a Community Lottery organized by \"queicherius.2563\" (Queicherius) and \"Morganna Bloodrush.6309\" (Saskia Van Leeuwen). To have a chance of winning a prize, simply enter your account name below and press \"Enter me into the lottery!\". The draws are on the 1st every month and prizes will change each time. If you wish to donate towards the prize fund, please contact either of us in game."
@@ -3302,9 +3298,6 @@ msgstr ""
 msgid "Vevina / Forward (Path 1)"
 msgstr ""
 
-msgid "View item history on gw2spidy"
-msgstr ""
-
 msgid "Vine Bridge Waypoint"
 msgstr ""
 
@@ -3444,6 +3437,9 @@ msgid "You can only buy these items are once per account."
 msgstr ""
 
 msgid "You don't have any tracked items."
+msgstr ""
+
+msgid "You forfeit your prize if you don't answer in-game within 72 hours of winning, or are impolite."
 msgstr ""
 
 msgid "You have no character with this discipline"

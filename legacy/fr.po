@@ -597,7 +597,7 @@ msgstr "Prix d'achat :"
 msgid "Buy stock of this item"
 msgstr "Acheter un stock de cet objet"
 
-msgid "Buy the jewlery boxes from any karma vendor in Orr and open them.<br>Use all the karma consumables you get out of them and sell the rest."
+msgid "Buy the jewelry boxes from any karma vendor in Orr and open them.<br>Use all the karma consumables you get out of them and sell the rest."
 msgstr "Achetez les boites à bijoux via les vendeurs de Karma à Orr et ouvrez-les.<br>Utilisez tous les consommables de Karma et vendez le reste."
 
 msgid "Buying 100 Gems"
