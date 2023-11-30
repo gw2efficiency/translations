@@ -1465,6 +1465,9 @@ msgstr ""
 msgid "Hodgins (Path 1)"
 msgstr ""
 
+msgid "Holiday Calendar"
+msgstr ""
+
 msgid "Holiday Calendar 2023"
 msgstr ""
 

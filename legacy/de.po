@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2023-11-27 18:45+0000\n"
+"PO-Revision-Date: 2023-11-30 17:55+0000\n"
 "Last-Translator: PReimers <preimers@pm.me>\n"
 "Language-Team: \n"
 "Language: de\n"
@@ -459,9 +459,6 @@ msgstr "Die Schlacht um Löwenstein: Nachspiel"
 msgid "Beaded weapons"
 msgstr "Verzierte Waffen"
 
-msgid "Become a Supporter"
-msgstr "Unterstützer werden"
-
 msgid "Beetletun Waypoint"
 msgstr "Wegmarke Beetletun"
 
@@ -678,8 +675,8 @@ msgstr "Charr"
 msgid "Chat tools"
 msgstr "Chat-Hilfe"
 
-msgid "Check out the"
-msgstr ""
+msgid "Check out his"
+msgstr "Besuche sein"
 
 msgid "Chef"
 msgstr "Koch"
@@ -1595,8 +1592,11 @@ msgstr ""
 msgid "Hodgins (Path 1)"
 msgstr "Hodgins (Weg 1)"
 
-msgid "Holiday Calendar 2022"
-msgstr "Adventskalender 2022"
+msgid "Holiday Calendar"
+msgstr "Festtagskalender"
+
+msgid "Holiday Calendar 2023"
+msgstr "Festtagskalender 2023"
 
 msgid "Home Cats"
 msgstr "Heimatinstanz-Katzen"
@@ -3186,8 +3186,8 @@ msgstr ""
 msgid "Thief"
 msgstr "Dieb"
 
-msgid "This giveaway is sponsored by Overflow Trading Company."
-msgstr ""
+msgid "This giveaway is sponsored by GuildMM."
+msgstr "Diese Verlosung wird von GuildMM gesponsert."
 
 msgid ""
 "This is a Community Lottery organized by \"queicherius.2563\" (Queicherius) "
@@ -4005,3 +4005,6 @@ msgstr[1] "{{$count}} Jahre"
 
 msgid "{{$time}} ago"
 msgstr "vor {{$time}}"
+
+#~ msgid "Become a Supporter"
+#~ msgstr "Unterstützer werden"
