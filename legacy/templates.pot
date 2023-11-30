@@ -407,9 +407,6 @@ msgstr ""
 msgid "Beaded weapons"
 msgstr ""
 
-msgid "Become a Supporter"
-msgstr ""
-
 msgid "Beetletun Waypoint"
 msgstr ""
 
@@ -598,7 +595,7 @@ msgstr ""
 msgid "Chat tools"
 msgstr ""
 
-msgid "Check out the"
+msgid "Check out his"
 msgstr ""
 
 msgid "Chef"
@@ -1468,7 +1465,7 @@ msgstr ""
 msgid "Hodgins (Path 1)"
 msgstr ""
 
-msgid "Holiday Calendar 2022"
+msgid "Holiday Calendar 2023"
 msgstr ""
 
 msgid "Home Cats"
@@ -2962,7 +2959,7 @@ msgstr ""
 msgid "Thief"
 msgstr ""
 
-msgid "This giveaway is sponsored by Overflow Trading Company."
+msgid "This giveaway is sponsored by GuildMM."
 msgstr ""
 
 msgid "This is a Community Lottery organized by \"queicherius.2563\" (Queicherius) and \"Morganna Bloodrush.6309\" (Saskia Van Leeuwen). To have a chance of winning a prize, simply enter your account name below and press \"Enter me into the lottery!\". The draws are on the 1st every month and prizes will change each time. If you wish to donate towards the prize fund, please contact either of us in game."
