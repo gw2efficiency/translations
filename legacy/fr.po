@@ -4032,7 +4032,7 @@ msgid "other"
 msgstr "autre"
 
 msgid "out of"
-msgstr "hors de"
+msgstr "depuis"
 
 msgid "permissions missing"
 msgstr "permissions manquantes"
