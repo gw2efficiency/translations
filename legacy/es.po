@@ -875,6 +875,9 @@ msgstr "Componentes"
 msgid "Components price:"
 msgstr "Precio de los componentes:"
 
+msgid "Concentration"
+msgstr "Concentración"
+
 msgid "Condition Damage"
 msgstr "Daño de condición"
 
@@ -1307,6 +1310,9 @@ msgstr "Experiencia"
 
 msgid "Experience:"
 msgstr "Experiencia:"
+
+msgid "Expertise"
+msgstr "Pericia"
 
 msgid "Explorer Erikk"
 msgstr "Pionero Erikk"
