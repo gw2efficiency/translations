@@ -4006,5 +4006,3 @@ msgstr[1] "{{$count}} Jahre"
 msgid "{{$time}} ago"
 msgstr "vor {{$time}}"
 
-#~ msgid "Become a Supporter"
-#~ msgstr "Unterstützer werden"

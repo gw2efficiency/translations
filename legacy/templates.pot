@@ -7,7 +7,9 @@ msgstr ""
 msgid "(Excl. cost of own materials)"
 msgstr ""
 
-msgid "(Please note that for materials grown in the home instance, you can gather up to four per day per plot.)"
+msgid ""
+"(Please note that for materials grown in the home instance, you can gather up to four\n"
+"            per day per plot.)"
 msgstr ""
 
 msgid "(excluding taxes)"
@@ -133,20 +135,28 @@ msgstr ""
 
 msgid ""
 "<input type=\"checkbox\" ng-model=\"auto_refresh\">\n"
-"            Auto-refresh\n"
-"            <span class=\"eff-color-grey-40\" ng-show=\"last_update\">({{ last_update | date:'shortTime' }})</span>"
+"        Auto-refresh\n"
+"        <span class=\"eff-color-grey-40\" ng-show=\"last_update\">({{ last_update | date:'shortTime' }})</span>"
 msgstr ""
 
 msgid "<span gold amount=\"owned_item.ownedQuantity\"></span> total owned"
 msgstr ""
 
-msgid "<strong>Check back every day</strong> to enter for prizes and<br>enter for the <strong>big prizes drawn on the 20th - 25th of December at the bottom!</strong>"
+msgid ""
+"<strong>Check back every day</strong> to enter for prizes and<br>enter for the\n"
+"      <strong>big prizes drawn on the 20th - 25th of December at the bottom!</strong>"
 msgstr ""
 
 msgid "<strong>Check back on the 1st of December!</strong>"
 msgstr ""
 
 msgid "A Very Merry Wintersday"
+msgstr ""
+
+msgid "A current password is required"
+msgstr ""
+
+msgid "A new password is required"
 msgstr ""
 
 msgid "API Keys"
@@ -206,7 +216,13 @@ msgstr ""
 msgid "Account - Wallet"
 msgstr ""
 
+msgid "Account Deletion"
+msgstr ""
+
 msgid "Account Overview"
+msgstr ""
+
+msgid "Account Settings"
 msgstr ""
 
 msgid "Account Statistics"
@@ -275,7 +291,12 @@ msgstr ""
 msgid "All professions"
 msgstr ""
 
-msgid "All the data collected is only publicly available anonymized and <strong>without connection to any individual accounts</strong>.<br>If you still don't want your account data to be included in the wealth distribution, please click <a ng-click=\"blacklist('add')\">here</a>.<br>If you blacklisted yourself and you changed your mind, please click <a ng-click=\"blacklist('remove')\">here</a>."
+msgid ""
+"All the data collected is only publicly available anonymized and\n"
+"      <strong>without connection to any individual accounts</strong>.<br>If you still don't want\n"
+"      your account data to be included in the wealth distribution, please click\n"
+"      <a ng-click=\"blacklist('add')\">here</a>.<br>If you blacklisted yourself and you changed your\n"
+"      mind, please click <a ng-click=\"blacklist('remove')\">here</a>."
 msgstr ""
 
 msgid "All upgrades"
@@ -389,6 +410,9 @@ msgstr ""
 msgid "Badges of Honor"
 msgstr ""
 
+msgid "Bag Slots"
+msgstr ""
+
 msgid "Bags"
 msgstr ""
 
@@ -497,7 +521,9 @@ msgstr ""
 msgid "Buy"
 msgstr ""
 
-msgid "Buy 75x \"Sun Bead\" from the vendor and then craft the (sellable) item ouf of them.<br>You have to discover the recipe via the \"discovery\" tab of your crafing profession."
+msgid ""
+"Buy 75x \"Sun Bead\" from the vendor and then craft the (sellable) item ouf of them.<br>You have\n"
+"  to discover the recipe via the \"discovery\" tab of your crafing profession."
 msgstr ""
 
 msgid "Buy Listings"
@@ -506,7 +532,9 @@ msgstr ""
 msgid "Buy all"
 msgstr ""
 
-msgid "Buy four of these karma items and forge them together using the mystic forge.<br>This converts them into items you can salvage for materials."
+msgid ""
+"Buy four of these karma items and forge them together using the mystic forge.<br>This converts\n"
+"  them into items you can salvage for materials."
 msgstr ""
 
 msgid "Buy history"
@@ -533,16 +561,29 @@ msgstr ""
 msgid "Buy stock of this item"
 msgstr ""
 
-msgid "Buy the jewelry boxes from any karma vendor in Orr and open them.<br>Use all the karma consumables you get out of them and sell the rest."
+msgid ""
+"Buy the jewelry boxes from any karma vendor in Orr and open them.<br>Use all the karma\n"
+"  consumables you get out of them and sell the rest."
 msgstr ""
 
 msgid "Buying 100 Gems"
 msgstr ""
 
+msgid ""
+"By exporting your account settings you can move them over to a different browser or device.\n"
+"      This includes local settings such as the hidden dailies, hidden gathering routes, the default\n"
+"      mode for the account overview, etc."
+msgstr ""
+
 msgid "Cabbage"
 msgstr ""
 
-msgid "Calculate the best way to craft recipes, get shopping lists and display exact crafting steps."
+msgid ""
+"Calculate the best way to craft recipes, get shopping lists and display exact crafting\n"
+"          steps."
+msgstr ""
+
+msgid "Calculating..."
 msgstr ""
 
 msgid "Calculator"
@@ -555,8 +596,9 @@ msgid "Caledon Haven Waypoint"
 msgstr ""
 
 msgid ""
-"Can't find a user with that e-mail address, please contact support under <a href=\"mailto:support@gw2efficiency.com\">support@gw2efficiency.com</a>\n"
-"                    for instructions on how to get your account back."
+"Can't find a user with that e-mail address, please contact support under\n"
+"          <a href=\"mailto:support@gw2efficiency.com\">support@gw2efficiency.com</a>\n"
+"          for instructions on how to get your account back."
 msgstr ""
 
 msgid "Captain Mai Trin Boss"
@@ -709,10 +751,13 @@ msgstr ""
 msgid "Completed"
 msgstr ""
 
-msgid "Completed {{ achievement.completion.repeated || 0 | number:0  }} times ({{ achievement.breakdown.points_per_repeat }} <i class=\"sprite-achievement-icon\"></i> each)"
+msgid ""
+"Completed {{ achievement.completion.repeated || 0 | number:0 }} times ({{\n"
+"                achievement.breakdown.points_per_repeat }}\n"
+"                <i class=\"sprite-achievement-icon\"></i> each)"
 msgstr ""
 
-msgid "Completed,Count,Name,Price each,Price total"
+msgid "Completed,Total Recipe Amount,Used Owned Amount,Shopping List Amount,Item ID,Name,Price Each,Total Recipe Price,Used Owned Price,Shopping List Price"
 msgstr ""
 
 msgid "Components"
@@ -767,9 +812,6 @@ msgid "Cost of own materials"
 msgstr ""
 
 msgid "Cost:"
-msgstr ""
-
-msgid "Count,Name,Price each,Price total"
 msgstr ""
 
 msgid "Countdown"
@@ -842,6 +884,9 @@ msgid "Crafting price:"
 msgstr ""
 
 msgid "Created"
+msgstr ""
+
+msgid "Creation Date"
 msgstr ""
 
 msgid "Crimson Lion"
@@ -940,6 +985,9 @@ msgstr ""
 msgid "Davis the Survivor"
 msgstr ""
 
+msgid "Deaths"
+msgstr ""
+
 msgid "Defense:"
 msgstr ""
 
@@ -988,6 +1036,11 @@ msgstr ""
 msgid "Discovered Recipes"
 msgstr ""
 
+msgid ""
+"Do not blindly follow the shopping list or crafting steps. The achievement requirements\n"
+"            will be duplicated."
+msgstr ""
+
 msgid "Dollar ($)"
 msgstr ""
 
@@ -1030,7 +1083,9 @@ msgstr ""
 msgid "Duration"
 msgstr ""
 
-msgid "During that time you died a total of {{ total_deaths | number:0 }} times. That's {{ total_deaths / (total_age/60/60) | number:2 }} deaths per hour"
+msgid ""
+"During that time you died a total of {{ total_deaths | number:0 }} times. That's {{\n"
+"          total_deaths / (total_age/60/60) | number:2 }} deaths per hour"
 msgstr ""
 
 msgid "Durmand Priory Waypoint"
@@ -1057,6 +1112,12 @@ msgstr ""
 msgid "Elementalist"
 msgstr ""
 
+msgid "Email"
+msgstr ""
+
+msgid "Emotes"
+msgstr ""
+
 msgid "End of Dragons"
 msgstr ""
 
@@ -1081,10 +1142,24 @@ msgstr ""
 msgid "Enter the giveaway"
 msgstr ""
 
-msgid "Enter the name of an item in the search box above, and click on <i class=\"fa fa-plus-circle\"></i> to add it to your list."
+msgid ""
+"Enter the name of an item in the search box above, and click on\n"
+"              <i class=\"fa fa-plus-circle\"></i> to add it to your list."
+msgstr ""
+
+msgid "Enter your Patreon email"
+msgstr ""
+
+msgid "Enter your PayPal email"
+msgstr ""
+
+msgid "Enter your current password"
 msgstr ""
 
 msgid "Enter your e-mail"
+msgstr ""
+
+msgid "Enter your email"
 msgstr ""
 
 msgid "Enter your new password"
@@ -1141,6 +1216,12 @@ msgstr ""
 msgid "Explorer Erikk"
 msgstr ""
 
+msgid "Export Tab"
+msgstr ""
+
+msgid "Export account settings"
+msgstr ""
+
 msgid "Export to Excel"
 msgstr ""
 
@@ -1174,7 +1255,9 @@ msgstr ""
 msgid "Fields of Ruin"
 msgstr ""
 
-msgid "Find out which use of your spirit shards, dungeon tokens, etc. gives you the most profit so you don't waste valuable currencies."
+msgid ""
+"Find out which use of your spirit shards, dungeon tokens, etc. gives you the most profit\n"
+"          so you don't waste valuable currencies."
 msgstr ""
 
 msgid "Fine"
@@ -1199,6 +1282,9 @@ msgid "Fire Shaman"
 msgstr ""
 
 msgid "Fireheart Rise"
+msgstr ""
+
+msgid "Fishing"
 msgstr ""
 
 msgid "Flame and Frost"
@@ -1292,6 +1378,9 @@ msgid "Generic"
 msgstr ""
 
 msgid "Get a list of permanent gathering nodes you can gather with a daily checklist."
+msgstr ""
+
+msgid "Gift of Exploration"
 msgstr ""
 
 msgid "Gladefall Waypoint"
@@ -1435,6 +1524,9 @@ msgstr ""
 msgid "Herald"
 msgstr ""
 
+msgid "Here you can change the password of your account."
+msgstr ""
+
 msgid "Heroics Notary"
 msgstr ""
 
@@ -1459,22 +1551,19 @@ msgstr ""
 msgid "Hide unprofitable recipes:"
 msgstr ""
 
-msgid "Higher than {{ topPercent(account_stats.live.rank / account_stats.live.participants) | number }}% of {{ account_stats.live.participants | number }} accounts"
+msgid ""
+"Higher than {{ topPercent(account_stats.live.rank /\n"
+"                account_stats.live.participants) | number }}% of {{ account_stats.live.participants\n"
+"                | number }} accounts"
 msgstr ""
 
 msgid "Hodgins (Path 1)"
 msgstr ""
 
-msgid "Holiday Calendar"
-msgstr ""
-
 msgid "Holiday Calendar 2023"
 msgstr ""
 
-msgid "Home Cats"
-msgstr ""
-
-msgid "Home Nodes"
+msgid "Homestead"
 msgstr ""
 
 msgid "Honor of the Waves"
@@ -1514,18 +1603,36 @@ msgid "If Path of Fire is unlocked"
 msgstr ""
 
 msgid ""
-"If you are lucky enough to be one of our winners, we will contact you in game!\n"
-"                            If the account name is incorrect or you haven't replied to us within 72 hours,\n"
-"                            either by in game mail or private message, we will redraw or move your prize into the next lotteries."
+"If you are lucky enough to be one of our winners, we will contact you in game! If the\n"
+"              account name is incorrect or you haven't replied to us within 72 hours, either by in\n"
+"              game mail or private message, we will redraw or move your prize into the next\n"
+"              lotteries."
+msgstr ""
+
+msgid "Ignore"
+msgstr ""
+
+msgid "Import account settings"
 msgstr ""
 
 msgid "Import from API"
+msgstr ""
+
+msgid ""
+"In accordance with the GDPR laws, you have the ability to delete your gw2efficiency account\n"
+"      and/or all of the crawled data of your Guild Wars 2 account. Please send an email to\n"
+"      <a href=\"mailto:support@gw2efficiency.com\">support@gw2efficiency.com</a>\n"
+"      with your gw2efficiency and Guild Wars 2 account names, and which data you would like to\n"
+"      delete."
 msgstr ""
 
 msgid "Include"
 msgstr ""
 
 msgid "Include Ectoplasm:"
+msgstr ""
+
+msgid "Infusions & Enrichments"
 msgstr ""
 
 msgid "Ingame"
@@ -1546,6 +1653,9 @@ msgstr ""
 msgid "Inventory Bags"
 msgstr ""
 
+msgid "Inventory Slots"
+msgstr ""
+
 msgid "Investment Date"
 msgstr ""
 
@@ -1564,6 +1674,12 @@ msgstr ""
 msgid "Item"
 msgstr ""
 
+msgid "Item ID,Item Name,Item Amount,,Buy Price,Sell Price"
+msgstr ""
+
+msgid "Item ID,Item Name,Item Amount,Item Charges,Item Location"
+msgstr ""
+
 msgid "Item Id;Quantity;Item;Buy price;Sell price;Profit;Investment Date;Sell Date"
 msgstr ""
 
@@ -1576,7 +1692,13 @@ msgstr ""
 msgid "Jade Tech Module"
 msgstr ""
 
+msgid "Jadebots"
+msgstr ""
+
 msgid "Jaka Itzel Waypoint"
+msgstr ""
+
+msgid "Janthir Wilds"
 msgstr ""
 
 msgid "Jeweler"
@@ -1613,6 +1735,9 @@ msgid "Koptev (Path 3)"
 msgstr ""
 
 msgid "Kraitbane Haven Waypoint"
+msgstr ""
+
+msgid "Last Login"
 msgstr ""
 
 msgid "Last buy price change"
@@ -1756,6 +1881,12 @@ msgstr ""
 msgid "Listings:"
 msgstr ""
 
+msgid "Loading account..."
+msgstr ""
+
+msgid "Loading values..."
+msgstr ""
+
 msgid "Loading..."
 msgstr ""
 
@@ -1825,10 +1956,18 @@ msgstr ""
 msgid "Manage your API keys"
 msgstr ""
 
-msgid "Manage your characters, achievements, miniatures and dyes and calculate how much money you would have if you sold your bank."
+msgid "Manage your account"
+msgstr ""
+
+msgid ""
+"Manage your characters, achievements, miniatures and dyes and calculate how much money\n"
+"          you would have if you sold your bank."
 msgstr ""
 
 msgid "Map"
+msgstr ""
+
+msgid "Map Completion"
 msgstr ""
 
 msgid "Masteries only:"
@@ -1984,13 +2123,13 @@ msgstr ""
 msgid "Needed for:"
 msgstr ""
 
+msgid "Next Birthday"
+msgstr ""
+
 msgid "Next event"
 msgstr ""
 
 msgid "Next page"
-msgstr ""
-
-msgid "Next present"
 msgstr ""
 
 msgid "No"
@@ -2170,10 +2309,15 @@ msgstr ""
 msgid "Player Statistics"
 msgstr ""
 
+msgid "Playtime"
+msgstr ""
+
 msgid "Playtime &amp; Deaths"
 msgstr ""
 
-msgid "Please check if you have any privacy extensions enabled and try disabling them. If the problem persists, please send me the text on the right."
+msgid ""
+"Please check if you have any privacy extensions enabled and try disabling them. If the\n"
+"          problem persists, please send me the text on the right."
 msgstr ""
 
 msgid "Please choose a password with at least 8 characters."
@@ -2192,6 +2336,11 @@ msgid "Please enter your account name"
 msgstr ""
 
 msgid "Please enter your new password. Choose wisely. (And remember.)"
+msgstr ""
+
+msgid ""
+"Please keep in mind that it can take up to an hour for these changes to reflect in your\n"
+"        supporter status."
 msgstr ""
 
 msgid "Please keep in mind that you can buy ascended items with Laurels as well."
@@ -2311,6 +2460,9 @@ msgstr ""
 msgid "Purple"
 msgstr ""
 
+msgid "PvE"
+msgstr ""
+
 msgid "PvP"
 msgstr ""
 
@@ -2404,6 +2556,9 @@ msgstr ""
 msgid "Registering is optional, completely free and takes less than 20 seconds."
 msgstr ""
 
+msgid "Relic"
+msgstr ""
+
 msgid "Remaining cost:"
 msgstr ""
 
@@ -2426,6 +2581,9 @@ msgid "Required level"
 msgstr ""
 
 msgid "Required level:"
+msgstr ""
+
+msgid "Required recipes"
 msgstr ""
 
 msgid "Requires a guild hall with unlocked 'Guild Trader'"
@@ -2512,7 +2670,31 @@ msgstr ""
 msgid "Sangdo Swiftwing"
 msgstr ""
 
+msgid "Save Patreon email"
+msgstr ""
+
+msgid "Save PayPal email"
+msgstr ""
+
+msgid "Save email"
+msgstr ""
+
 msgid "Save new password"
+msgstr ""
+
+msgid "Save password"
+msgstr ""
+
+msgid "Saved as your new Patreon email."
+msgstr ""
+
+msgid "Saved as your new PayPal email."
+msgstr ""
+
+msgid "Saved as your new email."
+msgstr ""
+
+msgid "Saved as your new password."
 msgstr ""
 
 msgid "Savings compared to buying"
@@ -2549,6 +2731,9 @@ msgid "Search for an item..."
 msgstr ""
 
 msgid "Search..."
+msgstr ""
+
+msgid "Secrets of the Obscure"
 msgstr ""
 
 msgid "Seer (Path 4)"
@@ -2623,10 +2808,15 @@ msgstr ""
 msgid "Shared Inventory"
 msgstr ""
 
-msgid "Sharing is activated for this character. If you don't want this, please <a ng-href=\"/account/character/{{ character.name }}\">click here</a>, enter your API key, and uncheck the share permissions."
+msgid ""
+"Sharing is activated for this character. If you don't want this, please\n"
+"        <a ng-href=\"/account/character/{{ character.name }}\">click here</a>, enter your API key, and\n"
+"        uncheck the share permissions."
 msgstr ""
 
-msgid "Sharing is activated for this character. If you don't want this, please uncheck the permissions to share above."
+msgid ""
+"Sharing is activated for this character. If you don't want this, please uncheck the\n"
+"          permissions to share above."
 msgstr ""
 
 msgid "Shield"
@@ -2636,6 +2826,9 @@ msgid "Shipwreck Rock Waypoint"
 msgstr ""
 
 msgid "Shopping List"
+msgstr ""
+
+msgid "Short Bow"
 msgstr ""
 
 msgid "Shortbow"
@@ -2653,7 +2846,9 @@ msgstr ""
 msgid "Show account:"
 msgstr ""
 
-msgid "Show currently active and upcoming worldbosses, get voice notifications and track your daily rewards."
+msgid ""
+"Show currently active and upcoming worldbosses, get voice notifications and track your\n"
+"          daily rewards."
 msgstr ""
 
 msgid "Show detailed information"
@@ -2680,6 +2875,9 @@ msgstr ""
 msgid "Simple Infusion"
 msgstr ""
 
+msgid "Skiffs"
+msgstr ""
+
 msgid "Skins"
 msgstr ""
 
@@ -2698,12 +2896,14 @@ msgstr ""
 msgid "Solid Ocean"
 msgstr ""
 
-msgid "Some recipes result in a random quantity, in which case the average is used for calculations."
+msgid ""
+"Some recipes result in a random quantity, in which case the average is used for\n"
+"        calculations."
 msgstr ""
 
 msgid ""
-"Some sub-components of this recipe are included in a greater amount than required,\n"
-"                    because their recipes do not allow for the exact amount needed:"
+"Some sub-components are included in a higher amount than needed, because their recipes\n"
+"            do not allow to craft the exact amount needed."
 msgstr ""
 
 msgid "Sorrow's Embrace"
@@ -2716,6 +2916,9 @@ msgid "Soulbound on use"
 msgstr ""
 
 msgid "Sound Notifications:"
+msgstr ""
+
+msgid "Source:"
 msgstr ""
 
 msgid "Southsun Cove"
@@ -2832,6 +3035,9 @@ msgstr ""
 msgid "Support us"
 msgstr ""
 
+msgid "Supporter Status"
+msgstr ""
+
 msgid "Swampland (Bloomhunger)"
 msgstr ""
 
@@ -2874,6 +3080,9 @@ msgstr ""
 msgid "Tempest"
 msgstr ""
 
+msgid "Templates"
+msgstr ""
+
 msgid "Temple of Balthazar"
 msgstr ""
 
@@ -2901,7 +3110,9 @@ msgstr ""
 msgid "Terra Carorunda Waypoint"
 msgstr ""
 
-msgid "Thanks to Silveress.5197 for their suggestions and their research on average droprates."
+msgid ""
+"Thanks to Silveress.5197 for their suggestions and their research on average\n"
+"        droprates."
 msgstr ""
 
 msgid "Thaumanova Reactor"
@@ -2922,16 +3133,20 @@ msgstr ""
 msgid "The Shatterer"
 msgstr ""
 
-msgid "The following part of the page has not yet been optimized for mobile use. You can scroll horizontally to use the whole part."
+msgid ""
+"The following part of the page has not yet been optimized for mobile use. You can scroll\n"
+"      horizontally to use the whole part."
 msgstr ""
 
-msgid "The output of some crafted items is not guaranteed, but a random chance."
+msgid "The output of some crafted items is subject to randomness and not guaranteed."
 msgstr ""
 
 msgid "The page you requested requires an API key to access your GW2 account."
 msgstr ""
 
-msgid "The recharge time of skills you use is increased if you have a condition on you. Enemies apply random conditions."
+msgid ""
+"The recharge time of skills you use is increased if you have a condition on you. Enemies apply\n"
+"  random conditions."
 msgstr ""
 
 msgid "The required recipes have a chance to drop off the last boss of each path"
@@ -2944,37 +3159,75 @@ msgid "There was an error accessing the API"
 msgstr ""
 
 msgid ""
-"These are the currently available options to spend Black Lion Claim Tickets.<br>\n"
-"        Not up to date? Please <a href=\"https://wiki.guildwars2.com/wiki/Black_Lion_Weapons_Specialist_(The_Vaults)\" target=\"_blank\">update the wiki page</a>, and this page will reflect the changes."
+"These are optional email addresses to link your supporter payments to your gw2efficiency\n"
+"      account,<br>\n"
+"      in case your primary email above does not match your payment provider(s)."
 msgstr ""
 
 msgid ""
-"These are the materials to craft {{ tree.totalQuantity }} items instead of {{ recipes[0].amount }},\n"
-"                    because the recipe doesn't allow for the amount you specified."
+"These are the currently available options to spend Black Lion Claim Tickets.<br>\n"
+"    Not up to date? Please\n"
+"    <a href=\"https://wiki.guildwars2.com/wiki/Black_Lion_Weapons_Specialist_(The_Vaults)\" target=\"_blank\">update the wiki page</a>, and this page will reflect the changes."
+msgstr ""
+
+msgid ""
+"These are the materials to craft {{ tree.totalQuantity }} items instead of {{\n"
+"            recipes[0].amount }}, because the recipe doesn't allow for the amount you specified."
 msgstr ""
 
 msgid "These credentials were not correct."
 msgstr ""
 
-msgid "These prices are only updated every 24 hours, to refresh them click <i class=\"fa fa-refresh\"></i> on the right"
+msgid ""
+"These prices are only updated every 24 hours, to refresh them click\n"
+"            <i class=\"fa fa-refresh\"></i> on the right"
 msgstr ""
 
 msgid "Thief"
 msgstr ""
 
+msgid "This email is already in use, did you <a href=\"/password/remind\">forget your password?</a>"
+msgstr ""
+
+msgid "This email is already in use."
+msgstr ""
+
 msgid "This giveaway is sponsored by GuildMM."
 msgstr ""
 
-msgid "This is a Community Lottery organized by \"queicherius.2563\" (Queicherius) and \"Morganna Bloodrush.6309\" (Saskia Van Leeuwen). To have a chance of winning a prize, simply enter your account name below and press \"Enter me into the lottery!\". The draws are on the 1st every month and prizes will change each time. If you wish to donate towards the prize fund, please contact either of us in game."
+msgid ""
+"This is a Community Lottery organized by \"queicherius.2563\" (Queicherius) and\n"
+"                \"Morganna Bloodrush.6309\" (Saskia Van Leeuwen). To have a chance of winning a prize,\n"
+"                simply enter your account name below and press \"Enter me into the lottery!\". The\n"
+"                draws are on the 1st every month and prizes will change each time. If you wish to\n"
+"                donate towards the prize fund, please contact either of us in game."
 msgstr ""
 
 msgid "This is not a valid e-mail."
 msgstr ""
 
-msgid "This is using your account data from {{ lastUpdate | date:'mediumTime' }}. <a class=\"statlink\" ng-click=\"loadAccountData()\">Refresh now!</a>"
+msgid "This is not a valid email."
 msgstr ""
 
-msgid "This page has not yet been optimized for mobile use. You can scroll horizontally to use the whole page."
+msgid "This is the email associated with your Patreon account."
+msgstr ""
+
+msgid "This is the email associated with your PayPal account."
+msgstr ""
+
+msgid ""
+"This is the email associated with your account. It is used to reset your password if you\n"
+"        forget it and to automatically claim supporter rewards."
+msgstr ""
+
+msgid ""
+"This is using your account data from {{ lastUpdate | date:'mediumTime' }}.\n"
+"          <a class=\"statlink\" ng-click=\"loadAccountData()\">Refresh now!</a>"
+msgstr ""
+
+msgid ""
+"This page has not yet been optimized for mobile use. You can scroll horizontally to use the\n"
+"    whole page."
 msgstr ""
 
 msgid "This page is only accessible to logged in users"
@@ -2983,16 +3236,33 @@ msgstr ""
 msgid "This password-reset link is invalid, please request another one."
 msgstr ""
 
+msgid ""
+"This quaggan promises you that we will never, ever, send you mail you don't want or give\n"
+"            your email to strangers."
+msgstr ""
+
 msgid "This recipe can yield multiple random drops, including common, fine and rare materials"
 msgstr ""
 
-msgid "This recipe expects you to craft {{ daily_cooldowns.amount }} items that you can only craft once a day:"
+msgid ""
+"This recipe expects you to craft/buy {{ daily_cooldowns.amount }} items that have daily\n"
+"            limits."
+msgstr ""
+
+msgid "This recipe includes the same achievements multiple times."
 msgstr ""
 
 msgid "This shouldn't be your Guildwars 2 credentials, you can choose whatever you want."
 msgstr ""
 
-msgid "This table has not yet been optimized for mobile use. You can scroll horizontally to see the whole table."
+msgid ""
+"This table has not yet been optimized for mobile use. You can scroll horizontally to see the\n"
+"      whole table."
+msgstr ""
+
+msgid ""
+"This table has not yet been optimized for mobile use. You can scroll horizontally to see the\n"
+"    whole table."
 msgstr ""
 
 msgid "This username already exists"
@@ -3046,6 +3316,9 @@ msgstr ""
 msgid "Total"
 msgstr ""
 
+msgid "Total Amount,Owned Amount,Needed Amount,Item ID,Item Name,Chat Code"
+msgstr ""
+
 msgid "Total Profit"
 msgstr ""
 
@@ -3085,10 +3358,14 @@ msgstr ""
 msgid "Tower of Nightmares"
 msgstr ""
 
-msgid "Track your dailies and dungeon times, calculate the most efficient dungeons for you and compare with other players."
+msgid ""
+"Track your dailies and dungeon times, calculate the most efficient dungeons for you and\n"
+"          compare with other players."
 msgstr ""
 
-msgid "Track your investments, watch item prices easily, show flip profits and get detailed insight with comprehensive graphs."
+msgid ""
+"Track your investments, watch item prices easily, show flip profits and get detailed\n"
+"          insight with comprehensive graphs."
 msgstr ""
 
 msgid "Tracked items"
@@ -3202,6 +3479,9 @@ msgstr ""
 msgid "Unlocked Dyes"
 msgstr ""
 
+msgid "Unlocked Emotes"
+msgstr ""
+
 msgid "Unlocked Finishers"
 msgstr ""
 
@@ -3209,6 +3489,9 @@ msgid "Unlocked Gliders"
 msgstr ""
 
 msgid "Unlocked Home Instance Nodes"
+msgstr ""
+
+msgid "Unlocked Jadebots"
 msgstr ""
 
 msgid "Unlocked Mailcarriers"
@@ -3232,13 +3515,21 @@ msgstr ""
 msgid "Unlocked Recipes"
 msgstr ""
 
+msgid "Unlocked Skiffs"
+msgstr ""
+
 msgid "Unlocked Skins"
 msgstr ""
 
 msgid "Unranked Queue"
 msgstr ""
 
-msgid "Update own materials & best path every minute (last update: {{ tree.lastUpdate | date:'shortTime' }})"
+msgid "Update"
+msgstr ""
+
+msgid ""
+"Update own materials & best path every minute (last update: {{ tree.lastUpdate\n"
+"                    | date:'shortTime' }})"
 msgstr ""
 
 msgid "Upgrade"
@@ -3257,9 +3548,6 @@ msgid "Urban Battleground"
 msgstr ""
 
 msgid "Use own materials"
-msgstr ""
-
-msgid "Used / Total slots"
 msgstr ""
 
 msgid "Used owned materials"
@@ -3281,6 +3569,9 @@ msgid "Valslake Waypoint"
 msgstr ""
 
 msgid "Value"
+msgstr ""
+
+msgid "Value Own Materials"
 msgstr ""
 
 msgid "Value:"
@@ -3334,7 +3625,9 @@ msgstr ""
 msgid "Warhorns"
 msgstr ""
 
-msgid "Warning: there are new items available that are missing from this table - check back later!"
+msgid ""
+"Warning: there are new items available that are missing from this table - check back\n"
+"        later!"
 msgstr ""
 
 msgid "Warrior"
@@ -3356,6 +3649,9 @@ msgid "Waywarde Waypoint"
 msgstr ""
 
 msgid "We promise that you don't want to miss this."
+msgstr ""
+
+msgid "We suggest removing recipes until this error goes away. You have been warned."
 msgstr ""
 
 msgid "Weapon Sigils"
@@ -3409,6 +3705,9 @@ msgstr ""
 msgid "Wounded Private Felix"
 msgstr ""
 
+msgid "WvW"
+msgstr ""
+
 msgid "Wychmire Waypoint"
 msgstr ""
 
@@ -3427,19 +3726,28 @@ msgstr ""
 msgid "You are entered, good luck!"
 msgstr ""
 
-msgid "You are higher than {{ topPercent(wealth.rank / wealth.participants) | number }}% of {{ wealth.participants | number }} accounts."
+msgid ""
+"You are higher than {{ topPercent(wealth.rank / wealth.participants) | number }}% of {{\n"
+"            wealth.participants | number }} accounts."
 msgstr ""
 
-msgid "You can buy one of these each day from the Karmic Converter (needs \"Exotic Hunter\" achievement)"
+msgid ""
+"You can buy one of these each day from the Karmic Converter (needs \"Exotic Hunter\"\n"
+"  achievement)"
 msgstr ""
 
 msgid "You can only buy these items are once per account."
 msgstr ""
 
+msgid "You can see the supporter status of your account and the total amount of your support here."
+msgstr ""
+
 msgid "You don't have any tracked items."
 msgstr ""
 
-msgid "You forfeit your prize if you don't answer in-game within 72 hours of winning, or are impolite."
+msgid ""
+"You forfeit your prize if you don't answer in-game within 72 hours of winning, or are\n"
+"        impolite."
 msgstr ""
 
 msgid "You have no character with this discipline"
@@ -3451,10 +3759,21 @@ msgstr ""
 msgid "You have to fill out both fields"
 msgstr ""
 
-msgid "You have {{ (completion_unlocked = (mailcarriers | filter:mailcarrierFilter | filter:{unlocked: true}).length) | number:0 }} of {{ (completion_total = (mailcarriers | filter:mailcarrierFilter).length) }} ({{ (completion_unlocked / completion_total) * 100 | number:1 }}%) mailcarriers matching the filter."
+msgid ""
+"You have {{ (completion_unlocked = (mailcarriers | filter:mailcarrierFilter |\n"
+"        filter:{unlocked: true}).length) | number:0 }} of {{ (completion_total = (mailcarriers |\n"
+"        filter:mailcarrierFilter).length) }} ({{ (completion_unlocked / completion_total) * 100 |\n"
+"        number:1 }}%) mailcarriers matching the filter."
 msgstr ""
 
-msgid "You played a total of {{ total_age | timeString:1:true:false:['hour', 'minute', 'second'] }} across all characters"
+msgid ""
+"You only have to complete these achievements once and do not need to repeat crafting\n"
+"            their requirements."
+msgstr ""
+
+msgid ""
+"You played a total of {{ total_age | timeString:1:true:false:['hour', 'minute', 'second']\n"
+"          }} across all characters"
 msgstr ""
 
 msgid "Your account"
@@ -3466,7 +3785,11 @@ msgstr ""
 msgid "Your buy price"
 msgstr ""
 
-msgid "Your collection is worth <span gold amount=\"priceSum((mailcarriers | filter:mailcarrierFilter | filter:{unlocked: true}))\" display-copper=\"false\"></span>, and you would need <span gold amount=\"priceSum((mailcarriers | filter:mailcarrierFilter | filter:{unlocked: false}))\" display-copper=\"false\"></span> to complete it."
+msgid ""
+"Your collection is worth\n"
+"        <span gold amount=\"priceSum((mailcarriers | filter:mailcarrierFilter | filter:{unlocked: true}))\" display-copper=\"false\"></span>, and you would need\n"
+"        <span gold amount=\"priceSum((mailcarriers | filter:mailcarrierFilter | filter:{unlocked: false}))\" display-copper=\"false\"></span>\n"
+"        to complete it."
 msgstr ""
 
 msgid "Your current API key is invalid."
@@ -3477,7 +3800,8 @@ msgstr ""
 
 msgid ""
 "Your current dungeon completion is read directly from your API key.<br>\n"
-"            You need to complete {{ 8 - dungeonFrequenterDone }} more dungeons for your Dungeon Frequenter Reward."
+"      You need to complete {{ 8 - dungeonFrequenterDone }} more dungeons for your Dungeon Frequenter\n"
+"      Reward."
 msgstr ""
 
 msgid "Your current raid completion is read directly from your API key."
@@ -3486,7 +3810,12 @@ msgstr ""
 msgid "Your sell price"
 msgstr ""
 
-msgid "Your upgrades are worth <span gold amount=\"priceSum()\" display-copper=\"false\"></span>."
+msgid "Your supplied password is incorrect."
+msgstr ""
+
+msgid ""
+"Your upgrades are worth\n"
+"        <span gold amount=\"priceSum()\" display-copper=\"false\"></span>."
 msgstr ""
 
 msgid "Zealot (Path 3)"
@@ -3520,12 +3849,6 @@ msgid "c"
 msgstr ""
 
 msgid "completed"
-msgstr ""
-
-msgid "deaths"
-msgstr ""
-
-msgid "deaths per hour"
 msgstr ""
 
 msgid "done editing"
@@ -3581,22 +3904,19 @@ msgid_plural "objectives"
 msgstr[0] ""
 msgstr[1] ""
 
-msgid "old"
-msgstr ""
-
 msgid "ordered"
 msgstr ""
 
 msgid "out of"
 msgstr ""
 
+msgid "per day"
+msgstr ""
+
+msgid "per hour"
+msgstr ""
+
 msgid "per item"
-msgstr ""
-
-msgid "playtime"
-msgstr ""
-
-msgid "playtime per day"
 msgstr ""
 
 msgid "s"
