@@ -811,6 +811,9 @@ msgstr "Komponenten"
 msgid "Components price:"
 msgstr "Komponenten-Preis:"
 
+msgid "Concentration"
+msgstr "Kozentration"
+
 msgid "Condition Damage"
 msgstr "Zustandsschaden"
 
@@ -1250,6 +1253,9 @@ msgstr "Erfahrung"
 
 msgid "Experience:"
 msgstr "Erfahrung:"
+
+msgid "Expertise"
+msgstr "Fachkenntnis"
 
 msgid "Explorer Erikk"
 msgstr "Explorator Erikk"
