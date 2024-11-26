@@ -2,17 +2,23 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GW2 Efficiency - FR Translation\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-02-10 19:44+0000\n"
-"PO-Revision-Date: 2018-05-22 21:14+0200\n"
-"Last-Translator: Ainillia <had3.muller@gmail.com>\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2024-11-26 22:23+0000\n"
+"Last-Translator: gpt-po v1.0.6\n"
 "Language-Team: French\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Poedit 2.0.7\n"
+"X-Generator: Poedit 3.4.1\n"
 "X-POOTLE-MTIME: 1487019701.000000\n"
+
+msgid "(Excl. cost of own materials)"
+msgstr "(Hors coût des propres matériaux)"
+
+msgid "(Please note that for materials grown in the home instance, you can gather up to four per day per plot.)"
+msgstr "(Veuillez noter que pour les matériaux cultivés dans l'instance domestique, vous pouvez en récolter jusqu'à quatre par jour par parcelle.)"
 
 msgid "(excluding taxes)"
 msgstr "(taxes exclues)"
@@ -40,11 +46,6 @@ msgid_plural "{{$count}} bosses hidden"
 msgstr[0] "1 boss caché"
 msgstr[1] "{{$count}} boss cachés"
 
-msgid "1 buyer"
-msgid_plural "{{$count}} buyers"
-msgstr[0] "1 acheteur"
-msgstr[1] "{{$count}} acheteurs"
-
 msgid "1 contestant"
 msgid_plural "{{ $count | number:0}} contestants"
 msgstr[0] "1 contestant"
@@ -70,20 +71,15 @@ msgid_plural "{{$count}} hits"
 msgstr[0] "1 coup"
 msgstr[1] "{{$count}} coups"
 
-msgid "1 node hidden"
-msgid_plural "{{$count}} nodes hidden"
-msgstr[0] "1 ressource cachée"
-msgstr[1] "{{$count}} ressources cachées"
+msgid "1 listing"
+msgid_plural "{{$count}} listings"
+msgstr[0] "1 annonce"
+msgstr[1] ""
 
 msgid "1 objective completed"
 msgid_plural "{{ $count | number:0 }} objectives completed"
 msgstr[0] "1 objectif complété"
 msgstr[1] "{{ $count | number:0 }} objectifs complétés"
-
-msgid "1 seller"
-msgid_plural "{{$count}} sellers"
-msgstr[0] "1 vendeur"
-msgstr[1] "{{$count}} vendeurs"
 
 msgid "1% of players"
 msgstr "1 % des joueurs"
@@ -130,6 +126,12 @@ msgstr "90 % des joueurs"
 msgid "99% of players"
 msgstr "99 % des joueurs"
 
+msgid "<abbr title=\"Assuming all materials are bought at their buy price\">Crafting price</abbr>"
+msgstr "Prix de fabrication"
+
+msgid "<abbr title=\"Assuming all materials are bought at their buy price, and the item is sold at its sell price\">Crafting profit</abbr>"
+msgstr "Profit de fabrication"
+
 msgid "<abbr title=\"Average monthly rate of return (this value is only accurate if the investment time is correct and dates back more than one month)\">AMROR</abbr>"
 msgstr "<abbr title=\"Taux de retour mensuel moyen (cette valeur n'est précise que si le temps d'investissement est correct et que les dates remontent de plus d'un mois)\">TDRMM</abbr>"
 
@@ -138,6 +140,18 @@ msgstr "<abbr title=\"Retour sur l'investissement\">RSI</abbr>"
 
 msgid "<abbr title=\"Sell price with tradingpost fees deducted\">Net value</abbr>"
 msgstr "<abbr title=\"Prix de vente après déduction des charges au comptoir\">Valeur nette</abbr>"
+
+msgid "<input type=\"checkbox\" ng-model=\"auto_refresh\"> Auto-refresh <span class=\"eff-color-grey-40\" ng-show=\"last_update\">({{ last_update | date:'shortTime' }})</span>"
+msgstr "<input type=\"checkbox\" ng-model=\"auto_refresh\"> Actualisation automatique <span class=\"eff-color-grey-40\" ng-show=\"last_update\">({{ last_update | date:'shortTime' }})</span>"
+
+msgid "<span gold amount=\"owned_item.ownedQuantity\"></span> total owned"
+msgstr "<span gold amount=\"owned_item.ownedQuantity\"></span> au total possédé"
+
+msgid "<strong>Check back every day</strong> to enter for prizes and<br>enter for the <strong>big prizes drawn on the 20th - 25th of December at the bottom!</strong>"
+msgstr "Vérifiez tous les jours pour participer aux tirages au sort et tentez de gagner de gros prix tirés entre le 20 et le 25 décembre en bas de la page !"
+
+msgid "<strong>Check back on the 1st of December!</strong>"
+msgstr "<em>Vérifiez à nouveau le 1er décembre !</em>"
 
 msgid "A Very Merry Wintersday"
 msgstr "Un très joyeux Hivernel"
@@ -148,8 +162,8 @@ msgstr "Le mot de passe actuel est requis"
 msgid "A new password is required"
 msgstr "Un nouveau mot de passe est requis"
 
-msgid "A password is required."
-msgstr "Un mot de passe est requis."
+msgid "API Keys"
+msgstr "Clés API"
 
 msgid "API key invalid"
 msgstr "La clé d'API est invalide"
@@ -178,17 +192,14 @@ msgstr "Compte"
 msgid "Account - Achievements"
 msgstr "Compte - Succès"
 
-msgid "Account - Bank"
-msgstr "Compte - Banque"
-
 msgid "Account - Character -"
 msgstr "Compte - Personnage -"
 
 msgid "Account - Characters"
 msgstr "Compte - Personnages"
 
-msgid "Account - Dyes"
-msgstr "Compte - Teintures"
+msgid "Account - Gemstore Account Upgrades"
+msgstr "Compte - Améliorations du compte Gemstore"
 
 msgid "Account - Guild"
 msgstr "Compte - Guilde"
@@ -196,41 +207,35 @@ msgstr "Compte - Guilde"
 msgid "Account - Guilds"
 msgstr "Compte - Guildes"
 
-msgid "Account - Material Storage"
-msgstr "Compte - Collection de matériaux"
-
-msgid "Account - Miniatures"
-msgstr "Compte - Miniatures"
-
 msgid "Account - Overview"
 msgstr "Compte - Aperçu"
 
 msgid "Account - PvP"
 msgstr "Compte - JcJ"
 
-msgid "Account - Statistics"
-msgstr "Compte - Statistiques"
+msgid "Account - SAB"
+msgstr "Compte - SAB"
 
 msgid "Account - Wallet"
 msgstr "Compte - Portefeuille"
 
-msgid "Account - Wardrobe"
-msgstr "Compte - Garde-robe"
+msgid "Account Deletion"
+msgstr "Suppression de compte"
 
 msgid "Account Overview"
 msgstr "Aperçu du compte"
 
-msgid "Account Value"
-msgstr "Valeur du compte"
+msgid "Account Settings"
+msgstr "Paramètres du compte"
 
-msgid "Account Value (excl. Gemstore)"
-msgstr "Valeur du Compte (Boutique aux Gemmes exclue)"
-
-msgid "Account statistics"
+msgid "Account Statistics"
 msgstr "Statistiques du compte"
 
-msgid "Account upgrades"
-msgstr "Améliorations du compte"
+msgid "Account Upgrades"
+msgstr "Mises à niveau du compte"
+
+msgid "Account Value"
+msgstr "Valeur du compte"
 
 msgid "Account value"
 msgstr "Valeur du compte"
@@ -238,26 +243,14 @@ msgstr "Valeur du compte"
 msgid "Accountbound"
 msgstr "Lié au compte"
 
-msgid "Accountbound miniatures:"
-msgstr "Miniatures liées au compte :"
-
 msgid "Accountbound on use"
 msgstr "Lié au compte à l'utilisation"
 
 msgid "Achievements"
 msgstr "Succès"
 
-msgid "Acquisition"
-msgstr "Acquisition"
-
-msgid "Acquisition:"
-msgstr "Acquisition :"
-
 msgid "Active"
 msgstr "Actif"
-
-msgid "Activities"
-msgstr "Activités"
 
 msgid "Add an API key"
 msgstr "Ajouter une clé d'API"
@@ -292,28 +285,23 @@ msgstr "Agent Crandle"
 msgid "Agony Resistance"
 msgstr "Résistance à l'Agonie"
 
-msgid "Airship Parts"
-msgstr "Morceaux d’aéronef"
-
 msgid "Akk Wilds Waypoint"
 msgstr "Point de passage des Contrées sauvages d'Akk"
 
 msgid "All"
 msgstr "Tous"
 
-msgid "All dungeons"
-msgstr "Tous les donjons"
-
 msgid "All professions"
 msgstr "Toutes les professions"
 
-msgid "All the data collected is only publicly available anonymized and <strong>without connection to any individual accounts</strong>.<br>If you still don't want your account data to be included in the wealth distribution, please click <a href=\"\" ng-click=\"blacklist('add')\">here</a>.<br>If you blacklisted yourself and you changed your mind, please click <a href=\"\" ng-click=\"blacklist('remove')\">here</a>."
-msgstr ""
-"Toutes les données collectées sont seulement disponibles anonymement et <strong>sans connexion à aucun compte individuel</strong>.<br>Si vous ne voulez quand même pas pas que vos données soient inclues dans les calculs de distribution de richesses, cliquez <a href=\"\" ng-click=\"blacklist('add')\">ici</a>.<br>Si vous vous êtes mis en liste noire et voulez changer d'avis, cliquez <a href=\"\" ng-click="
-"\"blacklist('remove')\">ici</a>."
+msgid "All the data collected is only publicly available anonymized and <strong>without connection to any individual accounts</strong>.<br>If you still don't want your account data to be included in the wealth distribution, please click <a ng-click=\"blacklist('add')\">here</a>.<br>If you blacklisted yourself and you changed your mind, please click <a ng-click=\"blacklist('remove')\">here</a>."
+msgstr "Toutes les données collectées sont uniquement disponibles publiquement de manière anonyme et <strong>sans lien avec des comptes individuels</strong>.<br>Si vous ne voulez toujours pas que vos données de compte soient incluses dans la distribution de richesse, veuillez cliquer <a ng-click=\"blacklist('add')\">ici</a>.<br>Si vous vous êtes mis sur liste noire et que vous avez changé d'avis, veuillez cliquer <a ng-click=\"blacklist('remove')\">ici</a>."
 
 msgid "All upgrades"
 msgstr "Toutes les améliorations"
+
+msgid "Always"
+msgstr "Toujours"
 
 msgid "Amount"
 msgstr "Quantité"
@@ -342,14 +330,8 @@ msgstr "Ruines Aquatiques (Passage sombre)"
 msgid "Aquatic Ruins (Dolphin Path)"
 msgstr "Ruines Aquatiques (Passage des Dauphins)"
 
-msgid "Are you completely sure that you want to delete all investments?"
-msgstr "Êtes-vous sûr de vouloir supprimer tous ces investissements ?"
-
 msgid "Are you sure that you want to delete this investment?"
 msgstr "Êtes-vous sûr de vouloir supprimer cet investissement ?"
-
-msgid "Arena"
-msgstr "Arène"
 
 msgid "Armor"
 msgstr "Armure"
@@ -372,14 +354,14 @@ msgstr "Point de passage d'Arundon"
 msgid "Ascalonian Catacombs"
 msgstr "Catacombes Ascaloniennes"
 
-msgid "Ascalonian Tears"
-msgstr "Larmes Ascaloniennes"
-
 msgid "Ascended"
 msgstr "Élevé"
 
 msgid "Ascended Materials"
 msgstr "Matériaux élevés"
+
+msgid "Ascended Weapons &amp; Armor"
+msgstr "Armes et armures ascendantes"
 
 msgid "Ashford Waypoint"
 msgstr "Point de passage d'Ashford"
@@ -390,14 +372,8 @@ msgstr "Asura"
 msgid "Asura (Path 1)"
 msgstr "Asura (Chemin 1)"
 
-msgid "Attributes"
-msgstr "Attributs"
-
 msgid "Augur's Stone"
 msgstr "Pierre d'Augur"
-
-msgid "Aura Items"
-msgstr "Objets d'Aura"
 
 msgid "Available"
 msgstr "Disponible"
@@ -423,41 +399,32 @@ msgstr "Haches"
 msgid "Back"
 msgstr "Dorsal"
 
-msgid "Back items"
-msgstr "Objets de dos"
-
 msgid "Back to login"
 msgstr "Retour à la connexion du compte"
 
-msgid "Back to the default character overview"
-msgstr "Revenir à la vue des personnages par défaut"
-
-msgid "Back to top"
-msgstr "Haut de page"
+msgid "Backpieces"
+msgstr "Dos tatoué"
 
 msgid "Badges of Honor"
 msgstr "Insignes d'honneur"
 
+msgid "Bag Slots"
+msgstr "Emplacements de sac"
+
 msgid "Bags"
 msgstr "Sacs"
 
-msgid "Bandit Crests"
-msgstr "Écus de Bandit"
+msgid "Bait"
+msgstr "Appât"
 
 msgid "Bank"
 msgstr "Banque"
-
-msgid "Bank Value"
-msgstr "Valeur de la Banque"
 
 msgid "Basic"
 msgstr "Basique"
 
 msgid "Battle for Lion's Arch: Aftermath"
 msgstr "Bataille pour l'Arche du Lion : Répercussions"
-
-msgid "Bauble Infusions"
-msgstr "Infusions à Babioles"
 
 msgid "Beaded weapons"
 msgstr "Armes à perles"
@@ -474,14 +441,11 @@ msgstr "Berserker"
 msgid "Best bidder only"
 msgstr "Uniquement le meilleur parieur"
 
-msgid "Big thanks to everybody sending encouraging messages, filing bug reports, sharing ideas and offering helpful critique. You rock."
-msgstr "Un grand merci à tous ceux qui envoient des messages encourageants, reportent des bugs, partagent des idées, et présentent des critiques fondées. Vous êtes géniaux."
+msgid "Best path"
+msgstr "Meilleur chemin"
 
 msgid "Binding:"
 msgstr "Lien :"
-
-msgid "Black Lion Claim Tickets"
-msgstr "Billets de Retrait du Lion Noir"
 
 msgid "Black Lion Salvage Kit"
 msgstr "Kit de recyclage du Lion Noir"
@@ -494,9 +458,6 @@ msgstr "Point de passage des landes dévastées"
 
 msgid "Blazeridge Steppes"
 msgstr "Les steppes de la strie flamboyante"
-
-msgid "Blood Rubies"
-msgstr "Rubis de Sang"
 
 msgid "Bloodstone Shard"
 msgstr "Fragment de pierre de sang"
@@ -519,9 +480,6 @@ msgstr "Bottes"
 msgid "Booze"
 msgstr "Boisson"
 
-msgid "Bought"
-msgstr "Acheté"
-
 msgid "Bram Dawnrazer"
 msgstr "Bram Rasaube"
 
@@ -531,14 +489,8 @@ msgstr "Reine dévoreuse stigmatisée"
 msgid "Breaktooth’s Waypoint"
 msgstr "Point de Passage de Cassedent"
 
-msgid "Brightness"
-msgstr "Luminosité"
-
 msgid "Brisban Wildlands"
 msgstr "Terres sauvages de Brisban"
-
-msgid "Broken Spoons"
-msgstr "Cuillères cassées"
 
 msgid "Brown"
 msgstr "Brun"
@@ -564,11 +516,17 @@ msgstr "Majordome (Chemin 3)"
 msgid "Butternut Squash"
 msgstr "Courge musquée"
 
+msgid "Buy"
+msgstr "Acheter"
+
 msgid "Buy 75x \"Sun Bead\" from the vendor and then craft the (sellable) item ouf of them.<br>You have to discover the recipe via the \"discovery\" tab of your crafing profession."
 msgstr "Acheter 75 \"Perle Solaire\" au vendeur et craftez avec l'objet (revendable).<br> Vous devez découvrir la recette via l'onglet \"Découverte\" de votre métier."
 
 msgid "Buy Listings"
 msgstr "Liste d'achat"
+
+msgid "Buy all"
+msgstr "Achète tout"
 
 msgid "Buy four of these karma items and forge them together using the mystic forge.<br>This converts them into items you can salvage for materials."
 msgstr "Achetez quatre des ces objets en Karma et combinez-les dans la fore mystique.<br>Cette opération les convertissent en objets que vous pouvez recycler."
@@ -603,17 +561,20 @@ msgstr "Achetez les boites à bijoux via les vendeurs de Karma à Orr et ouvrez-
 msgid "Buying 100 Gems"
 msgstr "Acheter 100 Gemmes"
 
-msgid "By occurrence"
-msgstr "Par occurrence"
+msgid "By exporting your account settings you can move them over to a different browser or device. This includes local settings such as the hidden dailies, hidden gathering routes, the default mode for the account overview, etc."
+msgstr "En exportant vos paramètres de compte, vous pouvez les transférer vers un autre navigateur ou appareil. Cela inclut les paramètres locaux tels que les quotidiens cachés, les itinéraires de collecte cachés, le mode par défaut pour l'aperçu du compte, etc."
 
 msgid "Cabbage"
 msgstr "Chou"
 
-msgid "Cactus"
-msgstr "Cactus"
-
 msgid "Calculate the best way to craft recipes, get shopping lists and display exact crafting steps."
 msgstr "Calcule le meilleur moyen de fabriquer une recette, obtenir une liste de composants à acheter, et montrer exactement les étapes d'artisanat."
+
+msgid "Calculating..."
+msgstr "Calcul en cours..."
+
+msgid "Calculator"
+msgstr "Calculatrice"
 
 msgid "Caledon Forest"
 msgstr "Forêt de Caledon"
@@ -621,29 +582,11 @@ msgstr "Forêt de Caledon"
 msgid "Caledon Haven Waypoint"
 msgstr "Point de passage du Refuge de Caledon"
 
-msgid "Can't find a user with that e-mail address."
-msgstr "Aucun utilisateur trouvé avec cet e-mail."
+msgid "Can't find a user with that e-mail address, please contact support under <a href=\"mailto:support@gw2efficiency.com\">support@gw2efficiency.com</a> for instructions on how to get your account back."
+msgstr "Impossible de trouver un utilisateur avec cette adresse e-mail, veuillez contacter le support à l'adresse <a href=\"mailto:support@gw2efficiency.com\">support@gw2efficiency.com</a> pour obtenir des instructions sur la façon de récupérer votre compte."
 
 msgid "Captain Mai Trin Boss"
 msgstr "Boss capitaine Mai Trin"
-
-msgid "Captured Keeps"
-msgstr "Forts Capturés"
-
-msgid "Captured Objectives"
-msgstr "Objectifs Capturés"
-
-msgid "Captured Stonemist Castle"
-msgstr "Brumepierre Capturé"
-
-msgid "Captured Supply Camps"
-msgstr "Camps de Ravitaillement Capturés"
-
-msgid "Captures Towers"
-msgstr "Tours Capturées"
-
-msgid "Carrot"
-msgstr "Carotte"
 
 msgid "Carrot, Lettuce, Cabbage & Cactus"
 msgstr "Carotte, Laitue, Chou & Cactus"
@@ -657,26 +600,14 @@ msgstr "Manoir de Caudecus"
 msgid "Cauliflower"
 msgstr "Chou-fleur"
 
+msgid "Central Tyria"
+msgstr "Central Tyria -> Tyrie centrale"
+
 msgid "Cereboth Waypoint"
 msgstr "Point de passage de Cereboth"
 
-msgid "Chak Egg Sacks"
-msgstr "Sacs d'oeufs de Chak"
-
-msgid "Chak Eggs"
-msgstr "Oeufs de Chak"
-
-msgid "Champion Bags"
-msgstr "Sacs de Champion"
-
 msgid "Character"
 msgstr "Personnage"
-
-msgid "Character Overview"
-msgstr "Aperçu des personnages"
-
-msgid "Character Value"
-msgstr "Valeur du Personnage"
 
 msgid "Character:"
 msgstr "Personnage :"
@@ -689,6 +620,9 @@ msgstr "Charr"
 
 msgid "Chat tools"
 msgstr "Outils de conversation"
+
+msgid "Check out his"
+msgstr "Vérifiez-le."
 
 msgid "Chef"
 msgstr "Maître-Queue"
@@ -705,11 +639,17 @@ msgstr "Chronomancien"
 msgid "Citadel of Flame"
 msgstr "Citadelle de la flamme"
 
+msgid "Claim Tickets"
+msgstr "Billets de réclamation"
+
 msgid "Class"
 msgstr "Classe"
 
 msgid "Claw of Jormag"
 msgstr "Griffe de Jormag"
+
+msgid "Clear Notification"
+msgstr "Notification effacée"
 
 msgid "Clerk Ulva"
 msgstr "Commis Ulva"
@@ -720,20 +660,11 @@ msgstr "Cliquez sur n'importe quel objet ce-dessous pour ouvrir l'arbre d'artisa
 msgid "Click for a video guide!"
 msgstr "Cliquez pour un guide vidéo !"
 
-msgid "Click here to manage your API keys"
-msgstr "Cliquez ici pour gérer vos clés d'API"
-
 msgid "Click on the specific currencies to see their conversion into gold."
 msgstr "Cliquez sur les monnaies spécifiques pour voir la conversion en Pièces d'Or."
 
 msgid "Click to copy"
 msgstr "Cliquez pour copier"
-
-msgid "Click to mark as completed"
-msgstr "Cliquez pour mettre en \"complété\""
-
-msgid "Click to mark as not completed"
-msgstr "Cliquez pour mettre en \"Non complété\""
 
 msgid "Click to select"
 msgstr "Cliquez pour selectionner"
@@ -749,9 +680,6 @@ msgstr "Flanc de Falaise"
 
 msgid "Close"
 msgstr "Fermer"
-
-msgid "Cloth"
-msgstr "Tissu"
 
 msgid "Clothing"
 msgstr "Tenues"
@@ -783,17 +711,8 @@ msgstr "Réduire la vue :"
 msgid "Collapsed: click to show objectives, collections and tiers"
 msgstr "Réduit : cliquez pour montrer les objectifs, collection et autres"
 
-msgid "Collectables"
-msgstr "Collectibles"
-
 msgid "Collection:"
 msgstr "Collection :"
-
-msgid "Color"
-msgstr "Couleur"
-
-msgid "Color:"
-msgstr "Couleur :"
 
 msgid "Combine"
 msgstr "Combiner"
@@ -807,47 +726,20 @@ msgstr "Matériaux d'artisanat courant"
 msgid "Common Crafting Materials (Refined)"
 msgstr "Matériaux d'artisanat courant (raffinés)"
 
-msgid "Community"
-msgstr "Communauté"
-
-msgid "Community - Chat"
-msgstr "Communauté - Chat"
-
-msgid "Community - Contributors"
-msgstr "Communauté - Contributeurs"
-
 msgid "Community - Lottery"
 msgstr "Communauté - Loterie"
-
-msgid "Community - Planned features"
-msgstr "Communauté - Fonctionnalités prévues"
-
-msgid "Community - Reddit"
-msgstr "Communauté - Reddit"
-
-msgid "Community - Teamspeak"
-msgstr "Communauté - TeamSpeak"
 
 msgid "Community Lottery"
 msgstr "Loterie communautaire"
 
-msgid "Community Reddit"
-msgstr "Communauté de Reddit"
-
-msgid "Community Teamspeak"
-msgstr "TeamSpeak communautaire"
-
 msgid "Completed"
 msgstr "Complété"
 
-msgid "Completed Dungeons"
-msgstr "Donjons Complétés"
+msgid "Completed {{ achievement.completion.repeated || 0 | number:0 }} times ({{ achievement.breakdown.points_per_repeat }} <i class=\"sprite-achievement-icon\"></i> each)"
+msgstr "Réalisé {{ achievement.completion.repeated || 0 | number:0 }} fois ({{ achievement.breakdown.points_per_repeat }} <i class=\"sprite-achievement-icon\"></i> à chaque fois)"
 
-msgid "Completed {{ achievement.completion.repeated || 0 | number:0  }} times ({{ achievement.breakdown.points_per_repeat }} <i class=\"sprite-achievement-icon\"></i> each)"
-msgstr "Complété {{ achievement.completion.repeated || 0 | number:0 }} fois ({{ achievement.breakdown.points_per_repeat }}<i class=\"sprite-achievement-icon\"></i> chacun)"
-
-msgid "Completed;Count;Name;Price each;Price total"
-msgstr "Complété;Compteur;Nom;Prix à l'unité;Prix total"
+msgid "Completed,Total Recipe Amount,Used Owned Amount,Shopping List Amount,Item ID,Name,Price Each,Total Recipe Price,Used Owned Price,Shopping List Price"
+msgstr "Terminé, Montant total de la recette, Montant possédé utilisé, Montant de la liste de courses, ID de l'article, Nom, Prix unitaire, Prix total de la recette, Prix utilisé possédé, Prix de la liste de courses"
 
 msgid "Components"
 msgstr "Composants"
@@ -870,29 +762,23 @@ msgstr "Dégât par altération / Précision / Robustesse"
 msgid "Condition damage / Toughness / Vitality"
 msgstr "Dégât par altération / Robustesse / Vitalité"
 
+msgid "Congratulations to"
+msgstr "Félicitations à toi!"
+
 msgid "Consumable"
 msgstr "Consommable"
 
 msgid "Consumables"
 msgstr "Consommables"
 
-msgid "Contact me if you want to help translating! :)"
-msgstr "Contactez-moi si vous voulez aider à traduire !"
-
 msgid "Contestants"
 msgstr "Concurrents"
-
-msgid "Contrast"
-msgstr "Constraste"
 
 msgid "Conversion"
 msgstr "Conversion"
 
 msgid "Cooking Materials"
 msgstr "Matériaux de cuisine"
-
-msgid "Copper"
-msgstr "Cuivre"
 
 msgid "Cost"
 msgstr "Coût"
@@ -903,20 +789,20 @@ msgstr "Coût / Exp"
 msgid "Cost Breakdown"
 msgstr "Vue d'ensemble des prix"
 
+msgid "Cost of own materials"
+msgstr "Coût des matériaux propres"
+
 msgid "Cost:"
 msgstr "Coût :"
-
-msgid "Could not find any matching characters or accounts :("
-msgstr "Impossible de trouver un personnage ou un compte correspondant :("
 
 msgid "Countdown"
 msgstr "Décompte"
 
-msgid "Crab Toss Rounds"
-msgstr "Parties de Lancer de Crabe"
-
 msgid "Craft"
 msgstr "Artisanat"
+
+msgid "Craft all"
+msgstr "Artisanat tout"
 
 msgid "Craft daily cooldowns:"
 msgstr "Décompte pour l'artisanat journalier :"
@@ -939,9 +825,6 @@ msgstr "Artisanat - Calculateur"
 msgid "Crafting - Legendaries"
 msgstr "Artisanat - Légendaires"
 
-msgid "Crafting - Recipe overview"
-msgstr "Artisanat - Aperçu des recettes"
-
 msgid "Crafting Calculator"
 msgstr "Calculateur d'artisanat"
 
@@ -954,20 +837,38 @@ msgstr "Coût d’assemblage (achat)"
 msgid "Crafting Price (sell)"
 msgstr "Coût d'assemblage (vente)"
 
+msgid "Crafting Price / Buy"
+msgstr "Prix de fabrication / Acheter"
+
+msgid "Crafting Price / Buy (ASC)"
+msgstr "Prix de fabrication / Acheter (ASC)"
+
+msgid "Crafting Price / Buy (DESC)"
+msgstr "Prix de fabrication / Acheter (DESC)"
+
+msgid "Crafting Price / Sell"
+msgstr "Prix de fabrication / Prix de vente"
+
+msgid "Crafting Price / Sell (ASC)"
+msgstr "Prix de fabrication / Vente (ASC)"
+
+msgid "Crafting Price / Sell (DESC)"
+msgstr "Prix de fabrication / Vente (DESC)"
+
+msgid "Crafting Profit"
+msgstr "Profitabilité dans l'artisanat"
+
 msgid "Crafting Steps"
 msgstr "Étapes de fabrication"
-
-msgid "Crafting price"
-msgstr "Prix de fabrication"
 
 msgid "Crafting price:"
 msgstr "Prix de fabrication :"
 
-msgid "Crafting profit"
-msgstr "Profit de fabrication"
-
 msgid "Created"
 msgstr "Créé"
+
+msgid "Creation Date"
+msgstr "Date de création"
 
 msgid "Crimson Lion"
 msgstr "Lion Cramoisi"
@@ -1020,8 +921,8 @@ msgstr "Monnaies - Éclats d'esprit"
 msgid "Currency"
 msgstr "Monnaie"
 
-msgid "Current PvP League Rating"
-msgstr "Niveau de ligue JcJ actuel"
+msgid "Current Transactions"
+msgstr "Transactions actuelles"
 
 msgid "Current buy price"
 msgstr "Prix d'achat actuel"
@@ -1065,29 +966,8 @@ msgstr "Fracasseur"
 msgid "Davis the Survivor"
 msgstr "Davis le survivant"
 
-msgid "Deadly Blooms"
-msgstr "Pousses mortelles"
-
 msgid "Deaths"
 msgstr "Morts"
-
-msgid "Deaths per Hour"
-msgstr "Morts par heure"
-
-msgid "Defended Keeps"
-msgstr "Forts Défendus"
-
-msgid "Defended Objectives"
-msgstr "Objectifs Défendus"
-
-msgid "Defended Stonemist Castle"
-msgstr "Château de Brumepierre Défendu"
-
-msgid "Defended Supply Camps"
-msgstr "Camps de Ravitaillement Défendus"
-
-msgid "Defended Towers"
-msgstr "Tours Défendues"
 
 msgid "Defense:"
 msgstr "Défense :"
@@ -1095,14 +975,14 @@ msgstr "Défense :"
 msgid "Delete"
 msgstr "Supprimer"
 
-msgid "Delete all investments"
-msgstr "Supprimer tous les investissements"
-
 msgid "Delete this investment?"
 msgstr "Supprimer cet investissement ?"
 
 msgid "Delete this item?"
 msgstr "Supprimer cet objet ?"
+
+msgid "Delivery Box"
+msgstr "Boîte de livraison"
 
 msgid "Demand"
 msgstr "Demande"
@@ -1119,20 +999,32 @@ msgstr "Point de passage de la Gueule du Démon"
 msgid "Detha (Path 2)"
 msgstr "Detha ( Chemin 2)"
 
+msgid "Did you know that supporters get crawled more frequently and can look further back in their history?"
+msgstr "Savais-tu que les abonnés sont explorés plus fréquemment et peuvent remonter plus loin dans leur historique?"
+
+msgid "Did you know that you get automatically entered into all draws as a supporter?"
+msgstr "Tu savais que tu es automatiquement inscrit à tous les tirages en tant que supporter ?"
+
 msgid "Diessa Plateau"
 msgstr "Plateau de Diessa"
 
 msgid "Dire Shoal Waypoint"
 msgstr "Point de Passage des Bas-fonds funestes"
 
-msgid "Dollar"
-msgstr "Dollar"
+msgid "Discipline:"
+msgstr "Discipline: discipline"
+
+msgid "Discovered Recipes"
+msgstr "Recettes découvertes"
+
+msgid "Do not blindly follow the shopping list or crafting steps. The achievement requirements will be duplicated."
+msgstr "Ne suivez pas aveuglément la liste de courses ou les étapes de fabrication. Les exigences de réalisation seront dupliquées."
+
+msgid "Dollar ($)"
+msgstr "Dollar ($) translates to Dollar ($) in French."
 
 msgid "Dragonhunter"
 msgstr "Draconnier"
-
-msgid "Drawing charts and graphs"
-msgstr "Conception des chartes et graphiques"
 
 msgid "Drawing next winners"
 msgstr "Tirage des prochains gagnants"
@@ -1152,20 +1044,20 @@ msgstr "Druide"
 msgid "Dry Top"
 msgstr "Cimesèche"
 
+msgid "Dungeon Delving"
+msgstr "Exploration de donjon"
+
 msgid "Dungeon potions"
 msgstr "Potions de donjon"
 
 msgid "Dungeon recipes"
 msgstr "Recettes de donjon"
 
-msgid "Dungeon world records"
-msgstr "Records mondiaux de Donjons"
-
 msgid "Dungeons"
 msgstr "Donjons"
 
-msgid "Dungeons & Fractals"
-msgstr "Donjons et Fractales"
+msgid "Dungeons, Raids, Fractals and Strikes"
+msgstr "Donjons, raids, fractales et attaques"
 
 msgid "Duration"
 msgstr "Durée"
@@ -1179,11 +1071,8 @@ msgstr "Point de passage du Prieuré de Durmand"
 msgid "Dye Cooking"
 msgstr "Artisanat de Teinture"
 
-msgid "Dye Value"
-msgstr "Valeur de la teinture"
-
-msgid "E-mail"
-msgstr "Adresse e-mail"
+msgid "Dyes"
+msgstr "Les colorants"
 
 msgid "Earnable AP"
 msgstr "Points de succès à gagner"
@@ -1199,6 +1088,15 @@ msgstr "Parchemin d'Eldritch"
 
 msgid "Elementalist"
 msgstr "Élémentaliste"
+
+msgid "Email"
+msgstr "Email -> Courriel"
+
+msgid "Emotes"
+msgstr "Emotes -> Emojis"
+
+msgid "End of Dragons"
+msgstr "Fin des Dragons"
 
 msgid "Enemies apply random conditions. When you dodge roll, you lose all your boons."
 msgstr "Les ennemis appliquent des altérations aléatoirement. Si vous esquivez, vous perdez tous vos avantages."
@@ -1218,11 +1116,17 @@ msgstr "Ingénieur"
 msgid "Enter me into the lottery!"
 msgstr "Participer à la loterie!"
 
+msgid "Enter the giveaway"
+msgstr "Participe au tirage au sort"
+
 msgid "Enter the name of an item in the search box above, and click on <i class=\"fa fa-plus-circle\"></i> to add it to your list."
 msgstr "Entrez le nom d'un item dans le cadre de recherche ci-dessus, et cliquez sur <i class=\"fa fa-plus-circle\"></i> pour l'ajouter à votre liste."
 
-msgid "Enter your API key"
-msgstr "Entrez votre clé d'API"
+msgid "Enter your Patreon email"
+msgstr "Entrez votre adresse e-mail Patreon"
+
+msgid "Enter your PayPal email"
+msgstr "Entrez votre adresse email PayPal"
 
 msgid "Enter your current password"
 msgstr "Entrez votre mot de passe actuel"
@@ -1230,17 +1134,23 @@ msgstr "Entrez votre mot de passe actuel"
 msgid "Enter your e-mail"
 msgstr "Entrez votre adresse e-mail"
 
+msgid "Enter your email"
+msgstr "Entrez votre email"
+
 msgid "Enter your new password"
 msgstr "Entrez votre nouveau mot de passe"
 
 msgid "Equipment"
 msgstr "Équipement"
 
-msgid "Escorted Supply Caravans"
-msgstr "Caravanes de Ravitaillement Défendues"
+msgid "Equipment Only"
+msgstr "Matériel seulement"
 
-msgid "Euro"
-msgstr "Euro"
+msgid "Equipment:"
+msgstr "Équipement:"
+
+msgid "Euro (€)"
+msgstr "Euro (€)"
 
 msgid "Event"
 msgstr "Événement"
@@ -1281,6 +1191,12 @@ msgstr "Expérience :"
 msgid "Explorer Erikk"
 msgstr "Explorateur Erikk"
 
+msgid "Export Tab"
+msgstr "Onglet d'exportation"
+
+msgid "Export account settings"
+msgstr "Paramètres de compte d'exportation"
+
 msgid "Export to Excel"
 msgstr "Exporter vers Excel"
 
@@ -1290,20 +1206,14 @@ msgstr "Œil de Zhaitan"
 msgid "Fangfury Watch Waypoint"
 msgstr "Point de passage du Guet de Mordrage"
 
+msgid "Farming"
+msgstr "Agriculture"
+
 msgid "Favor"
 msgstr "Faveur"
 
 msgid "Favor / Exp"
 msgstr "Faveur / Exp"
-
-msgid "Feel free to browse without an account or log in with the username and password \"demo\""
-msgstr "Vous pouvez parcourir le site sans compte ou sans authentification avec le combo utilisateur/mot de passe \"demo\""
-
-msgid "Feel free to hang out and organize things in the public channels of our community teamspeak. If you would like a private channel for your guild or for you and your friends, just contact \"Lenex\" on teamspeak via private message."
-msgstr "N'hésitez pas à trainer et organiser quelque chose dans les canaux publiques de notre communauté TeamSpeak. Si vous désirez un canal privé pour votre guilde ou pour vous et vos amis, contactez \"Lenex\" sur TeamSpeak via un message privé."
-
-msgid "Feel free to leave all your feedback and suggestions in the official subreddit. We're always happy to hear your opinion on things."
-msgstr "Laissez donc un avis et des suggestions dans le subreddit officiel. Nous sommes toujours heureux de connaitre votre opinion sur les choses."
 
 msgid "Fergg (Path 1)"
 msgstr "Fergg (Chemin 1)"
@@ -1332,8 +1242,8 @@ msgstr "Matériaux d'artisanat exquis"
 msgid "Finished"
 msgstr "Terminé"
 
-msgid "Finished Achievements"
-msgstr "Succès terminés"
+msgid "Finishers"
+msgstr "Finitions"
 
 msgid "Fire"
 msgstr "Feu"
@@ -1347,8 +1257,8 @@ msgstr "Chaman de feu"
 msgid "Fireheart Rise"
 msgstr "Montée de Flambecœur"
 
-msgid "Flame Legion Charr Carvings"
-msgstr "Gravures de Charr de la Légion de la Flamme"
+msgid "Fishing"
+msgstr "Pêche"
 
 msgid "Flame and Frost"
 msgstr "Flamme et Froid"
@@ -1374,38 +1284,23 @@ msgstr "Focus"
 msgid "Food Effects"
 msgstr "Effets de nourriture"
 
+msgid "Foraging"
+msgstr "La recherche de nourriture"
+
 msgid "Forgot your password?"
 msgstr "Mot de passe oublié?"
 
 msgid "Forgotten (Path 3)"
 msgstr "Les oubliés (Chemin 3)"
 
-msgid "Fossilized Insects"
-msgstr "Insectes Fossilisés"
-
 msgid "Foulbear Chieftain"
 msgstr "Chef d'Oursefol"
-
-msgid "Fractal Level"
-msgstr "Niveau de fractal"
-
-msgid "Fractal Relics"
-msgstr "Reliques Fractales"
-
-msgid "Fractal Skins"
-msgstr "Apparences de Fractale"
-
-msgid "Fractal Tonics"
-msgstr "Toniques des Fractales"
 
 msgid "Fractals"
 msgstr "Fractales"
 
 msgid "Fractals of the Mists"
 msgstr "Fractales des brumes"
-
-msgid "Fresh Winterberries"
-msgstr "Houx frais"
 
 msgid "From"
 msgstr "De"
@@ -1416,8 +1311,8 @@ msgstr "Porte principale (Chemin 3)"
 msgid "Frostgorge Sound"
 msgstr "Détroit des Gorges Glacées"
 
-msgid "Full investment history"
-msgstr "Historique complet des investissements"
+msgid "Funds Waiting"
+msgstr "Fonds en attente"
 
 msgid "Gallowfields Waypoint"
 msgstr "Point de passage des Champs de la potence"
@@ -1428,44 +1323,44 @@ msgstr "Portes d'Arah"
 msgid "Gathering"
 msgstr "Récolte"
 
-msgid "Gathering - Permanent Nodes"
-msgstr "Récolte - Ressources Permanantes"
-
 msgid "Gems"
 msgstr "Gemmes"
-
-msgid "Gems → Gold"
-msgstr "Gemmes → Pièces d'Or"
 
 msgid "Gemstones and Jewels"
 msgstr "Pierres précieuses et joyaux"
 
-msgid "Gemstore"
-msgstr "Boutique aux Gemmes"
-
-msgid "Gemstore dyes:"
-msgstr "Teintures de la boutique aux gemmes :"
-
 msgid "Gemstore price:"
 msgstr "Prix dans la boutique aux gemmes :"
+
+msgid "Gen 1"
+msgstr "\"Gen 1\" peut se référer à \"Génération 1\" dans le contexte de jeux vidéo ou de technologie. Cela peut également faire référence au premier livre de la Bible, la Genèse. De quoi voulez-vous parler exactement ?"
+
+msgid "Gen 2"
+msgstr "I'm not sure what you're referring to. Can you provide more context or clarify your request?"
+
+msgid "Gen 3"
+msgstr "Je ne suis pas sûr de comprendre. Pouvez-vous préciser votre demande ?"
 
 msgid "Gendarran Fields"
 msgstr "Champs de Gendarran"
 
+msgid "Generation:"
+msgstr "Génération:"
+
 msgid "Generic"
 msgstr "Générique"
-
-msgid "Geodes"
-msgstr "Géodes"
 
 msgid "Get a list of permanent gathering nodes you can gather with a daily checklist."
 msgstr "Avoir une liste des ressources permanentes qu'on peut récolter avec une liste à cocher journalière."
 
-msgid "Ghostly Infusions"
-msgstr "Infusions Fantômatiques"
+msgid "Gift of Exploration"
+msgstr "Cadeau d'exploration"
 
 msgid "Gladefall Waypoint"
 msgstr "Point de passage de Gladefall"
+
+msgid "Gliders"
+msgstr "Planeurs"
 
 msgid "Glint's Winter"
 msgstr "Hivernel de Brill"
@@ -1476,9 +1371,6 @@ msgstr "Boules d'ectoplasme"
 msgid "Gloves"
 msgstr "Gants"
 
-msgid "Go to node"
-msgstr "Aller à la ressource"
-
 msgid "Godslost Waypoint"
 msgstr "Point de Passage du Marais d'Anathema"
 
@@ -1487,9 +1379,6 @@ msgstr "Pièce d'Or"
 
 msgid "Gold / Exp"
 msgstr "Pièces d'Or / Exp"
-
-msgid "Gold → Gems"
-msgstr "Pièces d'Or → Gemmes"
 
 msgid "Grapes"
 msgstr "Raisin"
@@ -1523,12 +1412,6 @@ msgstr "Gardien"
 
 msgid "Guardpoint Decimus Waypoint"
 msgstr "Point de passage du Point de Garde de Décimus"
-
-msgid "Guides, gathering &amp; community events"
-msgstr "Guides, récolte &amp; événements communautaires"
-
-msgid "Guild"
-msgstr "Guilde"
 
 msgid "Guild Commendation Trader"
 msgstr "Marchand de Recommandation de Guilde"
@@ -1578,6 +1461,9 @@ msgstr "Guérison / Précision / Vitalité"
 msgid "Health"
 msgstr "Santé"
 
+msgid "Heart of Thorns"
+msgstr "Coeur d'épines"
+
 msgid "Heavy"
 msgstr "Lourd"
 
@@ -1611,20 +1497,17 @@ msgstr "Casque"
 msgid "Herald"
 msgstr "Héraut"
 
-msgid "Here you can change the password of your account to a new one. Choose wisely. (And remember.)"
-msgstr "Vous pouvez changer ici votre mot de passe ici. Choisissez sagement. (Et ne l'oubliez pas.)"
+msgid "Here you can change the password of your account."
+msgstr "Ici, tu peux changer le mot de passe de ton compte."
 
 msgid "Heroics Notary"
 msgstr "Notaire des actes héroïques"
 
+msgid "Hidden only:"
+msgstr "Caché seulement."
+
 msgid "Hide"
 msgstr "Cacher"
-
-msgid "Hide advanced filters"
-msgstr "Cacher les filtres avancés"
-
-msgid "Hide all nodes"
-msgstr "Cacher toutes les ressources"
 
 msgid "Hide done bosses:"
 msgstr "Cacher les boss terminés :"
@@ -1638,34 +1521,23 @@ msgstr "Cacher si terminé :"
 msgid "Hide inactive bosses:"
 msgstr "Cacher les boss inactifs :"
 
-msgid "Hide node"
-msgstr "Cacher la ressource"
-
-msgid "Hide one unlocked recipe"
-msgid_plural "Hide {{$count}} unlocked recipes"
-msgstr[0] "Cacher une recette débloquée"
-msgstr[1] "Cacher les {{$count}} recettes débloquées"
-
 msgid "Hide unprofitable recipes:"
 msgstr "Cacher les recettes non rentables :"
 
 msgid "Higher than {{ topPercent(account_stats.live.rank / account_stats.live.participants) | number }}% of {{ account_stats.live.participants | number }} accounts"
 msgstr "Supérieur à {{ topPercent(account_stats.live.rank / account_stats.live.participants) | number }}% de {{ account_stats.live.participants | number }} comptes"
 
-msgid "Historical item prices"
-msgstr "Historique des prix des objets"
-
-msgid "Historical profit"
-msgstr "Historique de profit"
-
 msgid "Hodgins (Path 1)"
 msgstr "Hodgins (Chemin 1)"
 
+msgid "Holiday Calendar 2023"
+msgstr "Calendrier des vacances 2023"
+
+msgid "Homestead"
+msgstr "Homestead peut se traduire par \"ferme familiale\" ou \"exploitation agricole familiale\"."
+
 msgid "Honor of the Waves"
 msgstr "Honneur des vagues"
-
-msgid "Hue"
-msgstr "Nuance"
 
 msgid "Human"
 msgstr "Humain"
@@ -1682,14 +1554,38 @@ msgstr "Point de passage du Démon des Glaces"
 msgid "Icegate Waypoint"
 msgstr "Point de passage de la porte des glaces"
 
-msgid "If you are lucky enough to be one of our winners, we will contact you in game! If the account name is incorrect or you haven't replied to us within 72 hours, either by in game mail or private message, we will redraw."
-msgstr "Si vous êtes assez chanceux pour être un(e) de nos gagnant(e)s, nous vous contacterons en jeu! Si votre nom de compte est incorrect ou que vous ne répondez pas sous 72 heures, ni par message privé ou en jeu, nous relancerons le tirage."
+msgid "If End of Dragons is not unlocked"
+msgstr "Si la fin des dragons n'est pas débloquée"
 
-msgid "If you wish to support us, you can do so by clicking any of the buttons below or sending us things ingame. Everything donated gets put back into the site. We appreciate it!"
-msgstr "Si vous souhaitez nous soutenir, vous pouvez le faire en cliquant sur l'un des boutons ci-dessous, ou en envoyant des choses dans le jeu. Toute donation sera utilisée pour le site. Nous apprécions votre geste !"
+msgid "If End of Dragons is unlocked"
+msgstr "Si la fin des dragons est débloquée"
+
+msgid "If Heart of Thorns is not unlocked"
+msgstr "Si Heart of Thorns n'est pas débloqué"
+
+msgid "If Heart of Thorns is unlocked"
+msgstr "Si Heart of Thorns est débloqué"
+
+msgid "If Path of Fire is not unlocked"
+msgstr "Si Path of Fire n'est pas débloqué"
+
+msgid "If Path of Fire is unlocked"
+msgstr "Si Path of Fire est débloqué"
+
+msgid "If you are lucky enough to be one of our winners, we will contact you in game! If the account name is incorrect or you haven't replied to us within 72 hours, either by in game mail or private message, we will redraw or move your prize into the next lotteries."
+msgstr "Si tu as de la chance d'être l'un de nos gagnants, on te contactera en jeu ! Si le nom du compte est incorrect ou si tu ne nous réponds pas dans les 72 heures, que ce soit par message en jeu ou en privé, on fera un nouveau tirage ou on déplacera ton prix vers les prochaines loteries."
+
+msgid "Ignore"
+msgstr "Ignorer"
+
+msgid "Import account settings"
+msgstr "Importer les paramètres du compte"
 
 msgid "Import from API"
 msgstr "Importer depuis l'API"
+
+msgid "In accordance with the GDPR laws, you have the ability to delete your gw2efficiency account and/or all of the crawled data of your Guild Wars 2 account. Please send an email to <a href=\"mailto:support@gw2efficiency.com\">support@gw2efficiency.com</a> with your gw2efficiency and Guild Wars 2 account names, and which data you would like to delete."
+msgstr "Selon les lois du RGPD, vous avez la possibilité de supprimer votre compte gw2efficiency et/ou toutes les données collectées de votre compte Guild Wars 2. Veuillez envoyer un e-mail à <a href=\"mailto:support@gw2efficiency.com\">support@gw2efficiency.com</a> avec vos noms de compte gw2efficiency et Guild Wars 2, ainsi que les données que vous souhaitez supprimer."
 
 msgid "Include"
 msgstr "Inclus"
@@ -1697,8 +1593,11 @@ msgstr "Inclus"
 msgid "Include Ectoplasm:"
 msgstr "Ectoplasmes inclus :"
 
-msgid "Initial mobile design"
-msgstr "Design initial pour mobile"
+msgid "Infusions & Enrichments"
+msgstr "Infusions et enrichissements"
+
+msgid "Ingame"
+msgstr "En jeu"
 
 msgid "Inquest Golem Mark II"
 msgstr "Golem de l'enqueste Marque II"
@@ -1706,14 +1605,23 @@ msgstr "Golem de l'enqueste Marque II"
 msgid "Inscriptions & Insignias"
 msgstr "Inscriptions et Insignes"
 
+msgid "Inside of item:"
+msgstr "À l'intérieur de l'article :"
+
 msgid "Inventory"
 msgstr "Inventaire"
 
 msgid "Inventory Bags"
 msgstr "Sacs d'inventaire"
 
+msgid "Inventory Slots"
+msgstr "Emplacements d'inventaire"
+
 msgid "Investment Date"
 msgstr "Date d'investissement"
+
+msgid "Investment History"
+msgstr "Histoire des investissements"
 
 msgid "Investment price"
 msgstr "Prix d'investissement"
@@ -1721,20 +1629,38 @@ msgstr "Prix d'investissement"
 msgid "Investment profit"
 msgstr "Profit d'investissement"
 
-msgid "Iron"
-msgstr "Fer"
-
 msgid "Iron Marches"
 msgstr "Marais de fer"
 
 msgid "Item"
 msgstr "Objet"
 
+msgid "Item ID,Item Name,Item Amount,,Buy Price,Sell Price"
+msgstr "ID de l'article, Nom de l'article, Montant de l'article, Prix d'achat, Prix de vente"
+
+msgid "Item ID,Item Name,Item Amount,Item Charges,Item Location"
+msgstr "ID de l'article, Nom de l'article, Quantité d'article, Frais d'article, Emplacement de l'article"
+
+msgid "Item Id;Quantity;Item;Buy price;Sell price;Profit;Investment Date;Sell Date"
+msgstr "Identifiant de l'article;Quantité;Article;Prix d'achat;Prix de vente;Profit;Date d'investissement;Date de vente"
+
 msgid "Item Upgrades:"
 msgstr "Améliorations d'objets :"
 
+msgid "Item stack"
+msgstr "Pile d'articles"
+
+msgid "Jade Tech Module"
+msgstr "Module de technologie Jade"
+
+msgid "Jadebots"
+msgstr "Jadebots"
+
 msgid "Jaka Itzel Waypoint"
 msgstr "Point de Passage de Jaka Itzel"
+
+msgid "Janthir Wilds"
+msgstr "Janthir Wilds peut se traduire par \"Les terres sauvages de Janthir\"."
 
 msgid "Jeweler"
 msgstr "Bijoutier"
@@ -1763,32 +1689,17 @@ msgstr "Karma"
 msgid "Karmic Converter"
 msgstr "Convertisseur de Karma"
 
-msgid "Keg Brawl Rounds"
-msgstr "Matchs de Keg Brawl"
-
 msgid "Kessex Hills"
 msgstr "Collines de Kessex"
-
-msgid "Killed Players"
-msgstr "Joueurs Tués"
-
-msgid "Killed Players (rated)"
-msgstr "Joueurs Tués (Classé)"
-
-msgid "Killed Supply Caravans"
-msgstr "Caravanes de Ravitaillement Tuées"
-
-msgid "Knowledge Crystals"
-msgstr "Cristaux de Connaissance"
-
-msgid "Koda's Warmth Enrichment"
-msgstr "Enrichissement de chaleur de Koda"
 
 msgid "Koptev (Path 3)"
 msgstr "Koptev (Chemin 3)"
 
 msgid "Kraitbane Haven Waypoint"
 msgstr "Point de passage du Refuge de Kraitban"
+
+msgid "Last Login"
+msgstr "Dernière connexion"
 
 msgid "Last buy price change"
 msgstr "Modification du dernier prix d'achat"
@@ -1798,9 +1709,6 @@ msgstr "Modification du dernier prix de vente"
 
 msgid "Last update"
 msgstr "Dernière mise à jour"
-
-msgid "Latest Investments"
-msgstr "Derniers investissements"
 
 msgid "Latest matches"
 msgstr "Dernières correspondances"
@@ -1820,17 +1728,11 @@ msgstr "Division de ligue"
 msgid "League Rating"
 msgstr "Niveau de ligue"
 
-msgid "Leather"
-msgstr "Cuir"
-
 msgid "Leatherworker"
 msgstr "Travailleur du Cuir"
 
 msgid "Legal notice"
 msgstr "Mentions légales"
-
-msgid "Legend"
-msgstr "Légende"
 
 msgid "Legendaries"
 msgstr "Légendaires"
@@ -1838,14 +1740,8 @@ msgstr "Légendaires"
 msgid "Legendary"
 msgstr "Légendaire"
 
-msgid "Legendary Insights"
-msgstr "Insignes Légendaires"
-
-msgid "Legendary Items"
-msgstr "Objets Légendaires"
-
-msgid "Legendary Skins"
-msgstr "Apparences Légendaires"
+msgid "Legendary Armory"
+msgstr "Armurerie légendaire"
 
 msgid "Leggings"
 msgstr "Pantalons"
@@ -1892,9 +1788,6 @@ msgstr "Niveau 91 - 100"
 msgid "Level: {{ achievement.level.min }} - {{ achievement.level.max }}"
 msgstr "Niveau : {{ achievement.level.min }} - {{ achievement.level.max }}"
 
-msgid "Ley Line Crystals"
-msgstr "Cristaux des lignes de force"
-
 msgid "Lifetime stats"
 msgstr "Statistiques de la durée de vie totale"
 
@@ -1928,32 +1821,17 @@ msgstr "Éclair"
 msgid "Lights Waypoint"
 msgstr "Point de passage des Lumières"
 
-msgid "Like in game"
-msgstr "Comme en jeu"
-
 msgid "Lion's Arch Commemorative"
 msgstr "Commémoratif de l'Arche du Lion"
 
 msgid "Lion's Arch Rebuild"
 msgstr "Reconstruction de l'Arche du Lion"
 
-msgid "Liquid Gold"
-msgstr "Espèces"
-
 msgid "Liquid Gold (buy)"
 msgstr "Argent Liquide (achat)"
 
 msgid "Liquid Gold (sell)"
 msgstr "Argent Liquide (vente)"
-
-msgid "List of components sold by vendors"
-msgstr "Liste de composants vendus par les marchands"
-
-msgid "List of faction & race skin prices"
-msgstr "Liste des prix des apparences de faction et de race"
-
-msgid "List of mystic forge recipes"
-msgstr "Liste des recettes de la forge mystique"
 
 msgid "Listing fee"
 msgstr "Prix de l'annonce"
@@ -1964,11 +1842,11 @@ msgstr "Prix listé"
 msgid "Listings:"
 msgstr "Objets Listés :"
 
-msgid "Load my characters!"
-msgstr "Chargez mes personnages!"
+msgid "Loading account..."
+msgstr "Chargement du compte..."
 
-msgid "Loading"
-msgstr "Chargement"
+msgid "Loading values..."
+msgstr "Chargement des valeurs..."
 
 msgid "Loading..."
 msgstr "Chargement..."
@@ -1979,8 +1857,14 @@ msgstr "Type de Hall"
 msgid "Locked"
 msgstr "Verrouillé"
 
+msgid "Logging"
+msgstr "Enregistrement"
+
 msgid "Login"
 msgstr "Connexion"
+
+msgid "Logout"
+msgstr "Déconnexion"
 
 msgid "Longbow"
 msgstr "Arc long"
@@ -1997,11 +1881,14 @@ msgstr "Passage de Lornar"
 msgid "Lost Match"
 msgstr "Match Perdu"
 
-msgid "Lumps of Aurillium"
-msgstr "Blocs d'Aurillium"
+msgid "Lottery"
+msgstr "Loterie"
 
 msgid "Lunk Kraal Waypoint"
 msgstr "Point de Passage du Kraal des Ogres"
+
+msgid "Lure"
+msgstr "Leurre"
 
 msgid "Lvl"
 msgstr "Niv"
@@ -2021,8 +1908,8 @@ msgstr "Magg (Chemin 2)"
 msgid "Magic Find"
 msgstr "Découverte de magie"
 
-msgid "Magnetite Shards"
-msgstr "Éclats de Magnétite"
+msgid "Mailcarriers"
+msgstr "Les facteurs"
 
 msgid "Malchor's Leap"
 msgstr "Saut de Malchor"
@@ -2036,32 +1923,17 @@ msgstr "Gérer votre compte"
 msgid "Manage your characters, achievements, miniatures and dyes and calculate how much money you would have if you sold your bank."
 msgstr "Gérez vos personnages, succès, miniatures et teintures et calculez combien d'argent vous obtiendriez si vous vendez votre banque."
 
-msgid "Manifestos of the Moletariate"
-msgstr "Manifestes du Taupinariat"
-
 msgid "Map"
 msgstr "Carte"
 
-msgid "Map currencies"
-msgstr "Monnaies de Cartes"
-
-msgid "Market"
-msgstr "Marché"
+msgid "Map Completion"
+msgstr "Achèvement de la carte"
 
 msgid "Masteries only:"
 msgstr "Maîtrises uniquement :"
 
 msgid "Masterwork"
 msgstr "Chef-d'œuvre"
-
-msgid "Mastery Points (Maguuma)"
-msgstr "Points de Maîtrise (Maguuma)"
-
-msgid "Mastery Points (Total)"
-msgstr "Points de Maîtrise (Total)"
-
-msgid "Mastery Points (Tyria)"
-msgstr "Points de Maîtrise (Tyrie)"
 
 msgid "Matches"
 msgstr "Parties"
@@ -2072,17 +1944,8 @@ msgstr "Parties jouées"
 msgid "Material Storage"
 msgstr "Collection de matériaux"
 
-msgid "Material Storage Value"
-msgstr "Valeur des collectables"
-
 msgid "Material price"
 msgstr "Prix des matériaux"
-
-msgid "Material:"
-msgstr "Matériel :"
-
-msgid "Max-level Characters"
-msgstr "Personnages de Niveau Maximum"
 
 msgid "Maximum"
 msgstr "Maximum"
@@ -2126,11 +1989,11 @@ msgstr "Mégadestructeur"
 msgid "Members"
 msgstr "Membres"
 
+msgid "Merchant"
+msgstr "Marchand"
+
 msgid "Mesmer"
 msgstr "Envouteur"
-
-msgid "Metal"
-msgstr "Métal"
 
 msgid "Metrica Province"
 msgstr "Province de Metrica"
@@ -2138,17 +2001,17 @@ msgstr "Province de Metrica"
 msgid "Min. value:"
 msgstr "Valeur min. :"
 
-msgid "Mine"
-msgstr "Mine"
-
 msgid "Miniature"
 msgstr "Miniature"
 
-msgid "Miniature Value"
-msgstr "Valeur de la miniature"
+msgid "Miniatures"
+msgstr "Miniatures - de petites versions en miniature de quelque chose, comme des figurines ou des modèles réduits."
 
 msgid "Minimum"
 msgstr "Minimum"
+
+msgid "Mining"
+msgstr "L'extraction minière"
 
 msgid "Minis"
 msgstr "Minis"
@@ -2156,14 +2019,14 @@ msgstr "Minis"
 msgid "Miscellaneous"
 msgstr "Divers"
 
-msgid "Mithril"
-msgstr "Mithril"
-
 msgid "Molten Boss"
 msgstr "Boss de la Fusion"
 
 msgid "Molten Furnace"
 msgstr "Complexe de la Fusion"
+
+msgid "Money"
+msgstr "Argent"
 
 msgid "Money (current buy price)"
 msgstr "Argent (Prix d'achat actuel)"
@@ -2174,9 +2037,6 @@ msgstr "Argent (prix de vente actuel)"
 msgid "Money (listing price)"
 msgstr "Argent (Prix listé)"
 
-msgid "Money → Gems / Gold"
-msgstr "Argent → Gemmes / Or"
-
 msgid "Most played classes"
 msgstr "Classes les plus jouées"
 
@@ -2186,14 +2046,14 @@ msgstr "Le plus profitable"
 msgid "Mount Maelstrom"
 msgstr "Mont Maelström"
 
+msgid "Mounts"
+msgstr "Montures"
+
 msgid "Mournful Waypoint"
 msgstr "Point de Passage lugubre"
 
 msgid "Mursaat (Path 2)"
 msgstr "Mursaat (Chemin 2)"
-
-msgid "Musical Instruments"
-msgstr "Instruments de Musique"
 
 msgid "Mystic / Master's Salvage Kit"
 msgstr "Kit de recyclage de maître/mystique"
@@ -2222,23 +2082,20 @@ msgstr "Nécromant"
 msgid "Needed for:"
 msgstr "Requis pour :"
 
+msgid "Next Birthday"
+msgstr "Prochain anniversaire"
+
 msgid "Next event"
 msgstr "Événement suivant"
 
 msgid "Next page"
 msgstr "Page suivante"
 
-msgid "Next present"
-msgstr "Cadeau suivant"
-
-msgid "Nightfury"
-msgstr "Furie nocturne"
-
 msgid "No"
 msgstr "Non"
 
-msgid "No dyes matching these filters."
-msgstr "Aucune teinture ne correspond à ces filtres."
+msgid "No delivered items"
+msgstr "Aucun article livré"
 
 msgid "No historic listings matching these filters."
 msgstr "Aucun objet ne correspond à ces filtres."
@@ -2246,29 +2103,23 @@ msgstr "Aucun objet ne correspond à ces filtres."
 msgid "No information"
 msgstr "Aucune information"
 
-msgid "No investments yet"
-msgstr "Pas encore d'investissements"
-
 msgid "No listings available"
 msgstr "Aucune liste disponible"
 
 msgid "No listings matching these filters."
 msgstr "Aucun objet ne correspond à ces filtres."
 
+msgid "No mailcarriers matching these filters."
+msgstr "Aucun facteur ne correspond à ces filtres."
+
 msgid "No matches found"
 msgstr "Aucune correspondance trouvée"
-
-msgid "No miniatures matching these filters."
-msgstr "Aucune miniature ne correspond à ces filtres."
 
 msgid "No note"
 msgstr "Pas de note"
 
 msgid "No own materials used"
 msgstr "Aucun matériau possédé n'est utilisé"
-
-msgid "No preview image found."
-msgstr "Aucune aperçue trouvée."
 
 msgid "No results"
 msgstr "Aucun résultat"
@@ -2294,23 +2145,20 @@ msgstr "Pas encore classé"
 msgid "Not sold or crafted"
 msgstr "Ni vendu ni crafté"
 
-msgid "Notary"
-msgstr "Notaire"
-
 msgid "Nothing"
 msgstr "Rien"
 
 msgid "Nourishment"
 msgstr "Produit consommable"
 
+msgid "Novelties"
+msgstr "Nouveautés"
+
 msgid "Objectives:"
 msgstr "Objectifs :"
 
 msgid "Ocean’s Gulley Waypoint"
 msgstr "Point de Passage du goulet de l'océan"
-
-msgid "Official API keys"
-msgstr "Clef d'API officielle"
 
 msgid "Ogre Road Waypoint"
 msgstr "Point de Passage de la Route de l'Ogre"
@@ -2321,14 +2169,14 @@ msgstr "Point de passage du Site du Vieux traîneau"
 msgid "Oldgate Waypoint"
 msgstr "Point de passage de Portevieille"
 
+msgid "On search"
+msgstr "En recherche"
+
 msgid "Only available for leaders"
 msgstr "Seulement disponible pour les chefs"
 
 msgid "Only craft if necessary:"
 msgstr "Fabriquer seulement si nécessaire :"
-
-msgid "Optimal route"
-msgstr "Route Optimale"
 
 msgid "Orange"
 msgstr "Orange"
@@ -2354,6 +2202,9 @@ msgstr "Orichalque"
 msgid "Other"
 msgstr "Autre"
 
+msgid "Outfits"
+msgstr "Tenues"
+
 msgid "Overbid only"
 msgstr "Surenchérir uniquement"
 
@@ -2375,11 +2226,14 @@ msgstr "Biens emballés"
 msgid "Pagga's Waypoint"
 msgstr "Point de passage de Pagga"
 
-msgid "Participate in our monthly lottery. Use our public TeamSpeak or request your very own private Guild channel there!"
-msgstr "Participez à notre loterie mensuelle. Utilisez notre TeamSpeak public ou demandez-y votre salon de guilde privé!"
+msgid "Participate for free in our monthly lottery to win ever-changing prizes!"
+msgstr "Participez gratuitement à notre loterie mensuelle pour gagner des prix qui changent constamment !"
 
 msgid "Password"
 msgstr "Mot de passe"
+
+msgid "Path of Fire"
+msgstr "Chemin du Feu"
 
 msgid "Pendants"
 msgstr "Amulettes"
@@ -2390,20 +2244,11 @@ msgstr "Graphique en Pourcentage"
 msgid "Permanent"
 msgstr "Permanant"
 
-msgid "Permanent Contracts"
-msgstr "Contrats Permanants"
-
-msgid "Petrified Wood"
-msgstr "Bois Pétrifié"
-
 msgid "Philosopher's Stone"
 msgstr "Pierre philosophale"
 
 msgid "Phinney Waypoint"
 msgstr "Point de passage de Phinney"
-
-msgid "Phospholuminescent Infusions"
-msgstr "Infusions Phospholuminescentes"
 
 msgid "Physical"
 msgstr "Physique"
@@ -2417,17 +2262,11 @@ msgstr "Pistolets"
 msgid "Plains of Ashford"
 msgstr "Les plaines d'Ashford"
 
-msgid "Planned Features"
-msgstr "Fonctions prévues"
-
-msgid "Platinum"
-msgstr "Platine"
-
 msgid "Played for"
 msgstr "Joué pendant"
 
-msgid "Player vs. Player"
-msgstr "Joueur contre Joueur"
+msgid "Player Statistics"
+msgstr "Statistiques des joueurs"
 
 msgid "Playtime"
 msgstr "Temps de Jeu"
@@ -2435,11 +2274,14 @@ msgstr "Temps de Jeu"
 msgid "Playtime &amp; Deaths"
 msgstr "Temps de Jeu &amp; Morts"
 
-msgid "Playtime per Day"
-msgstr "Temps de jeu par jour"
-
 msgid "Please check if you have any privacy extensions enabled and try disabling them. If the problem persists, please send me the text on the right."
 msgstr "Veuillez vérifier s'il vous plaît si vous avez des extensions pour la vie privée activées et désactivez-les. Si le problème persiste, envoyez-moi le texte à droite."
+
+msgid "Please choose a password with at least 8 characters."
+msgstr "Veuillez choisir un mot de passe d'au moins 8 caractères."
+
+msgid "Please choose a username with alpha-numeric characters only (A-Z, a-z, 0-9, -, _ and space)"
+msgstr "Veuillez choisir un nom d'utilisateur contenant uniquement des caractères alphanumériques (A-Z, a-z, 0-9, -, _ et espace)."
 
 msgid "Please enter a craftable item to calculate recipe"
 msgstr "Entrez un objet qui peut être fabriqué pour calculer la recette"
@@ -2453,11 +2295,11 @@ msgstr "Entrez votre nom de compte s'il vous plait"
 msgid "Please enter your new password. Choose wisely. (And remember.)"
 msgstr "Entrez votre nouveau mot de passe. Choisissez sagement. (Et ne l'oubliez pas.)"
 
+msgid "Please keep in mind that it can take up to an hour for these changes to reflect in your supporter status."
+msgstr "Veuillez garder à l'esprit que cela peut prendre jusqu'à une heure pour que ces modifications se reflètent dans votre statut de supporter."
+
 msgid "Please keep in mind that you can buy ascended items with Laurels as well."
 msgstr "Veuillez prendre en compte que vous pouvez acheter des objets élevés avec des Lauriers également."
-
-msgid "Please log in with your new password"
-msgstr "Connectez-vous avec votre nouveau mot de passe"
 
 msgid "Plinth Timberland Waypoint"
 msgstr "Point de Passage des Terres forestières de Plinthe"
@@ -2465,17 +2307,14 @@ msgstr "Point de Passage des Terres forestières de Plinthe"
 msgid "Plunderer (Path 2)"
 msgstr "Pilleur (Chemin 2)"
 
-msgid "Poly-luminescent Refractors"
-msgstr "Réfracteurs Poly-luminescents"
-
 msgid "Position"
 msgstr "Position"
 
 msgid "Potatoes"
 msgstr "Pommes de terre"
 
-msgid "Pound"
-msgstr "Livre"
+msgid "Pound (£)"
+msgstr "Livre (£)"
 
 msgid "Power"
 msgstr "Puissance"
@@ -2483,20 +2322,20 @@ msgstr "Puissance"
 msgid "Power / Toughness / Vitality"
 msgstr "Puissance / Robustesse / Vitalité"
 
+msgid "Power Core"
+msgstr "Noyau de puissance"
+
 msgid "Precision"
 msgstr "Précision"
 
 msgid "Precursors"
 msgstr "Précurseurs"
 
+msgid "Precursors &amp; Legendaries"
+msgstr "Précurseurs et Légendaires"
+
 msgid "Prerequisites:"
 msgstr "Pré-requis :"
-
-msgid "Preserved Queen Bees"
-msgstr "Reines des abeilles préservées"
-
-msgid "Preview"
-msgstr "Aperçu"
 
 msgid "Previous lotteries"
 msgstr "Loteries précédentes"
@@ -2518,9 +2357,6 @@ msgstr "Historique des Prix"
 
 msgid "Price:"
 msgstr "Prix :"
-
-msgid "Pristine Fractal Relics"
-msgstr "Reliques fractales immaculées"
 
 msgid "Privacy"
 msgstr "Vie privée"
@@ -2573,20 +2409,8 @@ msgstr "Profit par jeton"
 msgid "Profit per {{ 1000 | number:0 }} karma"
 msgstr "Profit par {{ 1000 | number:0 }} karma"
 
-msgid "Programming &amp; design"
-msgstr "Programmation &amp; conception"
-
-msgid "Progression"
-msgstr "Progression"
-
-msgid "Proof of Heroics"
-msgstr "Preuves d'héroïsme"
-
 msgid "Provern Shore Waypoint"
 msgstr "Point de Passage de la Côte de Provern"
-
-msgid "Provisioner Tokens"
-msgstr "Coupons de fournisseur"
 
 msgid "Purple"
 msgstr "Violet"
@@ -2597,41 +2421,8 @@ msgstr "JcE"
 msgid "PvP"
 msgstr "JcJ"
 
-msgid "PvP Games"
-msgstr "Parties JcJ"
-
-msgid "PvP Games (rated)"
-msgstr "Matchs JcJ (Classés)"
-
-msgid "PvP League Tickets"
-msgstr "Tickets de League JcJ"
-
-msgid "PvP Rank"
-msgstr "JcJ Classé"
-
-msgid "PvP Winrate (1000+ games)"
-msgstr "Taux de victoire JcJ (1000+ matchs)"
-
-msgid "PvP Winrate (250 - 500 games)"
-msgstr "Taux de réussite JcJ (250 - 500 matchs)"
-
-msgid "PvP Winrate (50 - 250 games)"
-msgstr "Taux de réussite JcJ (50 - 250 matchs)"
-
-msgid "PvP Winrate (500 - 1000 games)"
-msgstr "Taux de réussite JcJ (500 - 1000 matchs)"
-
-msgid "PvP Winrate (any games)"
-msgstr "Taux de victoire JcJ (tous jeux confondus)"
-
-msgid "PvP Winrate (rated games)"
-msgstr "Taux de victoire JcJ (Parties Classées)"
-
-msgid "PvP Wins"
-msgstr "Victoires JcJ"
-
-msgid "PvP Wins (rated)"
-msgstr "Taux de réussite JcJ (Classé)"
+msgid "PvP Heroes"
+msgstr "PvP Heroes se traduirait en français par \"Héros JcJ\""
 
 msgid "Qty."
 msgstr "Qté."
@@ -2684,20 +2475,20 @@ msgstr "Rasolov (Chemin 2)"
 msgid "Rating"
 msgstr "Niveau"
 
-msgid "Rating:"
-msgstr "Note :"
-
 msgid "Reaper"
 msgstr "Faucheur"
 
 msgid "Reaver’s Waypoint"
 msgstr "Point de passage du Faucheur"
 
+msgid "Recipe Search"
+msgstr "Recherche de recettes"
+
 msgid "Recipe tree"
 msgstr "Arbre des recettes"
 
-msgid "Reclaimed Metal Plates"
-msgstr "Plaque en Métal Récupérée"
+msgid "Recipes"
+msgstr "Recettes"
 
 msgid "Red"
 msgstr "Rouge"
@@ -2705,14 +2496,23 @@ msgstr "Rouge"
 msgid "Red team"
 msgstr "Équipe rouge"
 
+msgid "Refresh Automatically:"
+msgstr "Actualiser automatiquement:"
+
+msgid "Refresh Now"
+msgstr "Actualisez maintenant"
+
 msgid "Refresh the data of this item"
 msgstr "Rafraichir les données pour cet objet"
 
 msgid "Register"
 msgstr "S'inscrire"
 
-msgid "Registering is completely free and takes less than 20 seconds."
-msgstr "L'enregistrement est complètement gratuit et prend moins de 20 secondes."
+msgid "Registering is optional, completely free and takes less than 20 seconds."
+msgstr "L'inscription est facultative, totalement gratuite et prend moins de 20 secondes."
+
+msgid "Relic"
+msgstr "Relique"
 
 msgid "Remaining cost:"
 msgstr "Coût restant :"
@@ -2729,14 +2529,17 @@ msgstr "Supprimer"
 msgid "Required Level:"
 msgstr "Niveau Requis :"
 
+msgid "Required disciplines"
+msgstr "Disciplines requises"
+
 msgid "Required level"
 msgstr "Niveau requis"
 
 msgid "Required level:"
 msgstr "Niveau requis :"
 
-msgid "Requires Heart of Thorns"
-msgstr "Requiert Heart of Thorns"
+msgid "Required recipes"
+msgstr "Recettes requises"
 
 msgid "Requires a guild hall with unlocked 'Guild Trader'"
 msgstr "Requiert un hall de guilde avec un \"Marchand de Guilde\""
@@ -2749,9 +2552,6 @@ msgstr "Requiert le métier \"Maître-Queue\" avec le niveau approprié"
 
 msgid "Reset all filters"
 msgstr "Réinitialiser les filtres"
-
-msgid "Reset the daily checkmarks to do another run"
-msgstr "Réinitialisez les marques journalières pour refaire un tour"
 
 msgid "Reset your password"
 msgstr "Réinitialiser votre mot de passe"
@@ -2767,6 +2567,9 @@ msgstr "Revenant"
 
 msgid "Reward"
 msgstr "Récompense"
+
+msgid "Rewards only:"
+msgstr "Récompenses uniquement :"
 
 msgid "Rhendak the Crazed"
 msgstr "Rhendak le fou"
@@ -2813,35 +2616,38 @@ msgstr "Point de Passage du Campement de Rosko"
 msgid "Rustbowl Waypoint"
 msgstr "Point de Passage de Bolrouille"
 
-msgid "Salvaged Items"
-msgstr "Objets Recyclés"
+msgid "SAB"
+msgstr "Je ne suis pas sûr de ce que \"SAB\" signifie. Pouvez-vous fournir plus de contexte?"
 
 msgid "Salvages into"
 msgstr "Se recycle en"
 
-msgid "Sanctum Sprint Rounds"
-msgstr "Parties de Course du Sanctuaire"
-
 msgid "Sangdo Swiftwing"
 msgstr "Sangdo Prestaile"
 
-msgid "Saturation"
-msgstr "Saturation"
+msgid "Save Patreon email"
+msgstr "Enregistre l'email de Patreon"
 
-msgid "Save as e-mail"
-msgstr "Enregistrer comme e-mail"
+msgid "Save PayPal email"
+msgstr "Enregistre l'email de PayPal"
 
-msgid "Save as password"
-msgstr "Sauvegarder en tant que mot de passe"
-
-msgid "Save new API key"
-msgstr "Sauvegarder la nouvelle clé d'API"
+msgid "Save email"
+msgstr "Enregistre l'email"
 
 msgid "Save new password"
 msgstr "Sauvegarder le nouveau mot de passe"
 
-msgid "Saved as your new e-mail."
-msgstr "Adresse e-mail enregistrée."
+msgid "Save password"
+msgstr "Enregistre le mot de passe"
+
+msgid "Saved as your new Patreon email."
+msgstr "Enregistré comme votre nouvel email Patreon."
+
+msgid "Saved as your new PayPal email."
+msgstr "Enregistré comme votre nouveau email PayPal."
+
+msgid "Saved as your new email."
+msgstr "Enregistré comme ton nouveau email."
 
 msgid "Saved as your new password."
 msgstr "Nouveau mot de passe sauvegardé."
@@ -2864,11 +2670,11 @@ msgstr "Mécatronicien"
 msgid "Scribe"
 msgstr "Illustrateur"
 
-msgid "Seals of Beetletun"
-msgstr "Sceaux de Beetletun"
+msgid "Search"
+msgstr "Recherche"
 
-msgid "Search / add new items"
-msgstr "Chercher / Ajouter de nouveaux objets"
+msgid "Search Results"
+msgstr "Résultats de la recherche"
 
 msgid "Search for an item"
 msgstr "Chercher un objet"
@@ -2879,11 +2685,11 @@ msgstr "Rechercher un nom d'objet sur votre compte"
 msgid "Search for an item..."
 msgstr "Chercher un objet..."
 
-msgid "Search through shared characters and accounts"
-msgstr "Chercher dans les comptes et personnages publiques"
-
 msgid "Search..."
 msgstr "Rechercher ..."
+
+msgid "Secrets of the Obscure"
+msgstr "Secrets of the Obscure translates to \"Les secrets de l'obscurité\"."
 
 msgid "Seer (Path 4)"
 msgstr "Aruspices (Chemin 4)"
@@ -2915,9 +2721,6 @@ msgstr "Liste des objets en vente"
 msgid "Sell price"
 msgstr "Prix de vente"
 
-msgid "Sell price &amp; Profit"
-msgstr "Prix de vente &amp; Profit"
-
 msgid "Sell price (per unit)"
 msgstr "Prix de vente (unitaire)"
 
@@ -2939,9 +2742,6 @@ msgstr "Séraphin (Chemin 2)"
 msgid "Seraph Soldier Diedra"
 msgstr "Soldat Séraphin Diedra"
 
-msgid "Set"
-msgstr "Ensemble"
-
 msgid "Set 1"
 msgstr "Ensemble 1"
 
@@ -2951,20 +2751,11 @@ msgstr "Ensemble 2"
 msgid "Set 3"
 msgstr "Ensemble 3"
 
-msgid "Set:"
-msgstr "Ensemble :"
-
 msgid "Shadow"
 msgstr "Ombre"
 
 msgid "Shadow Behemoth"
 msgstr "Béhémoth des ombres"
-
-msgid "Shards of Zhaitan"
-msgstr "Éclats de Zhaïtan"
-
-msgid "Share all your shared characters"
-msgstr "Partagez tous vos personnages publics"
 
 msgid "Share:"
 msgstr "Partager :"
@@ -2972,8 +2763,8 @@ msgstr "Partager :"
 msgid "Shared Inventory"
 msgstr "Inventaire Partagé"
 
-msgid "Sharing is activated for this character. If you don't want this, please <a href=\"/account/character/{{ character.name }}\">click here</a>, enter your API key, and uncheck the share permissions."
-msgstr "Le partage est actif sur ce personnage. Si vous ne voulez pas, veuillez <a href=\"/account/character/{{ character.name }}\"> cliquer ici </a>, entrez votre clé d'API, et décochez les permissions de partage."
+msgid "Sharing is activated for this character. If you don't want this, please <a ng-href=\"/account/character/{{ character.name }}\">click here</a>, enter your API key, and uncheck the share permissions."
+msgstr "Le partage est activé pour ce personnage. Si tu ne veux pas ça, clique <a ng-href=\"/account/character/{{ character.name }}\">ici</a>, entre ta clé API, et décoche les autorisations de partage."
 
 msgid "Sharing is activated for this character. If you don't want this, please uncheck the permissions to share above."
 msgstr "Le partage est actif sur ce personnage. Si vous ne voulez pas, veuillez décocher les permissions de partage ci-dessus."
@@ -2986,6 +2777,9 @@ msgstr "Point de passage du Rocher de l'épave"
 
 msgid "Shopping List"
 msgstr "Liste de courses"
+
+msgid "Short Bow"
+msgstr "Arc court"
 
 msgid "Shortbow"
 msgstr "Arc court"
@@ -3002,15 +2796,6 @@ msgstr "Montrer"
 msgid "Show account:"
 msgstr "Voir le compte :"
 
-msgid "Show advanced filters"
-msgstr "Montrer les filtres avancés"
-
-msgid "Show all nodes"
-msgstr "Afficher toutes les ressources"
-
-msgid "Show character birthdays and playtime"
-msgstr "Afficher le temps de jeu et les anniversaires des personnages"
-
 msgid "Show currently active and upcoming worldbosses, get voice notifications and track your daily rewards."
 msgstr "Montrer les boss mondiaux actifs et suivants, obtenez une notification vocale et un suivi de vos récompenses quotidiennes."
 
@@ -3019,14 +2804,6 @@ msgstr "Montrer les informations détaillées"
 
 msgid "Show listings:"
 msgstr "Afficher les listes :"
-
-msgid "Show one unlocked recipe"
-msgid_plural "Show {{$count}} unlocked recipes"
-msgstr[0] "Montrer la recette déloquéée"
-msgstr[1] "Montrer les {{$count}} recettes débloquées"
-
-msgid "Show progress:"
-msgstr "Afficher la progression :"
 
 msgid "Show subcomponents:"
 msgstr "Montrer les sous-composants :"
@@ -3043,14 +2820,11 @@ msgstr "Maître de Siège"
 msgid "Siege Masters Guide"
 msgstr "Guide de maître des sièges"
 
-msgid "Silver"
-msgstr "Argent"
-
 msgid "Simple Infusion"
 msgstr "Infusion simple"
 
-msgid "Skillpoint conversion research"
-msgstr "Recherche de conversion d’éclats d'esprit"
+msgid "Skiffs"
+msgstr "Skiffs can be translated to \"chaloupes\" in French."
 
 msgid "Skins"
 msgstr "Apparences"
@@ -3067,14 +2841,14 @@ msgstr "Congère d'Antreneige"
 msgid "Snowhawk Landing Waypoint"
 msgstr "Point de passage de la Terrasse du Faucon des Neiges"
 
-msgid "Sold"
-msgstr "Vendu"
-
 msgid "Solid Ocean"
 msgstr "Océan Solide"
 
 msgid "Some recipes result in a random quantity, in which case the average is used for calculations."
 msgstr "Certaines recettes donnent des quantités aléatoires. Dans ce cas-ci, la moyenne est utilisée pour les calculs."
+
+msgid "Some sub-components are included in a higher amount than needed, because their recipes do not allow to craft the exact amount needed."
+msgstr "Certains sous-composants sont inclus en plus grande quantité que nécessaire, car leurs recettes ne permettent pas de fabriquer la quantité exacte requise."
 
 msgid "Sorrow's Embrace"
 msgstr "Étreinte des lamentations"
@@ -3085,11 +2859,14 @@ msgstr "Lié à l'âme"
 msgid "Soulbound on use"
 msgstr "Lié à l'âme à l'utilisation"
 
+msgid "Sound Notifications:"
+msgstr "Notifications sonores"
+
+msgid "Source:"
+msgstr "I'm sorry, I cannot provide a translation without the source text. Can you please provide the English text you'd like me to translate to French?"
+
 msgid "Southsun Cove"
 msgstr "Crique de Sud-Soleil"
-
-msgid "Southsun Survival Rounds"
-msgstr "Matchs de Survie à Sud-Soleil"
 
 msgid "Sparkfly Fen"
 msgstr "Marais de Lumillule"
@@ -3109,12 +2886,6 @@ msgstr "Lances"
 msgid "Special miniatures"
 msgstr "Miniatures spéciales"
 
-msgid "Special thanks"
-msgstr "Remerciements"
-
-msgid "Speech notifications"
-msgstr "Notifications de parole"
-
 msgid "Spinach"
 msgstr "Épinard"
 
@@ -3133,14 +2904,17 @@ msgstr "Commencé"
 msgid "Starter"
 msgstr "Commencement"
 
-msgid "Stash"
-msgstr "Coffre"
-
 msgid "Statistics"
 msgstr "Statistiques"
 
 msgid "Statistics by playtime"
 msgstr "Statistiques par temps de jeu"
+
+msgid "Stats"
+msgstr "Statistiques"
+
+msgid "Stats - Account Statistics"
+msgstr "Stats - Statistiques du compte"
 
 msgid "Status"
 msgstr "Statut"
@@ -3148,14 +2922,23 @@ msgstr "Statut"
 msgid "Steelbrachen"
 msgstr "Steelbrachen"
 
+msgid "Storage"
+msgstr "Stockage"
+
 msgid "Story"
 msgstr "Histoire"
+
+msgid "Story Journal"
+msgstr "Journal d'histoires"
 
 msgid "Straits of Devastation"
 msgstr "Détroit de la Dévastation"
 
 msgid "Strawberries"
 msgstr "Fraises"
+
+msgid "Strikes"
+msgstr "Grèves"
 
 msgid "Sub-Type:"
 msgstr "Sous-Type :"
@@ -3172,17 +2955,32 @@ msgstr "Sous-Type :"
 msgid "Successfully copied"
 msgstr "Copié avec succès"
 
+msgid "Successfully logged in!"
+msgstr "Connecté avec succès !"
+
+msgid "Successfully logged out, see you soon!"
+msgstr "Déconnexion réussie, à bientôt !"
+
+msgid "Successfully registered, nice to have you!"
+msgstr "Inscrit avec succès, ravi de t'avoir parmi nous !"
+
+msgid "Successfully reset your password, welcome back!"
+msgstr "Mot de passe réinitialisé avec succès, bienvenue de retour!"
+
 msgid "Sugar Pumpkins"
 msgstr "Potirons"
+
+msgid "Super Adventure Box"
+msgstr "Super Adventure Box se traduirait en français par \"Super Boîte d'Aventure\"."
 
 msgid "Supply"
 msgstr "Quantité"
 
-msgid "Supply Spent on Repairs"
-msgstr "Ravitaillement dépensé en Réparations"
+msgid "Support us"
+msgstr "Nous soutenir"
 
-msgid "Supporters ♥"
-msgstr "Donateurs ♥"
+msgid "Supporter Status"
+msgstr "Statut de supporter"
 
 msgid "Swampland (Bloomhunger)"
 msgstr "Marais (Carnasse)"
@@ -3199,9 +2997,6 @@ msgstr "Épées"
 msgid "Sylvari"
 msgstr "Sylvari"
 
-msgid "Symbols of Koda"
-msgstr "Symbole de Koda"
-
 msgid "TP"
 msgstr "TP"
 
@@ -3217,9 +3012,6 @@ msgstr "de Taimi"
 msgid "Tangled Depths"
 msgstr "Profondeurs Verdoyantes"
 
-msgid "Tavern"
-msgstr "Taverne"
-
 msgid "Tax"
 msgstr "Taxe"
 
@@ -3231,6 +3023,9 @@ msgstr "Téléporteur (Chemin 2)"
 
 msgid "Tempest"
 msgstr "Cataclyste"
+
+msgid "Templates"
+msgstr "Modèles"
 
 msgid "Temple of Balthazar"
 msgstr "Temple de Balthazar"
@@ -3250,9 +3045,6 @@ msgstr "Temple de Mélandru"
 msgid "Temporarily available miniatures"
 msgstr "Miniatures temporairement disponibles"
 
-msgid "Tequatl Exotic Chests"
-msgstr "Coffres Exotiques de Tequatl"
-
 msgid "Tequatl Rising"
 msgstr "L'ascension de Tequatl"
 
@@ -3261,9 +3053,6 @@ msgstr "Tequalt le sans-soleil"
 
 msgid "Terra Carorunda Waypoint"
 msgstr "Point de passage de Terra Carorunda"
-
-msgid "Thanks to Saskia Van Leeuwen for her hard work put into these maps."
-msgstr "Merci à Saskia Van Leeuwen pour son travail conséquent sur ces cartes."
 
 msgid "Thanks to Silveress.5197 for their suggestions and their research on average droprates."
 msgstr "Merci à Silveress.5197 pour ses suggestions et ses recherches sur la moyenne des taux de butin."
@@ -3277,17 +3066,20 @@ msgstr "Point de passage de la citadelle de la flamme"
 msgid "The Frozen Maw"
 msgstr "Le gouffre gelé"
 
+msgid "The Icebrood Saga"
+msgstr "La saga Icebrood"
+
 msgid "The Ruined City of Arah"
 msgstr "La Cité en ruines d'Arah"
 
 msgid "The Shatterer"
 msgstr "Le Destructeur"
 
-msgid "The Team"
-msgstr "L'équipe"
-
 msgid "The following part of the page has not yet been optimized for mobile use. You can scroll horizontally to use the whole part."
 msgstr "Cette page n'a pas été optimisée pour l'utilisation sur smartphones. Vous pouvez défiler horizontalement pour tout voir."
+
+msgid "The output of some crafted items is subject to randomness and not guaranteed."
+msgstr "La production de certains objets fabriqués est soumise au hasard et n'est pas garantie."
 
 msgid "The page you requested requires an API key to access your GW2 account."
 msgstr "La page que vous avez demandé requiert une clé d'API Guild Wars 2 pour accéder à votre compte."
@@ -3298,26 +3090,23 @@ msgstr "Le temps de recharge de vos compétences augmente si vous avez une alté
 msgid "The required recipes have a chance to drop off the last boss of each path"
 msgstr "Les recettes nécessaires ont une chance d'être obtenues sur le dernier boss de chaque chemin"
 
-msgid "Theoretically Spent Gems"
-msgstr "Gemmes dépensées"
-
-msgid "There are no nodes matching your filters"
-msgstr "Il n'y a pas de ressources répondant à vos filtres"
-
-msgid "There are no skins matching your filters"
-msgstr "Il n'y a aucune apparence répondant à vos filtres"
+msgid "There is currently no lottery set up. Check back in a bit!"
+msgstr "Il n'y a actuellement pas de loterie en place. Revenez dans un moment !"
 
 msgid "There was an error accessing the API"
 msgstr "Erreur pendant l'accès à l'API"
 
-msgid "These are the currently available options to spend Black Lion Claim Tickets"
-msgstr "Ce sont les options actuelles pour dépenser les Billets de Retrait du Lion Noir"
+msgid "These are optional email addresses to link your supporter payments to your gw2efficiency account,<br> in case your primary email above does not match your payment provider(s)."
+msgstr "Voici des adresses e-mail optionnelles pour lier vos paiements de soutien à votre compte gw2efficiency, au cas où votre adresse e-mail principale ci-dessus ne correspondrait pas à votre(s) fournisseur(s) de paiement."
 
-msgid "These are the materials to craft {{ tree.totalQuantity }} instead of {{ amount }} items, because the recipe doesn't allow for the amount you specified."
-msgstr "Voici les matériaux pour créer {{ tree.totalQuantity }} plutôt que {{ amount }} objets, car la recette ne permet pas d'utiliser la quantité spécifiée."
+msgid "These are the currently available options to spend Black Lion Claim Tickets.<br> Not up to date? Please <a href=\"https://wiki.guildwars2.com/wiki/Black_Lion_Weapons_Specialist_(The_Vaults)\" target=\"_blank\">update the wiki page</a>, and this page will reflect the changes."
+msgstr "Voici les options actuellement disponibles pour dépenser les Black Lion Claim Tickets. Pas à jour ? Veuillez <a href=\"https://wiki.guildwars2.com/wiki/Black_Lion_Weapons_Specialist_(The_Vaults)\" target=\"_blank\">mettre à jour la page wiki</a>, et cette page reflétera les changements."
 
-msgid "These credentials were not correct"
-msgstr "Ces références ne sont pas correctes"
+msgid "These are the materials to craft {{ tree.totalQuantity }} items instead of {{ recipes[0].amount }}, because the recipe doesn't allow for the amount you specified."
+msgstr "Voici les matériaux pour fabriquer {{ tree.totalQuantity }} articles au lieu de {{ recipes[0].amount }}, car la recette ne permet pas la quantité que vous avez spécifiée."
+
+msgid "These credentials were not correct."
+msgstr "Ces identifiants n'étaient pas corrects."
 
 msgid "These prices are only updated every 24 hours, to refresh them click <i class=\"fa fa-refresh\"></i> on the right"
 msgstr "Ces prix sont seulement mis a jour toutes les 24 heures, pour les rafraichir cliquez  <i class=\"fa fa-refresh\"></i> sur la droite"
@@ -3325,41 +3114,56 @@ msgstr "Ces prix sont seulement mis a jour toutes les 24 heures, pour les rafrai
 msgid "Thief"
 msgstr "Voleur"
 
-msgid "This API key is not valid (or the GW2 API is dead)."
-msgstr "Cette clé d'API n'est pas valide (ou l'API de GW2 est indisponible)."
+msgid "This email is already in use, did you <a href=\"/password/remind\">forget your password?</a>"
+msgstr "Cet e-mail est déjà utilisé, avez-vous oublié votre mot de passe?"
 
-msgid "This e-mail is already in use, did you <a href=\"/password/remind\">forget your password?</a>"
-msgstr "Cette adresse e-mail est déjà utilisée, avez vous <a href=\"/password/remind\">oublié votre mot de passe ?</a>"
+msgid "This email is already in use."
+msgstr "Cet e-mail est déjà utilisé."
 
-msgid "This is a Community Lottery sponsored by myself (queicherius.2563) and Saskia Van Leeuwen. To have a chance of winning a prize, simply enter your account name below and press \"Enter me into the lottery!\". The draws are on the 1st every month and prizes will change each time. If you wish to donate towards the prize fund, please contact either of us in game."
-msgstr "Ceci est une loterie communautaire sponsorisée par moi-même (queicherius.2563) et Saskia Van Leeuwen.  Pour avoir une change de gagner, entrez votre nom de compte ci-dessous et cliquez sur \"Participer à la loterie!\". Les résultats sont donnés le 1er jour de chaque mois et les prix changent à chaque fois. Si vous souhaitez participer à la cagnotte, contactez-nous en jeu."
+msgid "This giveaway is sponsored by GuildMM."
+msgstr "Ce cadeau est offert par GuildMM."
 
-msgid "This is a rough list of stuff that I am working on or that is planned / possible for gw2efficiency. This is <strong>not</strong> exactly the order these features will get published or a promise that everything will make it in. If you have an idea that's not on this list, or just wanna talk about stuff, feel free to contact me anytime! :)"
-msgstr "Ceci est une liste non-exhaustive de choses à faire / possibles sur lesquelles je travaille pour gw2efficiency. Ceci n'est <strong>pas</strong> exactement dans l'ordre dans lequel les choses seront publiées ni une promesse que tout sera implémenté. Si vous avez une idée ne faisant pas partie de cette liste, ou que vous voulez juste discuter, contactez-moi quand vous voulez ! :)"
+msgid "This is a Community Lottery organized by \"queicherius.2563\" (Queicherius) and \"Morganna Bloodrush.6309\" (Saskia Van Leeuwen). To have a chance of winning a prize, simply enter your account name below and press \"Enter me into the lottery!\". The draws are on the 1st every month and prizes will change each time. If you wish to donate towards the prize fund, please contact either of us in game."
+msgstr "Il s'agit d'une loterie communautaire organisée par \"queicherius.2563\" (Queicherius) et \"Morganna Bloodrush.6309\" (Saskia Van Leeuwen). Pour avoir une chance de gagner un prix, il vous suffit d'entrer votre nom de compte ci-dessous et d'appuyer sur \"Inscrivez-moi à la loterie !\". Les tirages ont lieu le 1er de chaque mois et les prix changeront à chaque fois. Si vous souhaitez faire un don pour le fonds de prix, veuillez nous contacter en jeu."
 
 msgid "This is not a valid e-mail."
 msgstr "Cette adresse e-mail n'est pas valide."
 
-msgid "This is the e-mail associated with your account - it is only used for resetting your password, if you happen to forget it."
-msgstr "Cette adresse e-mail est associée avec votre compte - Elle est utilisé uniquement pour réinitialiser votre mot de passe, si vous l'oubliez."
+msgid "This is not a valid email."
+msgstr "Ce n'est pas une adresse e-mail valide."
 
-msgid "This is using your account data from {{ lastUpdate | date:'mediumTime' }}. <a href=\"\" class=\"statlink\" ng-click=\"loadAccountData()\">Refresh now!</a>"
-msgstr "Les données actuelles du compte sont celles du {{ lastUpdate | date:'mediumTime' }}. <a href=\"\" class=\"statlink\" ng-click=\"loadAccountData()\">Rafraîchir maintenant!</a>"
+msgid "This is the email associated with your Patreon account."
+msgstr "Ceci est l'email associé à votre compte Patreon."
+
+msgid "This is the email associated with your PayPal account."
+msgstr "Ceci est l'email associé à votre compte PayPal."
+
+msgid "This is the email associated with your account. It is used to reset your password if you forget it and to automatically claim supporter rewards."
+msgstr "Ceci est l'e-mail associé à votre compte. Il est utilisé pour réinitialiser votre mot de passe si vous l'oubliez et pour réclamer automatiquement les récompenses de supporter."
+
+msgid "This is using your account data from {{ lastUpdate | date:'mediumTime' }}. <a class=\"statlink\" ng-click=\"loadAccountData()\">Refresh now!</a>"
+msgstr "Cela utilise vos données de compte à partir de {{ lastUpdate | date:'mediumTime' }}. <a class=\"statlink\" ng-click=\"loadAccountData()\">Actualisez maintenant !</a>"
 
 msgid "This page has not yet been optimized for mobile use. You can scroll horizontally to use the whole page."
 msgstr "Cette page n'a pas encore été optimisée pour l'utilisation sur smartphones. Vous pouvez défiler horizontalement pour tout voir."
 
+msgid "This page is only accessible to logged in users"
+msgstr "Cette page est uniquement accessible aux utilisateurs connectés"
+
 msgid "This password-reset link is invalid, please request another one."
 msgstr "Ce lien pour réinitialiser votre mot de passe est invalide, veuillez en demander un autre."
 
-msgid "This quaggan promises you that we will never, ever, send you mail you don't want or give your e-mail to strangers."
-msgstr "Ce Quaggan promet que jamais, au grand jamais, nous vous enverrons d'e-mail indésirable ou que nous donnerons votre adresse e-mail à des étrangers."
+msgid "This quaggan promises you that we will never, ever, send you mail you don't want or give your email to strangers."
+msgstr "Ce quaggan te promet qu'on ne t'enverra jamais de courrier indésirable ou qu'on ne donnera jamais ton adresse e-mail à des inconnus."
 
 msgid "This recipe can yield multiple random drops, including common, fine and rare materials"
 msgstr "Cette recette peut contenir des butins aléatoires, matériaux communs, raffinés, et rares inclus"
 
-msgid "This recipe expects you to craft {{ daily_cooldowns.amount }} items that you can only craft once a day:"
-msgstr "Cette recette demande de créer {{ daily_cooldowns.amount }} objets que vous ne pouvez créer qu'une fois par jour :"
+msgid "This recipe expects you to craft/buy {{ daily_cooldowns.amount }} items that have daily limits."
+msgstr "Cette recette suppose que vous fabriquiez/achetiez {{ daily_cooldowns.amount }} articles qui ont des limites quotidiennes."
+
+msgid "This recipe includes the same achievements multiple times."
+msgstr "Cette recette inclut les mêmes étapes plusieurs fois."
 
 msgid "This shouldn't be your Guildwars 2 credentials, you can choose whatever you want."
 msgstr "Ceci ne devrait pas être vos informations de connexion de Guild Wars 2, vous pouvez choisir ce que vous voulez."
@@ -3391,17 +3195,23 @@ msgstr "Chutes de la Canopée"
 msgid "Time"
 msgstr "Temps"
 
+msgid "Time Machine"
+msgstr "Machine à remonter le temps"
+
 msgid "Time display:"
 msgstr "Affichage du temps :"
+
+msgid "Timers"
+msgstr "Minuteries"
+
+msgid "Titles only:"
+msgstr "Titres uniquement:"
 
 msgid "To"
 msgstr "Au"
 
 msgid "Tokens"
 msgstr "Jetons"
-
-msgid "Tomes of Knowledge"
-msgstr "Tomes de Connaissance"
 
 msgid "Torch"
 msgstr "Torche"
@@ -3412,11 +3222,11 @@ msgstr "Torches"
 msgid "Total"
 msgstr "Total"
 
-msgid "Total Auras"
-msgstr "Total des Auras"
+msgid "Total Amount,Owned Amount,Needed Amount,Item ID,Item Name,Chat Code"
+msgstr "Montant total, Montant possédé, Montant nécessaire, ID de l'article, Nom de l'article, Code de discussion"
 
-msgid "Total Dungeon Tokens"
-msgstr "Total de marques de donjons"
+msgid "Total Profit"
+msgstr "Profit total"
 
 msgid "Total buy price"
 msgstr "Prix d’achat total"
@@ -3454,9 +3264,6 @@ msgstr "Robustesse"
 msgid "Tower of Nightmares"
 msgstr "Tour des Cauchemars"
 
-msgid "Toys"
-msgstr "Jouets"
-
 msgid "Track your dailies and dungeon times, calculate the most efficient dungeons for you and compare with other players."
 msgstr "Suivez vos quotidiens et vos temps dans les donjons, calculez les donjons les plus rentables pour vous et comparez-les avec les autres joueurs."
 
@@ -3472,6 +3279,9 @@ msgstr "Comptoir"
 msgid "Tradingpost - Current transactions"
 msgstr "Comptoir - Transactions en cours"
 
+msgid "Tradingpost - Delivery"
+msgstr "Tradingpost - Livraison"
+
 msgid "Tradingpost - Investment history"
 msgstr "Comptoir - Historique des investissements"
 
@@ -3481,32 +3291,23 @@ msgstr "Comptoir - Aperçu"
 msgid "Tradingpost - Transaction history"
 msgstr "Comptoir - Historique des Transactions"
 
-msgid "Tradingpost Buy Orders"
-msgstr "Commandes d'achat du Comptoir"
-
 msgid "Tradingpost Price (buy)"
 msgstr "Prix au Comptoir (achat)"
 
 msgid "Tradingpost Price (sell)"
 msgstr "Prix au Comptoir (vente)"
 
-msgid "Tradingpost Sell Orders"
-msgstr "Commandes de vente du Comptoir"
+msgid "Tradingpost: Buy Orders"
+msgstr "Tradingpost: Commandes d'achat"
 
-msgid "Tradingpost Value"
-msgstr "Valeur au Comptoir"
+msgid "Tradingpost: Delivery Box"
+msgstr "Tradingpost: Boîte de livraison"
 
-msgid "Tradingpost: Buy orders"
-msgstr "Comptoir : commandes d'achat"
+msgid "Tradingpost: Sell Orders"
+msgstr "Tradingpost: Ordres de vente"
 
-msgid "Tradingpost: Sell orders"
-msgstr "Comptoir : commandes de vente"
-
-msgid "Translations"
-msgstr "Traductions"
-
-msgid "Transmutation Charges"
-msgstr "Charges de Transmutation"
+msgid "Transaction History"
+msgstr "Historique des transactions"
 
 msgid "Transmuted"
 msgstr "Transmuté"
@@ -3523,11 +3324,11 @@ msgstr "Trident"
 msgid "Tridents"
 msgstr "Tridents"
 
+msgid "Trinket"
+msgstr "Trinket peut se traduire par \"babiole\" en français."
+
 msgid "Trinkets"
 msgstr "Colifichets"
-
-msgid "Triple Trouble Golden Chests"
-msgstr "Coffres d'Or de la Triple Guivre"
 
 msgid "Trophies"
 msgstr "Trophées"
@@ -3544,17 +3345,11 @@ msgstr "Type"
 msgid "Type:"
 msgstr "Type :"
 
-msgid "Type;Investment Date;Sell Date;Quantity;Item-Id;Item;Buy price;Sell price;Profit"
-msgstr "Type;Investissement;Date de vente;Id-Objet;Objet;Prix de vente;Prix d'achat;Profit"
-
 msgid "Tzark (Path 3)"
 msgstr "Tzark (Chemin 3)"
 
 msgid "Ulgoth the Modniir"
 msgstr "Ulgoth le Modniir"
-
-msgid "Unbound Magic"
-msgstr "Magie Déliée"
 
 msgid "Uncategorized"
 msgstr "Non classée"
@@ -3574,14 +3369,11 @@ msgstr "Non terminé"
 msgid "Unique"
 msgstr "Unique"
 
-msgid "Unique Permanent Tonics"
-msgstr "Toniques Permanents Uniques"
-
-msgid "Unlimited Gathering Tools"
-msgstr "Outils de Récolte Illimités"
-
 msgid "Unlock"
 msgstr "Débloquer"
+
+msgid "Unlock Statistics"
+msgstr "Débloquer les statistiques"
 
 msgid "Unlocked"
 msgstr "Débloqué"
@@ -3589,44 +3381,53 @@ msgstr "Débloqué"
 msgid "Unlocked Dyes"
 msgstr "Teintures débloquées"
 
+msgid "Unlocked Emotes"
+msgstr "Emotes déverrouillés"
+
 msgid "Unlocked Finishers"
 msgstr "Coups de grâce débloqués"
+
+msgid "Unlocked Gliders"
+msgstr "Planeurs déverrouillés"
+
+msgid "Unlocked Home Instance Nodes"
+msgstr "Nœuds de l'instance domestique déverrouillés"
+
+msgid "Unlocked Jadebots"
+msgstr "Jadebots déverrouillés"
+
+msgid "Unlocked Mailcarriers"
+msgstr "Les facteurs déverrouillés"
 
 msgid "Unlocked Miniatures"
 msgstr "Miniatures débloquées"
 
+msgid "Unlocked Mounts"
+msgstr "Montures déverrouillées"
+
+msgid "Unlocked Novelties"
+msgstr "Nouveautés déverrouillées"
+
 msgid "Unlocked Outfits"
 msgstr "Tenues Débloquées"
+
+msgid "Unlocked PvP Heroes"
+msgstr "Héros PvP débloqués"
 
 msgid "Unlocked Recipes"
 msgstr "Recettes Débloquées"
 
+msgid "Unlocked Skiffs"
+msgstr "Skiffs déverrouillés"
+
 msgid "Unlocked Skins"
-msgstr "Apparences débloquées"
-
-msgid "Unlocked Titles"
-msgstr "Titres Débloqués"
-
-msgid "Unlocked dyes"
-msgstr "Teintures débloquées"
-
-msgid "Unlocked finishers"
-msgstr "Coups de grâce débloqués"
-
-msgid "Unlocked miniatures"
-msgstr "Miniatures débloquées"
-
-msgid "Unlocked outfits"
-msgstr "Tenues débloquées"
-
-msgid "Unlocked recipes"
-msgstr "Recettes débloquées"
-
-msgid "Unlocked skins"
 msgstr "Apparences débloquées"
 
 msgid "Unranked Queue"
 msgstr "File pour le non classé"
+
+msgid "Update"
+msgstr "Mise à jour effectuée"
 
 msgid "Update own materials & best path every minute (last update: {{ tree.lastUpdate | date:'shortTime' }})"
 msgstr "Mettre à jour les matériaux possédés & le chemin le plus rentable chaque minute (dernière mise à jour: {{ tree.lastUpdate | date:'shortTime' }})"
@@ -3652,14 +3453,8 @@ msgstr "Les matériaux utilisés sont ceux que vous possédez"
 msgid "Used owned materials"
 msgstr "Les matériaux utilisés sont les vôtres"
 
-msgid "User interface icons"
-msgstr "Icônes d'interface utilisateur"
-
 msgid "Username"
 msgstr "Nom d'utilisateur"
-
-msgid "Using Watchwork Pick:"
-msgstr "En utilisant la Pioche de Mineur Mécanique :"
 
 msgid "Using own materials"
 msgstr "Utilisation des matériaux possédés"
@@ -3676,17 +3471,14 @@ msgstr "Point de passage de Valselac"
 msgid "Value"
 msgstr "Valeur"
 
-msgid "Value (ASC)"
-msgstr "Valeur (ASC)"
-
-msgid "Value (DESC)"
-msgstr "Valeur (DESC)"
+msgid "Value Own Materials"
+msgstr "\"Valorisez vos propres matériaux\""
 
 msgid "Value:"
 msgstr "Valeur :"
 
-msgid "Vendor"
-msgstr "Vendeur"
+msgid "Vault"
+msgstr "Vault - coffre-fort"
 
 msgid "Vendor price:"
 msgstr "Prix du vendeur :"
@@ -3696,9 +3488,6 @@ msgstr "Orée d'émeraude"
 
 msgid "Vevina / Forward (Path 1)"
 msgstr "Vevina / tout droit (Chemin 1)"
-
-msgid "View item history on gw2spidy"
-msgstr "Voir l'historique de l'objet sur gw2spidy"
 
 msgid "Vine Bridge Waypoint"
 msgstr "Point de passage du pont de lianes"
@@ -3718,20 +3507,17 @@ msgstr "Volcanique"
 msgid "Volume"
 msgstr "Volume"
 
+msgid "Waiting for the server to respond..."
+msgstr "En attente d'une réponse du serveur..."
+
 msgid "Wallet"
 msgstr "Portefeuille"
-
-msgid "Wallet: Gold"
-msgstr "Portefeuille : Pièces d'Or"
-
-msgid "War Room"
-msgstr "Salle des Opérations"
 
 msgid "Warden Caedmon"
 msgstr "Protecteur Caedmon"
 
-msgid "Wardrobe Value"
-msgstr "Valeur de la Garde-Robe"
+msgid "Wardrobe"
+msgstr "Garde-robe"
 
 msgid "Warhorn"
 msgstr "Cor de guerre"
@@ -3760,8 +3546,11 @@ msgstr "Point de passage"
 msgid "Waywarde Waypoint"
 msgstr "Point de passage du rétif"
 
-msgid "Wealth"
-msgstr "Fortune"
+msgid "We promise that you don't want to miss this."
+msgstr "On te promet que tu ne veux pas rater ça."
+
+msgid "We suggest removing recipes until this error goes away. You have been warned."
+msgstr "Nous suggérons de supprimer les recettes jusqu'à ce que cette erreur disparaisse. Vous avez été prévenu."
 
 msgid "Weapon Sigils"
 msgstr "Cachets d'arme"
@@ -3784,17 +3573,11 @@ msgstr "Type de Classe :"
 msgid "Weight:"
 msgstr "Poids :"
 
-msgid "When searching"
-msgstr "Pendant la recherche"
-
 msgid "When you dodge roll, you lose all your boons."
 msgstr "Lorsque vous esquivez, vous perdez tous vos avantages."
 
 msgid "When you dodge roll, you lose all your boons. Enemies steal boons when they hit you."
 msgstr "Quand vous esquivez, vous perdez tous vos avantages. Les ennemis vous volent des avantages lorsqu'ils vous touchent."
-
-msgid "White Mantle Portal Devices"
-msgstr "Portails du Blanc-Manteau"
 
 msgid "Wide Expanse"
 msgstr "Grande étendue"
@@ -3808,44 +3591,20 @@ msgstr "Taux de chance de gagner"
 msgid "Winter Chimes"
 msgstr "Carillons d'Hiver"
 
-msgid "Winter's Heart Infusions"
-msgstr "Infusions du cœur de l'hiver"
-
-msgid "Winter's Presence"
-msgstr "Présence d'Hivernel"
-
-msgid "Without searching"
-msgstr "Sans rechercher"
-
 msgid "Without using own materials"
 msgstr "Sans utiliser les matériaux possédés"
 
 msgid "Won Match"
 msgstr "Match Gagné"
 
-msgid "Workshop"
-msgstr "Scriptorium"
-
-msgid "World vs. World"
-msgstr "Monde contre Monde"
-
 msgid "Worldbosses"
 msgstr "Boss Mondiaux"
-
-msgid "Worth"
-msgstr "Valeur"
 
 msgid "Wounded Private Felix"
 msgstr "Soldat Blessé Félix"
 
 msgid "WvW"
 msgstr "McM"
-
-msgid "WvW Claim Tickets"
-msgstr "Billet de retrait de tournoi McM"
-
-msgid "WvW Rank"
-msgstr "Rang McM"
 
 msgid "Wychmire Waypoint"
 msgstr "Point de passage du Marais de Wychmire"
@@ -3862,8 +3621,11 @@ msgstr "Oui"
 msgid "You are entered for the next drawing. Good luck!"
 msgstr "Vous participez au prochain tirage. Bonne chance!"
 
-msgid "You can add your API key by going to <a href=\"https://account.arena.net/applications\" target=\"_blank\">https://account.arena.net/applications</a>, generating a new key with all permissions and copy/pasting it into this form."
-msgstr "Vous pouvez ajouter votre clé d'API en allant à <a href=\"https://account.arena.net/applications\" target=\"_blank\">https://account.arena.net/applications</a>, et en générant une clé avec toutes les permissions, puis la copier/coller ici."
+msgid "You are entered, good luck!"
+msgstr "Tu es inscrit, bonne chance!"
+
+msgid "You are higher than {{ topPercent(wealth.rank / wealth.participants) | number }}% of {{ wealth.participants | number }} accounts."
+msgstr "Vous êtes mieux classé que {{ topPercent(wealth.rank / wealth.participants) | number }}% des {{ wealth.participants | number }} comptes."
 
 msgid "You can buy one of these each day from the Karmic Converter (needs \"Exotic Hunter\" achievement)"
 msgstr "Vous pouvez acheter ceci une fois par jour via le convertisseur de Karma (Obtenu via le succès \"Chasseur Exotique\")"
@@ -3871,8 +3633,17 @@ msgstr "Vous pouvez acheter ceci une fois par jour via le convertisseur de Karma
 msgid "You can only buy these items are once per account."
 msgstr "Vous ne pouvez acheter ces objets qu'une seule fois par compte."
 
+msgid "You can see the supporter status of your account and the total amount of your support here."
+msgstr "Vous pouvez voir le statut de votre compte supporter et le montant total de votre soutien ici."
+
 msgid "You don't have any tracked items."
 msgstr "Vous n'avez pas d'objets suivis."
+
+msgid "You forfeit your prize if you don't answer in-game within 72 hours of winning, or are impolite."
+msgstr "Tu perds ton prix si tu ne réponds pas en jeu dans les 72 heures suivant ta victoire, ou si tu es impoli."
+
+msgid "You have no character with this discipline"
+msgstr "Tu n'as aucun caractère avec cette discipline"
 
 msgid "You have to be logged in to access this page"
 msgstr "Vous devez être connecté pour accéder à cette page"
@@ -3880,20 +3651,11 @@ msgstr "Vous devez être connecté pour accéder à cette page"
 msgid "You have to fill out both fields"
 msgstr "Vous devez remplir les deux champs"
 
-msgid "You have {{ (completion_unlocked = (dyes | orderBy:filter.order_by | filter:dyeFilter | filter:{unlocked: true}).length) | number:0 }} of {{ (completion_total = (dyes | orderBy:filter.order_by | filter:dyeFilter).length) }} ({{ (completion_unlocked / completion_total) * 100 | number:1 }}%) dyes matching the filter."
-msgstr "Vous avez {{ (completion_unlocked = (dyes | orderBy:filter.order_by | filter:dyeFilter | filter:{unlocked: true}).length) | number:0 }} sur {{ (completion_total = (dyes | orderBy:filter.order_by | filter:dyeFilter).length) }} ({{ (completion_unlocked / completion_total) * 100 | number:1 }}%) teintures correspondant au filtre."
+msgid "You have {{ (completion_unlocked = (mailcarriers | filter:mailcarrierFilter | filter:{unlocked: true}).length) | number:0 }} of {{ (completion_total = (mailcarriers | filter:mailcarrierFilter).length) }} ({{ (completion_unlocked / completion_total) * 100 | number:1 }}%) mailcarriers matching the filter."
+msgstr "Vous avez débloqué {{ (completion_unlocked = (mailcarriers | filter:mailcarrierFilter | filter:{unlocked: true}).length) | number:0 }} sur {{ (completion_total = (mailcarriers | filter:mailcarrierFilter).length) }} ({{ (completion_unlocked / completion_total) * 100 | number:1 }}%) facteurs correspondant au filtre."
 
-msgid "You have {{ (completion_unlocked = (miniatures | orderBy:filter.order_by | filter:miniatureFilter | filter:{unlocked: true}).length) | number:0 }} of {{ (completion_total = (miniatures | orderBy:filter.order_by | filter:miniatureFilter).length) }} ({{ (completion_unlocked / completion_total) * 100 | number:1 }}%) miniatures matching the filter."
-msgstr "Vous avez {{ (completion_unlocked = (miniatures | orderBy:filter.order_by | filter:miniatureFilter | filter:{unlocked: true}).length) | number:0 }} sur {{ (completion_total = (miniatures | orderBy:filter.order_by | filter:miniatureFilter).length) }} ({{ (completion_unlocked / completion_total) * 100 | number:1 }}%) miniatures correspondant au filtre."
-
-msgid "You have {{ wardrobe_completion.filtered.unlocked | number:0 }} of {{ wardrobe_completion.filtered.count | number:0 }} ({{ (wardrobe_completion.filtered.unlocked / wardrobe_completion.filtered.count) * 100 | number:1 }}%) skins matching the filter."
-msgstr "Vous avez {{ wardrobe_completion.filtered.unlocked | number:0 }} sur {{ wardrobe_completion.filtered.count | number:0 }} ({{ (wardrobe_completion.filtered.unlocked / wardrobe_completion.filtered.count) * 100 | number:1 }}%) apparences correspondant au filtre."
-
-msgid "You have {{ wardrobe_completion.total.unlocked | number:0 }} of {{ wardrobe_completion.total.count | number:0 }} ({{ (wardrobe_completion.total.unlocked / wardrobe_completion.total.count) * 100 | number:1 }}%) skins in total."
-msgstr "Vous avez {{ wardrobe_completion.total.unlocked | number:0 }} sur {{ wardrobe_completion.total.count | number:0 }} ({{ (wardrobe_completion.total.unlocked / wardrobe_completion.total.count) * 100 | number:1 }}%) apparences au total."
-
-msgid "You made a minimum of <span gold=\"\" amount=\"totalValue()\" display-copper=\"false\"></span> with gathering today, way to go! :)"
-msgstr "Vous avez fait un minimum de <span gold=\"\" amount=\"totalValue()\" display-copper=\"false\"></span> avec la récolte aujourd'hui, c'est en bonne voie ! :)"
+msgid "You only have to complete these achievements once and do not need to repeat crafting their requirements."
+msgstr "Tu n'as qu'à compléter ces succès une seule fois et tu n'as pas besoin de refaire les conditions de fabrication."
 
 msgid "You played a total of {{ total_age | timeString:1:true:false:['hour', 'minute', 'second'] }} across all characters"
 msgstr "Vous avez joué un total de {{ total_age | timeString:1:true:false:['hour', 'minute', 'second'] }} sur tous vos personnages"
@@ -3907,17 +3669,8 @@ msgstr "Guildes de votre compte"
 msgid "Your buy price"
 msgstr "Votre prix d'achat"
 
-msgid "Your characters were not loaded, because you entered the page via a shared url."
-msgstr "Vos personnages n'ont pas été chargés, car vous êtes arrivé sur la page via une url partagée."
-
-msgid "Your collection is worth <span gold=\"\" amount=\"priceSum((dyes | orderBy:filter.order_by | filter:dyeFilter | filter:{unlocked: true}))\" display-copper=\"false\"></span>, and you would need <span gold=\"\" amount=\"priceSum((dyes | orderBy:filter.order_by | filter:dyeFilter | filter:{unlocked: false}))\" display-copper=\"false\"></span> to complete it."
-msgstr "Votre collection vaut <span gold=\"\" amount=\"priceSum((dyes | orderBy:filter.order_by | filter:dyeFilter | filter:{unlocked: true}))\" display-copper=\"false\"></span>, et vous auriez besoin de <span gold=\"\" amount=\"priceSum((dyes | orderBy:filter.order_by | filter:dyeFilter | filter:{unlocked: false}))\" display-copper=\"false\"></span> pour la compléter."
-
-msgid "Your collection is worth <span gold=\"\" amount=\"priceSum((miniatures | orderBy:filter.order_by | filter:miniatureFilter | filter:{unlocked: true}))\" display-copper=\"false\"></span>, and you would need <span gold=\"\" amount=\"priceSum((miniatures | orderBy:filter.order_by | filter:miniatureFilter | filter:{unlocked: false}))\" display-copper=\"false\"></span> to complete it."
-msgstr "Votre collection vaut <span gold=\"\" amount=\"priceSum((miniatures | orderBy:filter.order_by | filter:miniatureFilter | filter:{unlocked: true}))\" display-copper=\"false\"></span>, et vous auriez besoin de <span gold=\"\" amount=\"priceSum((miniatures | orderBy:filter.order_by | filter:miniatureFilter | filter:{unlocked: false}))\" display-copper=\"false\"></span> pour la compléter."
-
-msgid "Your collection is worth <span gold=\"\" amount=\"wardrobe_completion.total.unlocked_price\" display-copper=\"false\"></span>, and you would need <span gold=\"\" amount=\"wardrobe_completion.total.left_price\" display-copper=\"false\"></span> to complete it."
-msgstr "Votre collection vaut <span gold=\"\" amount=\"wardrobe_completion.total.unlocked_price\" display-copper=\"false\"></span>, et vous auriez besoin de <span gold=\"\" amount=\"wardrobe_completion.total.left_price\" display-copper=\"false\"></span> pour la compléter."
+msgid "Your collection is worth <span gold amount=\"priceSum((mailcarriers | filter:mailcarrierFilter | filter:{unlocked: true}))\" display-copper=\"false\"></span>, and you would need <span gold amount=\"priceSum((mailcarriers | filter:mailcarrierFilter | filter:{unlocked: false}))\" display-copper=\"false\"></span> to complete it."
+msgstr "Votre collection vaut <span gold amount=\"priceSum((mailcarriers | filter:mailcarrierFilter | filter:{unlocked: true}))\" display-copper=\"false\"></span>, et il vous faudrait <span gold amount=\"priceSum((mailcarriers | filter:mailcarrierFilter | filter:{unlocked: false}))\" display-copper=\"false\"></span> pour la compléter."
 
 msgid "Your current API key is invalid."
 msgstr "Votre clé d'API actuelle est invalide."
@@ -3925,17 +3678,26 @@ msgstr "Votre clé d'API actuelle est invalide."
 msgid "Your current API key is missing the \"{{ errorSplash.permission }}\" permission."
 msgstr "La permission \"{{ errorSplash.permission }}\" est manquante pour votre clé d'API actuelle."
 
+msgid "Your current dungeon completion is read directly from your API key.<br> You need to complete {{ 8 - dungeonFrequenterDone }} more dungeons for your Dungeon Frequenter Reward."
+msgstr "Votre progression actuelle dans les donjons est lue directement à partir de votre clé API. Vous devez compléter {{ 8 - dungeonFrequenterDone }} donjons de plus pour obtenir votre récompense de Fréquentation de Donjon."
+
+msgid "Your current raid completion is read directly from your API key."
+msgstr "Votre progression actuelle dans le raid est lue directement à partir de votre clé API."
+
 msgid "Your sell price"
 msgstr "Votre prix de vente"
-
-msgid "Your skins are worth <span gold=\"\" amount=\"wardrobe_completion.filtered.unlocked_price\" display-copper=\"false\"></span>, and you would need <span gold=\"\" amount=\"wardrobe_completion.filtered.left_price\" display-copper=\"false\"></span> to complete them."
-msgstr "Vos apparences valent<span gold=\"\" amount=\"wardrobe_completion.filtered.unlocked_price\" display-copper=\"false\"></span>, et vous auriez besoin de <span gold=\"\" amount=\"wardrobe_completion.filtered.left_price\" display-copper=\"false\"></span> pour la compléter."
 
 msgid "Your supplied password is incorrect."
 msgstr "Le mot de passé donné est erroné."
 
+msgid "Your upgrades are worth <span gold amount=\"priceSum()\" display-copper=\"false\"></span>."
+msgstr "Vos améliorations valent <span gold amount=\"priceSum()\" display-copper=\"false\"></span>."
+
 msgid "Zealot (Path 3)"
 msgstr "Dévot (Chemin 3)"
+
+msgid "Zephyrite Supply Boxes"
+msgstr "Boîtes d'approvisionnement zéphyrites"
 
 msgid "Zoom"
 msgstr "Zoom"
@@ -3949,9 +3711,6 @@ msgstr "quantité"
 msgid "and"
 msgstr "et"
 
-msgid "at least"
-msgstr "au moins"
-
 msgid "available"
 msgstr "disponible"
 
@@ -3964,28 +3723,26 @@ msgstr "prix d'achat (\"demande\")"
 msgid "c"
 msgstr "c"
 
-msgid "click to copy!"
-msgstr "cliquez pour copier !"
-
 msgid "completed"
 msgstr "complété"
-
-msgid "delete"
-msgstr "supprimer"
 
 msgid "done editing"
 msgstr "fin de l'édition"
 
 msgid "each"
-msgid_plural "per {{$count}}"
-msgstr[0] "chaque"
-msgstr[1] "par"
+msgstr "chaque"
 
 msgid "edit"
 msgstr "éditer"
 
 msgid "even on"
 msgstr "même sur"
+
+msgid "excl. gemstore items"
+msgstr "articles exclusifs de la boutique de gemmes"
+
+msgid "exclude owned resources"
+msgstr "Exclure les ressources possédées."
 
 msgid "for"
 msgstr "pour"
@@ -3999,17 +3756,14 @@ msgstr "cacher"
 msgid "in {{$time}}"
 msgstr "en {{$time}}"
 
+msgid "incl. gemstore items"
+msgstr "incl. articles de la boutique de gemmes"
+
 msgid "including items in inventories"
 msgstr "en incluant les objets des inventaires"
 
-msgid "invalid"
-msgstr "invalide"
-
 msgid "just now"
 msgstr "à l'instant"
-
-msgid "left"
-msgstr "restantes"
 
 msgid "max"
 msgstr "max"
@@ -4028,17 +3782,17 @@ msgstr[1] "objectifs"
 msgid "ordered"
 msgstr "commmandé"
 
-msgid "other"
-msgstr "autre"
-
 msgid "out of"
 msgstr "depuis"
 
-msgid "permissions missing"
-msgstr "permissions manquantes"
+msgid "per day"
+msgstr "par jour"
 
-msgid "provided by"
-msgstr "fournit par"
+msgid "per hour"
+msgstr "par heure"
+
+msgid "per item"
+msgstr "par article"
 
 msgid "s"
 msgstr "a"
@@ -4048,9 +3802,6 @@ msgstr "prix de vente (\"achat instantané\")"
 
 msgid "show"
 msgstr "afficher"
-
-msgid "show autolearned"
-msgstr "Montrer les apprentissages automatiques"
 
 msgid "slots"
 msgstr "emplacements"
@@ -4068,11 +3819,11 @@ msgstr[1] "niveaux"
 msgid "to"
 msgstr "au"
 
-msgid "valid"
-msgstr "valide"
+msgid "your account.1234"
+msgstr "votre compte.1234"
 
-msgid "{{ owned_item.ownedQuantity | number: 0 }} owned - hover for details"
-msgstr "{{ owned_item.ownedQuantity | number: 0 }} possédés - survolez ici pour les détails"
+msgid "{{ owned_item.ownedQuantity | number: 0 }} total owned"
+msgstr "{{ owned_item.ownedQuantity | number: 0 }} au total possédé"
 
 msgid "{{$count}} day"
 msgid_plural "{{$count}} days"
@@ -4111,6 +3862,3 @@ msgstr[1] "{{$count}} années"
 
 msgid "{{$time}} ago"
 msgstr "Il y a {{$time}}"
-
-msgid "✕ CLOSE"
-msgstr "✕ Fermer"
