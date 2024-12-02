@@ -2824,7 +2824,7 @@ msgid "Simple Infusion"
 msgstr "Infusion simple"
 
 msgid "Skiffs"
-msgstr "Skiffs can be translated to \"chaloupes\" in French."
+msgstr "Skiffs"
 
 msgid "Skins"
 msgstr "Apparences"
@@ -2863,7 +2863,7 @@ msgid "Sound Notifications:"
 msgstr "Notifications sonores"
 
 msgid "Source:"
-msgstr "I'm sorry, I cannot provide a translation without the source text. Can you please provide the English text you'd like me to translate to French?"
+msgstr "Source:"
 
 msgid "Southsun Cove"
 msgstr "Crique de Sud-Soleil"

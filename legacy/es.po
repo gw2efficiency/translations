@@ -2824,7 +2824,7 @@ msgid "Simple Infusion"
 msgstr "Infusión simple"
 
 msgid "Skiffs"
-msgstr "Skiffs se refiere a pequeñas embarcaciones de remo o motor, generalmente utilizadas para pescar o navegar en aguas poco profundas."
+msgstr "Skiffs"
 
 msgid "Skins"
 msgstr "Diseños"
@@ -2863,7 +2863,7 @@ msgid "Sound Notifications:"
 msgstr "Notificaciones de sonido:"
 
 msgid "Source:"
-msgstr "I'm sorry, I cannot provide a translation without the original English text. Can you please provide the text you'd like me to translate into Spanish?"
+msgstr "Fuente:"
 
 msgid "Southsun Cove"
 msgstr "Cala del Sol Austral"

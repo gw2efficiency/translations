@@ -2824,7 +2824,7 @@ msgid "Simple Infusion"
 msgstr "Einfache Infusion"
 
 msgid "Skiffs"
-msgstr "Skiffs can be translated to \"Ruderboote\" in German."
+msgstr "Skiffs"
 
 msgid "Skins"
 msgstr "Skins"
@@ -2863,7 +2863,7 @@ msgid "Sound Notifications:"
 msgstr "Ton-Benachrichtigungen:"
 
 msgid "Source:"
-msgstr "I'm sorry, I cannot translate your request without the source text. Can you please provide the text you'd like me to translate from English to German?"
+msgstr "Quelle:"
 
 msgid "Southsun Cove"
 msgstr "Südlicht-Bucht"
