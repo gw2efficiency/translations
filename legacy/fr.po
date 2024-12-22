@@ -2152,7 +2152,7 @@ msgid "Nourishment"
 msgstr "Produit consommable"
 
 msgid "Novelties"
-msgstr "Nouveautés"
+msgstr "Babioles"
 
 msgid "Objectives:"
 msgstr "Objectifs :"
@@ -3325,10 +3325,10 @@ msgid "Tridents"
 msgstr "Tridents"
 
 msgid "Trinket"
-msgstr "Babiole"
+msgstr "Colifichet"
 
 msgid "Trinkets"
-msgstr "Babioles"
+msgstr "Colifichets"
 
 msgid "Trophies"
 msgstr "Trophées"
