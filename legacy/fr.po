@@ -1072,7 +1072,7 @@ msgid "Dye Cooking"
 msgstr "Artisanat de Teinture"
 
 msgid "Dyes"
-msgstr "Les colorants"
+msgstr "Teintures"
 
 msgid "Earnable AP"
 msgstr "Points de succès à gagner"
@@ -1654,7 +1654,7 @@ msgid "Jade Tech Module"
 msgstr "Module de technologie Jade"
 
 msgid "Jadebots"
-msgstr "Jadebots"
+msgstr "Drones de jade"
 
 msgid "Jaka Itzel Waypoint"
 msgstr "Point de Passage de Jaka Itzel"
@@ -2824,7 +2824,7 @@ msgid "Simple Infusion"
 msgstr "Infusion simple"
 
 msgid "Skiffs"
-msgstr "Skiffs"
+msgstr "Esquifs"
 
 msgid "Skins"
 msgstr "Apparences"
@@ -3391,10 +3391,10 @@ msgid "Unlocked Gliders"
 msgstr "Planeurs déverrouillés"
 
 msgid "Unlocked Home Instance Nodes"
-msgstr "Nœuds de l'instance domestique déverrouillés"
+msgstr "Zones de récolte de l'instance domestique déverrouillés"
 
 msgid "Unlocked Jadebots"
-msgstr "Jadebots déverrouillés"
+msgstr "Drones de jade déverrouillés"
 
 msgid "Unlocked Mailcarriers"
 msgstr "Les facteurs déverrouillés"
@@ -3418,7 +3418,7 @@ msgid "Unlocked Recipes"
 msgstr "Recettes Débloquées"
 
 msgid "Unlocked Skiffs"
-msgstr "Skiffs déverrouillés"
+msgstr "Esquifs déverrouillés"
 
 msgid "Unlocked Skins"
 msgstr "Apparences débloquées"
