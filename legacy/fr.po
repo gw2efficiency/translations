@@ -2005,7 +2005,7 @@ msgid "Miniature"
 msgstr "Miniature"
 
 msgid "Miniatures"
-msgstr "Miniatures - de petites versions en miniature de quelque chose, comme des figurines ou des modèles réduits."
+msgstr "Miniatures"
 
 msgid "Minimum"
 msgstr "Minimum"
