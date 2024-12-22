@@ -2422,7 +2422,7 @@ msgid "PvP"
 msgstr "JcJ"
 
 msgid "PvP Heroes"
-msgstr "Héros JcJ\"
+msgstr "Héros JcJ"
 
 msgid "Qty."
 msgstr "Qté."
