@@ -1021,7 +1021,7 @@ msgid "Do not blindly follow the shopping list or crafting steps. The achievemen
 msgstr "Ne suivez pas aveuglément la liste de courses ou les étapes de fabrication. Les exigences de réalisation seront dupliquées."
 
 msgid "Dollar ($)"
-msgstr "Dollar ($) translates to Dollar ($) in French."
+msgstr "Dollar ($)"
 
 msgid "Dragonhunter"
 msgstr "Draconnier"
@@ -1072,7 +1072,7 @@ msgid "Dye Cooking"
 msgstr "Artisanat de Teinture"
 
 msgid "Dyes"
-msgstr "Les colorants"
+msgstr "Teintures"
 
 msgid "Earnable AP"
 msgstr "Points de succès à gagner"
@@ -1090,10 +1090,10 @@ msgid "Elementalist"
 msgstr "Élémentaliste"
 
 msgid "Email"
-msgstr "Email -> Courriel"
+msgstr "Courriel"
 
 msgid "Emotes"
-msgstr "Emotes -> Emojis"
+msgstr "Emotes"
 
 msgid "End of Dragons"
 msgstr "Fin des Dragons"
@@ -1333,13 +1333,13 @@ msgid "Gemstore price:"
 msgstr "Prix dans la boutique aux gemmes :"
 
 msgid "Gen 1"
-msgstr "\"Gen 1\" peut se référer à \"Génération 1\" dans le contexte de jeux vidéo ou de technologie. Cela peut également faire référence au premier livre de la Bible, la Genèse. De quoi voulez-vous parler exactement ?"
+msgstr "1ère génération
 
 msgid "Gen 2"
-msgstr "I'm not sure what you're referring to. Can you provide more context or clarify your request?"
+msgstr "2e génération"
 
 msgid "Gen 3"
-msgstr "Je ne suis pas sûr de comprendre. Pouvez-vous préciser votre demande ?"
+msgstr "3e génération"
 
 msgid "Gendarran Fields"
 msgstr "Champs de Gendarran"
@@ -1534,7 +1534,7 @@ msgid "Holiday Calendar 2023"
 msgstr "Calendrier des vacances 2023"
 
 msgid "Homestead"
-msgstr "Homestead peut se traduire par \"ferme familiale\" ou \"exploitation agricole familiale\"."
+msgstr "Pavillon"
 
 msgid "Honor of the Waves"
 msgstr "Honneur des vagues"
@@ -1654,13 +1654,13 @@ msgid "Jade Tech Module"
 msgstr "Module de technologie Jade"
 
 msgid "Jadebots"
-msgstr "Jadebots"
+msgstr "Drones de jade"
 
 msgid "Jaka Itzel Waypoint"
 msgstr "Point de Passage de Jaka Itzel"
 
 msgid "Janthir Wilds"
-msgstr "Janthir Wilds peut se traduire par \"Les terres sauvages de Janthir\"."
+msgstr "Janthir Wilds"
 
 msgid "Jeweler"
 msgstr "Bijoutier"
@@ -2005,7 +2005,7 @@ msgid "Miniature"
 msgstr "Miniature"
 
 msgid "Miniatures"
-msgstr "Miniatures - de petites versions en miniature de quelque chose, comme des figurines ou des modèles réduits."
+msgstr "Miniatures"
 
 msgid "Minimum"
 msgstr "Minimum"
@@ -2152,7 +2152,7 @@ msgid "Nourishment"
 msgstr "Produit consommable"
 
 msgid "Novelties"
-msgstr "Nouveautés"
+msgstr "Babioles"
 
 msgid "Objectives:"
 msgstr "Objectifs :"
@@ -2422,7 +2422,7 @@ msgid "PvP"
 msgstr "JcJ"
 
 msgid "PvP Heroes"
-msgstr "PvP Heroes se traduirait en français par \"Héros JcJ\""
+msgstr "Héros JcJ"
 
 msgid "Qty."
 msgstr "Qté."
@@ -2617,7 +2617,7 @@ msgid "Rustbowl Waypoint"
 msgstr "Point de Passage de Bolrouille"
 
 msgid "SAB"
-msgstr "Je ne suis pas sûr de ce que \"SAB\" signifie. Pouvez-vous fournir plus de contexte?"
+msgstr "SAB"
 
 msgid "Salvages into"
 msgstr "Se recycle en"
@@ -2689,7 +2689,7 @@ msgid "Search..."
 msgstr "Rechercher ..."
 
 msgid "Secrets of the Obscure"
-msgstr "Secrets of the Obscure translates to \"Les secrets de l'obscurité\"."
+msgstr "Secrets of the Obscure"
 
 msgid "Seer (Path 4)"
 msgstr "Aruspices (Chemin 4)"
@@ -2824,7 +2824,7 @@ msgid "Simple Infusion"
 msgstr "Infusion simple"
 
 msgid "Skiffs"
-msgstr "Skiffs"
+msgstr "Esquifs"
 
 msgid "Skins"
 msgstr "Apparences"
@@ -2971,7 +2971,7 @@ msgid "Sugar Pumpkins"
 msgstr "Potirons"
 
 msgid "Super Adventure Box"
-msgstr "Super Adventure Box se traduirait en français par \"Super Boîte d'Aventure\"."
+msgstr "Super Adventure Box"
 
 msgid "Supply"
 msgstr "Quantité"
@@ -3325,7 +3325,7 @@ msgid "Tridents"
 msgstr "Tridents"
 
 msgid "Trinket"
-msgstr "Trinket peut se traduire par \"babiole\" en français."
+msgstr "Colifichet"
 
 msgid "Trinkets"
 msgstr "Colifichets"
@@ -3391,10 +3391,10 @@ msgid "Unlocked Gliders"
 msgstr "Planeurs déverrouillés"
 
 msgid "Unlocked Home Instance Nodes"
-msgstr "Nœuds de l'instance domestique déverrouillés"
+msgstr "Zones de récolte de l'instance domestique déverrouillés"
 
 msgid "Unlocked Jadebots"
-msgstr "Jadebots déverrouillés"
+msgstr "Drones de jade déverrouillés"
 
 msgid "Unlocked Mailcarriers"
 msgstr "Les facteurs déverrouillés"
@@ -3418,7 +3418,7 @@ msgid "Unlocked Recipes"
 msgstr "Recettes Débloquées"
 
 msgid "Unlocked Skiffs"
-msgstr "Skiffs déverrouillés"
+msgstr "Esquifs déverrouillés"
 
 msgid "Unlocked Skins"
 msgstr "Apparences débloquées"
