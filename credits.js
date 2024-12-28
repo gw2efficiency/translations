@@ -2,12 +2,13 @@
 // Feel free to add yourself after updating one of the translations! :)
 
 const current = [
-  {name: 'Ainillia.5794', language: 'French'},
-  {name: 'EDCDragon.8356', language: 'French'},
-  {name: 'Pilou.3498', language: 'French'},
-  {name: 'jonesarte.2980', language: 'Spanish'},
-  {name: 'MrSmiley.9273', language: 'German'},
-  {name: 'Regitus.7189', language: 'German'}
+  { name: 'Ainillia.5794', language: 'French' },
+  { name: 'EDCDragon.8356', language: 'French' },
+  { name: 'Pilou.3498', language: 'French' },
+  { name: 'jonesarte.2980', language: 'Spanish' },
+  { name: 'MrSmiley.9273', language: 'German' },
+  { name: 'Regitus.7189', language: 'German' },
+  { name: 'Llenara.8712', language: 'French' },
 ]
 
 module.exports = [
@@ -35,5 +36,8 @@ module.exports = [
   'Wiella.8567',
   'Xerneas.4267',
   'xPhantomNL.7230',
-  'Gwenju.9316'
-].sort((a, b) => a.localeCompare(b))
+  'Gwenju.9316',
+  ...current.map((x) => x.name),
+]
+  .sort((a, b) => a.localeCompare(b))
+  .filter((x, i, self) => self.indexOf(x) === i)
