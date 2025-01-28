@@ -1534,7 +1534,7 @@ msgid "Holiday Calendar 2023"
 msgstr "Calendario de vacaciones 2023"
 
 msgid "Homestead"
-msgstr "Homestead se refiere a una granja o rancho, generalmente con una casa y terrenos para la agricultura o la cría de animales. También puede referirse a un asentamiento o comunidad rural."
+msgstr "Heredad"
 
 msgid "Honor of the Waves"
 msgstr "Honor de las Olas"
@@ -1654,13 +1654,13 @@ msgid "Jade Tech Module"
 msgstr "Módulo de Tecnología Jade"
 
 msgid "Jadebots"
-msgstr "Jadebots es una plataforma de inteligencia artificial que ofrece servicios de traducción y asistencia en varios idiomas."
+msgstr "Robots de jade"
 
 msgid "Jaka Itzel Waypoint"
 msgstr "Punto de Ruta de Jaka Itzel"
 
 msgid "Janthir Wilds"
-msgstr "Janthir Wilds se refiere a una zona salvaje en el juego Guild Wars."
+msgstr "Janthir Wilds"
 
 msgid "Jeweler"
 msgstr "Joyero"
@@ -2971,7 +2971,7 @@ msgid "Sugar Pumpkins"
 msgstr "Calabazas de azúcar"
 
 msgid "Super Adventure Box"
-msgstr "Super Adventure Box se refiere a un videojuego de aventuras muy divertido."
+msgstr "Super Adventure Box"
 
 msgid "Supply"
 msgstr "Suministro"
