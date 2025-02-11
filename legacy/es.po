@@ -33,13 +33,13 @@ msgid "- All -"
 msgstr "- Todo -"
 
 msgid "0-500h"
-msgstr "0-500 h"
+msgstr "0-500hs"
 
 msgid "0-500h playtime"
-msgstr "0-500 h de tiempo de juego"
+msgstr "0-500hs de tiempo de juego"
 
 msgid "0.5% of players"
-msgstr "0,5 % de jugadores"
+msgstr "0,5% de los jugadores"
 
 msgid "1 boss hidden"
 msgid_plural "{{$count}} bosses hidden"
@@ -74,7 +74,7 @@ msgstr[1] "{{$count}} golpes"
 msgid "1 listing"
 msgid_plural "{{$count}} listings"
 msgstr[0] "1 listado"
-msgstr[1] ""
+msgstr[1] "{{$count}} listados"
 
 msgid "1 objective completed"
 msgid_plural "{{ $count | number:0 }} objectives completed"
@@ -82,49 +82,49 @@ msgstr[0] "1 objetivo completado"
 msgstr[1] "{{ $count | number:0 }} objetivos completados"
 
 msgid "1% of players"
-msgstr "1 % de jugadores"
+msgstr "1% de los jugadores"
 
 msgid "10% of players"
-msgstr "10 % de jugadores"
+msgstr "10% de los jugadores"
 
 msgid "1000-2000h"
-msgstr "1000-2000 h"
+msgstr "1000-2000hs"
 
 msgid "1000-2000h playtime"
-msgstr "1000-2000 h de tiempo de juego"
+msgstr "1000-2000hs de tiempo de juego"
 
 msgid "20% of players"
-msgstr "20 % de jugadores"
+msgstr "20% de los jugadores"
 
 msgid "2000-4000h"
-msgstr "2000-4000 h"
+msgstr "2000-4000hs"
 
 msgid "2000-4000h playtime"
-msgstr "2000-4000 h de tiempo de juego"
+msgstr "2000-4000hs de tiempo de juego"
 
 msgid "4000h+"
-msgstr "+4000 h"
+msgstr "+4000hs"
 
 msgid "4000h+ playtime"
-msgstr "+4000 h de tiempo de juego"
+msgstr "+4000hs de tiempo de juego"
 
 msgid "50% of players"
-msgstr "50 % de jugadores"
+msgstr "50% de los jugadores"
 
 msgid "500-1000h"
-msgstr "500-1000 h"
+msgstr "500-1000hs"
 
 msgid "500-1000h playtime"
-msgstr "500-1000 h de tiempo de juego"
+msgstr "500-1000hs de tiempo de juego"
 
 msgid "75% of players"
-msgstr "75 % de jugadores"
+msgstr "75% de los jugadores"
 
 msgid "90% of players"
-msgstr "90 % de jugadores"
+msgstr "90% de los jugadores"
 
 msgid "99% of players"
-msgstr "99 % de jugadores"
+msgstr "99% de los jugadores"
 
 msgid "<abbr title=\"Assuming all materials are bought at their buy price\">Crafting price</abbr>"
 msgstr "Precio de fabricación"
