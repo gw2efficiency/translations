@@ -5,6 +5,7 @@ const current = [
   { name: 'Ainillia.5794', language: 'French' },
   { name: 'EDCDragon.8356', language: 'French' },
   { name: 'Pilou.3498', language: 'French' },
+  { name: 'Nessa.4769', language: 'Spanish' },
   { name: 'jonesarte.2980', language: 'Spanish' },
   { name: 'MrSmiley.9273', language: 'German' },
   { name: 'Regitus.7189', language: 'German' },
